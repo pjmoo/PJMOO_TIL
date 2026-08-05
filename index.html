@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ko" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PJMOO TIL — Today I Learned</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="PJMOO의 Today I Learned 개인 학습 일지. 스프링 부트, 자바, 데이터베이스, 웹 기술 등 매일 학습하고 실습한 기술 내용을 기록하는 공간입니다.">
+  <meta name="author" content="PJMOO">
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- PrismJS Theme for beautiful editorial code coloring -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css" rel="stylesheet" />
+</head>
+<body>
+
+  <div class="app-container">
+    
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-header">
+        <div class="sidebar-brand">
+          <a href="#"><h1>PJMOO TIL</h1></a>
+          <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Theme" title="테마 변경">
+            <!-- Icon will be injected by JS -->
+          </button>
+        </div>
+        <div class="github-profile-link">
+          <a href="https://github.com/pjmoo" target="_blank" rel="noopener noreferrer">
+            <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24" style="vertical-align: middle; margin-right: 4px;">
+              <path d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.17 6.839 9.49.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.464-1.11-1.464-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.831.092-.646.35-1.086.636-1.336-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.579.688.481C19.137 20.167 22 16.418 22 12c0-5.523-4.477-10-10-10z"/>
+            </svg>
+            github.com/pjmoo
+          </a>
+        </div>
+        <p class="sidebar-desc" style="margin-top: 8px;">매일 학습한 기술 내용과 실습 코드를 날짜 및 주제별로 정리하는 개인 학습 공간입니다.</p>
+      </div>
+      
+      <!-- Search Input & Sort Toggle -->
+      <div class="search-container">
+        <div style="display: flex; gap: 8px; width: 100%;">
+          <div style="position: relative; flex: 1;">
+            <span class="search-icon">
+              <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                <circle cx="11" cy="11" r="8"/>
+                <path d="M21 21l-4.35-4.35"/>
+              </svg>
+            </span>
+            <input type="text" id="search-input" class="search-input" placeholder="키워드 또는 본문 검색..." aria-label="Search posts">
+          </div>
+          <button id="sort-toggle" class="sort-toggle-btn" aria-label="Toggle Sort Order" title="정렬 순서 변경">
+            <!-- Icon will be injected by JS -->
+          </button>
+        </div>
+      </div>
+      
+      <!-- Tabs (All vs Daily vs Projects) -->
+      <nav class="nav-tabs">
+        <button id="tab-all" class="tab-btn active">📅 전체 (All)</button>
+        <button id="tab-daily" class="tab-btn">📝 일일 (Daily)</button>
+        <button id="tab-project" class="tab-btn">🛠 실습 (Projects)</button>
+      </nav>
+      
+      <!-- Logs List (Scrollable) -->
+      <div class="list-container">
+        <!-- All Combined Logs List -->
+        <ul id="all-list" class="logs-list active">
+          <!-- Dynamic contents will be injected -->
+        </ul>
+        
+        <!-- Daily Logs Grouped List -->
+        <ul id="daily-list" class="logs-list">
+          <!-- Dynamic contents will be injected -->
+        </ul>
+        
+        <!-- Project Logs List -->
+        <ul id="project-list" class="logs-list">
+          <!-- Dynamic contents will be injected -->
+        </ul>
+      </div>
+      
+      <!-- Sidebar Footer (Tag Filtering) -->
+      <div class="sidebar-footer">
+        <h3>핵심 주제 필터</h3>
+        <div id="tags-cloud" class="tags-cloud">
+          <!-- Tags will be dynamically loaded -->
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+      
+      <!-- Scroll Progress Bar -->
+      <div id="scroll-progress" class="scroll-progress-bar"></div>
+      
+      <!-- Mobile Sticky Top Bar -->
+      <div class="mobile-top-bar">
+        <button id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Open Menu">
+          <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+        <span class="mobile-brand">PJMOO TIL</span>
+        <div style="width: 24px;"></div> <!-- Spacer -->
+      </div>
+      
+      <!-- Dynamic Main View Container -->
+      <div id="main-content" style="flex: 1; display: flex; flex-direction: column;">
+        <!-- Injected dynamic article/dashboard content -->
+      </div>
+      
+    </main>
+    
+    <!-- Table of Contents (Outline Widget for wide desktop screens) -->
+    <nav class="toc-container" id="toc-container" style="display: none;">
+      <h3 class="toc-title">목차 (Outline)</h3>
+      <ul class="toc-list" id="toc-list">
+        <!-- Injected outline links -->
+      </ul>
+    </nav>
+
+    <!-- Floating Back to Top Button -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to Top" title="맨 위로 가기">
+      <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+        <path d="M18 15l-6-6-6 6"/>
+      </svg>
+    </button>
+
+  </div>
+
+  <!-- CDN dependencies (Marked Markdown Parser + Prism Code Highlighter) -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+  
+  <!-- Add additional Prism languages needed for typical developer code snippets -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-java.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-sql.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-properties.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-xml-doc.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-bash.min.js"></script>
+
+  <!-- Compiled local data source -->
+  <script src="docs_data.js"></script>
+
+  <!-- Client Router and Controller Script -->
+  <script src="app.js"></script>
+</body>
+</html>

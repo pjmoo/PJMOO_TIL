@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<skin>
+  <information>
+    <name>PJMOO TIL Editorial Skin</name>
+    <version>1.0.0</version>
+    <description>차분하고 따뜻한 아날로그 크림-테라코타 톤의 PJMOO TIL 블로그 스킨입니다. (바닐라 JS 싱글 페이지 어플리케이션 기반)</description>
+    <license>MIT License</license>
+    <author>
+      <name>pjmoo</name>
+      <email>00pjmoooo@gmail.com</email>
+      <homepage>https://github.com/pjmoo</homepage>
+    </author>
+  </information>
+  <design>
+    <default>
+      <layout>1</layout>
+    </default>
+  </design>
+</skin>

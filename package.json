@@ -1,0 +1,19 @@
+{
+  "name": "pjmoo-til-homepage",
+  "version": "1.0.0",
+  "description": "Clean, editorial-style Today I Learned (TIL) Homepage built with vanilla CSS and Node.js compilation",
+  "main": "build.js",
+  "scripts": {
+    "build": "node build.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "til",
+    "today-i-learned",
+    "homepage",
+    "markdown",
+    "editorial"
+  ],
+  "author": "PJMOO",
+  "license": "ISC"
+}
