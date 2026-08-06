@@ -303,6 +303,11 @@ document.addEventListener('DOMContentLoaded', () => {
       .sort((a, b) => b.date.localeCompare(a.date))
       .slice(0, 5);
 
+    // Get all daily logs sorted descending by date
+    const allDailyLogs = [...allLogs]
+      .filter(log => log.type === 'daily')
+      .sort((a, b) => b.date.localeCompare(a.date));
+
     // Heatmap: last 32 learning entries sorted chronologically
     const latest32 = [...allLogs]
       .sort((a, b) => b.date.localeCompare(a.date))
@@ -403,11 +408,32 @@ document.addEventListener('DOMContentLoaded', () => {
           </div>
         </section>
 
+        <!-- All Daily Logs List -->
+        <section class="recent-activity-card">
+          <h3 class="recent-title">전체 일일 학습 로그 (All Daily Logs)</h3>
+          <div class="recent-list" style="max-height: 400px; overflow-y: auto; padding-right: 8px;">
+            ${allDailyLogs.map(log => `
+              <div class="recent-item">
+                <div class="recent-item-info">
+                  <a href="#/daily/${log.id}" class="recent-item-title">${log.title}</a>
+                  <span class="recent-item-date">
+                    📅 ${log.date} • ⏱ 읽기 시간 약 ${log.readingTime}분
+                  </span>
+                </div>
+                <div class="article-tags" style="gap:4px;">
+                  ${log.tags.slice(0, 2).map(tag => `<span class="article-tag" style="font-size:0.65rem; padding: 2px 6px;">${tag}</span>`).join('')}
+                </div>
+              </div>
+            `).join('')}
+          </div>
+        </section>
+
         <footer class="page-footer">
           <span>© PJMOO Today I Learned.</span>
           <span>최종 빌드 시간: ${new Date(window.TIL_DATA.buildTime).toLocaleString()}</span>
         </footer>
       </div>
+
     `;
 
     el.mainContent.innerHTML = `<div class="content-body">${html}</div>`;

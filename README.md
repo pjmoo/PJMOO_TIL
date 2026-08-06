@@ -50,6 +50,19 @@
 | 2026-07-15 | 데이터베이스 설계 및 모델링 - 카레 가게 ERD 설계 홈워크 📐 | [상세 보기](docs/260715_modeling.md) |
 | 2026-07-16 | 자바 데이터베이스 연동 기초 - JDBC 프로그래밍 ☕🔌 | [상세 보기](docs/260716_jdbc.md) |
 | 2026-07-20 | 스프링 부트(Spring Boot) 입문 - Spring JDBC 연동 🍃🔌 | [상세 보기](docs/260720_spring-jdbc.md) |
+| 2026-07-23 | JPA 게임 영웅 도감 실습 정리 🎮 | [상세 보기](docs/jpa.md) |
+| 2026-07-24 | JPA 실습 프로젝트: 반려동물 & 진료 예약 관리 서비스 (JPA2) 🐾 | [상세 보기](docs/jpa2.md) |
+| 2026-07-27 | Spring Data JPA 실습 프로젝트 (JPA3) 📱 | [상세 보기](docs/jpa3.md) |
+| 2026-07-27 | Querydsl 실습 프로젝트 (Spring Boot + Spring Data JPA + Querydsl) 🍓 | [상세 보기](docs/querydsl.md) |
+| 2026-07-28 | Spring AI 실습 프로젝트 (Movie Recommendation System) 🌱 | [상세 보기](docs/springai.md) |
+| 2026-07-29 | Spring AI 2.0 실습 가이드 (Spring Boot 4.x + Groq AI) 🍃 | [상세 보기](docs/springai2.md) |
+| 2026-07-30 | Spring AI RAG (Retrieval-Augmented Generation) 실습 프로젝트 🚀 | [상세 보기](docs/rag.md) |
+| 2026-08-04 | 걱정인형 (Worrydoll) - Spring AI & RAG 실습 프로젝트 🧸 | [상세 보기](docs/worrydoll.md) |
+| 2026-08-04 | Thymeleaf & Spring Boot 실습 프로젝트 (260804_thymeleaf) 🍃 | [상세 보기](docs/thymeleaf.md) |
+| 2026-08-05 | Spring Boot & Thymeleaf 도서 관리 시스템 (thssr) 실습 정리 📚 | [상세 보기](docs/thssr.md) |
+| 2026-08-06 | 영화 관리 서비스 실습 정리 (Frag) 🎬 | [상세 보기](docs/260806_frag.md) |
+
+
 
 ---
 
