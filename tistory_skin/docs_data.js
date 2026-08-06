@@ -700,18 +700,6 @@ const TIL_DATA = {
         "AI/RAG"
       ],
       "readingTime": 8
-    },
-    {
-      "id": "260806_practice",
-      "date": "2026-08-06",
-      "topic": "📝 실시간 동기화 테스트 연습장",
-      "link": "docs/260806_practice.md",
-      "title": "📝 실시간 동기화 테스트 연습장",
-      "content": "# 📝 실시간 동기화 테스트 연습장\n\n이 문서는 실시간 동기화 테스트용 연습장입니다.\n\n연습연습! GitHub에 푸시만 해도 티스토리 블로그가 자동으로 변경되는지 테스트하기 위한 임시 글입니다.\n",
-      "tags": [
-        "기타"
-      ],
-      "readingTime": 1
     }
   ],
   "projectLogs": [
@@ -1424,7 +1412,7 @@ const TIL_DATA = {
       "readingTime": 7
     }
   ],
-  "buildTime": "2026-08-06T07:21:38.773Z"
+  "buildTime": "2026-08-06T07:31:01.579Z"
 };
 
 if (typeof window !== 'undefined') {
