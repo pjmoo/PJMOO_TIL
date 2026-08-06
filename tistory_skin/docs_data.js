@@ -1,0 +1,1435 @@
+// Auto-generated TIL data file. Do not edit directly.
+const TIL_DATA = {
+  "dailyLogs": [
+    {
+      "id": "260514",
+      "date": "2026-05-14",
+      "topic": "260514",
+      "link": "docs/260514.md",
+      "title": "260514",
+      "content": "# 260514",
+      "tags": [
+        "기타"
+      ],
+      "readingTime": 1
+    },
+    {
+      "id": "260515_ex01",
+      "date": "2026-05-15",
+      "topic": "260515_ex01",
+      "link": "docs/260515_ex01.md",
+      "title": "260515_ex01",
+      "content": "# 260515_ex01\n",
+      "tags": [
+        "기타"
+      ],
+      "readingTime": 1
+    },
+    {
+      "id": "260515_ex02",
+      "date": "2026-05-15",
+      "topic": "HTML 첫걸음 - 웹페이지 뼈대 연습 🎈",
+      "link": "docs/260515_ex02.md",
+      "title": "HTML 첫걸음 - 웹페이지 뼈대 연습 🎈",
+      "content": "# HTML 첫걸음 - 웹페이지 뼈대 연습 🎈\n\n웹 프론트엔드의 가장 기본이 되는 HTML을 이용해 처음으로 웹 브라우저에 글씨나 구성을 띄워보는 기초 실습 프로젝트입니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [pra.html](file:///C:/workspace/260515_ex02/pra.html) : HTML 기본 태그들을 테스트해보고 브라우저로 결과를 확인하기 위해 만든 연습용 HTML 파일입니다.\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **HTML의 구조**: 웹페이지의 골격을 이루는 `<html>`, `<head>`, `<body>` 태그의 쓰임새와 구조를 이해합니다.\n- **브라우저 렌더링**: 내가 작성한 HTML 태그들이 웹 브라우저 화면에 어떻게 글씨와 레이아웃으로 그려지는지(렌더링) 확인합니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. 폴더 안의 [pra.html](file:///C:/workspace/260515_ex02/pra.html) 파일을 마우스 우클릭합니다.\n2. **연결 프로그램**에서 **Chrome** 또는 사용하시는 인터넷 브라우저를 선택하여 실행합니다.\n",
+      "tags": [
+        "HTML/CSS"
+      ],
+      "readingTime": 2
+    },
+    {
+      "id": "260515_remote2",
+      "date": "2026-05-15",
+      "topic": "260515_remote2",
+      "link": "docs/260515_remote2.md",
+      "title": "260515_remote2",
+      "content": "# 260515_remote2",
+      "tags": [
+        "기타"
+      ],
+      "readingTime": 1
+    },
+    {
+      "id": "260518_ex",
+      "date": "2026-05-18",
+      "topic": "HTML 주요 태그 & CSS 기초 정복하기 🎨",
+      "link": "docs/260518_ex.md",
+      "title": "HTML 주요 태그 & CSS 기초 정복하기 🎨",
+      "content": "# HTML 주요 태그 & CSS 기초 정복하기 🎨\n\n웹 페이지의 뼈대(HTML)를 조금 더 다양하게 구성하고, 이를 예쁘게 꾸미는 스타일시트(CSS)의 첫 기초를 배우는 실습 프로젝트입니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [01_main-tag.html](file:///C:/workspace/260518_ex/01_main-tag.html) : 헤더, 본문, 푸터 등 웹 문서의 기본 구획을 나누는 시맨틱(Semantic) 태그 실습\n- [02_form.html](file:///C:/workspace/260518_ex/02_form.html) : 로그인, 회원가입 화면처럼 글씨를 입력받고 버튼을 누르는 양식(Form) 실습\n- [03_naver.html](file:///C:/workspace/260518_ex/03_naver.html) : 실제 네이버 메인 페이지의 구조를 흉내 내어 구현해 본 레이아웃 모작 연습\n- [04_css-basic.html](file:///C:/workspace/260518_ex/04_css-basic.html) : 글자 색상, 폰트 크기, 배경색 등 스타일 적용의 극초기 기본 연습\n- [05_css+selector.html](file:///C:/workspace/260518_ex/05_css+selector.html) : ID, Class, 태그 등 스타일을 주고 싶은 태그를 콕 집어내는 CSS 선택자(Selector) 연습\n- [06_deploy.html](file:///C:/workspace/260518_ex/06_deploy.html) : 작성한 웹 문서를 배포할 때 점검하는 기초 절차 연습\n- [style.css](file:///C:/workspace/260518_ex/style.css) : HTML 요소들의 레이아웃과 색상, 여백 등을 꾸미는 공통 스타일시트 파일\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **시맨틱 태그 (Semantic Tags)**: 단순히 상자(`<div>`)만 만드는 것이 아닌, 브라우저와 검색엔진이 문서 구조를 쉽게 이해할 수 있게 의미 있는 태그(`header`, `nav`, `section`, `footer`)를 씁니다.\n- **CSS 선택자 (Selectors)**: 특정 영역만 클래스(`.className`)나 아이디(`#idName`)를 지정해 개별적인 디자인을 적용하는 원리를 이해합니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. 각 실습 HTML 파일(예: [03_naver.html](file:///C:/workspace/260518_ex/03_naver.html))을 브라우저로 엽니다.\n2. 화면을 보면서 코드를 수정해보고 브라우저에서 `F5`를 눌러 변경 사항을 새로고침하여 확인합니다.\n",
+      "tags": [
+        "HTML/CSS"
+      ],
+      "readingTime": 4
+    },
+    {
+      "id": "260518_self-pra",
+      "date": "2026-05-18",
+      "topic": "HTML & CSS 스스로 코딩하기 (개인 자율 실습) 🛠",
+      "link": "docs/260518_self-pra.md",
+      "title": "HTML & CSS 스스로 코딩하기 (개인 자율 실습) 🛠",
+      "content": "# HTML & CSS 스스로 코딩하기 (개인 자율 실습) 🛠\n\n오늘 수업 시간에 학습한 HTML 태그와 CSS의 정렬, 색상, 디자인 기초 개념들을 기억하며 남의 도움 없이 나만의 자율 코딩을 완성해 보는 개인 실습실입니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [01_pra.html](file:///C:/workspace/260518_self-pra/01_pra.html) : 자유롭게 태그를 구성하며 연습해 본 파일\n- [index.html](file:///C:/workspace/260518_self-pra/index.html) : 실습의 메인이 되는 웹 문서 페이지\n- [style.css](file:///C:/workspace/260518_self-pra/style.css) : 직접 여백과 글자 정렬, 색상 코드를 작성해 꾸민 자율 디자인 스타일시트\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **HTML/CSS 분리**: HTML로는 오직 글과 구조만 작성하고, 꾸미는 것은 `style.css`에 모아 작성하여 파일 간의 역할 분담을 실습합니다.\n- **자기주도 해결**: 오류가 나거나 배치가 틀어졌을 때, 브라우저 개발자 도구(`F12`)를 켜서 요소를 찍어보고 스타일을 직접 수정해 나가는 능력을 기릅니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. [index.html](file:///C:/workspace/260518_self-pra/index.html) 파일을 브라우저로 열어서 직접 설계하고 스타일링한 메인 화면을 확인합니다.\n",
+      "tags": [
+        "HTML/CSS"
+      ],
+      "readingTime": 3
+    },
+    {
+      "id": "260519_ex",
+      "date": "2026-05-19",
+      "topic": "CSS 레이아웃 핵심(Flex & Position) & 부트스트랩/테일윈드 맛보기 📐",
+      "link": "docs/260519_ex.md",
+      "title": "CSS 레이아웃 핵심(Flex & Position) & 부트스트랩/테일윈드 맛보기 📐",
+      "content": "# CSS 레이아웃 핵심(Flex & Position) & 부트스트랩/테일윈드 맛보기 📐\n\n현대 웹 레이아웃 설계의 가장 핵심이 되는 요소 크기 계산법, 가로/세로 정렬 기법(Flexbox), 그리고 편리한 오픈소스 CSS 라이브러리(Bootstrap, Tailwind) 사용법을 익히는 실습 프로젝트입니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [01_box-sizing.html](file:///C:/workspace/260519_ex/01_box-sizing.html) : 테두리(border)와 여백(padding) 때문에 상자가 의도한 크기보다 커지는 문제를 방지하는 `box-sizing: border-box` 실습\n- [02_block_inline.html](file:///C:/workspace/260519_ex/02_block_inline.html) : 줄을 혼자 다 쓰는 블록(Block) 요소와 다른 글자들과 한 줄에 배치되는 인라인(Inline) 요소의 차이점 파악\n- [03_size-inheritance.html](file:///C:/workspace/260519_ex/03_size-inheritance.html) : 부모의 너비/높이를 비율(`%`)로 물려받는 자식 크기 상속 구조 실습\n- [04_flex_position.html](file:///C:/workspace/260519_ex/04_flex_position.html) : 화면 특정 위치에 요소를 고정(position)하거나 정렬하는 기법 실습\n- [05_flex.html](file:///C:/workspace/260519_ex/05_flex.html) : 현대적인 가로 정렬의 필수 도구인 Flexbox 정렬 기능 실습\n- [06_bootstrap.html](file:///C:/workspace/260519_ex/06_bootstrap.html) : 미리 꾸며진 버튼, 상자, 네비게이션 등을 클래스명만 붙여 바로 쓰는 부트스트랩(Bootstrap) 사용 실습\n- [07_tailwind.html](file:///C:/workspace/260519_ex/07_tailwind.html) : 별도의 CSS 파일 없이 HTML 태그 안에 유틸리티 클래스(예: `flex justify-center`)만으로 즉석 스타일링하는 테일윈드 CSS 사용 실습\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **Flexbox 정렬**: `display: flex;`를 부모 상자에 선언한 뒤, 가로 정렬(`justify-content`) 및 세로 정렬(`align-items`)을 손쉽게 수행하는 기법을 배웁니다.\n- **Position 속성**: 화면에 요소를 둥둥 띄우거나(`absolute`), 브라우저 화면의 절대 좌표에 박아두는(`fixed`) 위치 결정 방식을 이해합니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. 원하는 실습 파일을 브라우저로 엽니다.\n2. 화면을 보면서 브라우저 개발자 도구(F12)의 '요소(Elements)' 탭을 켜서 Flex 정렬이나 박스 크기(margin, padding)가 어떻게 변하는지 분석합니다.\n",
+      "tags": [
+        "HTML/CSS"
+      ],
+      "readingTime": 4
+    },
+    {
+      "id": "260520_ex",
+      "date": "2026-05-20",
+      "topic": "개발자의 문서 작성법 마크다운(Markdown) & 기본 텍스트 핸들링 📝",
+      "link": "docs/260520_ex.md",
+      "title": "개발자의 문서 작성법 마크다운(Markdown) & 기본 텍스트 핸들링 📝",
+      "content": "# 개발자의 문서 작성법 마크다운(Markdown) & 기본 텍스트 핸들링 📝\n\n모든 개발자가 GitHub나 프로젝트 문서를 꾸밀 때 사용하는 표준 마크다운 문법을 습득하고, 텍스트 파일들을 다루며 Git의 버전 관리 시스템 동작을 실습해 보는 가벼운 기초 연습장입니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [01_markdown.md](file:///C:/workspace/260520_ex/01_markdown.md) : 제목(#), 목록(*), 굵은 글씨, 이미지 링크, 그리고 소스코드 하이라이팅을 연습한 마크다운 문서 파일\n- 다수의 텍스트 파일들 (`a.txt`, `b.txt` ~ `i.txt`) : 파일 생성, 삭제, 수정 등의 이력을 Git이 어떻게 추적(Track)하는지 테스트해 보기 위해 생성한 파일들\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **마크다운 문법**: 일반 글씨를 가독성 높은 예쁜 문서로 포맷팅하는 규칙을 익힙니다.\n- **Git 파일 추적**: 수많은 파일들의 생성 및 수정이 로컬 저장소에 어떻게 기록되고 기록을 지워나가는지 실습합니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. VS Code 등의 편집기를 사용할 경우, 마크다운 파일을 연 뒤 단축키 `Ctrl + K, V`를 눌러 예쁘게 렌더링된 미리보기 화면을 봅니다.\n2. 각 텍스트 파일의 변화를 보면서 Git Bash나 터미널에서 `git status` 명령을 내려 상태 변화를 확인해 보세요.\n",
+      "tags": [
+        "기타"
+      ],
+      "readingTime": 2
+    },
+    {
+      "id": "260521_ex",
+      "date": "2026-05-21",
+      "topic": "자바스크립트(JavaScript) 기초 문법 다지기 💻",
+      "link": "docs/260521_ex.md",
+      "title": "자바스크립트(JavaScript) 기초 문법 다지기 💻",
+      "content": "# 자바스크립트(JavaScript) 기초 문법 다지기 💻\n\n웹페이지에 똑똑한 동작과 생동감을 불어넣어 주는 프로그래밍 언어, 자바스크립트의 첫걸음입니다. 연산, 변수, 자료구조(객체, 배열), 제어문(조건문, 반복문)의 기초 개념을 배웁니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [01_hello-js.html](file:///C:/workspace/260521_ex/01_hello-js.html) : HTML 문서 안에 자바스크립트 코드를 불러오고 브라우저에서 실행시켜 주는 연결 통로 파일\n- [01_script.js](file:///C:/workspace/260521_ex/01_script.js) : HTML에서 호출하여 브라우저의 알림창이나 개발자 도구 콘솔에 글씨를 출력하는 스크립트 파일\n- [02_syntax.js](file:///C:/workspace/260521_ex/02_syntax.js) : 자바스크립트 문법의 작성 규칙과 주의사항 정리\n- [03_var.js](file:///C:/workspace/260521_ex/03_var.js) : 변할 수 있는 데이터를 담는 변수(`let`)와 한 번 지정하면 바꿀 수 없는 상수(`const`) 기초 실습\n- [04_data-types.js](file:///C:/workspace/260521_ex/04_data-types.js) : 숫자, 글자(문자열), 참/거짓(Boolean), 비어있음(null/undefined) 등 데이터 종류 학습\n- [05_objects-arr.js](file:///C:/workspace/260521_ex/05_objects-arr.js) : 데이터를 하나로 묶어 다루는 객체(Object, `{키:값}`)와 순서대로 보관하는 배열(Array, `[값,값]`) 이해\n- [06_operator.js](file:///C:/workspace/260521_ex/06_operator.js) : 더하기/빼기 연산, 비교 연산, 논리 연산(`&&`, `||`) 등 계산 원리 학습\n- [07_if.js](file:///C:/workspace/260521_ex/07_if.js) / [08_switch.js](file:///C:/workspace/260521_ex/08_switch.js) : 상황에 따라 다른 코드를 실행시키는 조건문 학습\n- [09_while.js](file:///C:/workspace/260521_ex/09_while.js) : 만족하는 조건 동안 코드를 여러 번 실행하는 반복문(`while`) 실습\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **변수의 스코프**: 기존의 `var` 대신 현대 자바스크립트에서는 안전한 코드 작성을 위해 `let`과 `const`를 주로 사용하는 이유를 배웁니다.\n- **기초 알고리즘 제어**: 조건문과 반복문을 엮어서 컴퓨터가 조건에 맞게 스스로 반복적인 계산을 처리하도록 시키는 원리를 배웁니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n**방법 A (브라우저 콘솔 확인)**: [01_hello-js.html](file:///C:/workspace/260521_ex/01_hello-js.html) 파일을 열고 F12 개발자 도구의 **Console(콘솔)** 탭에서 출력 내용을 확인합니다.\n**방법 B (Node.js 실행)**: 컴퓨터에 Node.js가 설치되어 있다면 터미널에서 `node 파일명.js` (예: `node 03_var.js`)를 쳐서 바로 실행 결과를 출력해 볼 수 있습니다.\n",
+      "tags": [
+        "JavaScript",
+        "HTML/CSS",
+        "Web/Backend"
+      ],
+      "readingTime": 5
+    },
+    {
+      "id": "260522_ex",
+      "date": "2026-05-22",
+      "topic": "자바스크립트 중급 핵심 - 반복문, 함수, 호이스팅 & 클로저 🧠",
+      "link": "docs/260522_ex.md",
+      "title": "자바스크립트 중급 핵심 - 반복문, 함수, 호이스팅 & 클로저 🧠",
+      "content": "# 자바스크립트 중급 핵심 - 반복문, 함수, 호이스팅 & 클로저 🧠\n\n자바스크립트 개발의 기초 중의 기초이자, 면접에서도 반드시 물어보는 가장 중요한 동작 원리들(호이스팅, 스코프, 클로저)과 함께 함수 설계법을 공부하는 심층 실습 프로젝트입니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [01_for.js](file:///C:/workspace/260522_ex/01_for.js) : 일정한 횟수만큼 반복시키는 기본 `for` 문 실습\n- [02_for+in+of.js](file:///C:/workspace/260522_ex/02_for+in+of.js) : 객체의 키를 도는 `for..in`과 배열의 값을 도는 `for..of`의 명확한 쓰임새 차이 실습\n- [03_function.js](file:///C:/workspace/260522_ex/03_function.js) / [04_parameter.js](file:///C:/workspace/260522_ex/04_parameter.js) / [05_.function2.js](file:///C:/workspace/260522_ex/05_.function2.js) : 코드를 필요할 때마다 재사용할 수 있게 묶어두는 '함수'의 정의 및 인수(Parameter) 전달법 실습\n- [07_hoisting.js](file:///C:/workspace/260522_ex/07_hoisting.js) : 변수와 함수 선언이 실제 소스 코드의 위치보다 위쪽으로 당겨져서 실행되는 듯한 독특한 호이스팅(Hoisting) 개념 분석\n- [08_scope.js](file:///C:/workspace/260522_ex/08_scope.js) : 변수가 태어난 블록 바깥에서는 그 변수를 쓸 수 없게 제한하는 변수의 수명/영역(Scope) 규칙 실습\n- [09_closure.js](file:///C:/workspace/260522_ex/09_closure.js) : 내부 함수가 사라져도 외부 함수의 변수를 기억하고 유지하는 강력한 폐쇄성(Closure) 개념 실습\n- [10_object.js](file:///C:/workspace/260522_ex/10_object.js) / [11_array.js](file:///C:/workspace/260522_ex/11_array.js) : 내장 객체와 내장 배열을 가공할 때 많이 쓰는 기본 메소드 실습\n- [TIL_2026-05-22.md](file:///C:/workspace/260522_ex/TIL_2026-05-22.md) : 오늘 학습한 이론과 실습 내용을 복습하고 메모한 공부 일지 문서\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **클로저 (Closure)**: 자바스크립트에서 캡슐화를 모방하여 변수의 변경을 특정 내부 함수를 통해서만 허용하도록 데이터를 안전하게 꽁꽁 감싸는 메커니즘을 배웁니다.\n- **스코프 & 호이스팅**: 스크립트 엔진이 메모리를 어떻게 확보하고 변수의 생명 주기를 결정하는지에 대한 컴퓨터 과학적 기본 상식을 다집니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. 터미널(VS Code 내장 터미널 등)을 엽니다.\n2. `node 09_closure.js`와 같이 `node 파일명.js`를 타이핑하여 실행 결과를 바로 관찰합니다.\n",
+      "tags": [
+        "기타"
+      ],
+      "readingTime": 5
+    },
+    {
+      "id": "260522_self-pra",
+      "date": "2026-05-22",
+      "topic": "자바스크립트 연계 HTML 레이아웃 스스로 코딩하기 🛠",
+      "link": "docs/260522_self-pra.md",
+      "title": "자바스크립트 연계 HTML 레이아웃 스스로 코딩하기 🛠",
+      "content": "# 자바스크립트 연계 HTML 레이아웃 스스로 코딩하기 🛠\n\n지금껏 공부한 HTML 뼈대 작성과 CSS 스타일링, 그리고 자바스크립트의 기초 동적 요소를 결합해 나 홀로 처음부터 끝까지 작은 웹 브라우저 기능을 구현해 보는 독립 연습장입니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [index.html](file:///C:/workspace/260522_self-pra/index.html) : 자율 실습용 웹 문서 페이지 소스코드\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **종합 결합 연습**: HTML, CSS, JavaScript를 유기적으로 조합하여 실제 브라우저가 화면을 띄우고 사용자의 이벤트에 따라 반응하게 만드는 일련의 설계 능력을 배양합니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. [index.html](file:///C:/workspace/260522_self-pra/index.html) 파일을 웹 브라우저로 띄워 내가 기획한 화면 구성이 잘 돌아가는지 직접 테스트해 봅니다.\n",
+      "tags": [
+        "JavaScript",
+        "HTML/CSS"
+      ],
+      "readingTime": 2
+    },
+    {
+      "id": "260526_ex",
+      "date": "2026-05-26",
+      "topic": "자바스크립트 ES6+ 핵심 자료구조 & 객체 지향 프로그래밍(OOP) 및 예외 처리 ⚙",
+      "link": "docs/260526_ex.md",
+      "title": "자바스크립트 ES6+ 핵심 자료구조 & 객체 지향 프로그래밍(OOP) 및 예외 처리 ⚙",
+      "content": "# 자바스크립트 ES6+ 핵심 자료구조 & 객체 지향 프로그래밍(OOP) 및 예외 처리 ⚙\n\n모던 자바스크립트(ES6)에 도입된 혁신적인 내장 자료구조와 배열을 한 줄로 요리하는 법, 클래스를 활용한 객체 지향 프로그램 설계, 그리고 예기치 못한 에러에 대비하는 법을 실습합니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [01_map.js](file:///C:/workspace/260526_ex/01_map.js) : 키(Key)값으로 글자뿐만 아니라 객체 등 무엇이든 담을 수 있는 유연한 Map 자료형 실습\n- [02_set.js](file:///C:/workspace/260526_ex/02_set.js) : 중복된 값을 알아서 걸러주는 고마운 Set 자료형 실습\n- [03_higher.js](file:///C:/workspace/260526_ex/03_higher.js) : 배열의 원소를 걸러내거나(`filter`), 변형하거나(`map`), 다 더하는(`reduce`) 핵심 고차 함수 실습\n- [04_copy.js](file:///C:/workspace/260526_ex/04_copy.js) : 객체를 복제할 때 원래 정보까지 함께 꼬여서 변하는 것을 막는 얕은 복사(Shallow Copy)와 깊은 복사(Deep Copy)의 차이 파악\n- [05_oop.js](file:///C:/workspace/260526_ex/05_oop.js) / [06_class1.js](file:///C:/workspace/260526_ex/06_class1.js) / [07_class2.js](file:///C:/workspace/260526_ex/07_class2.js) : 클래스(Class)를 생성하여 붕어빵 틀처럼 객체들을 찍어내고 상속받아 사용하는 객체 지향 프로그래밍 실습\n- [08_exception.js](file:///C:/workspace/260526_ex/08_exception.js) / [09_exception.js](file:///C:/workspace/260526_ex/09_exception.js) : 코드에서 에러가 발생해도 전체 프로그램이 다운되지 않고 차분하게 우회 조치하도록 돕는 `try-catch-finally` 문법 실습\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **고차 함수 (Higher-Order Functions)**: 코드를 간결하고 세련되게 만드는 함수형 프로그래밍 방식을 체득합니다.\n- **예외 처리 (Exception Handling)**: 프로그램 실행 중에 발생할 수 있는 네트워크 에러, 입력 오류 등을 안전하게 처리해 시스템 안정성을 높이는 기법을 배웁니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. Node.js를 이용해 터미널에 `node 03_higher.js` 또는 `node 08_exception.js` 명령을 쳐서 간편하게 동작 결과를 관찰합니다.\n",
+      "tags": [
+        "JavaScript",
+        "Web/Backend"
+      ],
+      "readingTime": 4
+    },
+    {
+      "id": "260527_ex",
+      "date": "2026-05-27",
+      "topic": "자바스크립트 DOM 조작 & 애니 정보 사이트 미니 프로젝트 🎬",
+      "link": "docs/260527_ex.md",
+      "title": "자바스크립트 DOM 조작 & 애니 정보 사이트 미니 프로젝트 🎬",
+      "content": "# 자바스크립트 DOM 조작 & 애니 정보 사이트 미니 프로젝트 🎬\n\n웹 브라우저 화면의 뼈대(HTML)를 자바스크립트로 직접 제어하고, 실시간으로 태그를 추가/삭제하는 DOM 조작법을 익혀 이를 적용한 나만의 작은 웹 서비스를 직접 구현하는 실습입니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [01_dom-crud.html](file:///C:/workspace/260527_ex/01_dom-crud.html) : 자바스크립트를 이용해 화면에 있는 글자를 변경하고, 새 버튼을 만들거나 삭제하는 DOM 기초 실습\n- [animesite/](file:///C:/workspace/260527_ex/animesite/) : 자바스크립트와 CSS로 상호작용하도록 만든 정적 웹 애니메이션 정보 허브 사이트 프로젝트 폴더\n- [design/](file:///C:/workspace/260527_ex/design/) : 애니 사이트의 전반적인 색상, 버튼, 레이아웃을 시각적으로 다듬은 디자인 연구 폴더\n- [downloaded/](file:///C:/workspace/260527_ex/downloaded/) : 작업에 유용하게 참고하기 위해 다운로드받은 외부 UI 템플릿과 명세서 파일 모음\n- [AGENTS.md](file:///C:/workspace/260527_ex/AGENTS.md) / [DESIGN.md](file:///C:/workspace/260527_ex/DESIGN.md) : 프로젝트 요구사항 분석과 디자인 방향을 정리해 둔 문서\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **DOM (Document Object Model) 조작**: HTML 문서를 객체화하여 자바스크립트가 실시간으로 화면의 글자를 지우고, 색상을 바꾸고, 입력값에 따라 요소를 화면에 바로 꽂아 넣는 브라우저 상호작용 원리를 이해합니다.\n- **UI/UX 구현**: CSS 스타일시트와 자바스크립트 이벤트(클릭, 스크롤 등)를 결합하여 사용자가 만졌을 때 부드럽고 매끄럽게 작동하는 화면 레이아웃을 직접 설계합니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. 미니 프로젝트 화면을 보고 싶다면 [animesite/index.html](file:///C:/workspace/260527_ex/animesite/index.html) 파일을 크롬 등 브라우저로 엽니다.\n2. DOM 기본 조작 테스트는 [01_dom-crud.html](file:///C:/workspace/260527_ex/01_dom-crud.html)을 열고, 브라우저의 콘솔 창(F12)을 동시에 켜두고 실시간 반응을 확인하세요.\n",
+      "tags": [
+        "JavaScript",
+        "HTML/CSS"
+      ],
+      "readingTime": 4
+    },
+    {
+      "id": "260527_homework",
+      "date": "2026-05-27",
+      "topic": "애니메이션 디자인 시스템 & 커스텀 페이지 홈워크 🎬",
+      "link": "docs/260527_homework.md",
+      "title": "애니메이션 디자인 시스템 & 커스텀 페이지 홈워크 🎬",
+      "content": "# 애니메이션 디자인 시스템 & 커스텀 페이지 홈워크 🎬\n\n전날 학습한 DOM 조작 및 웹 디자인 기술을 활용하여, 나만의 네온 누아르 및 도쿄 트와일라잇 테마 디자인을 적용한 웹 페이지를 완성해보는 과제 프로젝트입니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [index.html](file:///C:/workspace/260527_homework/index.html) : 과제 구현용 메인 홈 페이지 문서\n- [script.js](file:///C:/workspace/260527_homework/script.js) : 화면 상의 데이터를 동적으로 바인딩하고 가공하는 제어용 자바스크립트 파일\n- [data.js](file:///C:/workspace/260527_homework/data.js) : 화면에 보여줄 애니메이션 리스트 정보 등 하드코딩 데이터를 모아둔 파일\n- [stitch_export/](file:///C:/workspace/260527_homework/stitch_export/) : 디자인 시스템 테마 색상 정의서와 예시 스크린샷 이미지들이 저장된 폴더\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **디자인 시스템 (Design System) 적용**: 특정한 테마 색상(Neon Noir, Tokyo Twilight 등)에 맞춰 버튼, 텍스트, 카드 컴포넌트의 스타일 통일성을 맞추는 훈련을 합니다.\n- **데이터 구조 바인딩**: `data.js` 안의 원시 배열 데이터를 자바스크립트로 반복 호출하여 화면의 HTML 태그 형태로 렌더링하는 법을 복습합니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. [index.html](file:///C:/workspace/260527_homework/index.html) 파일을 크롬 등 웹 브라우저로 직접 실행합니다.\n2. 클릭 이벤트에 따라 레이아웃 디자인이나 리스트가 정상적으로 로드되는지 확인합니다.\n",
+      "tags": [
+        "JavaScript",
+        "HTML/CSS"
+      ],
+      "readingTime": 3
+    },
+    {
+      "id": "260528_ex",
+      "date": "2026-05-28",
+      "topic": "자바스크립트 DOM 제어 심화 & 이벤트 핸들링 정복하기 ⚙",
+      "link": "docs/260528_ex.md",
+      "title": "자바스크립트 DOM 제어 심화 & 이벤트 핸들링 정복하기 ⚙",
+      "content": "# 자바스크립트 DOM 제어 심화 & 이벤트 핸들링 정복하기 ⚙\n\n웹 문서(HTML)를 역동적으로 제어하는 DOM API의 고급 리딩/라이팅 기법, 마우스/키보드 클릭 시 동작하는 이벤트 리스너, 그리고 로컬스토리지 및 클립보드와 같은 브라우저 유용한 보관 기능을 다룹니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [01_dom-read.html](file:///C:/workspace/260528_ex/01_dom-read.html) : 자식 노드 탐색 및 특정 태그 속성값 읽기 실습\n- [02_dom-manage.html](file:///C:/workspace/260528_ex/02_dom-manage.html) : 요소를 생성, 삽입, 위치 이동, 삭제하는 화면 제어 연습\n- [03_event-listener.html](file:///C:/workspace/260528_ex/03_event-listener.html) : 버튼 등을 눌렀을 때 실행할 동작을 감시하고 부여하는 이벤트 리스너 기초 실습\n- [04_event-type.html](file:///C:/workspace/260528_ex/04_event-type.html) : 마우스 무브, 키보드 입력, 페이지 스크롤 등 다양한 이벤트 유형 다루기\n- [05_input.html](file:///C:/workspace/260528_ex/05_input.html) : 입력창(input)에 키를 입력하는 순간 실시간으로 변화를 감지하는 실습\n- [06_form.html](file:///C:/workspace/260528_ex/06_form.html) : 폼 전송 이벤트 발생 시 화면 새로고침을 방지하고 커스텀 유효성 검사하는 법 실습\n- [07_bom.html](file:///C:/workspace/260528_ex/07_bom.html) : 브라우저 자체의 정보(화면 너비, 주소 정보)를 가져오는 BOM(Browser Object Model) 연습\n- [08_storage+clipboard.html](file:///C:/workspace/260528_ex/08_storage+clipboard.html) : 브라우저를 껏다 켜도 데이터가 유지되는 LocalStorage 사용법 및 텍스트 클립보드 복사 기법 학습\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **이벤트 객체 (Event Object)**: `e.preventDefault()`를 이용해 브라우저 기본 전송 새로고침 동작을 멈추고 직접 제어하는 원리를 배웁니다.\n- **LocalStorage**: 서버 없이도 브라우저에 임시 데이터를 영구히 기록/수정하여 사용자 설정을 보관하는 방식을 배웁니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. 각 HTML 파일을 브라우저로 엽니다.\n2. 마우스 클릭, 키보드 입력, 복사 버튼 클릭 시 동작하는 변화를 브라우저 화면에서 직관적으로 관찰합니다.\n",
+      "tags": [
+        "JavaScript",
+        "HTML/CSS",
+        "AI/RAG"
+      ],
+      "readingTime": 4
+    },
+    {
+      "id": "260529_ex",
+      "date": "2026-05-29",
+      "topic": "비동기 자바스크립트의 이해 - 콜백, 프로미스, 그리고 Async/Await ⏳",
+      "link": "docs/260529_ex.md",
+      "title": "비동기 자바스크립트의 이해 - 콜백, 프로미스, 그리고 Async/Await ⏳",
+      "content": "# 비동기 자바스크립트의 이해 - 콜백, 프로미스, 그리고 Async/Await ⏳\n\n자바스크립트 학습의 가장 큰 고비이자 핵심인 '비동기(Asynchronous) 통신'의 처리 메커니즘을 배웁니다. 코드가 차례대로 읽히지 않고 특정 조건에 따라 지연 실행될 때 처리하는 세 가지 패러다임(Callback, Promise, Async/Await)을 학습합니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [01_callback.html](file:///C:/workspace/260529_ex/01_callback.html) / [02_callback2.html](file:///C:/workspace/260529_ex/02_callback2.html) : 비동기 순서 보장을 위해 쓰는 콜백 함수와 이들이 꼬이는 콜백 지옥(Callback Hell) 이해\n- [03_timer.html](file:///C:/workspace/260529_ex/03_timer.html) / [04_clock.html](file:///C:/workspace/260529_ex/04_clock.html) : 일정 시간 뒤에 작동하게 하거나 반복 작동하게 만드는 `setTimeout` / `setInterval` 실습\n- [06_promise.html](file:///C:/workspace/260529_ex/06_promise.html) : 콜백 대신 비동기의 성공/실패 상태를 약속해 처리하는 모던 문법 Promise 실습\n- [07_chaining.html](file:///C:/workspace/260529_ex/07_chaining.html) / [08_chiaining2.html](file:///C:/workspace/260529_ex/08_chiaining2.html) : 비동기 결과를 가공해 연속적으로 다음 비동기 작업을 부르는 프로미스 체이닝(`then-catch-finally`) 실습\n- [09_combinator.html](file:///C:/workspace/260529_ex/09_combinator.html) : 여러 개의 비동기 작업을 한 번에 병렬 처리하는 `Promise.all` 등의 조합기 사용 실습\n- [10_async+await.html](file:///C:/workspace/260529_ex/10_async+await.html) : 마치 일반 동기식 동기 코드를 읽듯 정갈하게 비동기 예외를 잡아내는 최고급 비동기 문법 `async/await` 실습\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **동기 vs 비동기**: 서버에서 데이터를 응답받거나 지연시간이 있는 코드가 전체 시스템의 실행 속도를 멈춰버리는(블로킹) 현상을 예방하는 비동기 런타임 구조를 배웁니다.\n- **Async/Await**: 가독성을 파괴하지 않고 자바스크립트가 내부적으로 프로미스를 안전하게 리턴하고 가공하도록 조율하는 문법을 배웁니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. 각 HTML 파일을 브라우저로 엽니다.\n2. 시간 지연에 따라 동작하는 애니메이션이나 콘솔 출력 순서, 에러 캐치 창을 확인하며 비동기 흐름을 이해합니다.\n",
+      "tags": [
+        "JavaScript",
+        "HTML/CSS"
+      ],
+      "readingTime": 4
+    },
+    {
+      "id": "260529_HW",
+      "date": "2026-05-29",
+      "topic": "비동기 제어 기반의 시계 & 메모 애플리케이션 과제 🕰",
+      "link": "docs/260529_HW.md",
+      "title": "비동기 제어 기반의 시계 & 메모 애플리케이션 과제 🕰",
+      "content": "# 비동기 제어 기반의 시계 & 메모 애플리케이션 과제 🕰\n\n시간 함수인 `setInterval`과 데이터를 보존하는 브라우저 `LocalStorage` 기술을 유기적으로 엮어, 디자인이 가미된 실시간 시계 및 메모 관리 프로그램을 빌드하는 비동기 종합 홈워크 프로젝트입니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [index.html](file:///C:/workspace/260529_HW/index.html) : 과제 웹페이지 레이아웃 구조\n- [docs/script.js](file:///C:/workspace/260529_HW/docs/script.js) : 페이지 실행 시 LocalStorage로부터 메모를 복원하고 화면 갱신을 주도하는 메인 스크립트\n- [docs/clock.js](file:///C:/workspace/260529_HW/docs/clock.js) : 매초 현재 시간을 보기 좋게 포맷팅해 타이틀에 갱신해 주는 비동기 시계 모듈 파일\n- [docs/utils.js](file:///C:/workspace/260529_HW/docs/utils.js) : 텍스트 길이 제한 검사나 기타 보조 유틸리티 기능을 모아둔 헬퍼 자바스크립트\n- [docs/style.css](file:///C:/workspace/260529_HW/docs/style.css) : 시계와 메모 입력 폼을 조화롭게 꾸미는 다크모드/글라스모피즘 스타일 코드\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **컴포넌트 분리 학습**: 기능을 `clock.js`, `utils.js` 등 여러 스크립트 파일로 쪼개어 하나의 완성형 애플리케이션으로 묶는 소스 코드 모듈화 경험을 쌓습니다.\n- **데이터 영속성**: 메모를 추가/삭제했을 때, 새로고침을 해도 데이터가 사라지지 않고 고스란히 남아 있도록 `JSON.stringify`와 `JSON.parse`를 연계한 LocalStorage 입출력을 구현합니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. [docs/index.html](file:///C:/workspace/260529_HW/docs/index.html) 파일을 브라우저로 실행합니다.\n2. 상단 시계가 실시간으로 흘러가는지 보고, 메모를 자유롭게 쓴 뒤 지우며 브라우저를 껐다 켜서 보존 상태를 점검합니다.\n",
+      "tags": [
+        "HTML/CSS",
+        "AI/RAG"
+      ],
+      "readingTime": 3
+    },
+    {
+      "id": "260601_ex",
+      "date": "2026-06-01",
+      "topic": "AJAX API 통신 & PokeAPI를 통한 가상의 몬스터 정보 수집 실습 👾",
+      "link": "docs/260601_ex.md",
+      "title": "AJAX API 통신 & PokeAPI를 통한 가상의 몬스터 정보 수집 실습 👾",
+      "content": "# AJAX API 통신 & PokeAPI를 통한 가상의 몬스터 정보 수집 실습 👾\n\n외부 서버 컴퓨터에서 실시간으로 정밀한 데이터를 받아와서 화면에 출력하는 '네트워크 API 통신'의 극초기 실습장입니다. 널리 사용되는 오픈형 포켓몬 API(PokeAPI)와 자바스크립트 `fetch` 함수를 연결합니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [01_crud.html](file:///C:/workspace/260601_ex/01_crud.html) : 화면 요소를 실시간으로 생성/수정/삭제하는 프론트엔드 CRUD 기본 동작 테스트\n- [02_pokeapi.html](file:///C:/workspace/260601_ex/02_pokeapi.html) : 버튼 클릭 시 오픈 포켓몬 REST API 서버에 데이터를 비동기 요청하는 실습\n- [02_script.js](file:///C:/workspace/260601_ex/02_script.js) : `fetch` 함수로 서버 응답 JSON 데이터를 해석해 포켓몬 이름/이미지를 화면에 꽂는 소스코드\n- [02_style.css](file:///C:/workspace/260601_ex/02_style.css) : 실시간으로 불러온 포켓몬 정보 카드들을 그리드(Grid) 레이아웃으로 감싸는 디자인 파일\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **HTTP REST API**: 웹 브라우저가 다른 도메인의 서버 주소(Endpoint)에 GET 요청을 보내고 데이터 패키지(JSON)를 받아오는 작동 방식을 이해합니다.\n- **Fetch API**: 자바스크립트 기본 내장 함수 `fetch`와 비동기 처리를 위한 `.then()` 문법 혹은 `await` 문법을 연결하는 법을 배웁니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. [02_pokeapi.html](file:///C:/workspace/260601_ex/02_pokeapi.html) 파일을 웹 브라우저로 엽니다.\n2. 화면의 '포켓몬 불러오기' 버튼을 클릭한 뒤, 인터넷망을 거쳐 외부 데이터가 즉석에서 로드되어 화면 카드로 채워지는 과정을 관찰합니다.\n",
+      "tags": [
+        "HTML/CSS"
+      ],
+      "readingTime": 3
+    },
+    {
+      "id": "260601_HW",
+      "date": "2026-06-01",
+      "topic": "네트워크 API 연동 가상 도감(PokeAPI) 카드 구현 홈워크 🃏",
+      "link": "docs/260601_HW.md",
+      "title": "네트워크 API 연동 가상 도감(PokeAPI) 카드 구현 홈워크 🃏",
+      "content": "# 네트워크 API 연동 가상 도감(PokeAPI) 카드 구현 홈워크 🃏\n\n전날 학습한 `fetch` 비동기 네트워크 통신과 DOM 렌더링 역량을 총동원해, 포켓몬 서버에서 다양한 몬스터들의 특성 이미지와 타입, 아이디 정보를 실시간으로 요청하여 예쁘게 정렬하는 웹 페이지 완성 과제입니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [index.html](file:///C:/workspace/260601_HW/index.html) : 카드들이 들어갈 그리드 구획을 정의해 둔 마크업 파일\n- [script.js](file:///C:/workspace/260601_HW/script.js) : 비동기적으로 여러 건의 포켓몬 상세 데이터를 한꺼번에 조회(API fetch)하고 카드를 그리는 로직\n- [style.css](file:///C:/workspace/260601_HW/style.css) : 포켓몬 속성 타입(풀, 불, 물 등)에 따라 카드의 테두리나 배경 색상을 동적으로 변화시켜 주는 반응형 CSS 파일\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **동적 타입별 스타일링**: API에서 넘어온 문자열(e.g., 'fire', 'water')을 분석해 알맞은 디자인 클래스를 즉석에서 덧씌워 유려한 카드 컴포넌트를 만드는 응용 실습을 수행합니다.\n- **네트워크 예외 처리**: 서버가 오프라인이거나 잘못된 식별자 ID를 요청했을 때 오류 아이콘 등을 띄워 정상적으로 흐름을 예방하는 훈련을 합니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. [index.html](file:///C:/workspace/260601_HW/index.html) 파일을 브라우저로 실행하여 도감 리스트를 관찰합니다.\n",
+      "tags": [
+        "JavaScript",
+        "HTML/CSS"
+      ],
+      "readingTime": 3
+    },
+    {
+      "id": "260602_ex",
+      "date": "2026-06-02",
+      "topic": "웹 인증(Auth) 메커니즘, 게시판 구조 설계 & 오브젝트 스토리지 기초 🔒",
+      "link": "docs/260602_ex.md",
+      "title": "웹 인증(Auth) 메커니즘, 게시판 구조 설계 & 오브젝트 스토리지 기초 🔒",
+      "content": "# 웹 인증(Auth) 메커니즘, 게시판 구조 설계 & 오브젝트 스토리지 기초 🔒\n\n고급 웹 서비스 설계에 필요한 '사용자 인증(로그인, 세션, 토큰)', 데이터를 격리 및 수집 보존하는 '게시판(Board) 게시물 생명주기 설계', 그리고 이미지를 담는 클라우드 '오브젝트 스토리지'의 동작 개요를 공부합니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [01_auth.html](file:///C:/workspace/260602_ex/01_auth.html) : 세션(Session), 쿠키(Cookie), 그리고 모던 JWT(JSON Web Token) 및 OAuth 소셜 로그인의 기초 개념 학습\n- [02_board.html](file:///C:/workspace/260602_ex/02_board.html) : 일반적인 데이터베이스 없이 게시판 글쓰기, 수정, 조회를 가상으로 설계하는 구조도 실습\n- [03_object-storage.html](file:///C:/workspace/260602_ex/03_object-storage.html) : 일반 텍스트가 아닌 대형 파일(이미지, 비디오 등)을 별도로 관리하는 클라우드 클라이언트 연동법 이해\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **웹 보안 기초**: 브라우저의 탈취 위험을 예방하기 위해 세션 저장소나 보안 쿠키를 써서 로그인을 유지시키는 아키텍처 원리를 배웁니다.\n- **오브젝트 스토리지**: 왜 웹 서버 내부에 직접 이미지를 업로드하지 않고 별도의 파일 스토리지(S3, Supabase Storage 등)를 써야 하는지 학습합니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. 각 이론용 HTML 문서를 열어 개념 주석을 정독하거나 웹 브라우저로 실행해 학습 요약본을 확인합니다.\n",
+      "tags": [
+        "Database",
+        "HTML/CSS",
+        "AI/RAG",
+        "Web/Backend"
+      ],
+      "readingTime": 3
+    },
+    {
+      "id": "260604_ex",
+      "date": "2026-06-04",
+      "topic": "Node.js & Express 백엔드 프레임워크 & Gemini AI SDK 연결 실습 🚀",
+      "link": "docs/260604_ex.md",
+      "title": "Node.js & Express 백엔드 프레임워크 & Gemini AI SDK 연결 실습 🚀",
+      "content": "# Node.js & Express 백엔드 프레임워크 & Gemini AI SDK 연결 실습 🚀\n\n클라이언트 웹 브라우저를 벗어나 컴퓨터 내에서 독자적인 웹 서버를 구현하는 `Node.js`와 `Express` 서버 프레임워크 기초, 그리고 구글의 대형 언어 모델(Gemini) API를 연동하여 AI 챗봇의 백엔드 통로를 직접 구축해 보는 프로젝트입니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [package.json](file:///C:/workspace/260604_ex/package.json) : 필요한 모듈(express, @google/generative-ai 등)을 명시한 백엔드 종속성 파일\n- [01_express.js](file:///C:/workspace/260604_ex/01_express.js) : 포트를 열고 브라우저의 접속을 가로채 응답하는 익스프레스 서버의 뼈대 소스코드\n- [02_sdk.js](file:///C:/workspace/260604_ex/02_sdk.js) : 구글 Gemini API를 내 키값과 연동해 터미널에 결과를 가져와보는 자바스크립트 모듈 파일\n- [03_chat.js](file:///C:/workspace/260604_ex/03_chat.js) : 대화 이력을 기억하고 챗봇 응답을 던져주도록 커스터마이징한 자바스크립트 파일\n- [public/index.html](file:///C:/workspace/260604_ex/public/index.html) : Express 백엔드 서버와 연동하여 사용자가 직접 텍스트를 입력하고 AI 답변을 받는 챗봇 화면\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **웹 백엔드 라우팅**: 클라이언트가 `/` 혹은 `/api/chat` 같은 주소로 접근했을 때, 특정 함수를 발동시켜 웹페이지를 띄우거나 JSON 정보를 리턴하는 API 서버 설계법을 습득합니다.\n- **환경변수 (.env) 관리**: API 인증키와 같이 코드에 직접 드러나면 안 되는 비밀값들을 시스템 메모리에 숨겨 가져오는 법을 배웁니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. 터미널을 열고 라이브러리를 설치합니다: `npm install`\n2. 환경변수 템플릿 파일인 `.env.sample`을 복사해 `.env` 파일을 만들고, 발급받은 Gemini API 키값을 입력합니다.\n3. 백엔드 서버를 작동시킵니다: `node 01_express.js` 또는 `node 03_chat.js`\n4. 브라우저로 `http://localhost:3000`에 접속하여 실시간 연동 상태를 확인합니다.\n",
+      "tags": [
+        "HTML/CSS",
+        "AI/RAG",
+        "Web/Backend"
+      ],
+      "readingTime": 4
+    },
+    {
+      "id": "260604_HW",
+      "date": "2026-06-04",
+      "topic": "Express AI API 서버 & 프론트엔드 연결 챗봇 미니 프로젝트 💬",
+      "link": "docs/260604_HW.md",
+      "title": "Express AI API 서버 & 프론트엔드 연결 챗봇 미니 프로젝트 💬",
+      "content": "# Express AI API 서버 & 프론트엔드 연결 챗봇 미니 프로젝트 💬\n\nNode.js Express 백엔드로 독자 로컬 서버를 작동시키고, 이를 이용해 프론트엔드 HTML 페이지와 비동기 Fetch 통신을 연결하여 실시간 AI 질의응답을 구현해보는 종합 챗봇 구축 과제입니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [server.js](file:///C:/workspace/260604_HW/server.js) : 환경변수 로딩, 정적 에셋 서빙, API 라우터 개설 및 AI SDK 연동을 처리하는 통합 Express 백엔드 코드\n- [index.html](file:///C:/workspace/260604_HW/index.html) : 말풍선 챗봇 UI 화면과 실시간 Fetch API로 서버에 데이터 통신을 주고받는 자바스크립트가 내장된 웹 문서\n- [package.json](file:///C:/workspace/260604_HW/package.json) : express 및 인공지능 통신용 모듈 명세서\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **정적 파일 서빙**: Express 백엔드가 `index.html` 파일을 포함한 리소스들을 클라이언트 브라우저로 쏘아주는 정적 라우팅 방식을 구현합니다.\n- **CORS & 프론트-백 엔드 데이터 교환**: 사용자의 질문 메시지를 POST JSON 형식으로 백엔드 서버에 전달하면 백엔드가 AI API를 찔러 답변을 도출하고, 프론트엔드가 이를 받아 말풍선 카드로 실시간 생성하는 유기적인 풀스택 흐름을 완성합니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. 의존성을 먼저 다운로드합니다: `npm install`\n2. `.env` 파일에 API 키 정보(`GEMINI_API_KEY=your_key`)를 추가합니다.\n3. 서버를 구동합니다: `node server.js`\n4. 브라우저 주소창에 `http://localhost:3000`을 입력하여 열어 챗봇과 대화해 봅니다.\n",
+      "tags": [
+        "HTML/CSS",
+        "AI/RAG",
+        "Web/Backend"
+      ],
+      "readingTime": 3
+    },
+    {
+      "id": "260605_ex",
+      "date": "2026-06-05",
+      "topic": "LangChain.js 프레임워크 & 프롬프트 템플릿, 메모리 & 체인 학습 🤖",
+      "link": "docs/260605_ex.md",
+      "title": "LangChain.js 프레임워크 & 프롬프트 템플릿, 메모리 & 체인 학습 🤖",
+      "content": "# LangChain.js 프레임워크 & 프롬프트 템플릿, 메모리 & 체인 학습 🤖\n\nLLM(대형 언어 모델)을 이용해 한 단계 진보한 AI 비서 애플리케이션을 빌드할 때 사용하는 업계 표준 프레임워크인 '랭체인(LangChain.js)'의 사용법을 다룹니다. AI 모델 관리, 역할 부여(System Prompt), 그리고 대화 기억 저장 메커니즘을 배웁니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [01_review.js](file:///C:/workspace/260605_ex/01_review.js) : Express 서버와 Gemini SDK를 연동해 보았던 전날의 AI 챗봇 기초 기능 복습 코드\n- [02_langchain.js](file:///C:/workspace/260605_ex/02_langchain.js) : 랭체인을 로드하고 원하는 프롬프트의 템플릿을 생성해 언어 모델에게 질문을 수행하는 코드\n- [03_option.js](file:///C:/workspace/260605_ex/03_option.js) : AI 답변의 창의성 조절(temperature) 등 다양한 실행 옵션 제어 방법 실습\n- [04_memory+deploy.js](file:///C:/workspace/260605_ex/04_memory+deploy.js) : 사용자가 한 말을 랭체인이 메모리에 누적하여 맥락을 기억하게 만드는 실습 코드\n- [package.json](file:///C:/workspace/260605_ex/package.json) : `@langchain/core`, `@langchain/google-genai` 등 랭체인 관련 백엔드 모듈이 기재된 명세서\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **랭체인 (LangChain)**: 원시 API를 다루는 대신 AI 모델의 프롬프트 구성, 출력 파서, 메모리 축적을 모듈화하여 체인처럼 엮어주는 도구의 가치를 파악합니다.\n- **프롬프트 템플릿**: AI에게 역할을 정밀히 부여하여(예: '너는 백엔드 개발 면접관이다') 특화된 응답을 도출하도록 문자열 서식을 관리하는 기술을 익힙니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. 터미널에서 모듈을 설치합니다: `npm install`\n2. `.env` 파일에 API 키를 등록합니다.\n3. `node 02_langchain.js` 또는 `node 04_memory+deploy.js` 명령을 쳐서 터미널 콘솔로 AI의 체이닝된 답변 결과를 분석합니다.\n",
+      "tags": [
+        "AI/RAG",
+        "Web/Backend"
+      ],
+      "readingTime": 4
+    },
+    {
+      "id": "260608-10_HW",
+      "date": "2026-06-08 ~ 10",
+      "topic": "HTML & CSS 종합 복습 웹 페이지 과제 🎨",
+      "link": "docs/260608-10_HW.md",
+      "title": "HTML & CSS 종합 복습 웹 페이지 과제 🎨",
+      "content": "# HTML & CSS 종합 복습 웹 페이지 과제 🎨\n\n자바스크립트 및 백엔드 단계로 넘어가기 전, 웹 프론트엔드의 화면 설계와 레이아웃 구성을 다지는 종합 웹 페이지 디자인 과제입니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [index.html](file:///C:/workspace/260608-10_HW/index.html) : 종합 복습 과제 메인 마크업 페이지\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **레이아웃 완성도**: 미디어 쿼리를 사용한 반응형 레이아웃 설계와 정렬 완성도를 극대화하는 종합 다듬기 실습입니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. [index.html](file:///C:/workspace/260608-10_HW/index.html) 파일을 브라우저로 직접 로드하여 화면 구성을 점검합니다.\n",
+      "tags": [
+        "HTML/CSS"
+      ],
+      "readingTime": 2
+    },
+    {
+      "id": "260608_HW",
+      "date": "2026-06-08",
+      "topic": "MOTIPE - 지역 축제 기반 AI 여행 추천 플랫폼",
+      "link": "docs/260608_HW.md",
+      "title": "MOTIPE - 지역 축제 기반 AI 여행 추천 플랫폼",
+      "content": "# MOTIPE - 지역 축제 기반 AI 여행 추천 플랫폼\n\n## 프로젝트 소개\n\n사용자의 성향을 분석해 최적화된 지역 축제 및 여행 일정을 추천하는 AI 플랫폼입니다.\n\n## 기술 스택\n\n- Frontend: HTML5, CSS3, JavaScript ES6+\n- Backend: Node.js, Express.js\n- Database: Supabase\n\n## 주요 기능\n\n- 사용자 축제 성향 진단 및 맞춤형 칭호 부여\n- AI 기반 축제 연계 여행 일정 생성 (최대 3개 키워드)\n- 커뮤니티 게시판 (리뷰 및 꿀팁 공유)\n\n## AI 추천 알고리즘\n\n추천 점수 = 축제 테마 적합도 50% + 일정&날씨 적합도 20% + 동선 15% + 동행자 15%\n\n## 실행 방법\n\n```bash\nnpm install\nnpm start\n```\n",
+      "tags": [
+        "JavaScript",
+        "Database",
+        "HTML/CSS",
+        "AI/RAG",
+        "Web/Backend"
+      ],
+      "readingTime": 2
+    },
+    {
+      "id": "260616_first-java",
+      "date": "2026-06-16",
+      "topic": "나의 첫 자바(Java) 프로그램 - 개발 환경 구축 ☕",
+      "link": "docs/260616_first-java.md",
+      "title": "나의 첫 자바(Java) 프로그램 - 개발 환경 구축 ☕",
+      "content": "# 나의 첫 자바(Java) 프로그램 - 개발 환경 구축 ☕\n\n자바 언어 학습의 첫날로, JDK 설치 및 IDE(IntelliJ) 연동을 확인하고 화면에 글자를 출력하는 콘솔 프로그램의 뼈대를 만드는 실습 프로젝트입니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [src/Main.java](file:///C:/workspace/260616_first-java/src/Main.java) : 가장 기본적인 진입점인 `main` 메소드 안에 화면 출력을 실행해 보는 메인 소스코드\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **JVM & JDK**: 자바 프로그램이 실행되는 기본 엔진인 가상 머신(JVM)과 개발 도구(JDK) 환경을 이해합니다.\n- **진입 메소드**: 자바 애플리케이션의 시작을 알리는 `public static void main(String[] args)` 문법의 형식을 배웁니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. IntelliJ IDEA 등 IDE에서 본 프로젝트 폴더를 엽니다.\n2. [Main.java](file:///C:/workspace/260616_first-java/src/Main.java) 파일을 마우스 우클릭 후 **Run 'Main.main()'**을 실행하여 터미널 콘솔창에 나타나는 문구를 확인합니다.\n",
+      "tags": [
+        "Java"
+      ],
+      "readingTime": 2
+    },
+    {
+      "id": "260617_ex",
+      "date": "2026-06-17",
+      "topic": "자바 기본 문법과 연산자 및 제어문 연습 ➕",
+      "link": "docs/260617_ex.md",
+      "title": "자바 기본 문법과 연산자 및 제어문 연습 ➕",
+      "content": "# 자바 기본 문법과 연산자 및 제어문 연습 ➕\n\n자바 언어의 기본적인 변수 선언 방식과 데이터의 종류, 연산을 수행하는 연산자들, 그리고 코드의 흐름을 바꾸는 제어문(if, switch)을 연습하는 코드 모음입니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [src/Ex01.java](file:///C:/workspace/260617_ex/src/Ex01.java) ~ [src/Ex07.java](file:///C:/workspace/260617_ex/src/Ex07.java) : 자료형(int, double, char, String), 사칙연산, 비교/논리 연산자, 조건문 활용 실습\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **정적 타입 지정**: 자바에서는 변수를 선언할 때 반드시 자료형을 명시해야 하는 규칙을 파악합니다.\n- **조건 제어**: 조건 만족 여부에 따라 실행 코드를 분기하는 `if..else` 문과 다중 매칭을 처리하는 `switch` 문의 사용법을 배웁니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. 실행할 예제 파일(예: `Ex01.java`)을 열어 실행 버튼(초록색 화살표)을 누르거나 단축키 `Ctrl + Shift + F10`을 눌러 터미널의 콘솔 결과를 관찰합니다.\n",
+      "tags": [
+        "Java"
+      ],
+      "readingTime": 2
+    },
+    {
+      "id": "260618_ex-main",
+      "date": "2026-06-18",
+      "topic": "자바 기초 실습 백업 임시 폴더 📁",
+      "link": "docs/260618_ex-main.md",
+      "title": "자바 기초 실습 백업 임시 폴더 📁",
+      "content": "# 자바 기초 실습 백업 임시 폴더 📁\n\n260618 자바 실습 진행 중 소스 코드 조각이나 환경 설정 백업을 위해 생성된 임시 백업 보관 폴더입니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- 현재 이 폴더는 빈 디렉토리 상태입니다.\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **백업 보존**: 소스 코드 분실을 막기 위한 작업 파일의 스냅샷 저장 용도로 사용됩니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n실행할 코드가 존재하지 않는 폴더입니다.\n",
+      "tags": [
+        "기타"
+      ],
+      "readingTime": 1
+    },
+    {
+      "id": "260618_ex",
+      "date": "2026-06-18",
+      "topic": "자바 배열(Array), 반복문 & 초급 알고리즘 문제 해결 🧩",
+      "link": "docs/260618_ex.md",
+      "title": "자바 배열(Array), 반복문 & 초급 알고리즘 문제 해결 🧩",
+      "content": "# 자바 배열(Array), 반복문 & 초급 알고리즘 문제 해결 🧩\n\n동일한 종류의 데이터 다수를 묶어 관리하는 배열 구조와 여러 번 연산을 반복시키는 반복문(for, while), 그리고 배운 기법들을 종합해 알고리즘 문제를 직접 풀어보는 실습입니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [src/Ex01.java](file:///C:/workspace/260618_ex/src/Ex01.java) ~ [src/Ex08.java](file:///C:/workspace/260618_ex/src/Ex08.java) : `for` 및 `while` 루프 기초, 다차원 배열, 배열의 길이(`length`) 다루기\n- [src/Solution01.java](file:///C:/workspace/260618_ex/src/Solution01.java) ~ [src/Solution03.java](file:///C:/workspace/260618_ex/src/Solution03.java) : 배열 정렬, 최댓값 구하기 등 실전 프로그래밍 문제 해결 소스코드\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **배열의 특징**: 자바 배열은 선언 시 크기가 고정되며 인덱스는 0부터 시작한다는 기초 규칙을 학습합니다.\n- **다중 반복문**: 구구단을 출력하거나 2차원 데이터를 격자로 순회할 때 쓰는 이중 루프 동작을 마스터합니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. 알고리즘 풀이 파일(예: `Solution01.java`)을 열고 IDE에서 실행시켜 정답 판정 콘솔 메시지를 확인합니다.\n",
+      "tags": [
+        "Java"
+      ],
+      "readingTime": 3
+    },
+    {
+      "id": "260619_ex",
+      "date": "2026-06-19",
+      "topic": "자바 배열 응용 알고리즘 문제 해결 트레이닝 🏋️",
+      "link": "docs/260619_ex.md",
+      "title": "자바 배열 응용 알고리즘 문제 해결 트레이닝 🏋️",
+      "content": "# 자바 배열 응용 알고리즘 문제 해결 트레이닝 🏋️\n\n자바의 배열 연산과 반복/조건문을 연계하여 수학적 규칙성 분석, 문자열 처리, 그리고 다차원 행렬 탐색 문제를 집중 해결하는 코딩 테스트 준비 트레이닝 폴더입니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [src/Solution01.java](file:///C:/workspace/260619_ex/src/Solution01.java) ~ [src/Solution04.java](file:///C:/workspace/260619_ex/src/Solution04.java) : 다양한 제어 알고리즘 구현 코드\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **알고리즘적 사고**: 문제를 해결하기 위해 컴퓨터가 처리할 수 있는 가장 효율적인 로직을 구상하고 이를 자바 소스코드로 옮기는 훈련을 집중 수행합니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. 개별 `Solution` 자바 파일을 열어 메인 메소드 내에서 미리 제공된 테스트 케이스의 콘솔 입력/출력 매칭 결과를 보고 정답을 검증합니다.\n",
+      "tags": [
+        "Java"
+      ],
+      "readingTime": 2
+    },
+    {
+      "id": "260622_ex",
+      "date": "2026-06-22",
+      "topic": "자바 클래스(Class) & 객체 지향 프로그래밍(OOP) 기초 🏛",
+      "link": "docs/260622_ex.md",
+      "title": "자바 클래스(Class) & 객체 지향 프로그래밍(OOP) 기초 🏛",
+      "content": "# 자바 클래스(Class) & 객체 지향 프로그래밍(OOP) 기초 🏛\n\n자바 언어의 핵심 철학인 '객체 지향 프로그래밍(OOP)'을 시작하는 단계입니다. 사물이나 개념을 코드로 설계하는 '클래스', 이를 메모리에 띄운 '인스턴스(객체)', 그리고 이들의 필드와 생성자를 학습합니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [src/Solution01.java](file:///C:/workspace/260622_ex/src/Solution01.java) ~ [src/Solution08.java](file:///C:/workspace/260622_ex/src/Solution08.java) : 기본 클래스 작성, 멤버 변수(Field), 함수(Method) 및 붕어빵을 구울 때 사용되는 생성자(Constructor) 기초 실습\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **클래스와 인스턴스**: 클래스는 설계도에 불과하며, `new` 키워드를 사용해 메모리 힙(Heap) 영역에 객체(인스턴스)를 올려 구동시키는 구조를 이해합니다.\n- **생성자 (Constructor)**: 객체가 생성되는 그 순간 멤버 변수를 원하는 값으로 기본 세팅(초기화)해 주는 특수 메소드를 학습합니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. 각 객체 초기화 실습 파일을 열어 실행한 뒤, 객체 인스턴스가 각각 고유한 속성값들을 저장하고 유지하는 콘솔 프린트 로그를 확인합니다.\n",
+      "tags": [
+        "Java"
+      ],
+      "readingTime": 2
+    },
+    {
+      "id": "260623_ex",
+      "date": "2026-06-23",
+      "topic": "자바 상속(Inheritance), 정보 은닉 & 패키지 개념 🛡",
+      "link": "docs/260623_ex.md",
+      "title": "자바 상속(Inheritance), 정보 은닉 & 패키지 개념 🛡",
+      "content": "# 자바 상속(Inheritance), 정보 은닉 & 패키지 개념 🛡\n\n자바 객체 지향 프로그래밍의 3대 특징인 '상속'을 통해 기존 코드를 재사용하고, 중요한 데이터를 함부로 만지지 못하게 감싸는 '정보 은닉(Encapsulation)', 그리고 클래스들을 성격별로 묶어 관리하는 '패키지(Package)'를 다룹니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [src/Solution01.java](file:///C:/workspace/260623_ex/src/Solution01.java) ~ [src/Solution08.java](file:///C:/workspace/260623_ex/src/Solution08.java) : 부모 클래스의 유산을 자식이 받는 상속 연습, 특정 문제 조건 분석 문서(.md) 동봉\n- [src/com/example/](file:///C:/workspace/260623_ex/src/com/example/) : 클래스 이름 충돌을 피하기 위해 계층적으로 명명된 기본 패키지 소스 폴더\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **상속 (extends)**: 부모 클래스의 변수와 메소드를 고스란히 자식에게 상속해 코드의 중복을 제거하고 효율성을 극대화합니다.\n- **접근 제어자 (Access Modifier)**: `private`, `protected`, `public` 키워드를 사용해 외부 클래스의 무분별한 필드 수정을 차단하고 Getter/Setter 메소드로 안전하게 가져오는 정보 은닉을 구현합니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. 상속과 오버라이딩이 결합한 예제를 선택해 실행한 뒤, 부모의 메소드가 자식에서 어떻게 변경되어 동작하는지 터미널의 출력결과로 점검합니다.\n",
+      "tags": [
+        "Java"
+      ],
+      "readingTime": 3
+    },
+    {
+      "id": "260624_ex",
+      "date": "2026-06-24",
+      "topic": "자바 다형성(Polymorphism), 추상 클래스 & 인터페이스 🎭",
+      "link": "docs/260624_ex.md",
+      "title": "자바 다형성(Polymorphism), 추상 클래스 & 인터페이스 🎭",
+      "content": "# 자바 다형성(Polymorphism), 추상 클래스 & 인터페이스 🎭\n\n자바 설계의 최고 핵심인 '다형성'을 기반으로 느슨한 결합도를 설계하고, 뼈대만 가진 '추상 클래스(Abstract Class)' 및 핵심 규격 약속서인 '인터페이스(Interface)'를 사용하여 역할과 구현을 분리하는 연습을 합니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [src/Solution01.java](file:///C:/workspace/260624_ex/src/Solution01.java) ~ [src/Solution07.java](file:///C:/workspace/260624_ex/src/Solution07.java) : 인터페이스 구현, 다형성 형변환, 추상 클래스 상속 기초 실습 및 상세 설명 문서 포함\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **다형성 (Polymorphism)**: 하나의 객체가 여러 가지 타입의 옷을 입을 수 있는 성질로, 상위 타입 변수에 여러 하위 자식 객체를 유연하게 대입해 조작하는 원리를 배웁니다.\n- **인터페이스 (interface)**: 오직 핵심 규약(상수와 추상 메소드)만 선언해 둔 설계도로서, 다양한 구현체들이 이 규약을 완벽히 구현하여 조립 가능한 웹 설계를 실현하도록 돕는 필수 도구입니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. 인터페이스 및 다형성 예제를 열고 실행하여, 하나의 상위 타입 리스트에 여러 자식 클래스 인스턴스들이 모여 각자의 메소드를 호출하는 동작을 확인합니다.\n",
+      "tags": [
+        "Java"
+      ],
+      "readingTime": 2
+    },
+    {
+      "id": "260626_ex",
+      "date": "2026-06-26",
+      "topic": "자바 예외 처리(Exception), 파일 입출력 스트림 & 정규표현식 📂",
+      "link": "docs/260626_ex.md",
+      "title": "자바 예외 처리(Exception), 파일 입출력 스트림 & 정규표현식 📂",
+      "content": "# 자바 예외 처리(Exception), 파일 입출력 스트림 & 정규표현식 📂\n\n자바 프로그래밍의 실전 가동성을 보장하는 예외 처리 기법, 외부 파일에 데이터를 읽고 쓰는 파일 입출력 스트림(Byte/Character/Buffered), 그리고 텍스트 패턴을 분석하는 정규표현식(Regex)을 종합 학습하는 프로젝트입니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [src/Solution01.java](file:///C:/workspace/260626_ex/src/Solution01.java) ~ [src/Solution08.java](file:///C:/workspace/260626_ex/src/Solution08.java) : 예외 처리 및 입출력 알고리즘 코드\n- [01_java_exception_handling.md](file:///C:/workspace/260626_ex/01_java_exception_handling.md) ~ [04_java_exception_propagation.md](file:///C:/workspace/260626_ex/04_java_exception_propagation.md) : 예외의 종류, 커스텀 예외 정의, 자원 회수(`try-with-resources`) 이론 정리\n- [05_java_byte_stream.md](file:///C:/workspace/260626_ex/05_java_byte_stream.md) ~ [07_java_buffered_stream.md](file:///C:/workspace/260626_ex/07_java_buffered_stream.md) : 파일 바이트 입력, 캐릭터 버퍼 스트림 성능 분석\n- [08_java_api_and_regex.md](file:///C:/workspace/260626_ex/08_java_api_and_regex.md) : 이메일, 전화번호 등의 형식이 맞는지 점검하는 정규표현식 기본\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **예외 복구 (try-catch-finally)**: 실행 도중 예상치 못한 오류가 터져도 비정상 종료를 예방하고 적절히 에러를 우회/로그 기록하는 흐름을 배웁니다.\n- **스트림 (Stream)**: 파일이나 네트워크를 통해 들어오는 무수한 데이터를 한 바이트씩 혹은 줄 단위로 버퍼링하여 빠르고 누수 없이 읽고 쓰는 원리를 마스터합니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. 개별 `Solution` 파일이나 스트림 예제 코드를 열어 컴파일하고, 지정된 텍스트 파일(e.g., `file1.txt`)에 데이터가 정상 기록되는지 파일 탐색기에서 확인합니다.\n",
+      "tags": [
+        "Java"
+      ],
+      "readingTime": 4
+    },
+    {
+      "id": "260629_ex",
+      "date": "2026-06-29",
+      "topic": "자바 핵심 알고리즘 문제 해결 연습장 🏋️",
+      "link": "docs/260629_ex.md",
+      "title": "자바 핵심 알고리즘 문제 해결 연습장 🏋️",
+      "content": "# 자바 핵심 알고리즘 문제 해결 연습장 🏋️\n\n자바 프로그래밍 기본 제어문과 자료형, 자바 기본 표준 API의 내장 메소드들을 결합하여 기초 알고리즘 문제를 풀고 해설을 정리하는 훈련 코너입니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [src/Solution01.java](file:///C:/workspace/260629_ex/src/Solution01.java) ~ [src/Solution09.java](file:///C:/workspace/260629_ex/src/Solution09.java) : 알고리즘 풀이 코드\n- [src/Solution01.md](file:///C:/workspace/260629_ex/src/Solution01.md) ~ [src/Solution09.md](file:///C:/workspace/260629_ex/src/Solution09.md) : 각 문제들의 요구 조건 분석과 시간 복잡도 고찰 메모\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **자료구조 가공**: 배열과 리스트, 문자열 결합 등을 활용하여 주어진 제약 조건에 가장 효율적으로 부합하는 로직을 조율합니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. 각 자바 파일을 열고 실행하여 주어진 샘플 케이스들이 전부 콘솔에서 통과(PASS)되는지 분석합니다.\n",
+      "tags": [
+        "Java"
+      ],
+      "readingTime": 2
+    },
+    {
+      "id": "260630_ex",
+      "date": "2026-06-30",
+      "topic": "자바 기초 백업용 임시 폴더 📁",
+      "link": "docs/260630_ex.md",
+      "title": "자바 기초 백업용 임시 폴더 📁",
+      "content": "# 자바 기초 백업용 임시 폴더 📁\n\n260630 자바 실습 과정에서 프로젝트 설정이나 라이브러리 연동 테스트 도중 생긴 임시 보존 디렉토리입니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- 현재 이 폴더는 빈 상태입니다.\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **임시 저장**: 설정 데이터 보존용 백업 목적으로 생성되었습니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n실행 가능한 코드가 존재하지 않는 백업용 폴더입니다.\n",
+      "tags": [
+        "기타"
+      ],
+      "readingTime": 1
+    },
+    {
+      "id": "260710_dql",
+      "date": "2026-07-10",
+      "topic": "🗂️ MySQL DQL 학습 및 SQLD 대비 저장소 (DQL & SQLD Study Repository)",
+      "link": "docs/260710_dql.md",
+      "title": "🗂️ MySQL DQL 학습 및 SQLD 대비 저장소 (DQL & SQLD Study Repository)",
+      "content": "# 🗂️ MySQL DQL 학습 및 SQLD 대비 저장소 (DQL & SQLD Study Repository)\r\n\r\n이 저장소는 MySQL 기준의 **DQL(Data Query Language, 데이터 질의어)** 기본기 확립과 **국가공인 SQLD(SQL 개발자) 자격시험** 대비를 위한 체계적인 학습 자료를 담고 있습니다. 데이터베이스 조회 기본 구문부터 비교/정렬, NULL 처리, 문자열 가공, 그리고 조건절 및 집계/그룹화까지 순차적으로 구성되어 있습니다.\r\n\r\n---\r\n\r\n## 1. 🗺️ 전체 학습 로드맵 및 파일 목록\r\n\r\n각 학습 단계별 실습 SQL 소스 코드와 이론이 상세하게 기술된 가이드 문서의 링크 리스트입니다.\r\n\r\n| 단계 | 주요 학습 주제 | 실습 소스 코드 (SQL) | 상세 가이드 문서 (Markdown) | SQLD 핵심 빈출 포인트 |\r\n| :---: | :--- | :--- | :--- | :--- |\r\n| **Step 1** | DQL 기초 및 조건절 | [step1.sql](file:///Users/morgan/Documents/workspace/260710_dql/step1.sql) | [step1.md](file:///Users/morgan/Documents/workspace/260710_dql/step1.md) | `AND`/`OR`/`NOT` 논리 연산자 우선순위 |\r\n| **Step 2** | 연산자, 정렬 및 출력 제한 | [step2.sql](file:///Users/morgan/Documents/workspace/260710_dql/step2.sql) | [step2.md](file:///Users/morgan/Documents/workspace/260710_dql/step2.md) | `BETWEEN A AND B` 경계값 포함 여부, 다중 컬럼 정렬 |\r\n| **Step 3** | NULL 처리 및 문자열 가공 | [step3.sql](file:///Users/morgan/Documents/workspace/260710_dql/step3.sql) | [step3.md](file:///Users/morgan/Documents/workspace/260710_dql/step3.md) | 3값 논리(UNKNOWN), `COALESCE`/`NULLIF` 표준 함수 작동 원리 |\r\n| **Step 4** | 조건식, 집계 및 그룹화 | [step4.sql](file:///Users/morgan/Documents/workspace/260710_dql/step4.sql) | [step4.md](file:///Users/morgan/Documents/workspace/260710_dql/step4.md) | SQL 논리적 실행 순서, `WHERE` vs `HAVING`, NULL 집계 효과 |\r\n\r\n---\r\n\r\n## 2. 📝 단계별 핵심 내용 요약\r\n\r\n### 🔹 [Step 1: DQL 기초 및 조건절](file:///Users/morgan/Documents/workspace/260710_dql/step1.md)\r\n* **SELECT & FROM**: 특정 테이블의 데이터를 조회하고, `AS`를 이용해 가독성 있는 열 별칭을 부여하는 법을 학습합니다.\r\n* **DISTINCT**: 특정 열의 중복 값을 필터링하여 유일한 종류의 데이터만 추출하는 방법을 배웁니다.\r\n* **WHERE & 논리 연산자**: 관계 연산자(`=`, `>`, `<`, `>=` 등)와 논리 연산자(`AND`, `OR`, `NOT`)를 조합하여 데이터를 필터링합니다.\r\n* **우선순위**: 논리 연산자의 내부 우선순위인 **`NOT` ➡️ `AND` ➡️ `OR`** 규칙과 괄호(`()`)를 통한 우선순위 변경의 중요성을 이해합니다.\r\n\r\n### 🔹 [Step 2: 연산자, 정렬 및 출력 제한](file:///Users/morgan/Documents/workspace/260710_dql/step2.md)\r\n* **BETWEEN A AND B**: 지정한 범위의 최솟값과 최댓값을 **포함**하는 구간 필터링의 원리를 학습합니다.\r\n* **IN (목록)**: 특정 컬럼의 값이 여러 후보 값 중 하나와 일치하는지 판별하는 다중 동등 비교를 구현합니다.\r\n* **LIKE (패턴 매칭)**: 와일드카드 문자 기호인 `%`(길이 제한 없는 모든 문자)와 `_`(정확히 1글자 공간 매치)의 활용법을 다룹니다.\r\n* **ORDER BY**: 단일 또는 다중 정렬 기준(`ASC` 오름차순, `DESC` 내림차순)을 적용하여 데이터를 정돈합니다.\r\n* **LIMIT**: MySQL 전용 출력 제한 문법으로, `LIMIT N, M`을 사용하여 페이징(Pagination) 처리를 물리적으로 구현합니다.\r\n\r\n### 🔹 [Step 3: NULL 처리 및 문자열 가공](file:///Users/morgan/Documents/workspace/260710_dql/step3.md)\r\n* **NULL 검증**: NULL은 0이나 공백 문자가 아닌 미지의 값이므로, `=` 비교가 아닌 `IS NULL` / `IS NOT NULL`로 검증해야 함을 인지합니다.\r\n* **NULL 대체**: MySQL의 `IFNULL`과 표준 ANSI SQL 함수인 `COALESCE`, `NULLIF`의 구조적 차이와 활용법을 정리합니다.\r\n* **문자열 가공**: `TRIM`(공백 제거), `LOWER`/`UPPER`(대소문자 통일), `SUBSTRING`(부분 문자 추출), `CONCAT`(문자 결합) 등의 내장 함수를 배웁니다.\r\n* **3값 논리**: 참(TRUE), 거짓(FALSE) 외에 NULL 비교 시 산출되는 **`UNKNOWN`** 논리 상태의 동작 방식 및 `WHERE` 절과의 관계를 파악합니다.\r\n\r\n### 🔹 [Step 4: 조건식, 집계 및 그룹화](file:///Users/morgan/Documents/workspace/260710_dql/step4.md)\r\n* **조건문**: `CASE WHEN ... THEN ... ELSE END` 형식의 Searched CASE 문과 Simple CASE 문, 그리고 MySQL 전용 `IF` 함수의 분기 처리 방법을 다룹니다.\r\n* **집계 함수**: `COUNT`, `SUM`, `AVG`, `MAX`, `MIN`이 NULL 값을 무시하고 연산하는 물리적 과정과 빈 테이블 조회 시의 결과를 학습합니다.\r\n* **GROUP BY & HAVING**: 데이터를 그룹으로 묶고, 그룹 통계치에 대해 필터링을 수행하는 `HAVING` 절의 구조를 익힙니다.\r\n* **실행 순서**: RDBMS 옵티마이저가 쿼리를 파싱하는 물리적 흐름을 완벽히 정리합니다.\r\n\r\n---\r\n\r\n## 3. 🎯 프로그래머스 SQL 고득점 Kit 연계 추천 문제\r\n\r\n현재 학습 범위(DQL 기초 ~ 조건문, 집계, 그룹화) 내에서 별도의 JOIN이나 서브쿼리 없이 풀 수 있는 대표적인 [프로그래머스 SQL 실습 문제](https://school.programmers.co.kr/learn/challenges?tab=sql_practice_kit) 리스트입니다.\r\n\r\n### 1) SELECT (조회 및 정렬)\r\n| 난이도 | 문제명 | 링크 | 핵심 학습 개념 | 추천 연계 단계 |\r\n| :---: | :--- | :---: | :--- | :---: |\r\n| **Lv. 1** | 모든 레코드 조회하기 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/59034) | `SELECT *`, `ORDER BY` 기본 정렬 | **Step 1** |\r\n| **Lv. 1** | 아픈 동물 찾기 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/59036) | `WHERE` 동등 조건 필터링 | **Step 1** |\r\n| **Lv. 1** | 역순 정렬하기 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/59035) | `ORDER BY DESC` 내림차순 정렬 | **Step 2** |\r\n| **Lv. 1** | 여러 기준으로 정렬하기 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/59040) | 다중 컬럼 기준 정렬 (`ASC`, `DESC` 혼합) | **Step 2** |\r\n| **Lv. 1** | 상위 n개 레코드 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/59405) | `ORDER BY`와 `LIMIT 1` 결합 | **Step 2** |\r\n\r\n### 2) SUM, MAX, MIN & GROUP BY (집계 및 그룹화)\r\n| 난이도 | 문제명 | 링크 | 핵심 학습 개념 | 추천 연계 단계 |\r\n| :---: | :--- | :---: | :--- | :---: |\r\n| **Lv. 1** | 최댓값 구하기 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/59415) | `MAX()` 집계 함수 | **Step 4** |\r\n| **Lv. 1** | 최솟값 구하기 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/59038) | `MIN()` 집계 함수 | **Step 4** |\r\n| **Lv. 2** | 동물 수 구하기 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/59406) | `COUNT(*)` 전체 행 집계 | **Step 4** |\r\n| **Lv. 2** | 중복 제거하기 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/59408) | `COUNT(DISTINCT 컬럼)` 중복 제외 집계 | **Step 4** |\r\n| **Lv. 2** | 고양이와 개는 몇 마리 있을까 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/59040) | `GROUP BY`를 활용한 그룹 집계 | **Step 4** |\r\n| **Lv. 2** | 동명 동물 수 찾기 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/59041) | `GROUP BY`와 `HAVING COUNT(*) >= 2` | **Step 4** |\r\n| **Lv. 2** | 진료과별 총 예약 횟수 출력하기 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/132202) | `GROUP BY` 결과 별칭 정렬 및 컬럼 정의 | **Step 4** |\r\n\r\n### 3) IS NULL & String (NULL 및 문자열 가공)\r\n| 난이도 | 문제명 | 링크 | 핵심 학습 개념 | 추천 연계 단계 |\r\n| :---: | :--- | :---: | :--- | :---: |\r\n| **Lv. 1** | 이름이 없는 동물의 아이디 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/59039) | `WHERE 컬럼 IS NULL` 조건식 | **Step 3** |\r\n| **Lv. 1** | 이름이 있는 동물의 아이디 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/59407) | `WHERE 컬럼 IS NOT NULL` 조건식 | **Step 3** |\r\n| **Lv. 1** | 경기도에 위치한 식품창고 목록 출력하기 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/131114) | `LIKE` 패턴 매칭 및 `IFNULL` 처리 | **Step 3** |\r\n| **Lv. 2** | 루시와 엘라 찾기 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/59046) | `WHERE 컬럼 IN (값 목록)` 비교 | **Step 2** |\r\n| **Lv. 2** | 이름에 el이 들어가는 동물 찾기 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/59047) | `LIKE '%el%'` 패턴 조건 및 정렬 | **Step 2** |\r\n| **Lv. 2** | 중성화 여부 파악하기 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/59409) | `CASE WHEN` 또는 `IF` 조건문 분기 처리 | **Step 4** |\r\n| **Lv. 2** | 카테고리 별 상품 개수 구하기 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/131529) | `SUBSTRING`으로 문자 추출 후 `GROUP BY` | **Step 3 & 4** |\r\n\r\n---\r\n\r\n## 4. 🎓 SQLD 자격증 시험 핵심 대비 노트 (필수 암기)\r\n\r\n국가공인 SQLD 시험 합격을 위해 꼭 기억해야 할 **최빈출 이론 탑 3**입니다.\r\n\r\n1. **SQL 논리적 실행 순서와 SELECT 별칭 사용 규칙**\r\n   * **실행 순서**: `FROM ➡️ WHERE ➡️ GROUP BY ➡️ HAVING ➡️ SELECT ➡️ ORDER BY`\r\n   * **암기 포인트**: `SELECT`는 `GROUP BY`나 `HAVING`보다 나중에 실행되므로, `SELECT`에서 정의한 컬럼 별칭(Alias)은 `GROUP BY`나 `HAVING` 절에서 참조할 수 없는 것이 원칙입니다.\r\n2. **집계 함수와 NULL의 연산 법칙**\r\n   * **개념**: `COUNT(*)`를 제외한 모든 집계 함수는 `NULL`을 연산 대상에서 자동으로 제외합니다.\r\n   * **에러 방지**: `SUM(A + B)`는 개별 행 연산 시 한쪽 컬럼이라도 NULL이면 최종 합산에서 아예 제외되는 반면, `SUM(A) + SUM(B)`는 NULL을 제외한 각각의 합계를 구한 후 더하므로 값이 달라질 수 있습니다.\r\n3. **3값 논리 (3-Valued Logic)**\r\n   * **원리**: SQL에서 `NULL = NULL`이나 `NULL != NULL` 같은 연산의 평가는 참/거짓이 아닌 **`UNKNOWN`**이 됩니다.\r\n   * **검증**: `WHERE` 조건절은 오직 참(`TRUE`)인 행만 필터링하여 반환하므로, NULL인지 판단하려면 반드시 **`IS NULL`** 또는 **`IS NOT NULL`** 연산자를 사용해야 합니다.\r\n",
+      "tags": [
+        "Database"
+      ],
+      "readingTime": 19
+    },
+    {
+      "id": "260713_dql-subquery-join",
+      "date": "2026-07-13",
+      "topic": "데이터베이스 SQL 기초 - 데이터 조회(DQL), 서브쿼리 & 조인(JOIN) 정복 📊",
+      "link": "docs/260713_dql-subquery-join.md",
+      "title": "데이터베이스 SQL 기초 - 데이터 조회(DQL), 서브쿼리 & 조인(JOIN) 정복 📊",
+      "content": "# 데이터베이스 SQL 기초 - 데이터 조회(DQL), 서브쿼리 & 조인(JOIN) 정복 📊\n\n관계형 데이터베이스(RDB)에 저장된 수많은 표(Table)에서 필요한 데이터만 정확하게 쏙쏙 뽑아내는 SQL 조회 쿼리의 핵심을 공부하는 연습장입니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [dql01.sql](file:///C:/workspace/260713_dql-subquery-join/dql01.sql) ~ [dql02.sql](file:///C:/workspace/260713_dql-subquery-join/dql02.sql) : 필터링(`WHERE`), 정렬(`ORDER BY`), 그룹화(`GROUP BY`) 기초 조회 쿼리\n- [subquery01.sql](file:///C:/workspace/260713_dql-subquery-join/subquery01.sql) ~ [subquery02.sql](file:///C:/workspace/260713_dql-subquery-join/subquery02.sql) : 쿼리문 안에 또 다른 쿼리를 중첩하여 사용해 복잡한 조건식을 푸는 서브쿼리 실습\n- [join01.sql](file:///C:/workspace/260713_dql-subquery-join/join01.sql) ~ [join02.sql](file:///C:/workspace/260713_dql-subquery-join/join02.sql) : 흩어져 있는 테이블을 연결 고리(외래키)를 기준으로 하나로 병합하는 JOIN 연산 실습\n- 다수의 설명 문서들(.md) : 각각의 실습 SQL 쿼리의 작동 이론 해설\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **조인 (JOIN)**: 관계형 데이터베이스의 꽃인 테이블 결합(`INNER JOIN`, `LEFT OUTER JOIN`) 방식을 학습합니다.\n- **서브쿼리 (Subquery)**: 조건식 안에 임시 조회를 집어넣어, 특정 평균값보다 비싼 상품 목록 등을 정밀 필터링하는 법을 배웁니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. MySQL 또는 Oracle 등 사용 중인 RDBMS 콘솔 또는 GUI 툴(DBeaver 등)을 실행합니다.\n2. 연결된 데이터베이스 세션에서 각 `.sql` 파일의 질의문을 한 줄씩 블록 씌워 실행한 뒤 출력 그리드를 확인합니다.\n",
+      "tags": [
+        "Database",
+        "Web/Backend"
+      ],
+      "readingTime": 3
+    },
+    {
+      "id": "260714_dml-ddl",
+      "date": "2026-07-14",
+      "topic": "데이터베이스 SQL 데이터 조작(DML) & 테이블 정의(DDL) 마스터 🛠",
+      "link": "docs/260714_dml-ddl.md",
+      "title": "데이터베이스 SQL 데이터 조작(DML) & 테이블 정의(DDL) 마스터 🛠",
+      "content": "# 데이터베이스 SQL 데이터 조작(DML) & 테이블 정의(DDL) 마스터 🛠\n\n데이터베이스 테이블 자체를 만들고 수정하는 정의 언어(DDL)와 생성된 테이블 내의 실제 데이터를 조작(삽입, 수정, 삭제)하는 조작 언(DML)의 핵심을 학습합니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [ddl1.sql](file:///C:/workspace/260714_dml-ddl/ddl1.sql) ~ [ddl2.sql](file:///C:/workspace/260714_dml-ddl/ddl2.sql) : 테이블 생성(`CREATE TABLE`), 스키마 수정(`ALTER`), 테이블 삭제(`DROP`) 쿼리\n- [dml01.sql](file:///C:/workspace/260714_dml-ddl/dml01.sql) ~ [dml03.sql](file:///C:/workspace/260714_dml-ddl/dml03.sql) : 행 입력(`INSERT`), 데이터 변경(`UPDATE`), 행 제거(`DELETE`) 실습\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **제약 조건 (Constraint)**: 기본키(`PRIMARY KEY`), 외래키(`FOREIGN KEY`), 중복 방지(`UNIQUE`), 필수 입력(`NOT NULL`) 등 올바른 데이터 규격을 정하는 규칙을 배웁니다.\n- **트랜잭션 제어 (commit/rollback)**: 데이터 추가/수정을 마쳤을 때 실제 반영(`COMMIT`)하거나 잘못되어 되돌리는(`ROLLBACK`) 안전장치를 파악합니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. DBeaver 등의 데이터베이스 관리 툴에서 실습용 계정에 접속합니다.\n2. 테이블 생성 DDL을 실행하고, DML 쿼리로 가상의 회원 데이터를 넣고 빼며 스키마와 데이터의 관계를 시각적으로 분석합니다.\n",
+      "tags": [
+        "Database"
+      ],
+      "readingTime": 3
+    },
+    {
+      "id": "260715_modeling",
+      "date": "2026-07-15",
+      "topic": "데이터베이스 설계 및 모델링 - 카레 가게 ERD 설계 홈워크 📐",
+      "link": "docs/260715_modeling.md",
+      "title": "데이터베이스 설계 및 모델링 - 카레 가게 ERD 설계 홈워크 📐",
+      "content": "# 데이터베이스 설계 및 모델링 - 카레 가게 ERD 설계 홈워크 📐\n\n실제 동작하는 비즈니스 도메인(예: 카레 전문 프랜차이즈 가게)의 실무 요구사항을 분석하여 올바른 관계형 테이블 구조를 설계하고 ERD(Entity Relationship Diagram)를 도출해내는 모델링 실습입니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [curry_shop_erd.uml](file:///C:/workspace/260715_modeling/curry_shop_erd.uml) : 테이블 간의 관계(1:N, N:M)와 필드를 도식화한 UML 기반 ERD 모델링 파일\n- [schema/00.sql](file:///C:/workspace/260715_modeling/schema/00.sql) ~ [schema/06.sql](file:///C:/workspace/260715_modeling/schema/06.sql) : 설계한 ERD 구조대로 데이터베이스에 테이블을 구성하는 순차적 DDL 파일 모음\n- [erd_diagram.md](file:///C:/workspace/260715_modeling/erd_diagram.md) : 요구 분석 명세와 테이블 컬럼들의 논리적 의미 설명서\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **데이터베이스 모델링**: 요구사항(예: 주문 시 여러 메뉴와 토핑이 추가된다)을 데이터 관점으로 추출하여 개체(Entity)와 속성(Attribute)을 나누는 법을 배웁니다.\n- **정규화 (Normalization)**: 중복 데이터를 제거하고 테이블을 쪼개어 데이터 무결성을 보장하는 규칙을 학습합니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. `schema/00.sql`부터 `06.sql`까지 순서대로 DBeaver 콘솔에 실행하여 카레 가게의 테이블들을 생성해 봅니다.\n",
+      "tags": [
+        "Database"
+      ],
+      "readingTime": 3
+    },
+    {
+      "id": "260716_jdbc",
+      "date": "2026-07-16",
+      "topic": "자바 데이터베이스 연동 기초 - JDBC 프로그래밍 ☕🔌",
+      "link": "docs/260716_jdbc.md",
+      "title": "자바 데이터베이스 연동 기초 - JDBC 프로그래밍 ☕🔌",
+      "content": "# 자바 데이터베이스 연동 기초 - JDBC 프로그래밍 ☕🔌\n\n자바 애플리케이션 안에서 직접 SQL 데이터베이스로 통신을 연결해 데이터를 조회하고 추가하는 최초의 자바 데이터베이스 백엔드 연동 기술, JDBC(Java Database Connectivity) 실습 프로젝트입니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [pom.xml](file:///C:/workspace/260716_jdbc/pom.xml) : MySQL Connector 등 데이터베이스 드라이버 모듈이 명시된 Maven 설정 파일\n- [src/main/java/](file:///C:/workspace/260716_jdbc/src/main/java/) : 자바 클래스 내에서 드라이버를 로드하고, 커넥션을 맺어 `PreparedStatement`로 쿼리를 실행해 `ResultSet`으로 출력하는 JDBC 메인 로직 코드\n- [sql/step03.sql](file:///C:/workspace/260716_jdbc/sql/step03.sql) ~ [sql/step06.sql](file:///C:/workspace/260716_jdbc/sql/step06.sql) : JDBC 연동 실습에 쓰이는 기초 테이블 생성 및 테스트 DML 코드\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **JDBC 연결 4단계**: 1) 드라이버 로드, 2) 커넥션 맺기, 3) 쿼리 준비/실행, 4) 커넥션 자원 닫기(`close`) 프로세스를 학습합니다.\n- **SQL Injection 예방**: 안전한 값 매핑을 위해 날것의 문자열 더하기 대신 위치 지정자(`?`)를 활용하는 `PreparedStatement` 사용을 생활화합니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. 컴퓨터나 클라우드 상에 MySQL 서버를 켜두고 계정 정보를 활성화합니다.\n2. `.env` 또는 코드 내부의 DB 접속 URL, ID, Password를 현재 내 환경에 맞게 갱신합니다.\n3. 메인 자바 코드를 구동하여 터미널 콘솔창에 실제 DB 데이터가 읽혀와 출력되는지 확인합니다.\n",
+      "tags": [
+        "Java",
+        "Database"
+      ],
+      "readingTime": 3
+    },
+    {
+      "id": "260720_spring-jdbc",
+      "date": "2026-07-20",
+      "topic": "스프링 부트(Spring Boot) 입문 - Spring JDBC 연동 🍃🔌",
+      "link": "docs/260720_spring-jdbc.md",
+      "title": "스프링 부트(Spring Boot) 입문 - Spring JDBC 연동 🍃🔌",
+      "content": "# 스프링 부트(Spring Boot) 입문 - Spring JDBC 연동 🍃🔌\n\n자바 백엔드의 절대 표준인 스프링 부트(Spring Boot) 개발 환경에 입문합니다. 과거의 무겁고 자원 해제가 번거로웠던 일반 JDBC를 개선하여 내부에서 알아서 커넥션을 관리해 주는 `JdbcTemplate` 기술을 사용해 데이터베이스와 상호작용하는 웹 애플리케이션 기초입니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [pom.xml](file:///C:/workspace/260720_spring-jdbc/pom.xml) : Spring Boot Starter JDBC 종속성이 추가된 메인 설정 명세\n- [src/main/java/](file:///C:/workspace/260720_spring-jdbc/src/main/java/) : 스프링 부트 애플리케이션 진입점 및 스프링 빈(Bean)으로 데이터베이스 쿼리를 처리하는 컨트롤러/레포지토리 자바 클래스들\n- [src/main/resources/application.properties](file:///C:/workspace/260720_spring-jdbc/src/main/resources/application.properties) : 스프링이 알아서 데이터베이스 커넥션을 맺도록 설정 정보를 적어두는 설정 파일\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **의존성 주입 (Dependency Injection)**: 개발자가 직접 `new` 키워드로 커넥션 객체를 조립하지 않고, 스프링 컨테이너가 라이프사이클을 대신 주입해 주는 기본 원리를 깨닫습니다.\n- **JdbcTemplate**: 반복되는 `try-catch-finally` 및 자원 해제(`close`) 생략이 가능하도록 스프링이 제공하는 편리한 DB 헬퍼 API 사용법을 습득합니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. `application.properties` 파일에 내 MySQL의 접속 정보(`spring.datasource.url` 등)를 올바르게 채웁니다.\n2. 터미널에서 `./mvnw spring-boot:run`을 실행하거나 IDE에서 메인 Application 클래스의 실행 버튼을 눌러 스프링 부트 서버를 가동합니다.\n",
+      "tags": [
+        "Spring",
+        "Java",
+        "Database"
+      ],
+      "readingTime": 3
+    },
+    {
+      "id": "jpa",
+      "date": "2026-07-23",
+      "topic": "JPA 게임 영웅 도감 실습 정리 🎮",
+      "link": "docs/jpa.md",
+      "title": "🎮 JPA 게임 영웅 도감 실습 정리",
+      "content": "# 🎮 JPA 게임 영웅 도감 실습 정리\n\n이 문서는 오늘 실습한 Spring Boot 및 JPA 기반의 **도서 관리 프로그램**을 코딩을 전혀 모르는 사람도 직관적으로 이해할 수 있도록 **\"RPG 게임 영웅 도감 시스템\"**에 비유하여 재해석한 설명서입니다.\n\n*실제 코드의 `Book`은 영웅(Hero) 카드로, `title(책 제목)`은 영웅 이름으로, `author(작가)`는 영웅의 직업(클래스)으로 대입해서 이해하시면 완벽합니다!*\n\n---\n\n## 🕹️ 전체적인 동작 그림 (게임 시스템 비유)\n\n우리가 만든 프로그램은 **\"RPG 게임의 영웅 도감 및 길드 관리 시스템\"**과 동일한 구조를 가지고 있습니다.\n\n| 역할 | 프로그램 코드 이름 | 실제 게임 시스템에서의 비유 | 설명 |\n| :--- | :--- | :--- | :--- |\n| **도감 UI** | `index.jsp`, `detail.jsp` | **게임 로비 & 캐릭터 정보창** | 유저가 마우스로 클릭하여 새 캐릭터를 생성하거나, 스펙을 보고, 캐릭터를 삭제(은퇴)하는 게임 화면입니다. |\n| **게임 로비 조작반** | `MainController` | **Lobby Router (로비 조작반)** | 유저가 화면에서 누른 조작(영웅 추가, 정보 보기, 닉네임 수정, 영웅 은퇴)을 접수해 게임 서버 엔진으로 전달하고, 바뀐 게임 화면을 유저에게 다시 그려줍니다. |\n| **생성 요청서** | `BookFormDTO` | **영웅 생성 신청서 (Draft)** | 영웅을 새로 뽑거나 정보를 수정할 때, '이름'과 '직업'만 적어서 서버로 전송하는 일회성 데이터 패킷입니다. |\n| **게임 서버 엔진** | `BookService` | **GM (게임 마스터 / 시스템 룰)** | 영웅이 도감에 정상적으로 등록될 수 있는지, 은퇴 처리가 가능한지 등 실제 게임 시스템의 비즈니스 룰을 검증하고 실행합니다. |\n| **인벤토리 매니저** | `BookRepository` | **데이터베이스 커넥터 (DB Manager)** | 실제 게임 데이터가 영구 저장되는 데이터베이스 서버에 접근하여 영웅 데이터를 저장(`save`), 조회(`find`), 삭제(`delete`)하는 특수 장치입니다. |\n| **표준 영웅 카드** | `Book` | **영웅 카드 (Hero Entity)** | 게임 서버 데이터베이스에 저장되기 위해 정해진 규격(고유 번호(ID), 영웅 이름, 직업)에 딱 맞게 제작된 표준 캐릭터 데이터 양식입니다. |\n| **게임 서버 설정** | `application.properties` | **서버 config 파일** | 게임 서버 포트는 몇 번인지, 어떤 데이터베이스 세이브 파일에 연결할 것인지, 켜질 때 세이브 데이터를 초기화할지 설정하는 문서입니다. |\n\n---\n\n## 📁 파일별 상세 설명 (게임 관점)\n\n### 1. ⚙️ 서버 설정서 (`application.properties`)\n* **경로**: [application.properties](file:///C:/workspace/jpa/src/main/resources/application.properties)\n* **쉬운 설명**: 게임 서버의 **\"부팅 설정 파일\"**입니다.\n* **주요 역할**:\n  * 게임을 시작할 때 임시 세이브 서버(H2 데이터베이스)를 켜고 접속할 주소를 연결합니다.\n  * 서버 내부에서 세이브 데이터를 쓰고 읽을 때 수행되는 데이터베이스 언어(SQL)를 콘솔 창에 친절하게 띄워주도록 세팅합니다.\n  * `ddl-auto=create` 옵션을 통해 서버를 새로 켤 때마다 기존 세이브 파일을 싹 밀고 새 게임으로 초기화하여 테스트하기 편하게 만듭니다.\n\n### 2. 🛡️ 영웅 규격 데이터 (`Book.java` - 엔티티)\n* **경로**: [Book.java](file:///C:/workspace/jpa/src/main/java/org/example/jpa/entity/Book.java)\n* **쉬운 설명**: 게임 데이터베이스에 영구 소장될 **\"표준 영웅 카드 설계도\"**입니다.\n* **주요 역할**:\n  * 모든 캐릭터 카드는 아래 규격을 반드시 따릅니다.\n    * `id` : 시스템이 영웅에게 부여하는 고유 번호 (예: 1번 영웅, 2번 영웅)\n    * `title` : 영웅 닉네임 (게임 내 중복 불가능, 필수 입력)\n    * `author` : 영웅의 직업 (예: 전사, 마법사, 궁수)\n  * `@Getter`, `@Builder` 같은 편의 기능(Lombok) 덕분에 영웅 데이터를 복잡한 코드 없이 신속하게 생성하고 가져올 수 있습니다.\n\n### 3. 🗝️ 세이브 장치 마스터키 (`BookRepository.java` - 저장소)\n* **경로**: [BookRepository.java](file:///C:/workspace/jpa/src/main/java/org/example/jpa/repository/BookRepository.java)\n* **쉬운 설명**: 데이터베이스 세이브 파일의 데이터를 직접 읽고 쓰는 **\"도감 세이브 장치\"**입니다.\n* **주요 역할**:\n  * 복잡한 저장 명령어나 쿼리 구문을 몰라도, `JpaRepository` 덕분에 자바 언어로 단순하게 저장/불러오기 명령만 내리면 실제 데이터베이스에 영구적으로 잘 기록됩니다.\n\n### 4. 📝 영웅 등록 양식 (`BookFormDTO.java` - DTO)\n* **경로**: [BookFormDTO.java](file:///C:/workspace/jpa/src/main/java/org/example/jpa/dto/BookFormDTO.java)\n* **쉬운 설명**: 유저가 도감 생성 버튼을 누를 때 작성하는 **\"영웅 정보 입력 서류\"**입니다.\n* **주요 역할**:\n  * 세이브 데이터에 들어갈 완벽한 영웅 정보(`Book`)와 달리, 유저에게는 고유 번호(ID) 등을 입력받을 필요가 없으므로 오직 '이름'과 '직업' 정보만 받아 서버로 올려보내는 전송용 폼입니다.\n  * 신청서를 받아 실제 도감에 꽂을 정식 영웅 카드 객체로 즉시 조립해 주는 `toEntity()` 기능을 탑재하고 있습니다.\n\n### 5. 🧑‍💻 게임 마스터 엔진 (`BookService.java` - 서비스)\n* **경로**: [BookService.java](file:///C:/workspace/jpa/src/main/java/org/example/jpa/service/BookService.java)\n* **쉬운 설명**: 게임의 핵심 규칙을 판정하고 처리하는 **\"GM (게임 마스터)\"**입니다.\n* **주요 역할**:\n  * **영웅 영입 (`addBook`)**: 영웅 생성 신청서를 받아서 세이브 장치를 통해 DB 서버에 영웅을 추가합니다.\n  * **도감 전체 조회 (`getAllBooks`)**: 현재 서버 데이터베이스에 존재하는 모든 영웅 목록을 수집합니다.\n  * **특정 영웅 검색 (`getBookById`)**: 고유 번호로 영웅의 자세한 스펙을 검색하며, 만약 존재하지 않는 영웅이면 \"데이터 없음\" 예외를 던집니다.\n  * **영웅 스펙 변경 (`updateBook`)**: 변경 정보를 바탕으로 세이브 장치에 갱신을 지시합니다.\n  * **영웅 은퇴/삭제 (`deleteBookById`)**: 번호를 전달받아 도감에서 완전히 지워버립니다.\n\n### 6. 💁 게임 로비 조작반 (`MainController.java` - 컨트롤러)\n* **경로**: [MainController.java](file:///C:/workspace/jpa/src/main/java/org/example/jpa/controller/MainController.java)\n* **쉬운 설명**: 게임 플레이어의 키보드/마우스 입력값을 받아 적절한 기능으로 넘겨주는 **\"로비 메인 핸들러\"**입니다.\n* **주요 역할**:\n  * 유저가 웹페이지에 접속하면 GM(Service)을 통해 모든 영웅 목록을 가져와 메인 로비(`index.jsp`)를 열어줍니다.\n  * 유저가 새 영웅 생성 버튼을 누르면 영입 신청서(`BookFormDTO`)를 수집하여 GM에게 처리를 의뢰하고, 다시 로비로 리다이렉트합니다.\n  * 상세 보기, 정보 수정, 은퇴 신청 등의 조작 신호를 받아 GM에게 전해주고 결과를 화면에 반영합니다.\n\n### 7. 🖥️ 게임 화면 (`index.jsp` & `detail.jsp` - 뷰)\n* **경로**:\n  * [index.jsp](file:///C:/workspace/jpa/src/main/webapp/WEB-INF/views/index.jsp) (게임 로비 / 영웅 생성 및 도감 목록 화면)\n  * [detail.jsp](file:///C:/workspace/jpa/src/main/webapp/WEB-INF/views/detail.jsp) (영웅 스펙 상세 화면 / 닉네임 수정 및 은퇴 버튼)\n* **쉬운 설명**: 플레이어 눈에 보이는 **\"게임 인터페이스(Web UI)\"**입니다.\n\n---\n\n## 🔄 게임 액션별 시스템 동작 순서\n\n유저가 마우스로 클릭을 했을 때 게임 백엔드 내부에서 정보가 어떻게 돌고 도는지 흐름을 알아봅시다.\n\n### ➕ 1. 새로운 영웅을 소환(등록)할 때\n```mermaid\nsequenceDiagram\n    participant User as 플레이어 (화면)\n    participant Lobby as 로비 조작반 (Controller)\n    participant GM as 게임 마스터 (Service)\n    participant SaveDev as 세이브 장치 (Repository)\n    participant ServerDB as 서버 데이터베이스 (DB)\n\n    User->>Lobby: 1. 영웅 이름/직업 입력 후 [추가] 클릭 (POST)\n    Note over Lobby: '영웅 생성 신청서(BookFormDTO)' 양식에 데이터 탑재\n    Lobby->>GM: 2. \"이 신청서대로 영웅을 소환해줘\" (addBook)\n    Note over GM: 신청서 내용을 도감에 들어갈 정식 '영웅 카드(Entity)'로 조립\n    GM->>SaveDev: 3. \"이 카드를 서버 DB 세이브 파일에 써줘\" (save)\n    SaveDev->>ServerDB: 4. 데이터베이스 테이블에 영웅 정보 추가 (INSERT 실행)\n    ServerDB-->>User: 5. 메인 로비로 복귀하여 소환된 영웅 카드 확인\n```\n\n### ✏️ 2. 영웅의 정보를 수정할 때 (예: 닉네임 변경)\n```mermaid\nsequenceDiagram\n    participant User as 플레이어 (상세 화면)\n    participant Lobby as 로비 조작반 (Controller)\n    participant GM as 게임 마스터 (Service)\n    participant SaveDev as 세이브 장치 (Repository)\n    participant ServerDB as 서버 데이터베이스 (DB)\n\n    User->>Lobby: 1. 스펙 수정 후 [수정] 클릭 (POST /{id})\n    Lobby->>GM: 2. 영웅 고유번호와 바뀐 직업/이름 전달 (updateBook)\n    GM->>SaveDev: 3. \"해당 고유번호의 영웅 데이터를 수정해줘\" (save)\n    Note over SaveDev: 고유번호(id)가 있으므로 새 생성이 아닌 기존 데이터 갱신 진행\n    SaveDev->>ServerDB: 4. DB 테이블의 기존 영웅 정보 업데이트 (UPDATE 실행)\n    ServerDB-->>User: 5. 수정된 영웅 카드가 메인 로비에 즉시 반영됨\n```\n\n### ❌ 3. 영웅을 은퇴(삭제)시킬 때\n```mermaid\nsequenceDiagram\n    participant User as 플레이어 (상세 화면)\n    participant Lobby as 로비 조작반 (Controller)\n    participant GM as 게임 마스터 (Service)\n    participant SaveDev as 세이브 장치 (Repository)\n    participant ServerDB as 서버 데이터베이스 (DB)\n\n    User->>Lobby: 1. [삭제] 링크 클릭 (GET /delete/{id})\n    Lobby->>GM: 2. \"이 고유번호의 영웅을 은퇴시킬게\" (deleteBookById)\n    GM->>SaveDev: 3. \"세이브 파일에서 이 번호의 영웅 지워\" (deleteById)\n    SaveDev->>ServerDB: 4. DB에서 영웅 정보 영구 제거 (DELETE 실행)\n    ServerDB-->>User: 5. 메인 로비 목록에서 영웅 카드가 소멸됨\n```\n\n---\n\n## 💡 요약: 왜 JPA(Java Persistence API)를 쓸까요?\n* 과거의 게임 서버 개발자들은 유저의 세이브 데이터를 저장하거나 가져오기 위해 복잡한 데이터베이스 명령어(SQL)를 전부 수동으로 만들어주어야 했습니다.\n* 하지만 **JPA** 덕분에 자바 코드로 만들어 둔 영웅 카드 객체 자체를 `save()` 장치에 밀어 넣기만 하면, 컴퓨터가 뒤에서 알아서 해당 데이터베이스에 완벽하게 동기화해 줍니다. \n* 덕분에 개발자는 데이터가 세이브 파일에 제대로 적히는지 일일이 걱정할 필요 없이, **\"게임 콘텐츠와 룰(비즈니스 로직)\"** 개발에 집중할 수 있습니다.\n",
+      "tags": [
+        "Spring",
+        "Java",
+        "Database",
+        "Web/Backend"
+      ],
+      "readingTime": 17
+    },
+    {
+      "id": "jpa2",
+      "date": "2026-07-24",
+      "topic": "JPA 실습 프로젝트: 반려동물 & 진료 예약 관리 서비스 (JPA2) 🐾",
+      "link": "docs/jpa2.md",
+      "title": "🐾 JPA 실습 프로젝트: 반려동물 & 진료 예약 관리 서비스 (JPA2)",
+      "content": "# 🐾 JPA 실습 프로젝트: 반려동물 & 진료 예약 관리 서비스 (JPA2)\n\n이 프로젝트는 자바 표준 ORM 기술인 **JPA(Java Persistence API)**의 기초부터 연관관계 매핑, 그리고 성능 최적화(N+1 문제 해결)까지 학습하기 위한 실습 애플리케이션입니다.\n\n공부를 처음 시작하거나 프로그래밍을 잘 모르는 사람도 쉽게 이해할 수 있도록 동작 원리와 파일 구조를 나누어 설명합니다.\n\n---\n\n## 📖 핵심 개념 쉽게 이해하기\n\n### 1. JPA(Java Persistence API)란 무엇인가요?\n* **JPA**는 자바 프로그램과 데이터베이스 사이에서 동작하는 **'번역기(통역사)'** 역할을 합니다.\n* 과거에는 개발자가 직접 복잡한 데이터베이스 명령어(SQL)를 하나하나 작성해야 했지만, JPA를 사용하면 자바 코드로 데이터를 조작할 때 JPA가 알아서 데이터베이스 명령어로 번역하여 실행해 줍니다.\n\n### 2. 엔티티(Entity)란 무엇인가요?\n* 데이터베이스의 테이블과 1:1로 매칭되는 자바 클래스입니다. 데이터베이스에 저장할 **'데이터의 설계도'**라고 생각하시면 편합니다.\n\n---\n\n## 📂 실습 핵심 파일 구조 및 역할 설명\n\n### 1. 뼈대 데이터 설계도 (Entity)\n* [Animal.java](file:///C:/workspace/jpa2/src/main/java/org/example/jpa2/entity/Animal.java): **동물 분류** (예: 강아지, 고양이, 앵무새 등)를 표현합니다.\n* [Pet.java](file:///C:/workspace/jpa2/src/main/java/org/example/jpa2/entity/Pet.java): **반려동물 정보** (이름, 나이 등)를 가집니다. 각 펫은 하나의 동물 분류에 속합니다. (N:1 연관관계)\n* [PetHistory.java](file:///C:/workspace/jpa2/src/main/java/org/example/jpa2/entity/PetHistory.java): 펫 정보가 몇 번 수정되었는지 횟수를 누적해서 기록하는 **로그(이력)** 설계도입니다.\n* [Doctor.java](file:///C:/workspace/jpa2/src/main/java/org/example/jpa2/entity/Doctor.java): 진료를 담당할 **수의사(의사) 정보** 설계도입니다.\n* [Reservation.java](file:///C:/workspace/jpa2/src/main/java/org/example/jpa2/entity/Reservation.java): 어떤 펫이 어떤 수의사에게 언제 진료를 받을지 기록하는 **예약 정보** 설계도입니다.\n\n### 2. 브라우저 요청 처리기 (Controller)\n* [MainController.java](file:///C:/workspace/jpa2/src/main/java/org/example/jpa2/controller/MainController.java): 펫 등록, 목록 조회, 상세 정보 보기, 수정, 삭제 기능을 제어합니다.\n* [ReservationController.java](file:///C:/workspace/jpa2/src/main/java/org/example/jpa2/controller/ReservationController.java): 수의사 등록 및 예약 신청, 예약 목록 조회 기능을 제어합니다.\n\n### 3. 비즈니스 로직 처리기 (Service)\n* [PetService.java](file:///C:/workspace/jpa2/src/main/java/org/example/jpa2/service/PetService.java): 펫의 등록/수정/삭제 시 DB 트랜잭션 처리 및 상세 로직을 실행합니다.\n* [ReservationService.java](file:///C:/workspace/jpa2/src/main/java/org/example/jpa2/service/ReservationService.java): 수의사와 예약의 데이터 조회 및 등록 과정을 처리합니다.\n\n### 4. 화면 페이지 (JSP Views)\n* [index.jsp](file:///C:/workspace/jpa2/src/main/webapp/WEB-INF/views/index.jsp): 메인 화면으로, 등록된 펫 목록 확인 및 새 펫/동물 종류를 추가할 수 있습니다.\n* [detail.jsp](file:///C:/workspace/jpa2/src/main/webapp/WEB-INF/views/detail.jsp): 특정 펫의 정보를 수정하거나 소프트 삭제(Soft Delete)를 수행합니다.\n* [reservation.jsp](file:///C:/workspace/jpa2/src/main/webapp/WEB-INF/views/reservation.jsp): 수의사를 등록하고 예약을 진행하며, 전체 예약 목록과 N+1 문제를 검증할 수 있는 예약 목록을 보여줍니다.\n* [n1.jsp](file:///C:/workspace/jpa2/src/main/webapp/WEB-INF/views/n1.jsp): JPA 성능 최적화(N+1 조회 문제 해결) 결과를 보여주는 단순 예약 조회 화면입니다.\n\n---\n\n## ⚠️ 필수 주의 사항 (오류 발생 원인 안내)\n\n이 프로젝트는 교육용 실습 예제로 제작되어 **예외 처리(방어 코드)가 구현되어 있지 않습니다.** 따라서 아래 상황에서는 오류 페이지가 발생하므로 주의해 주시기 바랍니다.\n\n### 1. 입력값을 누락한 채 전송할 때 (500 에러)\n* **현상**: 이름이나 나이, 의사 이름 등의 입력란을 **비워두고(공백 상태) '추가'나 '수정' 버튼을 누르면** 브라우저에 **Whitelabel Error Page(500 Internal Server Error)**가 표시됩니다.\n* **이유**: 데이터베이스 설계상 필수 값(`NOT NULL`)으로 입력되어야 하는 항목들에 빈 값이 전달되어 DB 저장 실패 예외가 발생하기 때문입니다.\n* **해결법**: 펫 이름, 나이, 의사 이름 등의 입력칸에 **반드시 값을 올바르게 채워 넣고** 버튼을 눌러주세요.\n\n### 2. 존재하지 않는 ID를 조회할 때 (500 에러)\n* **현상**: 브라우저 주소창에 `http://localhost:8080/999`와 같이 데이터베이스에 없는 임의의 ID를 입력하여 상세 페이지 조회를 시도하면 **500 에러**가 발생합니다.\n* **이유**: 소스 코드 내부에서 조회 실패 시 `orElseThrow()`를 호출하여 자바 예외(`NoSuchElementException`)를 발생시키기 때문입니다.\n\n---\n\n## 🚀 로컬 서버 실행 방법\n1. 로컬 PC에 Java 17 이상이 설치되어 있는지 확인합니다.\n2. 프로젝트 루트 폴더에 데이터베이스 연결 정보를 담은 `C:\\workspace\\jpa2\\.env.dev` 파일이 존재하는지 확인합니다.\n3. 터미널 또는 IDE에서 프로젝트를 실행한 뒤 브라우저에서 `http://localhost:8080`으로 접속합니다.\n",
+      "tags": [
+        "Spring",
+        "Java",
+        "Database",
+        "Web/Backend"
+      ],
+      "readingTime": 9
+    },
+    {
+      "id": "jpa3",
+      "date": "2026-07-27",
+      "topic": "Spring Data JPA 실습 프로젝트 (JPA3) 📱",
+      "link": "docs/jpa3.md",
+      "title": "📱 Spring Data JPA 실습 프로젝트 (JPA3)",
+      "content": "# 📱 Spring Data JPA 실습 프로젝트 (JPA3)\n\n이 프로젝트는 **Spring Data JPA**의 핵심적인 고급 기능들을 실습하고 이해하기 위해 구성된 프로젝트입니다.  \n초보자분들도 쉽게 학습할 수 있도록 실습에서 다룬 주요 개념(Auditing, Dirty Checking, Transaction, Self-Invocation, Paging/Sorting)을 실제 코드 예시와 함께 단계별로 정리해 두었습니다.\n\n---\n\n## 🛠️ 기술 스택 (Tech Stack)\n- **Java**: 17\n- **Framework**: Spring Boot 4.1.0\n- **Build Tool**: Maven\n- **Database**: PostgreSQL\n- **JPA & ORM**: Spring Data JPA, Hibernate, QueryDSL (JPAQueryFactory 설정)\n- **View**: JSP (JavaServer Pages) & JSTL\n\n---\n\n## 📂 프로젝트 구조 및 주요 파일\n각 파일을 클릭하면 해당 실습 코드로 바로 이동하여 확인하실 수 있습니다.\n\n- **Entity & Configuration**\n  - [JPAConfig.java](file:///C:/workspace/jpa3/src/main/java/org/example/jpa3/config/JPAConfig.java): Auditing 기능 활성화 및 QueryDSL `JPAQueryFactory` 빈 설정\n  - [BaseEntity.java](file:///C:/workspace/jpa3/src/main/java/org/example/jpa3/entity/BaseEntity.java): 생성 시간/수정 시간을 자동으로 기록하는 공통 부모 엔티티\n  - [Phone.java](file:///C:/workspace/jpa3/src/main/java/org/example/jpa3/entity/Phone.java): 휴대폰 정보를 담은 메인 데이터베이스 엔티티\n\n- **Repository (데이터 접근 계층)**\n  - [PhoneRepository.java](file:///C:/workspace/jpa3/src/main/java/org/example/jpa3/repository/PhoneRepository.java): 휴대폰 저장소의 비즈니스용 인터페이스\n  - [JPAPhoneRepository.java](file:///C:/workspace/jpa3/src/main/java/org/example/jpa3/repository/JPAPhoneRepository.java): Spring Data JPA에서 기본으로 제공하는 `JpaRepository` 구현체\n  - [PhoneRepositoryImpl.java](file:///C:/workspace/jpa3/src/main/java/org/example/jpa3/repository/PhoneRepositoryImpl.java): 외부 인터페이스와 JPA/QueryDSL 기술을 연결해주는 구현 클래스\n\n- **Service (비즈니스 로직 계층)**\n  - [PhoneService.java](file:///C:/workspace/jpa3/src/main/java/org/example/jpa3/service/PhoneService.java): 트랜잭션, 더티 체킹, 롤백 규칙, 자가 호출 문제를 다루는 핵심 서비스 클래스\n  - [PhoneService2.java](file:///C:/workspace/jpa3/src/main/java/org/example/jpa3/service/PhoneService2.java): 프록시(AOP) 동작과 트랜잭션 전파(Propagation)를 검증하기 위한 서브 서비스 클래스\n\n- **Controller & DTO & UI**\n  - [MainController.java](file:///C:/workspace/jpa3/src/main/java/org/example/jpa3/controller/MainController.java): 페이지네이션 및 생성/수정 요청을 받아 처리하는 웹 컨트롤러\n  - [PhoneFormDTO.java](file:///C:/workspace/jpa3/src/main/java/org/example/jpa3/dto/PhoneFormDTO.java): 클라이언트로부터 전달되는 폰 정보를 담는 Java 17 Record DTO\n  - [index.jsp](file:///C:/workspace/jpa3/src/main/webapp/WEB-INF/views/index.jsp): 화면에 폰 목록을 렌더링하고, 생성/수정/페이지 정렬 테스트가 가능한 UI 페이지\n\n---\n\n## 💡 핵심 실습 개념 이해하기 (Beginner's Guide)\n\n### 1. Spring Data JPA Auditing (등록/수정 시간 자동 생성)\n데이터베이스의 테이블마다 등록 시간(`createdAt`)과 수정 시간(`updatedAt`)을 매번 직접 입력하는 것은 매우 번거롭습니다. Spring Data JPA는 이를 자동으로 넣어주는 **Auditing** 기능을 지원합니다.\n\n* **어떻게 동작하나요?**\n  1. [BaseEntity.java](file:///C:/workspace/jpa3/src/main/java/org/example/jpa3/entity/BaseEntity.java)에 `@MappedSuperclass`를 붙여 다른 엔티티들이 상속받을 수 있도록 하고, `@EntityListeners(AuditingEntityListener.class)`를 붙여 변경 감지 리스너를 장착합니다.\n  2. 필드 위에 `@CreatedDate`와 `@LastModifiedDate`를 붙입니다.\n  3. [JPAConfig.java](file:///C:/workspace/jpa3/src/main/java/org/example/jpa3/config/JPAConfig.java) 설정 클래스 상단에 `@EnableJpaAuditing`을 선언하여 기능을 활성화합니다.\n  4. 이후 [Phone.java](file:///C:/workspace/jpa3/src/main/java/org/example/jpa3/entity/Phone.java) 엔티티가 저장되거나 수정될 때 데이터베이스에 시간이 자동으로 기록됩니다.\n\n---\n\n### 2. Dirty Checking (더티 체킹 / 변경 감지)\n데이터를 수정할 때 보통 `update()` 나 `save()` 메서드를 직접 호출해야 할 것 같지만, JPA 환경에서는 영속 상태의 엔티티 값만 변경하면 자동으로 수정 쿼리가 실행됩니다. 이를 **더티 체킹(변경 감지)**이라고 부릅니다.\n\n* **동작 원리**\n  - 트랜잭션 범위 안에서 데이터베이스로부터 데이터를 조회해 오면, JPA는 그 데이터의 초기 상태를 캡처(Snapshot)해 둡니다.\n  - 비즈니스 로직에 의해 엔티티의 상태(예: 이름 수정)가 변경된 상태에서 트랜잭션이 종료(Commit)되는 시점에, JPA는 **초기 Snapshot과 현재 상태를 비교**합니다.\n  - 달라진 부분이 있다면 **자동으로 `UPDATE` SQL을 생성하여 실행**합니다.\n\n```java\n// PhoneService.java 코드 예시\n@Transactional // <- 트랜잭션 시작\npublic void changeName(Long id, String name) {\n    Phone phone = findById(id); // DB에서 조회 (JPA 영속성 컨텍스트 관리 하에 들어감)\n    phone.changeName(name);     // 값을 수정함 (따로 save()를 호출하지 않음!)\n} // <- 트랜잭션 종료 시 변경 사항 감지 후 UPDATE SQL 자동 실행!\n```\n\n---\n\n### 3. Spring 트랜잭션의 예외 처리와 롤백 (Rollback) 규칙\nSpring의 `@Transactional`은 기본적으로 어떤 에러(Exception)가 났는지에 따라 롤백을 할지 안 할지가 결정됩니다.\n\n* **기본 규칙**: \n  - **Unchecked Exception** (런타임 예외: `RuntimeException`, `Error` 등): **자동으로 전체 롤백**\n  - **Checked Exception** (`Exception` 등): **기본적으로 롤백되지 않고 커밋됨** (중요!)\n* **실습 코드 설명**:\n  [PhoneService.java](file:///C:/workspace/jpa3/src/main/java/org/example/jpa3/service/PhoneService.java#L80-L95)에서는 이 규칙을 커스텀하게 조절하는 예제를 실습했습니다.\n  ```java\n  @Transactional(\n      rollbackFor = { NullPointerException.class, NoSuchElementException.class }, // 이 예외들이 발생하면 롤백해라\n      noRollbackFor = ArithmeticException.class // 0으로 나누는 수학적 에러가 발생해도 롤백하지 말고 그냥 커밋해라!\n  )\n  public void tx3() {\n      save(Phone.builder().name(\"tx3\").build());\n      System.out.println(1 / 0); // ArithmeticException 발생! (롤백하지 않고 'tx3' 저장 커밋 처리됨)\n  }\n  ```\n\n---\n\n### 4. Spring AOP 자가 호출 문제 (Self-Invocation)\nSpring에서 `@Transactional`은 **AOP(Aspect Oriented Programming) 프록시 패턴**을 사용하여 적용됩니다. 즉, 외부에서 서비스 객체를 호출할 때 Spring이 만든 가짜 껍데기(Proxy)가 트랜잭션을 시작해주고 실제 비즈니스 메서드를 호출해 주는 방식입니다.\n\n* **자가 호출(Self-Invocation) 문제**:\n  동일한 클래스 내에서 A 메서드가 B 메서드를 호출하는 경우, Spring 프록시를 통하지 않고 내부의 진짜 메서드가 직접 호출됩니다. 이 때문에 B 메서드에 붙은 `@Transactional(propagation = Propagation.REQUIRES_NEW)` 같은 트랜잭션 설정이 완전히 무시됩니다.\n* **실습 예제 코드 분석**:\n  - **실패 사례**: [PhoneService.java](file:///C:/workspace/jpa3/src/main/java/org/example/jpa3/service/PhoneService.java#L73-L78)의 `tx2Out()` -> 내부 메서드 `tx2()`를 직접 호출하므로 `tx2()`의 트랜잭션 전파 속성이 무시됨.\n  - **성공 사례 (외부 호출)**: [PhoneService2.java](file:///C:/workspace/jpa3/src/main/java/org/example/jpa3/service/PhoneService2.java#L12-L17)의 `tx2Out()` -> 외부 빈인 `phoneService`의 `tx2()`를 호출하므로 Spring 프록시를 정상적으로 통과하여 `REQUIRES_NEW`가 동작함.\n\n---\n\n### 5. Paging & Sorting (정렬과 페이징 처리)\n데이터베이스의 대용량 데이터를 일정한 크기 단위로 나누어 보여주는 기능입니다. Spring MVC와 Spring Data JPA는 `Pageable` 인터페이스를 제공하여 이 처리를 매우 단순화해줍니다.\n\n* **컨트롤러에서 다루는 방법**:\n  [MainController.java](file:///C:/workspace/jpa3/src/main/java/org/example/jpa3/controller/MainController.java#L31-L48)의 `/list` 엔드포인트를 참고하세요.\n  ```java\n  @GetMapping(\"/list\")\n  public String list(\n          @PageableDefault(\n                  page = 0,               // 기본 페이지 번호 (0부터 시작)\n                  size = 5,               // 기본 페이지 크기 (5개씩 보기)\n                  sort = \"id\",            // 정렬 기준 필드\n                  direction = Sort.Direction.DESC // 정렬 방향 (내림차순)\n          ) Pageable pageable, \n          Model model) {\n      model.addAttribute(\"phones\", phoneService.findAll(pageable).toList());\n      return \"index\";\n  }\n  ```\n  - 클라이언트가 브라우저 주소창에 `http://localhost:8080/list?page=0&size=5&sort=name,asc` 와 같이 파라미터를 넘겨주면, Spring이 알아서 `Pageable` 객체로 바인딩하여 쿼리에 필요한 정렬 조건과 offset/limit 조회를 수행합니다.\n\n---\n\n## 🏃 실행 및 테스트 방법\n\n1. **환경 설정 파일 작성**\n   - 루트 경로에 있는 [.env.dev.example](file:///C:/workspace/jpa3/.env.dev.example) 파일을 복사하여 `.env.dev` 파일을 생성합니다.\n   - 본인의 로컬 PostgreSQL 데이터베이스 연결 환경에 맞게 `DB_URL`, `DB_USERNAME`, `DB_PASSWORD` 등을 기입합니다.\n\n2. **애플리케이션 실행**\n   IDE를 이용하거나 아래의 Maven 래퍼 명령어로 구동할 수 있습니다.\n   ```bash\n   # application-dev.properties 프로파일 설정으로 실행됨\n   ./mvnw spring-boot:run\n   ```\n\n3. **기능 검증**\n   - `http://localhost:8080`에 접속하여 데이터 추가, 이름 수정, 정렬 조건 변경에 따른 페이징이 제대로 일어나는지 확인합니다.\n",
+      "tags": [
+        "Spring",
+        "Java",
+        "Database",
+        "Web/Backend"
+      ],
+      "readingTime": 18
+    },
+    {
+      "id": "querydsl",
+      "date": "2026-07-27",
+      "topic": "Querydsl 실습 프로젝트 (Spring Boot + Spring Data JPA + Querydsl) 🍓",
+      "link": "docs/querydsl.md",
+      "title": "🍓 Querydsl 실습 프로젝트 (Spring Boot + Spring Data JPA + Querydsl)",
+      "content": "# 🍓 Querydsl 실습 프로젝트 (Spring Boot + Spring Data JPA + Querydsl)\n\n이 프로젝트는 Spring Boot 환경에서 **Spring Data JPA**와 **Querydsl**을 연동하여, 보다 안전하고 유연하게 데이터베이스를 조회하는 방법을 배우기 위한 실습 프로젝트입니다. \n\n초보자분들도 쉽게 이해할 수 있도록 프로젝트 구조와 핵심 개념, 구현된 코드의 흐름을 정리해 두었습니다.\n\n---\n\n## 💡 Querydsl이란 무엇이고, 왜 사용할까요?\n\n보통 JPA를 사용할 때 `@Query` 어노테이션 안에 SQL과 유사한 **JPQL(Java Persistence Query Language)**을 직접 문자열로 작성하여 조회 쿼리를 만듭니다. \n하지만 JPQL은 단순 문자열이기 때문에 아래와 같은 치명적인 단점이 있습니다.\n* **오타 체크 불가**: 쿼리 문자열에 오타가 있어도 컴파일 시점(빌드할 때)에는 에러가 발생하지 않고, 실제 서버가 실행되어 해당 기능이 작동할 때(런타임) 에러가 발생합니다.\n* **동적 쿼리 작성의 어려움**: 조건에 따라 쿼리가 바뀌어야 하는 경우(예: 제목만 검색할 때, 내용도 같이 검색할 때 등) 문자열을 더하고 합치는 과정이 매우 복잡하고 지저분해집니다.\n\n**Querydsl**은 이러한 문제를 해결하기 위해 등장했습니다!\n* **컴파일 시점 에러 탐지**: SQL을 자바 코드로 작성할 수 있게 도와주어, 오타가 나거나 타입이 맞지 않으면 빌드 시점에 바로 컴파일 에러를 띄워줍니다.\n* **동적 쿼리 작성 용이**: 자바의 메서드와 조건식을 활용해 복잡한 검색 조건도 깔끔하게 구현할 수 있습니다.\n* **자동 완성 지원**: IDE(IntelliJ 등)의 코드 자동 완성 기능을 사용할 수 있어 개발 생산성이 향상됩니다.\n\n---\n\n## ⚙️ 프로젝트 환경 설정\n\n### 1. `pom.xml` (의존성 및 Q-Class 생성 설정)\nQuerydsl을 사용하려면 자바 엔티티 클래스(예: `Board.java`)를 분석하여 쿼리 작성용 도구인 **Q-Class(QBoard.java)**를 빌드할 때 자동으로 생성해주어야 합니다.\n이를 위해 `pom.xml`에 Querydsl 의존성과 `apt-maven-plugin` 설정이 포함되어 있습니다.\n\n### 2. `JpaConfig.java` (설정 클래스)\nQuerydsl의 핵심 도구인 `JPAQueryFactory`와, 생성 시간/수정 시간을 자동으로 관리해주는 JPA Auditing 기능을 설정하는 클래스입니다.\n* **[`JpaConfig.java`](file:///C:/workspace/querydsl/src/main/java/org/example/querydsl/config/JpaConfig.java)**\n```java\n@Configuration\n@EnableJpaAuditing // JPA Auditing(생성/수정일자 자동 기록) 기능 활성화\npublic class JpaConfig {\n\n    @Bean\n    public JPAQueryFactory jpaQueryFactory(EntityManager entityManager) {\n        // Querydsl 쿼리를 생성하고 실행하기 위해 JPAQueryFactory를 빈으로 등록합니다.\n        return new JPAQueryFactory(entityManager);\n    }\n}\n```\n\n---\n\n## 📂 핵심 코드 설명\n\n### 1. 데이터 모델 (Entity)\n* **[`BaseEntity.java`](file:///C:/workspace/querydsl/src/main/java/org/example/querydsl/entity/BaseEntity.java)**: 모든 테이블에 공통으로 들어가는 `createdAt`(등록시간)과 `updatedAt`(수정시간)을 정의한 추상 클래스입니다. `@EntityListeners(AuditingEntityListener.class)` 설정을 통해 데이터 저장/변경 시 자동으로 시간이 입력됩니다.\n* **[`Board.java`](file:///C:/workspace/querydsl/src/main/java/org/example/querydsl/entity/Board.java)**: 게시판 데이터를 정의한 엔티티 클래스입니다. `BaseEntity`를 상속받아 시간 속성을 자동으로 상속받습니다.\n\n### 2. 데이터 저장소 (Repository)\n이 프로젝트는 단순 CRUD용 JPA Repository와 복잡한 조회용 Querydsl Repository를 나누어 사용하는 구조를 연습합니다.\n* **[`JPABoardRepository.java`](file:///C:/workspace/querydsl/src/main/java/org/example/querydsl/repository/JPABoardRepository.java)**: Spring Data JPA의 `JpaRepository` 인터페이스를 상속받아 기본 CRUD(save, delete, findById 등) 기능을 제공받습니다.\n* **[`QBoardRepository.java`](file:///C:/workspace/querydsl/src/main/java/org/example/querydsl/repository/QBoardRepository.java)**: **Querydsl 전용 저장소**입니다. 빌드 시 생성된 `QBoard` 객체와 `JPAQueryFactory`를 사용하여 직접 데이터베이스를 조회하는 자바 코드를 작성합니다.\n```java\n@Repository\n@RequiredArgsConstructor\npublic class QBoardRepository {\n    private final JPAQueryFactory jpaQueryFactory;\n\n    public List<Board> findAll() {\n        QBoard board = QBoard.board; // 빌드 시 자동 생성되는 Q-Class 객체 사용\n        return jpaQueryFactory\n                .selectFrom(board) // select * from board\n                .orderBy(board.id.desc()) // order by id desc (최신 글이 먼저 나오도록 정렬)\n                .where(board.title.contains(\"딸기\")) // where title like '%딸기%' (제목에 \"딸기\"가 포함된 게시글만 필터링)\n                .fetch(); // 쿼리 실행 및 결과를 리스트로 조회\n    }\n}\n```\n\n### 3. 비즈니스 로직 (Service)\n* **[`BoardService.java`](file:///C:/workspace/querydsl/src/main/java/org/example/querydsl/service/BoardService.java)**: 컨트롤러로부터 요청을 받아 비즈니스 로직을 수행합니다. \n  * 게시글 등록 시에는 `JPABoardRepository`를 이용해 데이터를 안전하게 `save`합니다.\n  * 게시글 목록 조회 시에는 `QBoardRepository`를 이용하여 필터링 및 정렬이 적용된 결과를 가져옵니다.\n\n### 4. 컨트롤러 및 뷰 (Web MVC)\n* **[`BoardController.java`](file:///C:/workspace/querydsl/src/main/java/org/example/querydsl/controller/BoardController.java)**: \n  * `GET /`: `BoardService.findAll()`을 호출하여 제목에 \"딸기\"가 들어간 최신 게시글 목록을 불러와 `index.jsp` 템플릿에 전달합니다.\n  * `POST /`: 사용자가 웹 화면에서 입력한 제목과 내용을 DTO([`BoardFormDTO.java`](file:///C:/workspace/querydsl/src/main/java/org/example/querydsl/dto/BoardFormDTO.java))로 전달받은 후, 엔티티로 변환하여 새로운 게시글을 등록합니다.\n* **[`index.jsp`](file:///C:/workspace/querydsl/src/main/webapp/WEB-INF/views/index.jsp)**: 게시글 등록 폼과 게시글 목록을 화면에 렌더링하는 JSP 파일입니다.\n\n---\n\n## 🏃‍♂️ 실행 및 동작 확인 방법\n\n1. **프로젝트 빌드 (Q-Class 생성)**\n   Querydsl 코드가 정상 작동하기 위해서는 최초 1회 또는 엔티티 변경 시 Maven 컴파일을 수행하여 Q-Class를 생성해야 합니다.\n   ```bash\n   ./mvnw compile\n   ```\n   * 빌드가 완료되면 `target/generated-sources/annotations` 경로 하위에 `QBoard.java` 파일이 자동으로 생성됩니다.\n\n2. **애플리케이션 실행**\n   * 메인 클래스인 [`QuerydslApplication.java`](file:///C:/workspace/querydsl/src/main/java/org/example/querydsl/QuerydslApplication.java)를 실행합니다.\n   * 브라우저에서 `http://localhost:8080`에 접속합니다.\n\n3. **기능 테스트**\n   * 화면의 입력창에 **제목**과 **내용**을 입력한 뒤 **[생성]** 버튼을 누릅니다.\n   * **필터링 테스트**: 제목에 `\"딸기\"`라는 단어가 포함된 게시글만 화면 하단의 목록에 최신순(ID 역순)으로 노출되는지 확인합니다. (예: `\"딸기 케이크\"`는 목록에 표시되지만, `\"사과 주스\"`는 화면 목록에 노출되지 않음)\n",
+      "tags": [
+        "Spring",
+        "Java",
+        "Database",
+        "Web/Backend"
+      ],
+      "readingTime": 13
+    },
+    {
+      "id": "springai",
+      "date": "2026-07-28",
+      "topic": "Spring AI 실습 프로젝트 (Movie Recommendation System) 🌱",
+      "link": "docs/springai.md",
+      "title": "🌱 Spring AI 실습 프로젝트 (Movie Recommendation System)",
+      "content": "# 🌱 Spring AI 실습 프로젝트 (Movie Recommendation System)\n\n이 프로젝트는 **Spring AI** 프레임워크를 사용하여 다양한 대형 언어 모델(LLM) 공급자(Provider)를 연동하고, AI 응답 결과를 웹 애플리케이션으로 연동하며, 최종적으로 구조화된 데이터(Structured Output)로 영화 추천을 받는 실습 내용을 담고 있습니다.\n\n---\n\n## 💡 핵심 개념 이해하기\n\n처음 공부하시는 분들을 위해 Spring AI의 핵심 개념들을 먼저 정리합니다.\n\n### 1. Spring AI란?\n스프링 생태계에서 인공지능(AI) 모델들을 일관된 인터페이스로 쉽게 다룰 수 있도록 도와주는 스프링 공식 프로젝트입니다. 개발자는 각 AI 제공사(OpenAI, Google, Groq 등)의 SDK를 개별적으로 공부할 필요 없이, Spring AI가 제공하는 공통 인터페이스를 통해 편리하게 AI 서비스를 통합할 수 있습니다.\n\n### 2. ChatModel vs ChatClient\n* **`ChatModel` (저수준 인터페이스)**: AI API와의 물리적 통신을 담당하는 기본 빈(Bean) 객체입니다. (예: `OpenAiChatModel`, `GoogleGenAiChatModel`)\n* **`ChatClient` (고수준 인터페이스 - 권장)**: `ChatModel`을 랩핑하여 추가적인 Fluent API(체이닝 메소드), 디폴트 시스템 메시지, 기본 옵션(모델명, 온도 등)을 편리하게 지정하고 요청을 처리할 수 있는 스프링 공식 추천 클라이언트 인터페이스입니다.\n\n### 3. Structured Output (구조화된 출력)\n* 기본적으로 LLM은 문자열(Markdown/Text)로 답변합니다. 하지만 실무에서는 이를 JSON 포맷이나 자바 객체(DTO)로 변환해 데이터베이스에 저장하거나 가공해야 합니다.\n* Spring AI의 `responseEntity(Class)` 기능을 이용하면, AI 모델이 우리의 자바 DTO 스키마에 딱 맞춰 JSON 형태로 답변하도록 유도하고, 스프링이 이를 자동으로 자바 객체로 역직렬화(Parsing)해 줍니다.\n\n---\n\n## 🛠️ 주요 환경 설정 및 의존성\n\n### 1. 의존성 정의 ([pom.xml](file:///C:/workspace/springai/pom.xml))\n스프링 부트 `4.0.7` 환경에서 Spring AI `2.0.0` 버전을 연동하기 위해 `spring-ai-bom`을 사용하고, 다음과 같은 스타터 라이브러리를 추가했습니다.\n* **Google Gemini 연동**: `spring-ai-starter-model-google-genai`\n* **OpenAI API 호환 연동(Groq, NIM)**: `spring-ai-starter-model-openai` (Groq 및 NVIDIA NIM은 OpenAI API 규격을 공유하므로 이 라이브러리를 재사용합니다.)\n\n### 2. 환경변수 관리 ([.env.dev](file:///C:/workspace/springai/.env.dev))\nAPI Key와 같은 민감한 정보는 소스코드에 직접 노출하지 않고 `.env.dev` 파일에 따로 보관합니다. (샘플 양식은 [.env.dev.sample](file:///C:/workspace/springai/.env.dev.sample) 참고)\n```properties\nGROQ_API_KEY=YOUR_GROQ_API_KEY\nGEMINI_API_KEY=YOUR_GEMINI_API_KEY\nNIM_API_KEY=YOUR_NVIDIA_NIM_API_KEY\n```\n\n### 3. 스프링 설정 ([application-dev.properties](file:///C:/workspace/springai/src/main/resources/application-dev.properties))\n* `spring.config.import=optional:file:.env.dev[.properties]` 설정을 통해 `.env.dev`의 변수들을 자동으로 스프링 프로퍼티로 바인딩합니다.\n* 각 Provider별 Base URL, API Key 및 디폴트 모델을 아래와 같이 선언하여 관리합니다.\n  * **Groq Base URL**: `https://api.groq.com/openai/v1`\n  * **NVIDIA NIM Base URL**: `https://integrate.api.nvidia.com/v1`\n\n---\n\n## 💻 주요 소스 코드 분석\n\n### 1. AI 클라이언트 Configuration ([ChatClientConfig.java](file:///C:/workspace/springai/src/main/java/org/example/springai/config/ChatClientConfig.java))\n세 가지 다른 AI 모델 서비스인 **Groq**, **Google Gemini**, **NVIDIA NIM**을 각각 Spring 빈(Bean)으로 커스터마이징하여 등록합니다.\n* **시스템 메시지 통일**: 모든 클라이언트에 본인 모델 정보를 상단에 알리고, 식사 메뉴를 추천하도록 하는 기본 시스템 프롬프트를 지정했습니다.\n* **Gemini 설정**: `GoogleGenAiChatOptions`를 통해 `gemini-3.5-flash-lite` 모델을 설정하고, 생각 수준을 `thinkingLevel(GoogleGenAiThinkingLevel.LOW)`로 지정했습니다.\n* **NIM 설정**: `NimProperties`([NimProperties.java](file:///C:/workspace/springai/src/main/java/org/example/springai/domain/NimProperties.java))로부터 base-url과 api-key를 주입받아 `OpenAiChatModel` 인스턴스를 직접 빌드하여 연동했습니다.\n\n### 2. 비즈니스 로직 서비스 ([ChatService.java](file:///C:/workspace/springai/src/main/java/org/example/springai/service/ChatService.java))\n```java\n// 1. 일반 대화 서비스 (Provider 분기 처리)\npublic String chat(ChatDTO dto) {\n    switch (dto.provider()) {\n        case groq -> {\n            return groqChatClient.prompt()\n                    .system(\"제공 받은 내용을 Y 또는 N으로 답하시오\")\n                    .user(dto.message())\n                    .options(ChatOptions.builder()\n                            .model(\"llama-3.3-70b-versatile\") // 런타임에 동적 모델 교체\n                            .temperature(0.0)\n                            .maxTokens(16))\n                    .call().content();\n        }\n        case google -> {\n            return geminiChatClient.prompt().user(dto.message()).call().content();\n        }\n        case nim -> {\n            return nimChatClient.prompt().user(dto.message()).call().content();\n        }\n        default -> throw new RuntimeException(\"지원하지 않는 Provider\");\n    }\n}\n\n// 2. 구조화된 영화 추천 서비스 (Structured Output)\npublic ResponseEntity<ChatResponse, MovieRecommendationDTO> recommend(ChatDTO dto) {\n    return geminiChatClient.prompt()\n            .system(\"이전 프롬프트는 무시하고 다음 키워드에 어울리는 영화 추천.\")\n            .user(dto.message())\n            .call()\n            .responseEntity(MovieRecommendationDTO.class); // DTO 클래스를 주입하여 객체 파싱 자동화\n}\n```\n\n### 3. 구조화 데이터 DTO ([MovieRecommendationDTO.java](file:///C:/workspace/springai/src/main/java/org/example/springai/dto/MovieRecommendationDTO.java))\n영화 추천 데이터를 JSON 포맷 형태로 받아오기 위한 레코드 클래스입니다.\n```java\n@Builder\npublic record MovieRecommendationDTO(\n        String title,  // 영화 제목\n        int year,      // 개봉 연도\n        String genre,  // 장르\n        String reason  // 추천 이유\n) {}\n```\n\n### 4. 컨트롤러 및 JSP 화면 연동\n* **[MainController.java](file:///C:/workspace/springai/src/main/java/org/example/springai/controller/MainController.java)**:\n  * 사용자의 질문 메시지와 선택한 AI 제공사(`ModelProvider`)를 `ChatDTO`로 바인딩받아 `ChatService.recommend()`를 실행합니다.\n  * 가져온 결과 객체(`MovieRecommendationDTO`)와 API 호출 메타데이터(토큰 정보 등)를 세션에 포맷팅하여 저장 후 redirect합니다.\n* **[index.jsp](file:///C:/workspace/springai/src/main/webapp/WEB-INF/views/index.jsp)**:\n  * 화면 상에서 사용자의 질문과 Provider를 입력받는 간단한 폼 인터페이스를 제공합니다.\n  * AI가 반환한 답변 문자열 및 마크다운 형식을 브라우저 단에서 `marked.min.js`를 사용해 깨끗하게 렌더링하여 사용자에게 보여줍니다.\n\n---\n\n## 🏃 실행 및 테스트 방법\n1. 로컬 환경에 맞게 `GROQ_API_KEY`, `GEMINI_API_KEY`, `NIM_API_KEY`를 획득합니다.\n2. 루트 디렉토리에 `.env.dev` 파일을 생성하고 획득한 키 정보를 작성합니다.\n3. 프로젝트를 구동합니다:\n   ```bash\n   mvnw spring-boot:run\n   ```\n4. 브라우저에서 `http://localhost:8080`에 접속하여 원하시는 키워드(예: \"행복\", \"SF\")를 입력하고 원하는 Provider를 선택한 뒤 영화 추천 테스트를 진행합니다.\n",
+      "tags": [
+        "Spring",
+        "Java",
+        "Database",
+        "AI/RAG",
+        "Web/Backend"
+      ],
+      "readingTime": 14
+    },
+    {
+      "id": "springai2",
+      "date": "2026-07-29",
+      "topic": "Spring AI 2.0 실습 가이드 (Spring Boot 4.x + Groq AI) 🍃",
+      "link": "docs/springai2.md",
+      "title": "🍃 Spring AI 2.0 실습 가이드 (Spring Boot 4.x + Groq AI)",
+      "content": "# 🍃 Spring AI 2.0 실습 가이드 (Spring Boot 4.x + Groq AI)\n\nSpring Boot와 **Spring AI** 라이브러리를 활용하여 Groq 클라우드 API를 연동하고, 정형 데이터 출력, Advisor 활용, 그리고 데이터베이스(MyBatis / JPA)를 이용한 대화 내용 저장(Chat Memory)까지 구현한 실습 안내서입니다. 처음 공부하는 사람도 쉽게 따라 할 수 있도록 단계별로 구성되어 있습니다.\n\n---\n\n## 📂 프로젝트 구조 (Directory Structure)\n\n실습에 사용된 핵심 소스 코드 파일들의 위치와 역할입니다:\n\n*   **`src/main/java/org/example/springai2/`**\n    *   [ServletInitializer.java](file:///C:/workspace/springai2/src/main/java/org/example/springai2/ServletInitializer.java) / [Springai2Application.java](file:///C:/workspace/springai2/src/main/java/org/example/springai2/Springai2Application.java): 애플리케이션 시작점\n    *   [advisor/TimingLoggerAdvisor.java](file:///C:/workspace/springai2/src/main/java/org/example/springai2/advisor/TimingLoggerAdvisor.java): AI 호출 시간 측정을 위한 커스텀 어드바이저\n    *   [config/ChatMemoryConfig.java](file:///C:/workspace/springai2/src/main/java/org/example/springai2/config/ChatMemoryConfig.java): 인메모리, MyBatis, JPA 대화 메모리 및 ChatClient 빈(Bean) 설정\n    *   [controller/MainController.java](file:///C:/workspace/springai2/src/main/java/org/example/springai2/controller/MainController.java): HTTP 요청 처리 컨트롤러 (JSP 뷰 연동)\n    *   [dto/](file:///C:/workspace/springai2/src/main/java/org/example/springai2/dto/)\n        *   [ChatDTO.java](file:///C:/workspace/springai2/src/main/java/org/example/springai2/dto/ChatDTO.java): 채팅 메시지 전송용 데이터 모델\n        *   [FoodDTO.java](file:///C:/workspace/springai2/src/main/java/org/example/springai2/dto/FoodDTO.java): 구조화된 음식 추천 결과를 담는 DTO\n    *   [entity/](file:///C:/workspace/springai2/src/main/java/org/example/springai2/entity/)\n        *   [ChatMessageMyBatis.java](file:///C:/workspace/springai2/src/main/java/org/example/springai2/entity/ChatMessageMyBatis.java): MyBatis용 대화 기록 엔티티\n        *   [ChatMessageJPA.java](file:///C:/workspace/springai2/src/main/java/org/example/springai2/entity/ChatMessageJPA.java): JPA용 대화 기록 엔티티\n    *   [mapper/ChatMessageMapper.java](file:///C:/workspace/springai2/src/main/java/org/example/springai2/mapper/ChatMessageMapper.java): MyBatis 매퍼 인터페이스\n    *   [repository/](file:///C:/workspace/springai2/src/main/java/org/example/springai2/repository/)\n        *   [ChatMemoryJpaRepository.java](file:///C:/workspace/springai2/src/main/java/org/example/springai2/repository/ChatMemoryJpaRepository.java): Spring Data JPA 인터페이스\n        *   [JpaChatMemoryRepository.java](file:///C:/workspace/springai2/src/main/java/org/example/springai2/repository/JpaChatMemoryRepository.java): JPA 기반 ChatMemoryRepository 구현체\n        *   [MyBatisChatMemoryRepository.java](file:///C:/workspace/springai2/src/main/java/org/example/springai2/repository/MyBatisChatMemoryRepository.java): MyBatis 기반 ChatMemoryRepository 구현체\n    *   [service/](file:///C:/workspace/springai2/src/main/java/org/example/springai2/service/)\n        *   [ChatService.java](file:///C:/workspace/springai2/src/main/java/org/example/springai2/service/ChatService.java): 기초적인 AI 연동, 구조화 출력, 기본 어드바이저 테스트 서비스\n        *   [ChatService2.java](file:///C:/workspace/springai2/src/main/java/org/example/springai2/service/ChatService2.java): 대화 기록이 연동된 대화형 서비스\n\n---\n\n## 🛠️ 1단계. Spring AI와 Groq API 연동하기\n\n### 1. 의존성 설정 (`pom.xml`)\nSpring AI를 사용하기 위해 OpenAI 라이브러리를 추가하고, Groq API가 OpenAI 호환 규격을 사용하므로 base-url을 변경하여 연동합니다.\n```xml\n<dependency>\n    <groupId>org.springframework.ai</groupId>\n    <artifactId>spring-ai-starter-model-openai</artifactId>\n</dependency>\n```\n\n### 2. 설정 파일 작성 (`application-dev.properties` & `.env.dev`)\nAPI Key와 접속 정보를 설정합니다. API 키는 보안을 위해 `.env.dev` 파일에 따로 분리합니다.\n\n*   **`application-dev.properties`**\n    ```properties\n    # .env.dev 환경 변수 자동 임포트 설정\n    spring.config.import=optional:file:.env.dev[.properties]\n\n    # Groq OpenAI 호환 주소로 설정\n    spring.ai.openai.api-key=${GROQ_API_KEY}\n    spring.ai.openai.base-url=https://api.groq.com/openai/v1\n    spring.ai.openai.chat.model=openai/gpt-oss-120b\n    ```\n*   **`.env.dev`**\n    ```properties\n    GROQ_API_KEY=gsk_your_real_api_key_here\n    ```\n\n---\n\n## 💡 2단계. 기본적인 AI 요청 및 Prompt 다루기\n\n### ChatModel vs ChatClient\n*   **`ChatModel`**: LLM 엔진과 직접 통신하는 로우레벨 인터페이스입니다.\n*   **`ChatClient`**: Spring AI 2.0에서 권장하는 하이레벨 유틸리티 인터페이스입니다. 빌더 패턴과 Fluent API(메서드 체이닝)를 지원해 템플릿 처리, 어드바이저 추가, 결과 타입 변환 등을 우아하게 작성할 수 있습니다.\n\n```java\n// ChatClient 빌드 및 PromptTemplate을 활용한 기본 호출 예시\nString template = \"<메시지>{message}</메시지>와 관련된 {category}을 5종 추천해줘.\";\nString response = chatClient.prompt()\n    .user(u -> u.text(template)\n            .param(\"message\", dto.message())\n            .param(\"category\", \"디지몬\"))\n    .call().content();\n```\n\n---\n\n## 🧩 3단계. 구조화된 데이터 출력 (Structured Output)\n\nAI의 단순 텍스트 답변을 Java 객체(DTO)나 List, Map 등으로 자동 파싱하여 받습니다.\n\n### 1. DTO 객체로 직접 파싱 (`entity()` 메서드 사용)\n```java\n// DTO 클래스 매핑 (자동 BeanOutputConverter 사용)\npublic FoodDTO recommendFood(ChatDTO dto) {\n    return chatClient.prompt()\n            .user(u -> u.text(\"{message}에 관련된 음식을 추천해줘\").param(\"message\", dto.message()))\n            .call()\n            .entity(FoodDTO.class); // FoodDTO 객체 형태로 파싱되어 반환됨\n}\n```\n\n### 2. 리스트(List)나 맵(Map) 형식 변환\n```java\n// 1) List 형식으로 변환\nList<String> list = chatClient.prompt()\n    .user(u -> u.text(\"{message} 관련 음식 10개 추천\").param(\"message\", dto.message()))\n    .call()\n    .entity(new ListOutputConverter(new DefaultConversionService()));\n\n// 2) Map 형식으로 변환\nMap<String, Object> map = chatClient.prompt()\n    .user(u -> u.text(\"{message} 관련 음식 10개 추천\").param(\"message\", dto.message()))\n    .call()\n    .entity(new ParameterizedTypeReference<Map<String, Object>>() {});\n```\n\n### 3. 수동 변환 (Manual Conversion)\nLLM에게 JSON 형식을 강제하기 위한 포맷 지시문을 직접 Prompt에 포함시키고 응답받은 문자열을 파싱합니다.\n```java\nBeanOutputConverter<FoodDTO> converter = new BeanOutputConverter<>(FoodDTO.class);\nString formatInstruction = converter.getFormat(); // JSON 포맷 가이드라인 문자열 자동 생성\n\nString rawResult = chatClient.prompt()\n        .user(u -> u.text(\"{message}에 관련된 음식을 추천해줘.\\n{format}\")\n                .param(\"message\", dto.message())\n                .param(\"format\", formatInstruction))\n        .call().content();\n\nFoodDTO food = converter.convert(rawResult); // JSON 문자열 -> Java DTO 변환\n```\n\n---\n\n## 🛡️ 4단계. Advisor(어드바이저)로 공통 기능 처리\n\n**Advisor**는 AI의 요청(Request)과 응답(Response) 전후에 작동하여 로깅, 토큰 측정, 대화 기록 연동 등의 공통 관심사를 처리하는 일종의 인터셉터(Interceptor)입니다.\n\n### 1. 내장 어드바이저 (`SimpleLoggerAdvisor`)\n요청한 Prompt 정보와 전달받은 결과 텍스트를 디버그 로그에 자동으로 기록해 줍니다.\n\n### 2. 커텀 어드바이저 만들기 (`TimingLoggerAdvisor`)\n`CallAdvisor` 인터페이스를 상속받아 AI 통신 시간을 밀리초(ms) 단위로 측정하여 로그로 남기는 클래스입니다.\n\n```java\npublic class TimingLoggerAdvisor implements CallAdvisor {\n    @Override\n    public ChatClientResponse adviseCall(ChatClientRequest request, CallAdvisorChain chain) {\n        long startTime = System.currentTimeMillis();\n        // ⚠️ chain.nextCall(request)를 반드시 호출해야 다음 단계(AI 응답 요청)로 넘어갑니다.\n        ChatClientResponse response = chain.nextCall(request); \n        long endTime = System.currentTimeMillis();\n        log.info(\"[TimingLoggerAdvisor] 종료 : {} ms\", endTime - startTime);\n        return response;\n    }\n}\n```\n\n---\n\n## 💾 5단계. 대화 이력 저장 (Chat Memory)\n\n대화의 문맥(Context)을 기억하게 하기 위해, 세션 ID별로 대화 이력을 데이터베이스에 영구 보관하고 로드합니다.\n\nSpring AI의 `MessageChatMemoryAdvisor`는 AI를 호출할 때 대화 ID(`conversationId`)를 파라미터로 넘겨주면 이전 대화 기록을 자동으로 LLM에 전달하고, 답변을 받으면 대화 기록을 자동으로 저장해 줍니다.\n\n```java\n// ChatClient 호출 시 대화 세션 ID 지정\nchatClient.prompt()\n    .advisors(a -> a.param(ChatMemory.CONVERSATION_ID, dto.conversationId()))\n    .user(dto.message())\n    .call().content();\n```\n\n실습에서는 아래 3가지 저장소 인터페이스를 구현하여 교체 적용해 보았습니다.\n\n### 📂 구현방식 비교\n\n| 방식 | 설명 및 특징 | 주요 클래스 |\n| :--- | :--- | :--- |\n| **In-Memory** | 메모리 상에 대화 정보를 임시 보관합니다. WAS 재시작 시 정보가 날아갑니다. | `InMemoryChatMemoryRepository` |\n| **MyBatis** | MyBatis XML 매퍼를 이용해 MySQL DB 테이블(`chat_message`)에 대화 기록을 저장/불러오기 합니다. | `MyBatisChatMemoryRepository` |\n| **JPA** | Spring Data JPA 기술을 사용해 테이블을 객체 엔티티(`ChatMessageJPA`)로 맵핑하고 영구 보관합니다. | `JpaChatMemoryRepository` |\n\n---\n\n## 🚀 실행하기\n\n1. MySQL 데이터베이스를 기동합니다. (JPA의 `spring.jpa.hibernate.ddl-auto=update` 옵션 활성화 시 테이블이 자동으로 생성됩니다.)\n2. 본인 디렉토리의 `.env.dev` 파일에 실제 Groq API Key 및 데이터베이스 커넥션 설정 정보를 기입합니다.\n3. Maven 빌드를 수행하여 애플리케이션을 가동시킵니다.\n    ```bash\n    mvn spring-boot:run\n    ```\n4. 웹 브라우저에서 `http://localhost:8080/`에 접속하여 질문을 던져보고, 이전 대화 내용이 계속 기억되는지와 데이터베이스에 저장되는지 확인해 봅니다.\n\n---\n\n## 🛠️ 6단계. 문제 해결 가이드 (Troubleshooting)\n\n실습 과정에서 발생하기 쉬운 주요 에러 사례와 해결 방법입니다. 처음 공부하는 사람도 쉽게 이해할 수 있도록 용어 설명과 함께 구성했습니다.\n\n### 1. 데이터베이스 연결 실패 (`Unable to determine Dialect without JDBC metadata`)\n*   **에러 상황**: 애플리케이션 구동 시 DB 연결을 맺지 못하고 Hibernate Dialect 설정 관련 에러가 발생하며 서버가 켜지지 않음.\n*   **원인**: `.env.dev`에 작성된 DB 환경 변수명(`DB_Host`, `DB_Port` 등)이 `application-dev.properties`에서 플레이스홀더로 설정된 변수명(`${DB_HOST}`, `${DB_PORT}` 등)과 대소문자나 명칭이 일치하지 않아 값이 `null`로 주입되었기 때문입니다.\n*   **해결 방법**: 두 파일의 환경 변수 스펠링과 대소문자를 완전히 일치시켰습니다.\n    *   `DB_Host` ➔ `DB_HOST`\n    *   `DB_Port` ➔ `DB_PORT`\n    *   `DB_User` ➔ `DB_USERNAME`\n    *   `DB_Password` ➔ `DB_PASSWORD`\n*   **💡 초보자 가이드**: 스프링 부트 설정 파일에서 환경 변수를 임포트할 때는 **대소문자 한 글자까지 일치**해야 제대로 적용됩니다.\n\n### 2. 대화 기록 저장 시 500 에러 (`NonUniqueObjectException: A different object with the same identifier...`)\n*   **에러 상황**: 챗봇에게 메시지를 보냈을 때 `NonUniqueObjectException` 예외가 발생하며 페이지가 오류 화면으로 넘어감.\n*   **원인**: 이전 대화 내용을 초기화(Delete)하고 최신 윈도우 대화만 다시 저장(SaveAll)하는 과정에서, JPA의 '쓰기 지연(Write-Behind)' 기능 때문에 DB에는 아직 삭제 쿼리가 반영되지 않은 상태에서 동일한 ID를 가진 새 엔티티가 저장되려다 1차 캐시 충돌이 발생한 것입니다.\n*   **해결 방법**: [ChatMemoryJpaRepository.java](file:///C:/workspace/springai2/src/main/java/org/example/springai2/repository/ChatMemoryJpaRepository.java)의 `deleteAllByConversationId` 메서드에 `@Modifying(clearAutomatically = true, flushAutomatically = true)` 어노테이션을 추가하여, 벌크 삭제가 실행된 즉시 영속성 컨텍스트를 완전히 정리(clear)하고 DB에 즉시 반영(flush)되도록 강제했습니다.\n*   **💡 초보자 가이드**: JPA는 데이터베이스 변경 쿼리를 영속성 컨텍스트(1차 캐시)에 모아두었다가 한 번에 실행합니다. 동일 트랜잭션 내에서 데이터를 지우고 바로 다시 넣을 때는 **영속성 컨텍스트를 비워주는 작업(clear & flush)**이 필수적입니다.\n\n### 3. devtools 재기동 시 테이블 소실 (`Table 'memory.chat_message' doesn't exist`)\n*   **에러 상황**: 코드 수정 등으로 서버가 자동 재기동(devtools)될 때 데이터베이스 테이블이 갑자기 사라져 챗봇 이용 시 에러 발생.\n*   **원인**: `spring.jpa.hibernate.ddl-auto=create` 옵션은 서버가 재시작될 때마다 기존 테이블을 통째로 drop하고 새로 만드는데, devtools의 빠른 재시작 시점에 쿼리 실행 타이밍이 꼬이면서 drop만 되고 create가 정상적으로 완료되지 않았기 때문입니다.\n*   **해결 방법**: [application-dev.properties](file:///C:/workspace/springai2/src/main/resources/application-dev.properties)의 ddl-auto 옵션을 `update`로 변경했습니다.\n*   **💡 초보자 가이드**: 개발 중에는 매번 데이터를 날려버리는 `create` 대신, 테이블 구조 변경사항만 누적하여 적용하는 `update`를 사용하는 것이 동시성 및 데이터 보존 측면에서 훨씬 안전합니다.\n\n### 4. 저장 및 조회의 Repository 불일치\n*   **에러 상황**: AI 클라이언트에서는 JPA 방식을 쓰고 있는데, 대화 이력을 화면에 렌더링하는 `getHistory`는 MyBatis Repository를 조회하여 일관성이 깨짐.\n*   **해결 방법**: [ChatService2.java](file:///C:/workspace/springai2/src/main/java/org/example/springai2/service/ChatService2.java)의 의존성 주입 필드를 `JpaChatMemoryRepository`로 단일화하여 저장과 조회의 흐름을 하나로 정렬했습니다.\n",
+      "tags": [
+        "Spring",
+        "Java",
+        "Database",
+        "AI/RAG",
+        "Web/Backend"
+      ],
+      "readingTime": 27
+    },
+    {
+      "id": "rag",
+      "date": "2026-07-30",
+      "topic": "Spring AI RAG (Retrieval-Augmented Generation) 실습 프로젝트 🚀",
+      "link": "docs/rag.md",
+      "title": "🚀 Spring AI RAG (Retrieval-Augmented Generation) 실습 프로젝트",
+      "content": "# 🚀 Spring AI RAG (Retrieval-Augmented Generation) 실습 프로젝트\n\n이 프로젝트는 **Spring Boot**와 **Spring AI** 라이브러리를 활용하여 최신 LLM(대형 언어 모델) 및 벡터 데이터베이스를 연동하고, **RAG(검색 증강 생성)** 서비스를 구축하는 실습 프로젝트입니다.\n\n---\n\n## 💡 RAG(검색 증강 생성)란 무엇인가요?\n\n일반적인 AI(예: GPT, Gemini 등)는 학습 데이터에 포함되지 않은 정보(우리 회사 내부 문서, 실시간 뉴스 등)에 대해 물어보면 올바른 답변을 하지 못하거나 거짓말(환각 현상, Hallucination)을 하게 됩니다.\n\n**RAG(Retrieval-Augmented Generation)**는 이 문제를 해결하기 위해 다음과 같은 단계를 거칩니다:\n1. **검색(Retrieval)**: 사용자가 질문을 하면, 데이터베이스(벡터 DB)에서 질문과 관련된 정보가 담긴 문서를 찾습니다.\n2. **증강(Augmented)**: 찾아낸 관련 문서를 사용자의 질문과 합쳐서 AI에게 전달합니다.\n3. **생성(Generation)**: AI는 제공받은 참고 문서 내용을 기반으로 하여 거짓말하지 않고 정확한 답변을 생성합니다.\n\n---\n\n## 🛠️ 오늘 실습한 핵심 기능 및 파일 요약\n\n초보자분들의 이해를 돕기 위해 실습 파일별 역할과 이론을 정리했습니다.\n\n### 1. 🔍 텍스트 임베딩 (Embedding)\n* **개념**: 컴퓨터는 인간의 언어를 직접 이해하지 못합니다. **임베딩(Embedding)**은 단어나 문장을 3차원 공간 속의 특정 좌표(숫자 배열, Vector)로 변환해 주는 기술입니다. 의미가 비슷한 문장일수록 좌표 공간에서 거리가 가까워집니다.\n* **관련 파일**:\n  * [`EmbeddingService.java`](src/main/java/org/example/rag/service/EmbeddingService.java): Google의 `gemini-embedding-001` 모델을 사용하여 사용자가 입력한 텍스트를 벡터 좌표값(float 배열)으로 변환해 주는 서비스입니다.\n\n### 2. 🗄️ 벡터 데이터베이스와 유사도 검색 (Vector Database & Similarity Search)\n* **개념**: 텍스트를 숫자로 나타낸 벡터 데이터를 저장하고 빠르게 찾아낼 수 있는 전용 데이터베이스입니다. 본 실습에서는 PostgreSQL의 `pgvector` 확장을 사용했습니다.\n* **관련 파일**:\n  * [`DocumentService.java`](src/main/java/org/example/rag/service/DocumentService.java) (`save`, `search` 메서드):\n    * **`save`**: 입력받은 텍스트 문서와 카테고리 메타데이터를 함께 벡터 데이터베이스에 저장합니다. (저장할 때 자동으로 임베딩을 수행합니다.)\n    * **`search`**: 사용자 질문(Query)과 벡터 데이터베이스에 들어있는 문서들의 유사도(코사인 유사도 등)를 계산하여, 가장 연관성이 높은 문서 `topK(최대 4개)`를 뽑아옵니다. 최소 유사도 임계치(`similarityThreshold`)를 설정하여 관련 없는 문서는 걸러냅니다.\n\n### 3. ⚙️ 문서 적재 ETL 파이프라인 (Chunking & Ingest)\n* **개념**: 책 한 권이나 긴 문서를 한 번에 AI에게 주면 요금이 많이 나오고 집중력이 흐려집니다. 그래서 문서를 적절한 크기(Chunk Size)로 잘게 쪼개는 **청킹(Chunking)** 과정이 필요합니다. \n* **관련 파일**:\n  * [`DocumentService.java`](src/main/java/org/example/rag/service/DocumentService.java) (`ingest` 메서드):\n    * **Extract (추출)**: `TextReader`를 이용하여 `sample.txt` 파일 내용을 읽어옵니다.\n    * **Transform (변환/청킹)**: `TokenTextSplitter`를 사용해 사용자가 지정한 크기(예: 200토큰 또는 1000토큰)만큼 텍스트를 쪼갭니다. 이 때 중복 저장을 방지하기 위해 텍스트 내용을 해싱하여 고유한 UUID를 발급합니다.\n    * **Load (적재)**: 쪼개진 여러 개의 문서 조각(Chunk)들을 벡터 데이터베이스에 한 번에 저장합니다.\n  * [`sample.txt`](src/main/resources/docs/sample.txt): RAG 테스트를 위해 미리 작성해 둔 코딩 팁, 프로그래밍 가이드 등의 원본 문서 파일입니다.\n\n### 4. 💬 RAG 기반 카테고리 필터링 채팅 (RAG Chat & Filter)\n* **개념**: 사용자의 질문에 대답할 때 관련 문서를 데이터베이스에서 자동으로 찾아와 참고 답변을 생성합니다. 또한 메타데이터 필터(예: `category == 'java'`)를 적용하여 특정 주제의 문서들만 집중적으로 참고하도록 제한할 수 있습니다.\n* **관련 파일**:\n  * [`RagConfig.java`](src/main/java/org/example/rag/config/RagConfig.java):\n    * `ChatClient`를 설정하는 곳입니다.\n    * **System Prompt**: AI에게 \"주어진 컨텍스트 내에서만 대답하고, 모르는 내용은 찾을 수 없다고 답변하라\"는 페르소나와 규칙을 설정합니다.\n    * **QuestionAnswerAdvisor**: 질문이 오면 자동으로 벡터 DB에서 관련 문서를 검색해 질문과 함께 LLM에 덧붙여 주는 RAG 핵심 컴포넌트(Advisor)를 연결합니다.\n  * [`DocumentService.java`](src/main/java/org/example/rag/service/DocumentService.java) (`chat` 메서드):\n    * `FILTER_EXPRESSION` 매개변수를 활용하여 사용자가 원하는 특정 카테고리의 정보만 필터링해서 참고 문서로 사용하도록 필터 기능을 구현했습니다.\n\n### 5. 🖥️ 웹 인터페이스 및 설정 파일\n* **관련 파일**:\n  * [`MainController.java`](src/main/java/org/example/rag/controller/MainController.java): 프론트엔드 폼 전송 요청을 받아 적절한 서비스(임베딩, 적재, 검색, 채팅)로 전달해 주는 컨트롤러입니다.\n  * [`index.jsp`](src/main/webapp/WEB-INF/views/index.jsp): 사용자가 직접 텍스트 임베딩, 문서 주입(Chunk 200/1000), 데이터 입력, 유사도 검색, RAG 채팅을 직관적으로 테스트할 수 있는 웹 UI 페이지입니다. 마크다운 형식의 AI 답변을 깔끔하게 보여주기 위해 `marked.js`가 내장되어 있습니다.\n  * [`application-dev.properties`](src/main/resources/application-dev.properties) & [`.env.dev.sample`](.env.dev.sample): Neon PostgreSQL 데이터베이스 접속 정보, Groq 및 Gemini API 키 등 중요 환경 변수를 주입하는 설정 파일입니다.\n  * [`lombok.config`](lombok.config): 스프링 환경에서 의존성 주입 시 `@RequiredArgsConstructor`를 사용할 때 롬복이 `@Qualifier` 어노테이션까지 같이 전파할 수 있도록 돕는 세부 설정 파일입니다.\n\n---\n\n## 🏃‍♂️ 실행 방법 (로컬 환경)\n\n1. **환경 변수 복사**: \n   `.env.dev.sample` 파일을 복사하여 `.env.dev` 파일을 생성합니다.\n2. **API 키 설정**:\n   생성한 `.env.dev` 파일 내부의 데이터베이스 호스트, 비밀번호 및 사용하실 API Key(Gemini, Groq 등) 정보를 실제 정보로 기입합니다. (이 파일은 `.gitignore`에 등록되어 외부로 노출되지 않습니다.)\n3. **애플리케이션 실행**:\n   `mvnw spring-boot:run` 또는 개발 IDE에서 `RagApplication`을 실행합니다.\n4. **브라우저 접속**:\n   `http://localhost:8080` 으로 접속하여 직접 문서를 적재하고 RAG 채팅을 테스트해 봅니다!\n",
+      "tags": [
+        "Spring",
+        "Java",
+        "Database",
+        "AI/RAG",
+        "Web/Backend"
+      ],
+      "readingTime": 11
+    },
+    {
+      "id": "worrydoll",
+      "date": "2026-08-04",
+      "topic": "걱정인형 (Worrydoll) - Spring AI & RAG 실습 프로젝트 🧸",
+      "link": "docs/worrydoll.md",
+      "title": "🧸 걱정인형 (Worrydoll) - Spring AI & RAG 실습 프로젝트",
+      "content": "# 🧸 걱정인형 (Worrydoll) - Spring AI & RAG 실습 프로젝트\n\n이 프로젝트는 **Spring Boot**와 **Spring AI**, 그리고 **PostgreSQL (pgvector)**을 활용하여 사용자의 대화 내용을 기억하고, 과거 대화에서 필요한 정보를 찾아 답변해 주는 AI 기반의 채팅 및 RAG(검색 증강 생성) 웹 서비스입니다. \n\n초보자분들도 쉽게 이해할 수 있도록 동작 원리와 설치 방법을 자세하게 설명합니다!\n\n---\n\n## 💡 주요 개념 눈높이 설명\n\nAI 서비스를 처음 접하는 분들을 위해 핵심 기술을 쉽게 풀어 설명해 드릴게요.\n\n### 1. Spring AI 🍃\n* **설명**: 스프링(Spring) 프레임워크에서 OpenAI나 Google Gemini 같은 인공지능 모델을 편리하게 연동할 수 있도록 도와주는 도구입니다.\n* **이 프로젝트에서의 역할**: Google의 **Gemini AI 모델**(`gemini-3.5-flash-lite`, `gemini-3.1-flash-lite`)과 대화하고 요청을 주고받는 창구 역할을 합니다.\n\n### 2. Chat Memory (대화 메모리) 🧠\n* **설명**: AI는 기본적으로 이전 질문을 기억하지 못합니다(State-less). 대화의 맥락을 기억하기 위해 이전 대화 기록들을 보관해 두었다가 다음 질문을 보낼 때 같이 묶어서 보내주는 기술입니다.\n* **이 프로젝트에서의 역할**: 사용자가 대화방에서 계속해서 이야기를 나눌 때, AI가 이전 대화의 흐름을 기억한 채 자연스럽게 대답할 수 있도록 돕습니다. (데이터베이스에 대화 이력이 저장됩니다.)\n\n### 3. Vector DB (벡터 데이터베이스) & 임베딩(Embedding) 🔍\n* **설명**:\n  * **임베딩**: 컴퓨터가 텍스트의 '의미'를 이해할 수 있도록 문장을 여러 개의 숫자(벡터)로 변환하는 기술입니다. 예를 들어 \"배고프다\"와 \"밥 먹고 싶다\"는 단어는 다르지만 의미가 유사하므로 비슷한 숫자로 변환됩니다.\n  * **Vector DB**: 이 변환된 숫자들을 저장하고, 사용자가 질문을 던졌을 때 **의미상 가장 유사한 데이터를 빠르게 검색**해 주는 특수 데이터베이스입니다.\n* **이 프로젝트에서의 역할**: 사용자가 입력한 모든 대화 내용을 벡터로 변환하여 **PostgreSQL의 pgvector 확장 프로그램**에 저장합니다.\n\n### 4. RAG (Retrieval-Augmented Generation, 검색 증강 생성) 🚀\n* **설명**: AI가 학습하지 않은 외부 정보(이 프로젝트에서는 사용자의 과거 대화 기록)를 검색하여 그 정보에 기반해 답변을 생성하는 기법입니다.\n* **이 프로젝트에서의 역할**: 사용자가 과거 대화 내용에 대해 질문하면, 벡터 DB에서 해당 사용자의 과거 대화들을 검색(Retrieve)하고, 그 결과를 AI에게 참고 자료로 제공하여 정확한 답변을 유도합니다.\n\n---\n\n## 🛠️ 기술 스택 (Tech Stack)\n\n* **Backend**: Java 17, Spring Boot 3.x, Spring AI\n* **Database**: PostgreSQL (pgvector 확장 활성화 필요)\n* **View**: JSP (JavaServer Pages)\n* **AI Model**: Google Gemini (`gemini-3.5-flash-lite`, `gemini-3.1-flash-lite`)\n\n---\n\n## 🏗️ 시스템 아키텍처 및 동작 흐름\n\n```mermaid\ngraph TD\n    User([사용자 웹 화면]) -->|1. 사용자 등록 / 채팅 / 검색| Controller[MainController]\n    Controller -->|2. 비즈니스 로직 처리| Service[ChatService]\n    Service -->|3-1. 대화 내역 영구 저장| DB[(PostgreSQL)]\n    Service -->|3-2. 질문 의미 변환 및 저장| VectorDB[(pgvector Vector Store)]\n    Service -->|4. 과거 맥락 검색| VectorDB\n    Service -->|5. AI 모델 연동 및 답변 생성| Gemini[Google Gemini AI]\n    Gemini -->|6. 답변 반환| User\n```\n\n1. **대화(Chat) 흐름**: \n   * 사용자가 대화창에 메시지를 입력합니다.\n   * `ChatClient`가 이전 대화 메모리를 장착하여 Gemini AI에 전달하고 답변을 받아옵니다.\n   * 입력된 메시지는 나중에 검색할 수 있도록 벡터 변환(Embedding)을 거쳐 **Vector Store (pgvector)**에 저장됩니다.\n2. **검색(Search/RAG) 흐름**:\n   * 사용자가 검색창에 질문을 입력합니다.\n   * 질문과 가장 의미가 유사한 과거 메시지들을 벡터 데이터베이스에서 찾아냅니다. (이때 로그인한 사용자의 대화만 매칭되도록 필터링 처리합니다.)\n   * 찾아낸 대화 내역들을 Gemini AI에 컨텍스트로 제공하며: *\"이 맥락 안에서만 대답하고, 모르는 정보라면 '정보가 없다'고 대답해줘\"* 라는 시스템 프롬프트에 맞춰 정확히 필터링된 답변을 만들어냅니다.\n\n---\n\n## ⚙️ 실행 방법 (Getting Started)\n\n프로젝트를 로컬에서 구동하기 위해 필요한 단계입니다.\n\n### 1. 사전 준비 사항\n* **Java 17** 이상이 설치되어 있어야 합니다.\n* **Google Gemini API Key**가 필요합니다. [Google AI Studio](https://aistudio.google.com/)에서 무료로 발급받을 수 있습니다.\n* **PostgreSQL**이 설치되어 있고, `pgvector` 확장이 활성화되어 있어야 합니다.\n\n### 2. 환경 변수 설정\n프로젝트 루트 디렉토리에 `.env.dev` 파일을 생성하여 다음과 같이 환경 변수를 입력해 줍니다. (`.env.dev.sample` 파일 참고)\n\n```properties\n# 데이터베이스 연결 정보\nDB_URL=jdbc:postgresql://localhost:5432/worrydoll\nDB_USERNAME=your_username\nDB_PASSWORD=your_password\n\n# Google Gemini API 키\nGEMINI_API_KEY=your_gemini_api_key_here\n```\n\n### 3. 프로젝트 실행\n터미널에서 아래 명령어를 실행하여 서비스를 구동합니다.\n\n```bash\n# Windows\n./mvnw.cmd spring-boot:run\n\n# Mac/Linux\n./mvnw spring-boot:run\n```\n실행이 완료되면 브라우저에서 `http://localhost:8080`에 접속하여 사용할 수 있습니다.\n\n---\n\n## 📂 주요 코드 구조 및 설명\n\n* [MainController.java](file:///C:/workspace/worrydoll/src/main/java/org/example/worrydoll/controller/MainController.java): 사용자의 HTTP 요청(대화 입력, 유저 세션 관리, RAG 검색 요청)을 가로채서 처리하는 컨트롤러입니다.\n* [ChatService.java](file:///C:/workspace/worrydoll/src/main/java/org/example/worrydoll/service/ChatService.java): 대화 기록을 로드하고, 벡터 DB에 이력을 적재하며, RAG 검색을 수행하는 핵심 비즈니스 로직 클래스입니다.\n* [AiConfig.java](file:///C:/workspace/worrydoll/src/main/java/org/example/worrydoll/config/AiConfig.java): Spring AI의 `ChatClient`와 `ChatMemory` 설정 및 RAG 검색 시 임계값(Similarity Threshold)과 시스템 프롬프트를 지정해 주는 구성(Configuration) 파일입니다.\n",
+      "tags": [
+        "Spring",
+        "Java",
+        "Database",
+        "AI/RAG",
+        "Web/Backend"
+      ],
+      "readingTime": 10
+    },
+    {
+      "id": "thymeleaf",
+      "date": "2026-08-04",
+      "topic": "Thymeleaf & Spring Boot 실습 프로젝트 (260804_thymeleaf) 🍃",
+      "link": "docs/thymeleaf.md",
+      "title": "🍃 Thymeleaf & Spring Boot 실습 프로젝트 (260804_thymeleaf)",
+      "content": "# 🍃 Thymeleaf & Spring Boot 실습 프로젝트 (260804_thymeleaf)\n\n이 프로젝트는 Spring Boot와 Thymeleaf, Spring Data JPA, H2 데이터베이스, 그리고 Docker 멀티 스테이징 빌드 환경까지 다각도로 스프링 웹 애플리케이션의 핵심 기능을 실습할 수 있도록 설계된 예제 프로젝트입니다.\n\n백엔드 웹 개발의 기초가 없어도 흐름을 파악하고 이해할 수 있도록 기능별 핵심 요점과 실제 동작 방식을 상세하게 정리했습니다.\n\n---\n\n## 📂 프로젝트 구조와 실습 파일 링크\n\n실습 단계별로 다룬 주요 파일 목록입니다. 각 파일명을 클릭하여 소스 코드를 바로 확인할 수 있습니다.\n\n### 1. 설정 및 인프라 (Configuration & Infrastructure)\n* [`build.gradle`](file:///C:/workspace/thymeleaf/build.gradle): 프로젝트에 필요한 라이브러리(Thymeleaf, JPA, H2 DB, Lombok 등) 의존성을 관리하는 설정 파일입니다.\n* [`application.yaml`](file:///C:/workspace/thymeleaf/src/main/resources/application.yaml): 애플리케이션의 메인 설정 파일로, 실행 프로필(`dev,app,db`) 및 템플릿 캐싱 비활성화를 처리합니다.\n* [`application-app.yaml`](file:///C:/workspace/thymeleaf/src/main/resources/application-app.yaml): 외부 주입용 메시지 설정을 모아둔 개별 프로필 설정 파일입니다.\n* [`application-db.yaml`](file:///C:/workspace/thymeleaf/src/main/resources/application-db.yaml): 개발/운영 환경별 JPA 및 H2 데이터베이스 연결 정보 설정 파일입니다.\n* [`Dockerfile`](file:///C:/workspace/thymeleaf/Dockerfile): 서비스 배포를 최적화하기 위한 Gradle 빌드 및 JRE 실행 다단계(Multi-stage) 도커 설정 파일입니다.\n\n### 2. 다국어 메시지 리소스 (Internationalization - i18n)\n* [`messages.properties`](file:///C:/workspace/thymeleaf/src/main/resources/messages.properties): 기본(한국어) 다국어 메시지 키-값 정의 파일입니다.\n* [`messages_en.properties`](file:///C:/workspace/thymeleaf/src/main/resources/messages_en.properties): 영어 사용자를 위한 다국어 메시지 정의 파일입니다.\n* [`messages_ko.properties`](file:///C:/workspace/thymeleaf/src/main/resources/messages_ko.properties): 한국어 로케일 대응을 위한 메시지 파일 파일입니다.\n\n### 3. 자바 소스 코드 (Java Spring Code)\n* [`ThymeleafApplication.java`](file:///C:/workspace/thymeleaf/src/main/java/org/example/thymeleaf/ThymeleafApplication.java): 애플리케이션의 메인 진입 클래스로, 외부 프로퍼티 스캔 어노테이션이 설정되어 있습니다.\n* [`AppProperties.java`](file:///C:/workspace/thymeleaf/src/main/java/org/example/thymeleaf/config/AppProperties.java): `@ConfigurationProperties`를 사용해 야믈(`yaml`) 설정 값을 자바 객체(Record)로 안전하게 바인딩하는 클래스입니다.\n* [`AppConfig.java`](file:///C:/workspace/thymeleaf/src/main/java/org/example/thymeleaf/config/AppConfig.java): 스프링 프로필(`@Profile`) 조건에 맞춰 스프링 컨테이너에 빈(Bean)을 등록하고, 우선순위 지정(`@Primary`, `@Qualifier`)을 테스트하는 설정 파일입니다.\n* [`Pizza.java`](file:///C:/workspace/thymeleaf/src/main/java/org/example/thymeleaf/entity/Pizza.java): 데이터베이스 테이블과 매핑되는 JPA 엔티티 클래스입니다.\n* [`PizzaRepository.java`](file:///C:/workspace/thymeleaf/src/main/java/org/example/thymeleaf/repository/PizzaRepository.java): 피자 엔티티에 대한 CRUD 데이터베이스 조작을 담당하는 JpaRepository 인터페이스입니다.\n* [`MainController.java`](file:///C:/workspace/thymeleaf/src/main/java/org/example/thymeleaf/controller/MainController.java): 클라이언트의 HTTP 요청(GET/POST)을 받아 비즈니스 로직을 연결하고 Thymeleaf 뷰에 데이터를 전달하는 컨트롤러입니다.\n\n### 4. 뷰 템플릿 (View Template)\n* [`index.html`](file:///C:/workspace/thymeleaf/src/main/resources/templates/index.html): Thymeleaf 템플릿 엔진 문법을 활용하여 서버의 데이터를 HTML 화면에 출력해주는 뷰 파일입니다.\n\n---\n\n## 💡 실습 테마별 상세 정리\n\n### 1. 스프링 실행 환경 설정과 프로필 (Profiles)\n* **개념:** 하나의 프로그램 소스코드로 개발 환경(Local, Dev), 실서버 환경(Prod), 혹은 데이터베이스 환경(Db) 등 다채로운 환경에 맞춰 설정값을 분리해 동작하게 만드는 기술입니다.\n* **실습 내용:** \n  - `application.yaml`에서 `spring.profiles.active: dev,app,db` 설정을 통해 여러 프로필 설정 파일을 동시에 읽어옵니다.\n  - 개발 중 HTML을 수정했을 때 즉각 반영되도록 `thymeleaf.cache: false`로 설정하여 캐시를 비활성화했습니다.\n\n### 2. 설정 파일 속성값 바인딩과 주입 (`@Value` vs `@ConfigurationProperties`)\n* **`@Value` (필드 주입):**\n  - 설정 파일에 적힌 단일 값을 자바 클래스 변수에 쏙 주입하는 가장 직관적이고 쉬운 방법입니다.\n  - `MainController.java`에서 `@Value(\"${app.message}\") private String msg;` 형태로 사용했습니다.\n* **`@ConfigurationProperties` (객체 바인딩):**\n  - 관련 있는 여러 설정값들을 자바의 객체(클래스/레코드)에 안전하게 통째로 매핑하는 구조적이고 현대적인 기법입니다.\n  - `AppProperties.java`에서 `app` 접두사로 묶인 속성들을 record 형태로 자동 주입받았습니다.\n\n### 3. 스프링 빈(Bean) 등록과 충돌 해결 (`@Primary` vs `@Qualifier`)\n* **개념:** 스프링이 관리하는 객체를 **Bean(빈)**이라고 부릅니다. 특정 개발/운영 환경별로 서로 다른 빈을 생성하거나, 동일한 타입의 빈이 여러 개 존재할 때 스프링이 이를 올바르게 찾아 주입받도록 조율해야 합니다.\n* **해결 방법:**\n  - `@Profile(\"dev\")`: 특정 프로필이 활성화되었을 때만 빈을 생성합니다.\n  - `@Primary`: 동일한 타입의 빈이 여러 개 등록되어 있을 때, 별도 지정이 없으면 이 빈을 1순위로 채택하여 의존성을 주입합니다.\n  - `@Qualifier(\"특정이름\")`: 사용할 빈의 이름을 콕 찝어서 강제로 주입받게 설정합니다.\n  - 실습을 진행한 `AppConfig.java` 소스 코드를 통해 스프링 의존성 주입(DI) 흐름을 직관적으로 실습했습니다.\n\n### 4. 데이터베이스 연동 (JPA & H2)\n* **개념:** 자바 객체와 관계형 데이터베이스 테이블을 자동으로 매핑해주는 기술(JPA)과, 가볍고 빠른 인메모리 개발용 데이터베이스(H2)를 조합하여 데이터를 실제로 영구 저장하는 연동 실습입니다.\n* **실습 내용:**\n  - **Entity ([`Pizza.java`](file:///C:/workspace/thymeleaf/src/main/java/org/example/thymeleaf/entity/Pizza.java)):** 데이터베이스에 저장할 테이블의 모양과 컬럼 설정을 정의했습니다.\n  - **Repository ([`PizzaRepository.java`](file:///C:/workspace/thymeleaf/src/main/java/org/example/thymeleaf/repository/PizzaRepository.java)):** JPA가 제공하는 기본 CRUD 메서드(`save()`, `findAll()`)를 별도의 SQL 작성 없이 즉각 사용할 수 있게 제공하는 인터페이스입니다.\n  - **DTO (Data Transfer Object):** 엔티티 객체가 데이터베이스 스키마와 직접 닿아있기 때문에 외부 통신용(화면 전송용) 데이터를 따로 담는 가방(`PizzaDTO`)을 설계해 안전하게 변환했습니다.\n\n### 5. Thymeleaf 템플릿 엔진 주요 문법\n서버가 만든 데이터를 HTML 파일에 얹어서 사용자에게 뿌려줄 때 사용하는 핵심 문법들을 공부했습니다.\n\n* **텍스트 출력과 이스케이프:**\n  - **기본 출력 (Escaped):** HTML 특수기호(`<`, `>` 등)를 안전하게 문자열로 인코딩하여 출력합니다 (XSS 공격 대비).\n    - `th:text=\"${data}\"` 혹은 `[[${data}]]`\n  - **비이스케이프 출력 (Unescaped):** 전달받은 태그 문자열을 실제 HTML 요소로 해석해 브라우저에 렌더링합니다.\n    - `th:utext=\"${data}\"` 혹은 `[(${data})]` (실습 중 주석 처리됨)\n* **다국어 메시지 바인딩 (`#{...}`):**\n  - `#{page.headline}` 형식의 식을 작성하면, 접속한 로케일 정보에 대응되는 프로퍼티 파일(`messages.properties` 혹은 `messages_en.properties`)에서 텍스트를 자동 매칭하여 변경 노출합니다.\n* **URL 표현식 (`@{...}`):**\n  - 경로를 처리할 때 유용한 표현식으로, 동적 경로 변수(`@{/login/{id}(id=...)}`)나 쿼리 매개변수(`@{/login(pass=...)}`) 처리가 매우 유연합니다.\n* **반복문과 루프 상태 변수 (`th:each`):**\n  - 리스트를 반복 출력할 때 현재 반복 상태를 알려주는 변수를 2번째 매개변수(`status`)로 받아볼 수 있습니다.\n  - `status.count` (1부터 시작하는 순번), `status.index` (0부터 시작하는 인덱스), `status.first`/`status.last` (처음/끝 여부 boolean) 등을 제공합니다.\n* **조건문 (`th:if`, `th:unless`, `th:switch`):**\n  - 특정 조건에 부합할 때만 화면에 태그를 노출하는 분기 기법입니다.\n  - `th:unless`는 조건이 거짓일 때만 태그를 노출하며, `th:switch`와 `th:case`를 이용한 다중 선택도 가능합니다.\n\n### 6. 컨테이너 배포 최적화 (Multi-stage Dockerfile)\n* **개념:** 애플리케이션을 도커 컨테이너로 가볍고 안전하게 배포하기 위해, 빌드(Build) 단계와 실행(Run) 단계를 완전히 쪼개는 빌드 최적화 기법입니다.\n* **실습 내용:**\n  - **Builder Stage:** 무겁지만 빌드 툴이 들어있는 Gradle JDK 이미지에서 소스코드를 컴파일 및 빌드하여 `app.jar`를 만듭니다.\n  - **Run Stage:** 완성된 `app.jar` 파일만 쏙 빼와서 가벼운 경량 JRE 17 Alpine 이미지 위로 얹어 가볍게 구동합니다.\n  - 실행 매개변수에 `-XX:MaxRAMPercentage=75.0`을 지정하여 클라우드 컨테이너의 메모리 한계에서 발생할 수 있는 Out-Of-Memory(OOM) 현상을 방지하도록 실행 성능 최적화를 적용했습니다.\n",
+      "tags": [
+        "Spring",
+        "Java",
+        "Database",
+        "HTML/CSS"
+      ],
+      "readingTime": 16
+    },
+    {
+      "id": "thssr",
+      "date": "2026-08-05",
+      "topic": "Spring Boot & Thymeleaf 도서 관리 시스템 (thssr) 실습 정리 📚",
+      "link": "docs/thssr.md",
+      "title": "📚 Spring Boot & Thymeleaf 도서 관리 시스템 (thssr) 실습 정리",
+      "content": "# 📚 Spring Boot & Thymeleaf 도서 관리 시스템 (thssr) 실습 정리\n\n이 프로젝트는 **Spring Boot**, **Spring Data JPA**, 그리고 **Thymeleaf**를 사용하여 간단한 도서 관리 시스템을 구축하는 실습 프로젝트입니다. \n초보자분들도 쉽게 이해할 수 있도록 오늘 구현하고 실습한 파일들의 역할과 핵심 개념들을 정리했습니다.\n\n---\n\n## 🏗️ 전체 아키텍처 구조\n\n이 서비스는 웹 브라우저(HTML 화면)부터 데이터베이스(DB)까지 아래와 같은 흐름으로 데이터를 주고받습니다:\n\n```\n[ 브라우저 (HTML 화면) ] <----> [ Controller (컨트롤러) ] <----> [ Service (비즈니스 로직) ] <----> [ Repository (데이터 저장소) ] <----> [ Database (H2 DB) ]\n```\n\n---\n\n## 📂 실습 파일 및 역할 소개\n\n### 1. ⚙️ 설정 관련 파일 (Configuration & Properties)\n\n#### 📝 [JpaConfig.java](file:///C:/workspace/thssr/src/main/java/org/example/thssr/config/JpaConfig.java)\n* **역할**: JPA Auditing(자동 시간 기록 기능)을 활성화합니다.\n* **설명**: `@EnableJpaAuditing` 애노테이션을 설정하여 데이터가 생성되거나 수정될 때 생성 시간과 수정 시간을 자동으로 DB에 기록해 주는 기능을 켭니다.\n\n#### 📝 [CustomProperties.java](file:///C:/workspace/thssr/src/main/java/org/example/thssr/config/CustomProperties.java)\n* **역할**: `application.yaml` 설정 파일에 적어둔 커스텀 값들을 안전하게 Java 객체로 가져옵니다.\n* **설명**: 스프링 부트에서 제공하는 외부 설정 바인딩 기능(`@ConfigurationProperties`)을 활용하여, 사이트의 소유자(site-owner) 등 관리 정보를 자바의 `record` 객체로 자동 바인딩합니다.\n\n#### 📝 [ThssrApplication.java](file:///C:/workspace/thssr/src/main/java/org/example/thssr/ThssrApplication.java)\n* **역할**: 애플리케이션의 시작점(메인 클래스)입니다.\n* **설명**: `@ConfigurationPropertiesScan` 애노테이션을 추가하여, `CustomProperties` 같은 설정 클래스들을 스프링이 자동으로 찾아서 빈(Bean)으로 등록하게 했습니다.\n\n#### 📝 [application.yaml](file:///C:/workspace/thssr/src/main/resources/application.yaml)\n* **역할**: 애플리케이션의 환경 설정 파일입니다.\n* **설명**: 데이터베이스 연결 정보, Thymeleaf 캐시 설정 및 사이트 소유자 정보(`custom.site-owner`)를 정의합니다.\n\n#### 📝 [messages.properties](file:///C:/workspace/thssr/src/main/resources/messages.properties)\n* **역할**: 유효성 검증 실패 시 화면에 보여줄 **친절한 한글 에러 메시지**를 정의합니다.\n* **설명**: 빈 유효성 검증(Bean Validation) 도중 에러가 나면 기본 영어 에러 메시지 대신 한글 메시지(예: `공백일 수 없습니다`)가 출력되도록 연결해 줍니다.\n\n---\n\n### 2. 🗄️ 데이터베이스 및 엔티티 (Database & Entity)\n\n#### 📝 [BaseEntity.java](file:///C:/workspace/thssr/src/main/java/org/example/thssr/model/entity/BaseEntity.java)\n* **역할**: 모든 DB 테이블이 공통으로 가지는 기본 정보를 정의한 부모 클래스입니다.\n* **설명**: 모든 데이터의 고유 식별자(`id`)와 생성 시간(`createdAt`), 수정 시간(`updatedAt`)을 공통으로 관리합니다. 식별자 자동 생성 전략을 `IDENTITY`로 설정하여 DB가 알아서 ID를 증가(Auto Increment)시키도록 설정했습니다.\n\n#### 📝 [BookEntity.java](file:///C:/workspace/thssr/src/main/java/org/example/thssr/model/entity/BookEntity.java)\n* **역할**: 실제 데이터베이스 내 **도서(Book) 테이블**과 1:1로 매핑되는 객체입니다.\n* **설명**: 도서의 제목(title), 저자(author), 카테고리(category), 가격(price) 필드를 가지고 있으며 도서 정보를 데이터베이스에 저장하고 수정할 때 원본 데이터 역할을 수행합니다.\n\n---\n\n### 3. 💾 데이터 저장소 및 서비스 (Repository & Service)\n\n#### 📝 [BookJpaRepository.java](file:///C:/workspace/thssr/src/main/java/org/example/thssr/model/repository/BookJpaRepository.java)\n* **역할**: Spring Data JPA가 제공하는 강력한 DB 조작 인터페이스입니다.\n* **설명**: SQL 쿼리를 직접 짜지 않아도 이름 규칙에 맞춰 메서드를 선언(예: `findByTitleContaining`)하면 스프링이 알아서 제목으로 도서를 검색하는 쿼리를 만들어 줍니다.\n\n#### 📝 [BookRepository.java](file:///C:/workspace/thssr/src/main/java/org/example/thssr/model/repository/BookRepository.java) & [BookRepositoryImpl.java](file:///C:/workspace/thssr/src/main/java/org/example/thssr/model/repository/BookRepositoryImpl.java)\n* **역할**: 서비스 계층과 DB 데이터 계층을 느슨하게 연결(디커플링)하기 위한 추상화 인터페이스와 그 구현체입니다.\n\n#### 📝 [BookService.java](file:///C:/workspace/thssr/src/main/java/org/example/thssr/service/BookService.java)\n* **역할**: 도서 관리의 모든 비즈니스 로직(저장, 상세 조회, 수정, 삭제, 검색)을 담당하는 중심부입니다.\n* **설명**: 컨트롤러로부터 요청을 받아 필요한 가공 처리를 하고 저장소를 통해 영구적으로 데이터를 변경합니다.\n\n---\n\n### 4. 📤 데이터 전달 및 검증 (DTO & Validation)\n\n#### 📝 [BookFormDTO.java](file:///C:/workspace/thssr/src/main/java/org/example/thssr/dto/BookFormDTO.java)\n* **역할**: 화면 입력 폼의 데이터를 주고받기 위한 **전용 데이터 바구니(DTO)**입니다.\n* **설명**: 엔티티 객체를 화면에 직접 노출하지 않고 안전하게 입력값만을 걸러내어 사용합니다. 빈 검증 애노테이션을 부착하여 검증 규칙을 설정했습니다.\n  * `@NotBlank`: 공백이나 null을 허용하지 않음 (도서명, 저자, 카테고리)\n  * `@NotNull`: 필수 입력 값 (가격)\n  * `@Min(1000)`: 책 가격은 최소 1,000원 이상이어야 함\n\n#### 📝 [Update.java](file:///C:/workspace/thssr/src/main/java/org/example/thssr/dto/Update.java)\n* **역할**: 도서 정보 **수정(Update) 단계에만** 적용할 검증 그룹을 구분하기 위한 마커 인터페이스입니다.\n* **설명**: 책을 새로 등록할 때는 ID가 없지만, 수정할 때는 수정하려는 책의 고유 ID가 필수적입니다. 이처럼 수정 상황에만 ID 검증을 활성화하기 위해 검증 그룹(Validation Group)을 지정하여 처리했습니다.\n\n---\n\n### 5. 🎮 웹 요청 처리 (Controller)\n\n#### 📝 [BookController.java](file:///C:/workspace/thssr/src/main/java/org/example/thssr/controller/BookController.java)\n* **역할**: 웹 브라우저의 모든 요청(URL 주소 입력, 버튼 클릭, 폼 제출)을 받아 적절한 응답 화면이나 처리를 실행합니다.\n* **주요 기능**:\n  * **도서 목록 및 검색**: `@RequestParam(defaultValue = \"\") String keyword`을 사용하여 사용자가 검색어를 입력하지 않으면 전체를 보여주고, 입력하면 제목 기반으로 필터링하여 보여줍니다.\n  * **도서 등록 및 수정**:\n    * 신규 등록 시에는 일반 검증을 적용하고, 수정 시에는 `@Validated(Update.class)`를 적용하여 수정용 검증 그룹만 따로 체크합니다.\n    * 특정 카테고리(예: \"소설\")의 도서는 가격이 너무 저렴하면 안 되는 복합 로직의 경우, `bindingResult.reject()`를 호출해 글로벌 에러(특정 필드가 아닌 객체 전체의 에러)를 동적으로 발생시켰습니다.\n  * **일회성 메시지 전달 (Flash Attribute)**: 도서의 등록, 수정, 삭제 처리가 완료되고 나면 브라우저가 첫 화면으로 리다이렉트되는데, 이때 딱 한 번만 화면에 \"성공했습니다!\"라는 알림 배너가 뜨도록 `RedirectAttributes`의 `addFlashAttribute`를 사용했습니다.\n\n---\n\n### 6. 🖥️ 화면 템플릿 (Thymeleaf HTML View)\n\n스프링 웹 서버에서 데이터를 동적으로 결합하여 최종 HTML을 완성해 주는 Thymeleaf 템플릿 엔진 파일들입니다.\n\n#### 📝 [index.html](file:///C:/workspace/thssr/src/main/resources/templates/index.html)\n* **설명**: 메인 도서 목록 및 제목 검색 화면입니다.\n  * 상단에 설정 파일에서 읽어온 사이트 소유자 명을 동적으로 표시합니다.\n  * 등록, 수정, 삭제 성공 시 전달된 플래시 속성을 활용해 화면 상단에 녹색 알림 배너를 띄웁니다.\n  * 검색 창을 배치하여 키워드로 실시간 도서 필터링이 가능합니다.\n\n#### 📝 [form.html](file:///C:/workspace/thssr/src/main/resources/templates/form.html)\n* **설명**: 도서의 등록과 수정을 동시에 처리하는 똑똑한 입력 폼입니다.\n  * Thymeleaf의 `th:object=\"${bookForm}\"`을 통해 입력값들을 컨트롤러 DTO와 유연하게 연동합니다.\n  * 유효성 검증(Validation) 도중 에러가 나면 `th:errors`를 통해 사용자가 적어 넣은 값 바로 밑에 붉은 글씨로 커스텀 에러 메시지를 출력합니다.\n  * 에러가 난 필드는 `th:errorclass`에 의해 테두리가 붉은색으로 변해 입력 오류가 있음을 시각적으로 바로 알려줍니다.\n\n#### 📝 [detail.html](file:///C:/workspace/thssr/src/main/resources/templates/detail.html)\n* **설명**: 등록된 도서의 상세 내용을 보여주는 페이지로, 이곳에서 도서 정보를 수정하거나 삭제할 수 있는 액션 버튼을 제공합니다.\n\n---\n\n## 💡 오늘 실습에서 배운 가장 중요한 핵심 개념 (핵심 트러블슈팅)\n\n### 🚨 BindingResult의 필수 매개변수 위치 규칙\n스프링 MVC 컨트롤러에서 데이터 유효성 검증(`@Validated` 등) 결과를 받아내기 위해 `BindingResult` 객체를 사용할 때는 **반드시 검증 대상 객체 바로 다음에 적어야 합니다.**\n```java\n// 🙆‍♂️ 올바른 위치 (검증 대상 바로 다음)\npublic String updateBook(@Validated(Update.class) @ModelAttribute(\"bookForm\") BookFormDTO bookFormDTO,\n                         BindingResult bindingResult, \n                         RedirectAttributes redirectAttributes)\n\n// 🙅‍♂️ 잘못된 위치 (사이에 다른 인자가 있으면 예외가 발생하거나 검증 결과가 템플릿으로 전달되지 않음)\npublic String updateBook(@Validated(Update.class) @ModelAttribute(\"bookForm\") BookFormDTO bookFormDTO,\n                         RedirectAttributes redirectAttributes,\n                         BindingResult bindingResult)\n```\n이 순서를 어기면 스프링이 에러 바인딩을 처리하지 못하고 400 Bad Request 에러 등을 뱉어내기 때문에 항상 기억해야 합니다!\n",
+      "tags": [
+        "Spring",
+        "Java",
+        "Database",
+        "HTML/CSS"
+      ],
+      "readingTime": 17
+    },
+    {
+      "id": "260806_frag",
+      "date": "2026-08-06",
+      "topic": "영화 관리 서비스 실습 정리 (Frag) 🎬",
+      "link": "docs/260806_frag.md",
+      "title": "🎬 영화 관리 서비스 실습 정리 (Frag)",
+      "content": "# 🎬 영화 관리 서비스 실습 정리 (Frag)\n\n이 프로젝트는 Spring Boot, Spring Data JPA, Thymeleaf를 사용하여 영화 정보를 등록, 조회, 수정, 삭제(CRUD)할 수 있는 웹 서비스입니다. \n\n오늘 실습한 핵심 내용들을 초보자의 눈높이에 맞춰 단계별로 정리했습니다.\n\n---\n\n## 📑 목차\n1. [Lombok과 JPA 엔티티 설계](#1-lombok과-jpa-엔티티-설계)\n2. [아키텍처 설계 (Repository & Service)](#2-아키텍처-설계-repository--service)\n3. [화면(Thymeleaf)과 DTO 활용](#3-화면thymeleaf과-dto-활용)\n4. [공통 레이아웃 분리 (Thymeleaf Fragments)](#4-공통-레이아웃-분리-thymeleaf-fragments)\n5. [데이터 중복 방지와 예외 처리 (Exception Handling)](#5-데이터-중복-방지와-예외-처리-exception-handling)\n6. [💡 트러블슈팅 (실습 꿀팁)](#-트러블슈팅-실습-꿀팁)\n\n---\n\n## 1. Lombok과 JPA 엔티티 설계\n\n데이터베이스의 테이블과 매핑되는 자바 객체인 **엔티티(Entity)**를 설계하고, 반복 코드를 줄여주는 라이브러리인 **Lombok**을 적용했습니다.\n\n### 공통 필드 분리 (`BaseEntity`)\n모든 테이블에 공통으로 들어가는 `id`(기본키), `createdAt`(생성일), `updatedAt`(수정일) 필드를 `BaseEntity`에 모아 관리합니다.\n* `@MappedSuperclass`: 자식 엔티티 클래스들에게 매핑 정보를 상속해 줍니다.\n* `@EntityListeners(AuditingEntityListener.class)`: 생성일과 수정일을 자동으로 기록해 줍니다.\n\n### 영화 엔티티 (`MovieEntity`)\n영화의 `title`(제목)과 `price`(가격) 정보를 가집니다.\n* `@Builder`: 빌더 패턴을 적용하여 안전하고 직관적인 객체 생성을 도와줍니다.\n* `@NoArgsConstructor` & `@AllArgsConstructor`: JPA가 엔티티를 다룰 때 필수적인 생성자들을 자동으로 만들어 줍니다.\n\n---\n\n## 2. 아키텍처 설계 (Repository & Service)\n\n역할별로 클래스를 분리하여 코드가 복잡해져도 유지보수하기 쉽게 만들었습니다.\n\n* **Repository (저장소 레이어)**\n  * 데이터베이스에 직접 접근하는 역할을 합니다.\n  * `MovieJpaRepository`는 Spring Data JPA가 제공하는 `JpaRepository`를 상속하여 기본적인 CRUD 쿼리를 코드 한 줄 없이 동작하게 만듭니다.\n* **Service (비즈니스 로직 레이어)**\n  * 실제 서비스의 핵심 규칙과 흐름을 관리합니다.\n  * 컨트롤러와 데이터 레이어 사이에서 가교 역할을 수행합니다.\n\n---\n\n## 3. 화면(Thymeleaf)과 DTO 활용\n\n### DTO (Data Transfer Object) 왜 쓸까요?\n데이터베이스와 매핑된 **엔티티(Entity)를 직접 웹 화면으로 전달하면 안 됩니다.** \n화면의 요구사항은 언제든지 바뀔 수 있고, 엔티티가 직접 노출되면 보안상 위험하기 때문에 **데이터 전송 전용 객체인 DTO**를 만들어 사용했습니다.\n* `MovieFormDTO`: 등록 및 수정 폼 입력 데이터를 받아오기 위한 DTO\n* `MovieViewDTO`: 상세 및 목록 화면에 영화 정보를 출력하기 위한 DTO\n\n### Thymeleaf를 활용한 CRUD 기능 구현\n* **조회 (`GET /movies`)**: 영화 목록을 바인딩하여 출력합니다.\n* **등록 (`POST /movies/new`)**: 영화 이름과 가격을 입력받아 DB에 추가합니다.\n* **상세 (`GET /movies/{id}`)**: 특정 영화의 상세 정보를 표시합니다.\n* **수정 (`POST /movies/{id}/edit`)**: 등록 화면 템플릿을 재사용하여 정보를 수정합니다.\n* **삭제 (`POST /movies/{id}/delete`)**: 등록된 영화를 제거합니다.\n\n---\n\n## 4. 공통 레이아웃 분리 (Thymeleaf Fragments)\n\n웹 페이지마다 들어가는 중복 코드(헤더 영역, 상단 네비게이션 바 등)를 매번 쓰지 않고, 한 곳에 모아 모듈화했습니다.\n\n* `templates/fragments/head.html`: 공통 `<head>` 정보 (CSS 로드 등)\n* `templates/fragments/nav.html`: 공통 상단 네비게이션 메뉴 바\n* `templates/fragments/errorMsg.html`: 에러 발생 시 경고창 템플릿\n\n사용할 때는 html 태그에 `th:replace=\"~{fragments/nav :: nav}\"`와 같이 삽입하여 재사용합니다.\n\n---\n\n## 5. 데이터 중복 방지와 예외 처리 (Exception Handling)\n\n### 유니크 제약조건 (`@Column(unique = true)`)\n영화 이름이 같으면 데이터베이스에 등록되지 않도록 `title` 컬럼에 `UNIQUE` 제약조건을 설정했습니다.\n\n### 전역 예외 처리 (`@ControllerAdvice`)\n컨트롤러 곳곳에서 발생하는 예외를 한 곳에서 처리할 수 있도록 `MovieErrorController`를 구성했습니다.\n* `@ExceptionHandler`: 특정 예외가 발생했을 때 이를 캐치하여 전용 에러 화면(`error/unique.html`, `error/404.html`)으로 사용자에게 친절한 문구와 함께 유도합니다.\n\n---\n\n## 💡 트러블슈팅 (실습 꿀팁)\n\n### Q. 엔티티에 `@Column(unique = true)`를 추가했는데도 중복 데이터가 계속 등록돼요!\n* **원인**: Hibernate 설정이 `spring.jpa.hibernate.ddl-auto: update`로 설정된 경우, 이미 생성되어 존재하는 테이블 컬럼에 `unique` 제약조건을 새로 추가하지 못하는 데이터베이스의 한계 때문입니다.\n* **해결방법**: \n  1. 개발 환경이라면 데이터베이스 툴에서 **`DROP TABLE movies;`** 쿼리로 테이블을 완전히 지운 후 프로젝트를 재시작합니다.\n  2. 서버가 켜지면서 새롭게 테이블을 만들고 `UNIQUE` 제약조건을 정상적으로 탑재하게 됩니다.\n",
+      "tags": [
+        "Spring",
+        "Database",
+        "HTML/CSS",
+        "AI/RAG"
+      ],
+      "readingTime": 8
+    },
+    {
+      "id": "260806_practice",
+      "date": "2026-08-06",
+      "topic": "📝 실시간 동기화 테스트 연습장",
+      "link": "docs/260806_practice.md",
+      "title": "📝 실시간 동기화 테스트 연습장",
+      "content": "# 📝 실시간 동기화 테스트 연습장\n\n이 문서는 실시간 동기화 테스트용 연습장입니다.\n\n연습연습! GitHub에 푸시만 해도 티스토리 블로그가 자동으로 변경되는지 테스트하기 위한 임시 글입니다.\n",
+      "tags": [
+        "기타"
+      ],
+      "readingTime": 1
+    }
+  ],
+  "projectLogs": [
+    {
+      "id": "springai",
+      "project": "springai",
+      "description": "🌱 Spring AI 실습 프로젝트 (Movie Recommendation System)",
+      "link": "docs/springai.md",
+      "date": "2026-07-28",
+      "title": "🌱 Spring AI 실습 프로젝트 (Movie Recommendation System)",
+      "content": "# 🌱 Spring AI 실습 프로젝트 (Movie Recommendation System)\n\n이 프로젝트는 **Spring AI** 프레임워크를 사용하여 다양한 대형 언어 모델(LLM) 공급자(Provider)를 연동하고, AI 응답 결과를 웹 애플리케이션으로 연동하며, 최종적으로 구조화된 데이터(Structured Output)로 영화 추천을 받는 실습 내용을 담고 있습니다.\n\n---\n\n## 💡 핵심 개념 이해하기\n\n처음 공부하시는 분들을 위해 Spring AI의 핵심 개념들을 먼저 정리합니다.\n\n### 1. Spring AI란?\n스프링 생태계에서 인공지능(AI) 모델들을 일관된 인터페이스로 쉽게 다룰 수 있도록 도와주는 스프링 공식 프로젝트입니다. 개발자는 각 AI 제공사(OpenAI, Google, Groq 등)의 SDK를 개별적으로 공부할 필요 없이, Spring AI가 제공하는 공통 인터페이스를 통해 편리하게 AI 서비스를 통합할 수 있습니다.\n\n### 2. ChatModel vs ChatClient\n* **`ChatModel` (저수준 인터페이스)**: AI API와의 물리적 통신을 담당하는 기본 빈(Bean) 객체입니다. (예: `OpenAiChatModel`, `GoogleGenAiChatModel`)\n* **`ChatClient` (고수준 인터페이스 - 권장)**: `ChatModel`을 랩핑하여 추가적인 Fluent API(체이닝 메소드), 디폴트 시스템 메시지, 기본 옵션(모델명, 온도 등)을 편리하게 지정하고 요청을 처리할 수 있는 스프링 공식 추천 클라이언트 인터페이스입니다.\n\n### 3. Structured Output (구조화된 출력)\n* 기본적으로 LLM은 문자열(Markdown/Text)로 답변합니다. 하지만 실무에서는 이를 JSON 포맷이나 자바 객체(DTO)로 변환해 데이터베이스에 저장하거나 가공해야 합니다.\n* Spring AI의 `responseEntity(Class)` 기능을 이용하면, AI 모델이 우리의 자바 DTO 스키마에 딱 맞춰 JSON 형태로 답변하도록 유도하고, 스프링이 이를 자동으로 자바 객체로 역직렬화(Parsing)해 줍니다.\n\n---\n\n## 🛠️ 주요 환경 설정 및 의존성\n\n### 1. 의존성 정의 ([pom.xml](file:///C:/workspace/springai/pom.xml))\n스프링 부트 `4.0.7` 환경에서 Spring AI `2.0.0` 버전을 연동하기 위해 `spring-ai-bom`을 사용하고, 다음과 같은 스타터 라이브러리를 추가했습니다.\n* **Google Gemini 연동**: `spring-ai-starter-model-google-genai`\n* **OpenAI API 호환 연동(Groq, NIM)**: `spring-ai-starter-model-openai` (Groq 및 NVIDIA NIM은 OpenAI API 규격을 공유하므로 이 라이브러리를 재사용합니다.)\n\n### 2. 환경변수 관리 ([.env.dev](file:///C:/workspace/springai/.env.dev))\nAPI Key와 같은 민감한 정보는 소스코드에 직접 노출하지 않고 `.env.dev` 파일에 따로 보관합니다. (샘플 양식은 [.env.dev.sample](file:///C:/workspace/springai/.env.dev.sample) 참고)\n```properties\nGROQ_API_KEY=YOUR_GROQ_API_KEY\nGEMINI_API_KEY=YOUR_GEMINI_API_KEY\nNIM_API_KEY=YOUR_NVIDIA_NIM_API_KEY\n```\n\n### 3. 스프링 설정 ([application-dev.properties](file:///C:/workspace/springai/src/main/resources/application-dev.properties))\n* `spring.config.import=optional:file:.env.dev[.properties]` 설정을 통해 `.env.dev`의 변수들을 자동으로 스프링 프로퍼티로 바인딩합니다.\n* 각 Provider별 Base URL, API Key 및 디폴트 모델을 아래와 같이 선언하여 관리합니다.\n  * **Groq Base URL**: `https://api.groq.com/openai/v1`\n  * **NVIDIA NIM Base URL**: `https://integrate.api.nvidia.com/v1`\n\n---\n\n## 💻 주요 소스 코드 분석\n\n### 1. AI 클라이언트 Configuration ([ChatClientConfig.java](file:///C:/workspace/springai/src/main/java/org/example/springai/config/ChatClientConfig.java))\n세 가지 다른 AI 모델 서비스인 **Groq**, **Google Gemini**, **NVIDIA NIM**을 각각 Spring 빈(Bean)으로 커스터마이징하여 등록합니다.\n* **시스템 메시지 통일**: 모든 클라이언트에 본인 모델 정보를 상단에 알리고, 식사 메뉴를 추천하도록 하는 기본 시스템 프롬프트를 지정했습니다.\n* **Gemini 설정**: `GoogleGenAiChatOptions`를 통해 `gemini-3.5-flash-lite` 모델을 설정하고, 생각 수준을 `thinkingLevel(GoogleGenAiThinkingLevel.LOW)`로 지정했습니다.\n* **NIM 설정**: `NimProperties`([NimProperties.java](file:///C:/workspace/springai/src/main/java/org/example/springai/domain/NimProperties.java))로부터 base-url과 api-key를 주입받아 `OpenAiChatModel` 인스턴스를 직접 빌드하여 연동했습니다.\n\n### 2. 비즈니스 로직 서비스 ([ChatService.java](file:///C:/workspace/springai/src/main/java/org/example/springai/service/ChatService.java))\n```java\n// 1. 일반 대화 서비스 (Provider 분기 처리)\npublic String chat(ChatDTO dto) {\n    switch (dto.provider()) {\n        case groq -> {\n            return groqChatClient.prompt()\n                    .system(\"제공 받은 내용을 Y 또는 N으로 답하시오\")\n                    .user(dto.message())\n                    .options(ChatOptions.builder()\n                            .model(\"llama-3.3-70b-versatile\") // 런타임에 동적 모델 교체\n                            .temperature(0.0)\n                            .maxTokens(16))\n                    .call().content();\n        }\n        case google -> {\n            return geminiChatClient.prompt().user(dto.message()).call().content();\n        }\n        case nim -> {\n            return nimChatClient.prompt().user(dto.message()).call().content();\n        }\n        default -> throw new RuntimeException(\"지원하지 않는 Provider\");\n    }\n}\n\n// 2. 구조화된 영화 추천 서비스 (Structured Output)\npublic ResponseEntity<ChatResponse, MovieRecommendationDTO> recommend(ChatDTO dto) {\n    return geminiChatClient.prompt()\n            .system(\"이전 프롬프트는 무시하고 다음 키워드에 어울리는 영화 추천.\")\n            .user(dto.message())\n            .call()\n            .responseEntity(MovieRecommendationDTO.class); // DTO 클래스를 주입하여 객체 파싱 자동화\n}\n```\n\n### 3. 구조화 데이터 DTO ([MovieRecommendationDTO.java](file:///C:/workspace/springai/src/main/java/org/example/springai/dto/MovieRecommendationDTO.java))\n영화 추천 데이터를 JSON 포맷 형태로 받아오기 위한 레코드 클래스입니다.\n```java\n@Builder\npublic record MovieRecommendationDTO(\n        String title,  // 영화 제목\n        int year,      // 개봉 연도\n        String genre,  // 장르\n        String reason  // 추천 이유\n) {}\n```\n\n### 4. 컨트롤러 및 JSP 화면 연동\n* **[MainController.java](file:///C:/workspace/springai/src/main/java/org/example/springai/controller/MainController.java)**:\n  * 사용자의 질문 메시지와 선택한 AI 제공사(`ModelProvider`)를 `ChatDTO`로 바인딩받아 `ChatService.recommend()`를 실행합니다.\n  * 가져온 결과 객체(`MovieRecommendationDTO`)와 API 호출 메타데이터(토큰 정보 등)를 세션에 포맷팅하여 저장 후 redirect합니다.\n* **[index.jsp](file:///C:/workspace/springai/src/main/webapp/WEB-INF/views/index.jsp)**:\n  * 화면 상에서 사용자의 질문과 Provider를 입력받는 간단한 폼 인터페이스를 제공합니다.\n  * AI가 반환한 답변 문자열 및 마크다운 형식을 브라우저 단에서 `marked.min.js`를 사용해 깨끗하게 렌더링하여 사용자에게 보여줍니다.\n\n---\n\n## 🏃 실행 및 테스트 방법\n1. 로컬 환경에 맞게 `GROQ_API_KEY`, `GEMINI_API_KEY`, `NIM_API_KEY`를 획득합니다.\n2. 루트 디렉토리에 `.env.dev` 파일을 생성하고 획득한 키 정보를 작성합니다.\n3. 프로젝트를 구동합니다:\n   ```bash\n   mvnw spring-boot:run\n   ```\n4. 브라우저에서 `http://localhost:8080`에 접속하여 원하시는 키워드(예: \"행복\", \"SF\")를 입력하고 원하는 Provider를 선택한 뒤 영화 추천 테스트를 진행합니다.\n",
+      "tags": [
+        "Spring",
+        "Java",
+        "Database",
+        "AI/RAG",
+        "Web/Backend"
+      ],
+      "readingTime": 14
+    },
+    {
+      "id": "springai2",
+      "project": "springai2",
+      "description": "🍃 Spring AI 2.0 실습 가이드 (Spring Boot 4.x + Groq AI)",
+      "link": "docs/springai2.md",
+      "date": "2026-07-29",
+      "title": "🍃 Spring AI 2.0 실습 가이드 (Spring Boot 4.x + Groq AI)",
+      "content": "# 🍃 Spring AI 2.0 실습 가이드 (Spring Boot 4.x + Groq AI)\n\nSpring Boot와 **Spring AI** 라이브러리를 활용하여 Groq 클라우드 API를 연동하고, 정형 데이터 출력, Advisor 활용, 그리고 데이터베이스(MyBatis / JPA)를 이용한 대화 내용 저장(Chat Memory)까지 구현한 실습 안내서입니다. 처음 공부하는 사람도 쉽게 따라 할 수 있도록 단계별로 구성되어 있습니다.\n\n---\n\n## 📂 프로젝트 구조 (Directory Structure)\n\n실습에 사용된 핵심 소스 코드 파일들의 위치와 역할입니다:\n\n*   **`src/main/java/org/example/springai2/`**\n    *   [ServletInitializer.java](file:///C:/workspace/springai2/src/main/java/org/example/springai2/ServletInitializer.java) / [Springai2Application.java](file:///C:/workspace/springai2/src/main/java/org/example/springai2/Springai2Application.java): 애플리케이션 시작점\n    *   [advisor/TimingLoggerAdvisor.java](file:///C:/workspace/springai2/src/main/java/org/example/springai2/advisor/TimingLoggerAdvisor.java): AI 호출 시간 측정을 위한 커스텀 어드바이저\n    *   [config/ChatMemoryConfig.java](file:///C:/workspace/springai2/src/main/java/org/example/springai2/config/ChatMemoryConfig.java): 인메모리, MyBatis, JPA 대화 메모리 및 ChatClient 빈(Bean) 설정\n    *   [controller/MainController.java](file:///C:/workspace/springai2/src/main/java/org/example/springai2/controller/MainController.java): HTTP 요청 처리 컨트롤러 (JSP 뷰 연동)\n    *   [dto/](file:///C:/workspace/springai2/src/main/java/org/example/springai2/dto/)\n        *   [ChatDTO.java](file:///C:/workspace/springai2/src/main/java/org/example/springai2/dto/ChatDTO.java): 채팅 메시지 전송용 데이터 모델\n        *   [FoodDTO.java](file:///C:/workspace/springai2/src/main/java/org/example/springai2/dto/FoodDTO.java): 구조화된 음식 추천 결과를 담는 DTO\n    *   [entity/](file:///C:/workspace/springai2/src/main/java/org/example/springai2/entity/)\n        *   [ChatMessageMyBatis.java](file:///C:/workspace/springai2/src/main/java/org/example/springai2/entity/ChatMessageMyBatis.java): MyBatis용 대화 기록 엔티티\n        *   [ChatMessageJPA.java](file:///C:/workspace/springai2/src/main/java/org/example/springai2/entity/ChatMessageJPA.java): JPA용 대화 기록 엔티티\n    *   [mapper/ChatMessageMapper.java](file:///C:/workspace/springai2/src/main/java/org/example/springai2/mapper/ChatMessageMapper.java): MyBatis 매퍼 인터페이스\n    *   [repository/](file:///C:/workspace/springai2/src/main/java/org/example/springai2/repository/)\n        *   [ChatMemoryJpaRepository.java](file:///C:/workspace/springai2/src/main/java/org/example/springai2/repository/ChatMemoryJpaRepository.java): Spring Data JPA 인터페이스\n        *   [JpaChatMemoryRepository.java](file:///C:/workspace/springai2/src/main/java/org/example/springai2/repository/JpaChatMemoryRepository.java): JPA 기반 ChatMemoryRepository 구현체\n        *   [MyBatisChatMemoryRepository.java](file:///C:/workspace/springai2/src/main/java/org/example/springai2/repository/MyBatisChatMemoryRepository.java): MyBatis 기반 ChatMemoryRepository 구현체\n    *   [service/](file:///C:/workspace/springai2/src/main/java/org/example/springai2/service/)\n        *   [ChatService.java](file:///C:/workspace/springai2/src/main/java/org/example/springai2/service/ChatService.java): 기초적인 AI 연동, 구조화 출력, 기본 어드바이저 테스트 서비스\n        *   [ChatService2.java](file:///C:/workspace/springai2/src/main/java/org/example/springai2/service/ChatService2.java): 대화 기록이 연동된 대화형 서비스\n\n---\n\n## 🛠️ 1단계. Spring AI와 Groq API 연동하기\n\n### 1. 의존성 설정 (`pom.xml`)\nSpring AI를 사용하기 위해 OpenAI 라이브러리를 추가하고, Groq API가 OpenAI 호환 규격을 사용하므로 base-url을 변경하여 연동합니다.\n```xml\n<dependency>\n    <groupId>org.springframework.ai</groupId>\n    <artifactId>spring-ai-starter-model-openai</artifactId>\n</dependency>\n```\n\n### 2. 설정 파일 작성 (`application-dev.properties` & `.env.dev`)\nAPI Key와 접속 정보를 설정합니다. API 키는 보안을 위해 `.env.dev` 파일에 따로 분리합니다.\n\n*   **`application-dev.properties`**\n    ```properties\n    # .env.dev 환경 변수 자동 임포트 설정\n    spring.config.import=optional:file:.env.dev[.properties]\n\n    # Groq OpenAI 호환 주소로 설정\n    spring.ai.openai.api-key=${GROQ_API_KEY}\n    spring.ai.openai.base-url=https://api.groq.com/openai/v1\n    spring.ai.openai.chat.model=openai/gpt-oss-120b\n    ```\n*   **`.env.dev`**\n    ```properties\n    GROQ_API_KEY=gsk_your_real_api_key_here\n    ```\n\n---\n\n## 💡 2단계. 기본적인 AI 요청 및 Prompt 다루기\n\n### ChatModel vs ChatClient\n*   **`ChatModel`**: LLM 엔진과 직접 통신하는 로우레벨 인터페이스입니다.\n*   **`ChatClient`**: Spring AI 2.0에서 권장하는 하이레벨 유틸리티 인터페이스입니다. 빌더 패턴과 Fluent API(메서드 체이닝)를 지원해 템플릿 처리, 어드바이저 추가, 결과 타입 변환 등을 우아하게 작성할 수 있습니다.\n\n```java\n// ChatClient 빌드 및 PromptTemplate을 활용한 기본 호출 예시\nString template = \"<메시지>{message}</메시지>와 관련된 {category}을 5종 추천해줘.\";\nString response = chatClient.prompt()\n    .user(u -> u.text(template)\n            .param(\"message\", dto.message())\n            .param(\"category\", \"디지몬\"))\n    .call().content();\n```\n\n---\n\n## 🧩 3단계. 구조화된 데이터 출력 (Structured Output)\n\nAI의 단순 텍스트 답변을 Java 객체(DTO)나 List, Map 등으로 자동 파싱하여 받습니다.\n\n### 1. DTO 객체로 직접 파싱 (`entity()` 메서드 사용)\n```java\n// DTO 클래스 매핑 (자동 BeanOutputConverter 사용)\npublic FoodDTO recommendFood(ChatDTO dto) {\n    return chatClient.prompt()\n            .user(u -> u.text(\"{message}에 관련된 음식을 추천해줘\").param(\"message\", dto.message()))\n            .call()\n            .entity(FoodDTO.class); // FoodDTO 객체 형태로 파싱되어 반환됨\n}\n```\n\n### 2. 리스트(List)나 맵(Map) 형식 변환\n```java\n// 1) List 형식으로 변환\nList<String> list = chatClient.prompt()\n    .user(u -> u.text(\"{message} 관련 음식 10개 추천\").param(\"message\", dto.message()))\n    .call()\n    .entity(new ListOutputConverter(new DefaultConversionService()));\n\n// 2) Map 형식으로 변환\nMap<String, Object> map = chatClient.prompt()\n    .user(u -> u.text(\"{message} 관련 음식 10개 추천\").param(\"message\", dto.message()))\n    .call()\n    .entity(new ParameterizedTypeReference<Map<String, Object>>() {});\n```\n\n### 3. 수동 변환 (Manual Conversion)\nLLM에게 JSON 형식을 강제하기 위한 포맷 지시문을 직접 Prompt에 포함시키고 응답받은 문자열을 파싱합니다.\n```java\nBeanOutputConverter<FoodDTO> converter = new BeanOutputConverter<>(FoodDTO.class);\nString formatInstruction = converter.getFormat(); // JSON 포맷 가이드라인 문자열 자동 생성\n\nString rawResult = chatClient.prompt()\n        .user(u -> u.text(\"{message}에 관련된 음식을 추천해줘.\\n{format}\")\n                .param(\"message\", dto.message())\n                .param(\"format\", formatInstruction))\n        .call().content();\n\nFoodDTO food = converter.convert(rawResult); // JSON 문자열 -> Java DTO 변환\n```\n\n---\n\n## 🛡️ 4단계. Advisor(어드바이저)로 공통 기능 처리\n\n**Advisor**는 AI의 요청(Request)과 응답(Response) 전후에 작동하여 로깅, 토큰 측정, 대화 기록 연동 등의 공통 관심사를 처리하는 일종의 인터셉터(Interceptor)입니다.\n\n### 1. 내장 어드바이저 (`SimpleLoggerAdvisor`)\n요청한 Prompt 정보와 전달받은 결과 텍스트를 디버그 로그에 자동으로 기록해 줍니다.\n\n### 2. 커텀 어드바이저 만들기 (`TimingLoggerAdvisor`)\n`CallAdvisor` 인터페이스를 상속받아 AI 통신 시간을 밀리초(ms) 단위로 측정하여 로그로 남기는 클래스입니다.\n\n```java\npublic class TimingLoggerAdvisor implements CallAdvisor {\n    @Override\n    public ChatClientResponse adviseCall(ChatClientRequest request, CallAdvisorChain chain) {\n        long startTime = System.currentTimeMillis();\n        // ⚠️ chain.nextCall(request)를 반드시 호출해야 다음 단계(AI 응답 요청)로 넘어갑니다.\n        ChatClientResponse response = chain.nextCall(request); \n        long endTime = System.currentTimeMillis();\n        log.info(\"[TimingLoggerAdvisor] 종료 : {} ms\", endTime - startTime);\n        return response;\n    }\n}\n```\n\n---\n\n## 💾 5단계. 대화 이력 저장 (Chat Memory)\n\n대화의 문맥(Context)을 기억하게 하기 위해, 세션 ID별로 대화 이력을 데이터베이스에 영구 보관하고 로드합니다.\n\nSpring AI의 `MessageChatMemoryAdvisor`는 AI를 호출할 때 대화 ID(`conversationId`)를 파라미터로 넘겨주면 이전 대화 기록을 자동으로 LLM에 전달하고, 답변을 받으면 대화 기록을 자동으로 저장해 줍니다.\n\n```java\n// ChatClient 호출 시 대화 세션 ID 지정\nchatClient.prompt()\n    .advisors(a -> a.param(ChatMemory.CONVERSATION_ID, dto.conversationId()))\n    .user(dto.message())\n    .call().content();\n```\n\n실습에서는 아래 3가지 저장소 인터페이스를 구현하여 교체 적용해 보았습니다.\n\n### 📂 구현방식 비교\n\n| 방식 | 설명 및 특징 | 주요 클래스 |\n| :--- | :--- | :--- |\n| **In-Memory** | 메모리 상에 대화 정보를 임시 보관합니다. WAS 재시작 시 정보가 날아갑니다. | `InMemoryChatMemoryRepository` |\n| **MyBatis** | MyBatis XML 매퍼를 이용해 MySQL DB 테이블(`chat_message`)에 대화 기록을 저장/불러오기 합니다. | `MyBatisChatMemoryRepository` |\n| **JPA** | Spring Data JPA 기술을 사용해 테이블을 객체 엔티티(`ChatMessageJPA`)로 맵핑하고 영구 보관합니다. | `JpaChatMemoryRepository` |\n\n---\n\n## 🚀 실행하기\n\n1. MySQL 데이터베이스를 기동합니다. (JPA의 `spring.jpa.hibernate.ddl-auto=update` 옵션 활성화 시 테이블이 자동으로 생성됩니다.)\n2. 본인 디렉토리의 `.env.dev` 파일에 실제 Groq API Key 및 데이터베이스 커넥션 설정 정보를 기입합니다.\n3. Maven 빌드를 수행하여 애플리케이션을 가동시킵니다.\n    ```bash\n    mvn spring-boot:run\n    ```\n4. 웹 브라우저에서 `http://localhost:8080/`에 접속하여 질문을 던져보고, 이전 대화 내용이 계속 기억되는지와 데이터베이스에 저장되는지 확인해 봅니다.\n\n---\n\n## 🛠️ 6단계. 문제 해결 가이드 (Troubleshooting)\n\n실습 과정에서 발생하기 쉬운 주요 에러 사례와 해결 방법입니다. 처음 공부하는 사람도 쉽게 이해할 수 있도록 용어 설명과 함께 구성했습니다.\n\n### 1. 데이터베이스 연결 실패 (`Unable to determine Dialect without JDBC metadata`)\n*   **에러 상황**: 애플리케이션 구동 시 DB 연결을 맺지 못하고 Hibernate Dialect 설정 관련 에러가 발생하며 서버가 켜지지 않음.\n*   **원인**: `.env.dev`에 작성된 DB 환경 변수명(`DB_Host`, `DB_Port` 등)이 `application-dev.properties`에서 플레이스홀더로 설정된 변수명(`${DB_HOST}`, `${DB_PORT}` 등)과 대소문자나 명칭이 일치하지 않아 값이 `null`로 주입되었기 때문입니다.\n*   **해결 방법**: 두 파일의 환경 변수 스펠링과 대소문자를 완전히 일치시켰습니다.\n    *   `DB_Host` ➔ `DB_HOST`\n    *   `DB_Port` ➔ `DB_PORT`\n    *   `DB_User` ➔ `DB_USERNAME`\n    *   `DB_Password` ➔ `DB_PASSWORD`\n*   **💡 초보자 가이드**: 스프링 부트 설정 파일에서 환경 변수를 임포트할 때는 **대소문자 한 글자까지 일치**해야 제대로 적용됩니다.\n\n### 2. 대화 기록 저장 시 500 에러 (`NonUniqueObjectException: A different object with the same identifier...`)\n*   **에러 상황**: 챗봇에게 메시지를 보냈을 때 `NonUniqueObjectException` 예외가 발생하며 페이지가 오류 화면으로 넘어감.\n*   **원인**: 이전 대화 내용을 초기화(Delete)하고 최신 윈도우 대화만 다시 저장(SaveAll)하는 과정에서, JPA의 '쓰기 지연(Write-Behind)' 기능 때문에 DB에는 아직 삭제 쿼리가 반영되지 않은 상태에서 동일한 ID를 가진 새 엔티티가 저장되려다 1차 캐시 충돌이 발생한 것입니다.\n*   **해결 방법**: [ChatMemoryJpaRepository.java](file:///C:/workspace/springai2/src/main/java/org/example/springai2/repository/ChatMemoryJpaRepository.java)의 `deleteAllByConversationId` 메서드에 `@Modifying(clearAutomatically = true, flushAutomatically = true)` 어노테이션을 추가하여, 벌크 삭제가 실행된 즉시 영속성 컨텍스트를 완전히 정리(clear)하고 DB에 즉시 반영(flush)되도록 강제했습니다.\n*   **💡 초보자 가이드**: JPA는 데이터베이스 변경 쿼리를 영속성 컨텍스트(1차 캐시)에 모아두었다가 한 번에 실행합니다. 동일 트랜잭션 내에서 데이터를 지우고 바로 다시 넣을 때는 **영속성 컨텍스트를 비워주는 작업(clear & flush)**이 필수적입니다.\n\n### 3. devtools 재기동 시 테이블 소실 (`Table 'memory.chat_message' doesn't exist`)\n*   **에러 상황**: 코드 수정 등으로 서버가 자동 재기동(devtools)될 때 데이터베이스 테이블이 갑자기 사라져 챗봇 이용 시 에러 발생.\n*   **원인**: `spring.jpa.hibernate.ddl-auto=create` 옵션은 서버가 재시작될 때마다 기존 테이블을 통째로 drop하고 새로 만드는데, devtools의 빠른 재시작 시점에 쿼리 실행 타이밍이 꼬이면서 drop만 되고 create가 정상적으로 완료되지 않았기 때문입니다.\n*   **해결 방법**: [application-dev.properties](file:///C:/workspace/springai2/src/main/resources/application-dev.properties)의 ddl-auto 옵션을 `update`로 변경했습니다.\n*   **💡 초보자 가이드**: 개발 중에는 매번 데이터를 날려버리는 `create` 대신, 테이블 구조 변경사항만 누적하여 적용하는 `update`를 사용하는 것이 동시성 및 데이터 보존 측면에서 훨씬 안전합니다.\n\n### 4. 저장 및 조회의 Repository 불일치\n*   **에러 상황**: AI 클라이언트에서는 JPA 방식을 쓰고 있는데, 대화 이력을 화면에 렌더링하는 `getHistory`는 MyBatis Repository를 조회하여 일관성이 깨짐.\n*   **해결 방법**: [ChatService2.java](file:///C:/workspace/springai2/src/main/java/org/example/springai2/service/ChatService2.java)의 의존성 주입 필드를 `JpaChatMemoryRepository`로 단일화하여 저장과 조회의 흐름을 하나로 정렬했습니다.\n",
+      "tags": [
+        "Spring",
+        "Java",
+        "Database",
+        "AI/RAG",
+        "Web/Backend"
+      ],
+      "readingTime": 27
+    },
+    {
+      "id": "webmvc",
+      "project": "webmvc",
+      "description": "🍃 Spring Web MVC 실습 프로젝트",
+      "link": "docs/webmvc.md",
+      "date": "2026-07-07",
+      "title": "🍃 Spring Web MVC 실습 프로젝트",
+      "content": "# 🍃 Spring Web MVC 실습 프로젝트\r\n\r\n스프링 웹 MVC의 핵심 동작 원리를 자바 기반 설정(Java-based Configuration)을 통해 단계별로 학습하고 구현한 실습 저장소입니다.\r\n\r\n---\r\n\r\n## 🛠️ Tech Stack\r\n\r\n<p align=\"left\">\r\n  <img src=\"https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white\" alt=\"Java\" />\r\n  <img src=\"https://img.shields.io/badge/spring%20framework-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white\" alt=\"Spring\" />\r\n  <img src=\"https://img.shields.io/badge/apache%20tomcat-%23F8DC75.svg?style=for-the-badge&logo=apache-tomcat&logoColor=black\" alt=\"Tomcat\" />\r\n  <img src=\"https://img.shields.io/badge/apache%20maven-%23C71A36.svg?style=for-the-badge&logo=apache-maven&logoColor=white\" alt=\"Maven\" />\r\n  <br>\r\n  <img src=\"https://img.shields.io/badge/Lombok-bc5137?style=for-the-badge&logo=lombok&logoColor=white\" alt=\"Lombok\" />\r\n  <img src=\"https://img.shields.io/badge/JSP-007396?style=for-the-badge\" alt=\"JSP\" />\r\n  <img src=\"https://img.shields.io/badge/CSS3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white\" alt=\"CSS\" />\r\n  <img src=\"https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white\" alt=\"Git\" />\r\n</p>\r\n\r\n---\r\n\r\n## 📂 단계별 학습 내용\r\n\r\n각 단계별 핵심 개념, 비유 설명, 그리고 기술 면접 질문은 아래 문서에서 확인할 수 있습니다.\r\n\r\n### [Step 1: Spring Web MVC 초기 설정](step1.md)\r\n* **주요 내용**: `web.xml` 없이 Java Code 기반으로 `DispatcherServlet` 및 스프링 컨테이너 설정\r\n* **핵심 개념**: Servlet 3.0+ SPI 메커니즘, `WebApplicationInitializer`, `WebConfig`\r\n\r\n### [Step 2: Controller 구현, 데이터 전달(Model/DTO) 및 정적 리소스 설정](step2.md)\r\n* **주요 내용**: `@Controller` 매핑, `ViewResolver` 접두사/접미사 설정, `/WEB-INF` 보안 영역 활용, Java `record` 기반 DTO 데이터 전달 및 정적 리소스 핸들러(`/resources/**`) 매핑\r\n* **핵심 개념**: `InternalResourceViewResolver`, JavaBeans 규약과 JSP EL 바인딩, `WebMvcConfigurer`\r\n\r\n### [Step 3: HTTP POST 요청 처리, 데이터 바인딩 및 PRG 패턴](step3.md)\r\n* **주요 내용**: POST 요청의 폼 데이터 객체 바인딩, `HttpSession` 기반 상태 관리, 이중 전송 방지를 위한 PRG(Post-Redirect-Get) 패턴 구현\r\n* **핵심 개념**: `@ModelAttribute`, Lombok `@ToString`, Forward vs Redirect의 동작 흐름\r\n\r\n### [Step 4: Web Bean Scopes & Scoped Proxy](step4.md)\r\n* **주요 내용**: 요청 범위(`@RequestScope`)와 세션 범위(`@SessionScope`) 빈 생성 및 생명 주기 검증, 싱글톤 빈과의 결합 모순 해결\r\n* **핵심 개념**: 생성자 주입(`@RequiredArgsConstructor`), AOP Scoped Proxy 메커니즘, `RequestContextHolder` (ThreadLocal)\r\n",
+      "tags": [
+        "Spring",
+        "Java",
+        "HTML/CSS",
+        "Web/Backend"
+      ],
+      "readingTime": 6
+    },
+    {
+      "id": "thymeleaf",
+      "project": "thymeleaf",
+      "description": "🍃 Thymeleaf & Spring Boot 실습 프로젝트 (260804_thymeleaf)",
+      "link": "docs/thymeleaf.md",
+      "date": "2026-08-04",
+      "title": "🍃 Thymeleaf & Spring Boot 실습 프로젝트 (260804_thymeleaf)",
+      "content": "# 🍃 Thymeleaf & Spring Boot 실습 프로젝트 (260804_thymeleaf)\n\n이 프로젝트는 Spring Boot와 Thymeleaf, Spring Data JPA, H2 데이터베이스, 그리고 Docker 멀티 스테이징 빌드 환경까지 다각도로 스프링 웹 애플리케이션의 핵심 기능을 실습할 수 있도록 설계된 예제 프로젝트입니다.\n\n백엔드 웹 개발의 기초가 없어도 흐름을 파악하고 이해할 수 있도록 기능별 핵심 요점과 실제 동작 방식을 상세하게 정리했습니다.\n\n---\n\n## 📂 프로젝트 구조와 실습 파일 링크\n\n실습 단계별로 다룬 주요 파일 목록입니다. 각 파일명을 클릭하여 소스 코드를 바로 확인할 수 있습니다.\n\n### 1. 설정 및 인프라 (Configuration & Infrastructure)\n* [`build.gradle`](file:///C:/workspace/thymeleaf/build.gradle): 프로젝트에 필요한 라이브러리(Thymeleaf, JPA, H2 DB, Lombok 등) 의존성을 관리하는 설정 파일입니다.\n* [`application.yaml`](file:///C:/workspace/thymeleaf/src/main/resources/application.yaml): 애플리케이션의 메인 설정 파일로, 실행 프로필(`dev,app,db`) 및 템플릿 캐싱 비활성화를 처리합니다.\n* [`application-app.yaml`](file:///C:/workspace/thymeleaf/src/main/resources/application-app.yaml): 외부 주입용 메시지 설정을 모아둔 개별 프로필 설정 파일입니다.\n* [`application-db.yaml`](file:///C:/workspace/thymeleaf/src/main/resources/application-db.yaml): 개발/운영 환경별 JPA 및 H2 데이터베이스 연결 정보 설정 파일입니다.\n* [`Dockerfile`](file:///C:/workspace/thymeleaf/Dockerfile): 서비스 배포를 최적화하기 위한 Gradle 빌드 및 JRE 실행 다단계(Multi-stage) 도커 설정 파일입니다.\n\n### 2. 다국어 메시지 리소스 (Internationalization - i18n)\n* [`messages.properties`](file:///C:/workspace/thymeleaf/src/main/resources/messages.properties): 기본(한국어) 다국어 메시지 키-값 정의 파일입니다.\n* [`messages_en.properties`](file:///C:/workspace/thymeleaf/src/main/resources/messages_en.properties): 영어 사용자를 위한 다국어 메시지 정의 파일입니다.\n* [`messages_ko.properties`](file:///C:/workspace/thymeleaf/src/main/resources/messages_ko.properties): 한국어 로케일 대응을 위한 메시지 파일 파일입니다.\n\n### 3. 자바 소스 코드 (Java Spring Code)\n* [`ThymeleafApplication.java`](file:///C:/workspace/thymeleaf/src/main/java/org/example/thymeleaf/ThymeleafApplication.java): 애플리케이션의 메인 진입 클래스로, 외부 프로퍼티 스캔 어노테이션이 설정되어 있습니다.\n* [`AppProperties.java`](file:///C:/workspace/thymeleaf/src/main/java/org/example/thymeleaf/config/AppProperties.java): `@ConfigurationProperties`를 사용해 야믈(`yaml`) 설정 값을 자바 객체(Record)로 안전하게 바인딩하는 클래스입니다.\n* [`AppConfig.java`](file:///C:/workspace/thymeleaf/src/main/java/org/example/thymeleaf/config/AppConfig.java): 스프링 프로필(`@Profile`) 조건에 맞춰 스프링 컨테이너에 빈(Bean)을 등록하고, 우선순위 지정(`@Primary`, `@Qualifier`)을 테스트하는 설정 파일입니다.\n* [`Pizza.java`](file:///C:/workspace/thymeleaf/src/main/java/org/example/thymeleaf/entity/Pizza.java): 데이터베이스 테이블과 매핑되는 JPA 엔티티 클래스입니다.\n* [`PizzaRepository.java`](file:///C:/workspace/thymeleaf/src/main/java/org/example/thymeleaf/repository/PizzaRepository.java): 피자 엔티티에 대한 CRUD 데이터베이스 조작을 담당하는 JpaRepository 인터페이스입니다.\n* [`MainController.java`](file:///C:/workspace/thymeleaf/src/main/java/org/example/thymeleaf/controller/MainController.java): 클라이언트의 HTTP 요청(GET/POST)을 받아 비즈니스 로직을 연결하고 Thymeleaf 뷰에 데이터를 전달하는 컨트롤러입니다.\n\n### 4. 뷰 템플릿 (View Template)\n* [`index.html`](file:///C:/workspace/thymeleaf/src/main/resources/templates/index.html): Thymeleaf 템플릿 엔진 문법을 활용하여 서버의 데이터를 HTML 화면에 출력해주는 뷰 파일입니다.\n\n---\n\n## 💡 실습 테마별 상세 정리\n\n### 1. 스프링 실행 환경 설정과 프로필 (Profiles)\n* **개념:** 하나의 프로그램 소스코드로 개발 환경(Local, Dev), 실서버 환경(Prod), 혹은 데이터베이스 환경(Db) 등 다채로운 환경에 맞춰 설정값을 분리해 동작하게 만드는 기술입니다.\n* **실습 내용:** \n  - `application.yaml`에서 `spring.profiles.active: dev,app,db` 설정을 통해 여러 프로필 설정 파일을 동시에 읽어옵니다.\n  - 개발 중 HTML을 수정했을 때 즉각 반영되도록 `thymeleaf.cache: false`로 설정하여 캐시를 비활성화했습니다.\n\n### 2. 설정 파일 속성값 바인딩과 주입 (`@Value` vs `@ConfigurationProperties`)\n* **`@Value` (필드 주입):**\n  - 설정 파일에 적힌 단일 값을 자바 클래스 변수에 쏙 주입하는 가장 직관적이고 쉬운 방법입니다.\n  - `MainController.java`에서 `@Value(\"${app.message}\") private String msg;` 형태로 사용했습니다.\n* **`@ConfigurationProperties` (객체 바인딩):**\n  - 관련 있는 여러 설정값들을 자바의 객체(클래스/레코드)에 안전하게 통째로 매핑하는 구조적이고 현대적인 기법입니다.\n  - `AppProperties.java`에서 `app` 접두사로 묶인 속성들을 record 형태로 자동 주입받았습니다.\n\n### 3. 스프링 빈(Bean) 등록과 충돌 해결 (`@Primary` vs `@Qualifier`)\n* **개념:** 스프링이 관리하는 객체를 **Bean(빈)**이라고 부릅니다. 특정 개발/운영 환경별로 서로 다른 빈을 생성하거나, 동일한 타입의 빈이 여러 개 존재할 때 스프링이 이를 올바르게 찾아 주입받도록 조율해야 합니다.\n* **해결 방법:**\n  - `@Profile(\"dev\")`: 특정 프로필이 활성화되었을 때만 빈을 생성합니다.\n  - `@Primary`: 동일한 타입의 빈이 여러 개 등록되어 있을 때, 별도 지정이 없으면 이 빈을 1순위로 채택하여 의존성을 주입합니다.\n  - `@Qualifier(\"특정이름\")`: 사용할 빈의 이름을 콕 찝어서 강제로 주입받게 설정합니다.\n  - 실습을 진행한 `AppConfig.java` 소스 코드를 통해 스프링 의존성 주입(DI) 흐름을 직관적으로 실습했습니다.\n\n### 4. 데이터베이스 연동 (JPA & H2)\n* **개념:** 자바 객체와 관계형 데이터베이스 테이블을 자동으로 매핑해주는 기술(JPA)과, 가볍고 빠른 인메모리 개발용 데이터베이스(H2)를 조합하여 데이터를 실제로 영구 저장하는 연동 실습입니다.\n* **실습 내용:**\n  - **Entity ([`Pizza.java`](file:///C:/workspace/thymeleaf/src/main/java/org/example/thymeleaf/entity/Pizza.java)):** 데이터베이스에 저장할 테이블의 모양과 컬럼 설정을 정의했습니다.\n  - **Repository ([`PizzaRepository.java`](file:///C:/workspace/thymeleaf/src/main/java/org/example/thymeleaf/repository/PizzaRepository.java)):** JPA가 제공하는 기본 CRUD 메서드(`save()`, `findAll()`)를 별도의 SQL 작성 없이 즉각 사용할 수 있게 제공하는 인터페이스입니다.\n  - **DTO (Data Transfer Object):** 엔티티 객체가 데이터베이스 스키마와 직접 닿아있기 때문에 외부 통신용(화면 전송용) 데이터를 따로 담는 가방(`PizzaDTO`)을 설계해 안전하게 변환했습니다.\n\n### 5. Thymeleaf 템플릿 엔진 주요 문법\n서버가 만든 데이터를 HTML 파일에 얹어서 사용자에게 뿌려줄 때 사용하는 핵심 문법들을 공부했습니다.\n\n* **텍스트 출력과 이스케이프:**\n  - **기본 출력 (Escaped):** HTML 특수기호(`<`, `>` 등)를 안전하게 문자열로 인코딩하여 출력합니다 (XSS 공격 대비).\n    - `th:text=\"${data}\"` 혹은 `[[${data}]]`\n  - **비이스케이프 출력 (Unescaped):** 전달받은 태그 문자열을 실제 HTML 요소로 해석해 브라우저에 렌더링합니다.\n    - `th:utext=\"${data}\"` 혹은 `[(${data})]` (실습 중 주석 처리됨)\n* **다국어 메시지 바인딩 (`#{...}`):**\n  - `#{page.headline}` 형식의 식을 작성하면, 접속한 로케일 정보에 대응되는 프로퍼티 파일(`messages.properties` 혹은 `messages_en.properties`)에서 텍스트를 자동 매칭하여 변경 노출합니다.\n* **URL 표현식 (`@{...}`):**\n  - 경로를 처리할 때 유용한 표현식으로, 동적 경로 변수(`@{/login/{id}(id=...)}`)나 쿼리 매개변수(`@{/login(pass=...)}`) 처리가 매우 유연합니다.\n* **반복문과 루프 상태 변수 (`th:each`):**\n  - 리스트를 반복 출력할 때 현재 반복 상태를 알려주는 변수를 2번째 매개변수(`status`)로 받아볼 수 있습니다.\n  - `status.count` (1부터 시작하는 순번), `status.index` (0부터 시작하는 인덱스), `status.first`/`status.last` (처음/끝 여부 boolean) 등을 제공합니다.\n* **조건문 (`th:if`, `th:unless`, `th:switch`):**\n  - 특정 조건에 부합할 때만 화면에 태그를 노출하는 분기 기법입니다.\n  - `th:unless`는 조건이 거짓일 때만 태그를 노출하며, `th:switch`와 `th:case`를 이용한 다중 선택도 가능합니다.\n\n### 6. 컨테이너 배포 최적화 (Multi-stage Dockerfile)\n* **개념:** 애플리케이션을 도커 컨테이너로 가볍고 안전하게 배포하기 위해, 빌드(Build) 단계와 실행(Run) 단계를 완전히 쪼개는 빌드 최적화 기법입니다.\n* **실습 내용:**\n  - **Builder Stage:** 무겁지만 빌드 툴이 들어있는 Gradle JDK 이미지에서 소스코드를 컴파일 및 빌드하여 `app.jar`를 만듭니다.\n  - **Run Stage:** 완성된 `app.jar` 파일만 쏙 빼와서 가벼운 경량 JRE 17 Alpine 이미지 위로 얹어 가볍게 구동합니다.\n  - 실행 매개변수에 `-XX:MaxRAMPercentage=75.0`을 지정하여 클라우드 컨테이너의 메모리 한계에서 발생할 수 있는 Out-Of-Memory(OOM) 현상을 방지하도록 실행 성능 최적화를 적용했습니다.\n",
+      "tags": [
+        "Spring",
+        "Java",
+        "Database",
+        "HTML/CSS"
+      ],
+      "readingTime": 16
+    },
+    {
+      "id": "querydsl",
+      "project": "querydsl",
+      "description": "🍓 Querydsl 실습 프로젝트 (Spring Boot + Spring Data JPA + Querydsl)",
+      "link": "docs/querydsl.md",
+      "date": "2026-07-27",
+      "title": "🍓 Querydsl 실습 프로젝트 (Spring Boot + Spring Data JPA + Querydsl)",
+      "content": "# 🍓 Querydsl 실습 프로젝트 (Spring Boot + Spring Data JPA + Querydsl)\n\n이 프로젝트는 Spring Boot 환경에서 **Spring Data JPA**와 **Querydsl**을 연동하여, 보다 안전하고 유연하게 데이터베이스를 조회하는 방법을 배우기 위한 실습 프로젝트입니다. \n\n초보자분들도 쉽게 이해할 수 있도록 프로젝트 구조와 핵심 개념, 구현된 코드의 흐름을 정리해 두었습니다.\n\n---\n\n## 💡 Querydsl이란 무엇이고, 왜 사용할까요?\n\n보통 JPA를 사용할 때 `@Query` 어노테이션 안에 SQL과 유사한 **JPQL(Java Persistence Query Language)**을 직접 문자열로 작성하여 조회 쿼리를 만듭니다. \n하지만 JPQL은 단순 문자열이기 때문에 아래와 같은 치명적인 단점이 있습니다.\n* **오타 체크 불가**: 쿼리 문자열에 오타가 있어도 컴파일 시점(빌드할 때)에는 에러가 발생하지 않고, 실제 서버가 실행되어 해당 기능이 작동할 때(런타임) 에러가 발생합니다.\n* **동적 쿼리 작성의 어려움**: 조건에 따라 쿼리가 바뀌어야 하는 경우(예: 제목만 검색할 때, 내용도 같이 검색할 때 등) 문자열을 더하고 합치는 과정이 매우 복잡하고 지저분해집니다.\n\n**Querydsl**은 이러한 문제를 해결하기 위해 등장했습니다!\n* **컴파일 시점 에러 탐지**: SQL을 자바 코드로 작성할 수 있게 도와주어, 오타가 나거나 타입이 맞지 않으면 빌드 시점에 바로 컴파일 에러를 띄워줍니다.\n* **동적 쿼리 작성 용이**: 자바의 메서드와 조건식을 활용해 복잡한 검색 조건도 깔끔하게 구현할 수 있습니다.\n* **자동 완성 지원**: IDE(IntelliJ 등)의 코드 자동 완성 기능을 사용할 수 있어 개발 생산성이 향상됩니다.\n\n---\n\n## ⚙️ 프로젝트 환경 설정\n\n### 1. `pom.xml` (의존성 및 Q-Class 생성 설정)\nQuerydsl을 사용하려면 자바 엔티티 클래스(예: `Board.java`)를 분석하여 쿼리 작성용 도구인 **Q-Class(QBoard.java)**를 빌드할 때 자동으로 생성해주어야 합니다.\n이를 위해 `pom.xml`에 Querydsl 의존성과 `apt-maven-plugin` 설정이 포함되어 있습니다.\n\n### 2. `JpaConfig.java` (설정 클래스)\nQuerydsl의 핵심 도구인 `JPAQueryFactory`와, 생성 시간/수정 시간을 자동으로 관리해주는 JPA Auditing 기능을 설정하는 클래스입니다.\n* **[`JpaConfig.java`](file:///C:/workspace/querydsl/src/main/java/org/example/querydsl/config/JpaConfig.java)**\n```java\n@Configuration\n@EnableJpaAuditing // JPA Auditing(생성/수정일자 자동 기록) 기능 활성화\npublic class JpaConfig {\n\n    @Bean\n    public JPAQueryFactory jpaQueryFactory(EntityManager entityManager) {\n        // Querydsl 쿼리를 생성하고 실행하기 위해 JPAQueryFactory를 빈으로 등록합니다.\n        return new JPAQueryFactory(entityManager);\n    }\n}\n```\n\n---\n\n## 📂 핵심 코드 설명\n\n### 1. 데이터 모델 (Entity)\n* **[`BaseEntity.java`](file:///C:/workspace/querydsl/src/main/java/org/example/querydsl/entity/BaseEntity.java)**: 모든 테이블에 공통으로 들어가는 `createdAt`(등록시간)과 `updatedAt`(수정시간)을 정의한 추상 클래스입니다. `@EntityListeners(AuditingEntityListener.class)` 설정을 통해 데이터 저장/변경 시 자동으로 시간이 입력됩니다.\n* **[`Board.java`](file:///C:/workspace/querydsl/src/main/java/org/example/querydsl/entity/Board.java)**: 게시판 데이터를 정의한 엔티티 클래스입니다. `BaseEntity`를 상속받아 시간 속성을 자동으로 상속받습니다.\n\n### 2. 데이터 저장소 (Repository)\n이 프로젝트는 단순 CRUD용 JPA Repository와 복잡한 조회용 Querydsl Repository를 나누어 사용하는 구조를 연습합니다.\n* **[`JPABoardRepository.java`](file:///C:/workspace/querydsl/src/main/java/org/example/querydsl/repository/JPABoardRepository.java)**: Spring Data JPA의 `JpaRepository` 인터페이스를 상속받아 기본 CRUD(save, delete, findById 등) 기능을 제공받습니다.\n* **[`QBoardRepository.java`](file:///C:/workspace/querydsl/src/main/java/org/example/querydsl/repository/QBoardRepository.java)**: **Querydsl 전용 저장소**입니다. 빌드 시 생성된 `QBoard` 객체와 `JPAQueryFactory`를 사용하여 직접 데이터베이스를 조회하는 자바 코드를 작성합니다.\n```java\n@Repository\n@RequiredArgsConstructor\npublic class QBoardRepository {\n    private final JPAQueryFactory jpaQueryFactory;\n\n    public List<Board> findAll() {\n        QBoard board = QBoard.board; // 빌드 시 자동 생성되는 Q-Class 객체 사용\n        return jpaQueryFactory\n                .selectFrom(board) // select * from board\n                .orderBy(board.id.desc()) // order by id desc (최신 글이 먼저 나오도록 정렬)\n                .where(board.title.contains(\"딸기\")) // where title like '%딸기%' (제목에 \"딸기\"가 포함된 게시글만 필터링)\n                .fetch(); // 쿼리 실행 및 결과를 리스트로 조회\n    }\n}\n```\n\n### 3. 비즈니스 로직 (Service)\n* **[`BoardService.java`](file:///C:/workspace/querydsl/src/main/java/org/example/querydsl/service/BoardService.java)**: 컨트롤러로부터 요청을 받아 비즈니스 로직을 수행합니다. \n  * 게시글 등록 시에는 `JPABoardRepository`를 이용해 데이터를 안전하게 `save`합니다.\n  * 게시글 목록 조회 시에는 `QBoardRepository`를 이용하여 필터링 및 정렬이 적용된 결과를 가져옵니다.\n\n### 4. 컨트롤러 및 뷰 (Web MVC)\n* **[`BoardController.java`](file:///C:/workspace/querydsl/src/main/java/org/example/querydsl/controller/BoardController.java)**: \n  * `GET /`: `BoardService.findAll()`을 호출하여 제목에 \"딸기\"가 들어간 최신 게시글 목록을 불러와 `index.jsp` 템플릿에 전달합니다.\n  * `POST /`: 사용자가 웹 화면에서 입력한 제목과 내용을 DTO([`BoardFormDTO.java`](file:///C:/workspace/querydsl/src/main/java/org/example/querydsl/dto/BoardFormDTO.java))로 전달받은 후, 엔티티로 변환하여 새로운 게시글을 등록합니다.\n* **[`index.jsp`](file:///C:/workspace/querydsl/src/main/webapp/WEB-INF/views/index.jsp)**: 게시글 등록 폼과 게시글 목록을 화면에 렌더링하는 JSP 파일입니다.\n\n---\n\n## 🏃‍♂️ 실행 및 동작 확인 방법\n\n1. **프로젝트 빌드 (Q-Class 생성)**\n   Querydsl 코드가 정상 작동하기 위해서는 최초 1회 또는 엔티티 변경 시 Maven 컴파일을 수행하여 Q-Class를 생성해야 합니다.\n   ```bash\n   ./mvnw compile\n   ```\n   * 빌드가 완료되면 `target/generated-sources/annotations` 경로 하위에 `QBoard.java` 파일이 자동으로 생성됩니다.\n\n2. **애플리케이션 실행**\n   * 메인 클래스인 [`QuerydslApplication.java`](file:///C:/workspace/querydsl/src/main/java/org/example/querydsl/QuerydslApplication.java)를 실행합니다.\n   * 브라우저에서 `http://localhost:8080`에 접속합니다.\n\n3. **기능 테스트**\n   * 화면의 입력창에 **제목**과 **내용**을 입력한 뒤 **[생성]** 버튼을 누릅니다.\n   * **필터링 테스트**: 제목에 `\"딸기\"`라는 단어가 포함된 게시글만 화면 하단의 목록에 최신순(ID 역순)으로 노출되는지 확인합니다. (예: `\"딸기 케이크\"`는 목록에 표시되지만, `\"사과 주스\"`는 화면 목록에 노출되지 않음)\n",
+      "tags": [
+        "Spring",
+        "Java",
+        "Database",
+        "Web/Backend"
+      ],
+      "readingTime": 13
+    },
+    {
+      "id": "jpa",
+      "project": "jpa",
+      "description": "🎮 JPA 게임 영웅 도감 실습 정리",
+      "link": "docs/jpa.md",
+      "date": "2026-07-23",
+      "title": "🎮 JPA 게임 영웅 도감 실습 정리",
+      "content": "# 🎮 JPA 게임 영웅 도감 실습 정리\n\n이 문서는 오늘 실습한 Spring Boot 및 JPA 기반의 **도서 관리 프로그램**을 코딩을 전혀 모르는 사람도 직관적으로 이해할 수 있도록 **\"RPG 게임 영웅 도감 시스템\"**에 비유하여 재해석한 설명서입니다.\n\n*실제 코드의 `Book`은 영웅(Hero) 카드로, `title(책 제목)`은 영웅 이름으로, `author(작가)`는 영웅의 직업(클래스)으로 대입해서 이해하시면 완벽합니다!*\n\n---\n\n## 🕹️ 전체적인 동작 그림 (게임 시스템 비유)\n\n우리가 만든 프로그램은 **\"RPG 게임의 영웅 도감 및 길드 관리 시스템\"**과 동일한 구조를 가지고 있습니다.\n\n| 역할 | 프로그램 코드 이름 | 실제 게임 시스템에서의 비유 | 설명 |\n| :--- | :--- | :--- | :--- |\n| **도감 UI** | `index.jsp`, `detail.jsp` | **게임 로비 & 캐릭터 정보창** | 유저가 마우스로 클릭하여 새 캐릭터를 생성하거나, 스펙을 보고, 캐릭터를 삭제(은퇴)하는 게임 화면입니다. |\n| **게임 로비 조작반** | `MainController` | **Lobby Router (로비 조작반)** | 유저가 화면에서 누른 조작(영웅 추가, 정보 보기, 닉네임 수정, 영웅 은퇴)을 접수해 게임 서버 엔진으로 전달하고, 바뀐 게임 화면을 유저에게 다시 그려줍니다. |\n| **생성 요청서** | `BookFormDTO` | **영웅 생성 신청서 (Draft)** | 영웅을 새로 뽑거나 정보를 수정할 때, '이름'과 '직업'만 적어서 서버로 전송하는 일회성 데이터 패킷입니다. |\n| **게임 서버 엔진** | `BookService` | **GM (게임 마스터 / 시스템 룰)** | 영웅이 도감에 정상적으로 등록될 수 있는지, 은퇴 처리가 가능한지 등 실제 게임 시스템의 비즈니스 룰을 검증하고 실행합니다. |\n| **인벤토리 매니저** | `BookRepository` | **데이터베이스 커넥터 (DB Manager)** | 실제 게임 데이터가 영구 저장되는 데이터베이스 서버에 접근하여 영웅 데이터를 저장(`save`), 조회(`find`), 삭제(`delete`)하는 특수 장치입니다. |\n| **표준 영웅 카드** | `Book` | **영웅 카드 (Hero Entity)** | 게임 서버 데이터베이스에 저장되기 위해 정해진 규격(고유 번호(ID), 영웅 이름, 직업)에 딱 맞게 제작된 표준 캐릭터 데이터 양식입니다. |\n| **게임 서버 설정** | `application.properties` | **서버 config 파일** | 게임 서버 포트는 몇 번인지, 어떤 데이터베이스 세이브 파일에 연결할 것인지, 켜질 때 세이브 데이터를 초기화할지 설정하는 문서입니다. |\n\n---\n\n## 📁 파일별 상세 설명 (게임 관점)\n\n### 1. ⚙️ 서버 설정서 (`application.properties`)\n* **경로**: [application.properties](file:///C:/workspace/jpa/src/main/resources/application.properties)\n* **쉬운 설명**: 게임 서버의 **\"부팅 설정 파일\"**입니다.\n* **주요 역할**:\n  * 게임을 시작할 때 임시 세이브 서버(H2 데이터베이스)를 켜고 접속할 주소를 연결합니다.\n  * 서버 내부에서 세이브 데이터를 쓰고 읽을 때 수행되는 데이터베이스 언어(SQL)를 콘솔 창에 친절하게 띄워주도록 세팅합니다.\n  * `ddl-auto=create` 옵션을 통해 서버를 새로 켤 때마다 기존 세이브 파일을 싹 밀고 새 게임으로 초기화하여 테스트하기 편하게 만듭니다.\n\n### 2. 🛡️ 영웅 규격 데이터 (`Book.java` - 엔티티)\n* **경로**: [Book.java](file:///C:/workspace/jpa/src/main/java/org/example/jpa/entity/Book.java)\n* **쉬운 설명**: 게임 데이터베이스에 영구 소장될 **\"표준 영웅 카드 설계도\"**입니다.\n* **주요 역할**:\n  * 모든 캐릭터 카드는 아래 규격을 반드시 따릅니다.\n    * `id` : 시스템이 영웅에게 부여하는 고유 번호 (예: 1번 영웅, 2번 영웅)\n    * `title` : 영웅 닉네임 (게임 내 중복 불가능, 필수 입력)\n    * `author` : 영웅의 직업 (예: 전사, 마법사, 궁수)\n  * `@Getter`, `@Builder` 같은 편의 기능(Lombok) 덕분에 영웅 데이터를 복잡한 코드 없이 신속하게 생성하고 가져올 수 있습니다.\n\n### 3. 🗝️ 세이브 장치 마스터키 (`BookRepository.java` - 저장소)\n* **경로**: [BookRepository.java](file:///C:/workspace/jpa/src/main/java/org/example/jpa/repository/BookRepository.java)\n* **쉬운 설명**: 데이터베이스 세이브 파일의 데이터를 직접 읽고 쓰는 **\"도감 세이브 장치\"**입니다.\n* **주요 역할**:\n  * 복잡한 저장 명령어나 쿼리 구문을 몰라도, `JpaRepository` 덕분에 자바 언어로 단순하게 저장/불러오기 명령만 내리면 실제 데이터베이스에 영구적으로 잘 기록됩니다.\n\n### 4. 📝 영웅 등록 양식 (`BookFormDTO.java` - DTO)\n* **경로**: [BookFormDTO.java](file:///C:/workspace/jpa/src/main/java/org/example/jpa/dto/BookFormDTO.java)\n* **쉬운 설명**: 유저가 도감 생성 버튼을 누를 때 작성하는 **\"영웅 정보 입력 서류\"**입니다.\n* **주요 역할**:\n  * 세이브 데이터에 들어갈 완벽한 영웅 정보(`Book`)와 달리, 유저에게는 고유 번호(ID) 등을 입력받을 필요가 없으므로 오직 '이름'과 '직업' 정보만 받아 서버로 올려보내는 전송용 폼입니다.\n  * 신청서를 받아 실제 도감에 꽂을 정식 영웅 카드 객체로 즉시 조립해 주는 `toEntity()` 기능을 탑재하고 있습니다.\n\n### 5. 🧑‍💻 게임 마스터 엔진 (`BookService.java` - 서비스)\n* **경로**: [BookService.java](file:///C:/workspace/jpa/src/main/java/org/example/jpa/service/BookService.java)\n* **쉬운 설명**: 게임의 핵심 규칙을 판정하고 처리하는 **\"GM (게임 마스터)\"**입니다.\n* **주요 역할**:\n  * **영웅 영입 (`addBook`)**: 영웅 생성 신청서를 받아서 세이브 장치를 통해 DB 서버에 영웅을 추가합니다.\n  * **도감 전체 조회 (`getAllBooks`)**: 현재 서버 데이터베이스에 존재하는 모든 영웅 목록을 수집합니다.\n  * **특정 영웅 검색 (`getBookById`)**: 고유 번호로 영웅의 자세한 스펙을 검색하며, 만약 존재하지 않는 영웅이면 \"데이터 없음\" 예외를 던집니다.\n  * **영웅 스펙 변경 (`updateBook`)**: 변경 정보를 바탕으로 세이브 장치에 갱신을 지시합니다.\n  * **영웅 은퇴/삭제 (`deleteBookById`)**: 번호를 전달받아 도감에서 완전히 지워버립니다.\n\n### 6. 💁 게임 로비 조작반 (`MainController.java` - 컨트롤러)\n* **경로**: [MainController.java](file:///C:/workspace/jpa/src/main/java/org/example/jpa/controller/MainController.java)\n* **쉬운 설명**: 게임 플레이어의 키보드/마우스 입력값을 받아 적절한 기능으로 넘겨주는 **\"로비 메인 핸들러\"**입니다.\n* **주요 역할**:\n  * 유저가 웹페이지에 접속하면 GM(Service)을 통해 모든 영웅 목록을 가져와 메인 로비(`index.jsp`)를 열어줍니다.\n  * 유저가 새 영웅 생성 버튼을 누르면 영입 신청서(`BookFormDTO`)를 수집하여 GM에게 처리를 의뢰하고, 다시 로비로 리다이렉트합니다.\n  * 상세 보기, 정보 수정, 은퇴 신청 등의 조작 신호를 받아 GM에게 전해주고 결과를 화면에 반영합니다.\n\n### 7. 🖥️ 게임 화면 (`index.jsp` & `detail.jsp` - 뷰)\n* **경로**:\n  * [index.jsp](file:///C:/workspace/jpa/src/main/webapp/WEB-INF/views/index.jsp) (게임 로비 / 영웅 생성 및 도감 목록 화면)\n  * [detail.jsp](file:///C:/workspace/jpa/src/main/webapp/WEB-INF/views/detail.jsp) (영웅 스펙 상세 화면 / 닉네임 수정 및 은퇴 버튼)\n* **쉬운 설명**: 플레이어 눈에 보이는 **\"게임 인터페이스(Web UI)\"**입니다.\n\n---\n\n## 🔄 게임 액션별 시스템 동작 순서\n\n유저가 마우스로 클릭을 했을 때 게임 백엔드 내부에서 정보가 어떻게 돌고 도는지 흐름을 알아봅시다.\n\n### ➕ 1. 새로운 영웅을 소환(등록)할 때\n```mermaid\nsequenceDiagram\n    participant User as 플레이어 (화면)\n    participant Lobby as 로비 조작반 (Controller)\n    participant GM as 게임 마스터 (Service)\n    participant SaveDev as 세이브 장치 (Repository)\n    participant ServerDB as 서버 데이터베이스 (DB)\n\n    User->>Lobby: 1. 영웅 이름/직업 입력 후 [추가] 클릭 (POST)\n    Note over Lobby: '영웅 생성 신청서(BookFormDTO)' 양식에 데이터 탑재\n    Lobby->>GM: 2. \"이 신청서대로 영웅을 소환해줘\" (addBook)\n    Note over GM: 신청서 내용을 도감에 들어갈 정식 '영웅 카드(Entity)'로 조립\n    GM->>SaveDev: 3. \"이 카드를 서버 DB 세이브 파일에 써줘\" (save)\n    SaveDev->>ServerDB: 4. 데이터베이스 테이블에 영웅 정보 추가 (INSERT 실행)\n    ServerDB-->>User: 5. 메인 로비로 복귀하여 소환된 영웅 카드 확인\n```\n\n### ✏️ 2. 영웅의 정보를 수정할 때 (예: 닉네임 변경)\n```mermaid\nsequenceDiagram\n    participant User as 플레이어 (상세 화면)\n    participant Lobby as 로비 조작반 (Controller)\n    participant GM as 게임 마스터 (Service)\n    participant SaveDev as 세이브 장치 (Repository)\n    participant ServerDB as 서버 데이터베이스 (DB)\n\n    User->>Lobby: 1. 스펙 수정 후 [수정] 클릭 (POST /{id})\n    Lobby->>GM: 2. 영웅 고유번호와 바뀐 직업/이름 전달 (updateBook)\n    GM->>SaveDev: 3. \"해당 고유번호의 영웅 데이터를 수정해줘\" (save)\n    Note over SaveDev: 고유번호(id)가 있으므로 새 생성이 아닌 기존 데이터 갱신 진행\n    SaveDev->>ServerDB: 4. DB 테이블의 기존 영웅 정보 업데이트 (UPDATE 실행)\n    ServerDB-->>User: 5. 수정된 영웅 카드가 메인 로비에 즉시 반영됨\n```\n\n### ❌ 3. 영웅을 은퇴(삭제)시킬 때\n```mermaid\nsequenceDiagram\n    participant User as 플레이어 (상세 화면)\n    participant Lobby as 로비 조작반 (Controller)\n    participant GM as 게임 마스터 (Service)\n    participant SaveDev as 세이브 장치 (Repository)\n    participant ServerDB as 서버 데이터베이스 (DB)\n\n    User->>Lobby: 1. [삭제] 링크 클릭 (GET /delete/{id})\n    Lobby->>GM: 2. \"이 고유번호의 영웅을 은퇴시킬게\" (deleteBookById)\n    GM->>SaveDev: 3. \"세이브 파일에서 이 번호의 영웅 지워\" (deleteById)\n    SaveDev->>ServerDB: 4. DB에서 영웅 정보 영구 제거 (DELETE 실행)\n    ServerDB-->>User: 5. 메인 로비 목록에서 영웅 카드가 소멸됨\n```\n\n---\n\n## 💡 요약: 왜 JPA(Java Persistence API)를 쓸까요?\n* 과거의 게임 서버 개발자들은 유저의 세이브 데이터를 저장하거나 가져오기 위해 복잡한 데이터베이스 명령어(SQL)를 전부 수동으로 만들어주어야 했습니다.\n* 하지만 **JPA** 덕분에 자바 코드로 만들어 둔 영웅 카드 객체 자체를 `save()` 장치에 밀어 넣기만 하면, 컴퓨터가 뒤에서 알아서 해당 데이터베이스에 완벽하게 동기화해 줍니다. \n* 덕분에 개발자는 데이터가 세이브 파일에 제대로 적히는지 일일이 걱정할 필요 없이, **\"게임 콘텐츠와 룰(비즈니스 로직)\"** 개발에 집중할 수 있습니다.\n",
+      "tags": [
+        "Spring",
+        "Java",
+        "Database",
+        "Web/Backend"
+      ],
+      "readingTime": 17
+    },
+    {
+      "id": "FatDogAI",
+      "project": "FatDogAI",
+      "description": "🐶 FatDog AI",
+      "link": "docs/FatDogAI.md",
+      "date": "2026-07-08",
+      "title": "🐶 FatDog AI",
+      "content": "# 🐶 FatDog AI\r\n\r\n> 헥사고날(Hexagonal) / 클린(Clean) 아키텍처로 구성한 웹 기반 멀티-LLM 채팅 애플리케이션\r\n\r\n브라우저에서 메시지와 AI 모델을 고르면, 서버가 여러 AI 제공자(Google Gemini · NVIDIA Nemotron · Groq) 중 하나에 물어보고 답을 화면에 돌려줍니다. \"AI 챗봇\"이라는 기능 자체보다 **어떻게 계층을 나누고 의존성을 관리하는가**를 학습하기 위한 프로젝트\r\n\r\n---\r\n\r\n## ✨ 주요 기능\r\n\r\n- 🤖 **멀티 AI 제공자** — 하나의 `ChatProvider` 인터페이스로 Google Gemini(GenAI SDK), NVIDIA Nemotron(NIM API), Groq(REST API)를 다형적으로 처리\r\n- 🔀 **모델별 전략 라우팅** — 선택한 모델 이름에 따라 런타임에 적절한 제공자를 선택 (`AIChatService`)\r\n- 💬 **세션별 대화 이력** — `HttpSession` ID를 사용자 식별자로 사용해 대화방을 구분하고 맥락(history)을 함께 전달\r\n- 🧹 **응답 후처리** — Groq 응답에서 사고 과정/영어 마커를 제거하고 한글 최종 답변만 추출(`GroqChatProvider.getFinalAnswer`)\r\n- 🧱 **포트 & 어댑터 설계** — 저장소·AI 제공자를 인터페이스 뒤에 숨겨, 안쪽 계층 수정 없이 구현체 교체 가능\r\n\r\n---\r\n\r\n## 🛠️ 기술 스택\r\n\r\n| 구분 | 사용 기술 |\r\n|------|-----------|\r\n| 언어 / 런타임 | Java 17 |\r\n| 웹 | Jakarta Servlet 6.0, JSP + JSTL 3.0 |\r\n| AI 연동 | Google GenAI SDK (`google-genai`), NVIDIA NIM · Groq REST API |\r\n| JSON | Gson, Jackson Databind |\r\n| 빌드 / 패키징 | Maven (WAR), `maven-war-plugin` |\r\n| 테스트 | JUnit 5 |\r\n\r\n> 서블릿 6.0 / JSP는 **Jakarta EE 10** 기준이므로 **Tomcat 10.1+** 등 Jakarta 네임스페이스를 지원하는 컨테이너가 필요합니다.\r\n\r\n---\r\n\r\n## 🏗️ 아키텍처\r\n\r\n의존성은 항상 안쪽(도메인)을 향합니다:\r\n\r\n```\r\npresentation ──▶ inbound port ──▶ service ──▶ outbound port ◀── infrastructure\r\n (Controller)     (ChatUseCase)   (흐름 조율)   (Repository/Provider)   (실제 구현)\r\n```\r\n\r\n### 요청 처리 흐름\r\n\r\n```\r\n[브라우저]            [진입점]              [유스케이스]              [갈아끼울 부품]\r\n 채팅 폼  ── POST /chat ─▶ ChatController ─▶ ChatUseCase.save() ─┬─▶ ChatRepository (저장/조회)\r\n 화면    ◀─ GET /chat ──  chat.jsp  ◀── DTO 변환   (AIChatService)  │      (InMemoryChatRepository)\r\n                                                                     └─▶ ChatProvider (AI 호출, 모델별 분기)\r\n                                                                          ├ GenAIChatProvider (Gemini/Gemma)\r\n                                                                          ├ NimChatProvider   (Nemotron)\r\n                                                                          └ GroqChatProvider  (그 외)\r\n```\r\n\r\n핵심은 **`AIChatService`가 자기가 부르는 게 Gemini인지 Nemotron인지 Groq인지, 저장이 메모리인지 DB인지 모른다**는 점입니다. 전부 인터페이스(포트) 뒤에 숨겨져 있어(DIP), 구현체를 갈아끼워도 안쪽 코드는 바뀌지 않습니다.\r\n\r\n> 현재 [`ChatController`](src/main/java/com/example/fatdogai/presentation/controller/ChatController.java)는 3-way 라우팅을 하는 `AIChatService`를 사용합니다. `GeminiChatService`는 Gemini↔Nemotron 2-way 버전으로 남아 있는 대체 구현입니다.\r\n\r\n### 계층별 클래스 배치\r\n\r\n| 계층 | 패키지 | 주요 클래스 | 역할 |\r\n|------|--------|-------------|------|\r\n| **Domain** | `domain/model` | [`Chat`](src/main/java/com/example/fatdogai/domain/model/Chat.java) | 채팅 1건을 담는 불변 값 객체(record) |\r\n| **Application** | `application/port` | [`ChatUseCase`](src/main/java/com/example/fatdogai/application/port/ChatUseCase.java) (in) · [`ChatRepository`](src/main/java/com/example/fatdogai/application/port/ChatRepository.java) · [`ChatProvider`](src/main/java/com/example/fatdogai/application/port/ChatProvider.java) · [`ChatPublisher`](src/main/java/com/example/fatdogai/application/port/ChatPublisher.java) (out) | 계층 경계(인터페이스)만 정의 |\r\n| | `application/service` | [`AIChatService`](src/main/java/com/example/fatdogai/application/service/AIChatService.java) (활성) · [`GeminiChatService`](src/main/java/com/example/fatdogai/application/service/GeminiChatService.java) | 유스케이스 구현 · 흐름 조율 |\r\n| **Infrastructure** | `infrastructure/persistence` | [`InMemoryChatRepository`](src/main/java/com/example/fatdogai/infrastructure/persistence/InMemoryChatRepository.java) | 인메모리 저장 어댑터 |\r\n| | `infrastructure/external` | [`GenAIChatProvider`](src/main/java/com/example/fatdogai/infrastructure/external/GenAIChatProvider.java) · [`GenAIConfig`](src/main/java/com/example/fatdogai/infrastructure/external/GenAIConfig.java) · [`NimChatProvider`](src/main/java/com/example/fatdogai/infrastructure/external/NimChatProvider.java) · [`GroqChatProvider`](src/main/java/com/example/fatdogai/infrastructure/external/GroqChatProvider.java) · [`GroqAIConfig`](src/main/java/com/example/fatdogai/infrastructure/external/GroqAIConfig.java) | 외부 AI API 어댑터 |\r\n| **Presentation** | `presentation/controller` | [`ChatController`](src/main/java/com/example/fatdogai/presentation/controller/ChatController.java) · [`BaseController`](src/main/java/com/example/fatdogai/presentation/controller/BaseController.java) | `/chat` 서블릿 진입점 |\r\n| | `presentation/dto` | [`ChatResponseDTO`](src/main/java/com/example/fatdogai/presentation/dto/ChatResponseDTO.java) | 화면 전용 DTO + 도메인→DTO 매퍼 |\r\n| | `presentation/listener` | [`WebEnvListener`](src/main/java/com/example/fatdogai/presentation/listener/WebEnvListener.java) | 앱 시작 시 `.env` 로드 |\r\n\r\n---\r\n\r\n## 📁 프로젝트 구조\r\n\r\n```\r\nFatDogAI/\r\n├── src/main/\r\n│   ├── java/com/example/fatdogai/\r\n│   │   ├── domain/model/Chat.java\r\n│   │   ├── application/\r\n│   │   │   ├── port/          # ChatUseCase, ChatRepository, ChatProvider, ChatPublisher\r\n│   │   │   └── service/       # AIChatService(활성), GeminiChatService\r\n│   │   ├── infrastructure/\r\n│   │   │   ├── persistence/   # InMemoryChatRepository\r\n│   │   │   └── external/      # GenAIChatProvider, GenAIConfig,\r\n│   │   │                      #   NimChatProvider, GroqChatProvider, GroqAIConfig\r\n│   │   └── presentation/\r\n│   │       ├── controller/    # ChatController, BaseController\r\n│   │       ├── dto/           # ChatResponseDTO\r\n│   │       └── listener/      # WebEnvListener\r\n│   └── webapp/WEB-INF/\r\n│       ├── views/chat.jsp     # 채팅 화면 (HTML + CSS + JS)\r\n│       └── web.xml\r\n├── .env.sample               # 필요한 환경변수 양식\r\n├── pom.xml\r\n└── mvnw / mvnw.cmd            # Maven Wrapper\r\n```\r\n\r\n---\r\n\r\n## 🚀 시작하기\r\n\r\n### 사전 준비\r\n\r\n- JDK 17\r\n- Tomcat 10.1+ (또는 Jakarta EE 10 호환 서블릿 컨테이너)\r\n- API 키\r\n  - [Google AI Studio](https://aistudio.google.com/)의 `GEMINI_API_KEY`\r\n  - [NVIDIA NIM](https://build.nvidia.com/)의 `NIM_API_KEY`\r\n  - [Groq Console](https://console.groq.com/)의 `GROQ_API_KEY`\r\n\r\n### 1) 환경변수 설정\r\n\r\n`.env.sample`을 복사해 프로젝트 루트에 `.env`를 만들고 실제 키를 채웁니다.\r\n\r\n```bash\r\ncp .env.sample .env\r\n```\r\n\r\n```dotenv\r\n# .env\r\nGEMINI_API_KEY=your-gemini-api-key\r\nNIM_API_KEY=your-nim-api-key\r\nGROQ_API_KEY=your-groq-api-key\r\n```\r\n\r\n> 앱 시작 시 [`WebEnvListener`](src/main/java/com/example/fatdogai/presentation/listener/WebEnvListener.java)가 `.env`를 찾아 값을 시스템 프로퍼티로 로드합니다. `.env`는 `.gitignore`에 포함되어 커밋되지 않습니다.\r\n\r\n### 2) 빌드\r\n\r\n```bash\r\n./mvnw clean package\r\n```\r\n\r\n`target/` 아래에 WAR 파일이 생성됩니다.\r\n\r\n### 3) 실행\r\n\r\n- **IDE(IntelliJ 등)**: Tomcat 10.1+ 런 구성에 이 모듈을 WAR(exploded)로 배포\r\n- **직접 배포**: 생성된 WAR를 Tomcat의 `webapps/`에 복사 후 서버 기동\r\n\r\n### 4) 접속\r\n\r\n브라우저에서 컨텍스트 경로 뒤에 `/chat`을 붙여 접속합니다.\r\n\r\n```\r\nhttp://localhost:8080/<context-path>/chat\r\n```\r\n\r\n---\r\n\r\n## 💬 사용법\r\n\r\n1. 하단 입력창에 메시지를 입력합니다.\r\n2. 드롭다운에서 AI 모델을 선택합니다. 모델 이름에 따라 제공자가 자동 결정됩니다.\r\n\r\n   | 화면 표시 | 모델 값 | 라우팅 (`AIChatService`) |\r\n   |-----------|---------|--------------------------|\r\n   | gemma-4-26b | `gemma-4-26b-a4b-it` | Gemini (GenAI) — 이름에 `gemma` |\r\n   | gemma-4-31b | `gemma-4-31b-it` | Gemini (GenAI) — 이름에 `gemma` |\r\n   | gemini-3.1 | `gemini-3.1-flash-lite` | Gemini (GenAI) — 이름에 `gemini` |\r\n   | 네모트론 3 | `nemotron-3-ultra-550b-a55b` | NVIDIA (NIM) — 이름에 `nemotron` |\r\n   | Qwen 3.6 | `qwen/qwen3.6-27b` | Groq — 그 외 전부 |\r\n\r\n3. **전송**을 누르면 같은 세션의 대화 이력을 맥락으로 함께 보내 답변을 받습니다.\r\n\r\n> 라우팅 규칙: 모델명에 `gemini`/`gemma` → Gemini, `nemotron` → NVIDIA, **그 외 → Groq**. Groq 경로에서는 기본 모델(`openai/gpt-oss-20b`)과 시스템 지시를 사용하며, 응답의 사고 과정을 제거하고 한글 답변만 추출해 반환합니다.\r\n\r\n---\r\n\r\n## 🔌 새 AI 제공자 추가하기\r\n\r\n이 아키텍처의 장점은 **AI를 갈아끼우기 쉽다**는 것입니다. 예를 들어 OpenAI를 추가한다면:\r\n\r\n1. `infrastructure/external`에 `ChatProvider`를 구현하는 `OpenAIChatProvider` 작성\r\n2. `AIChatService`의 라우팅 분기에 조건 추가 (또는 모델명→Provider 매핑 팩토리로 통일)\r\n\r\n`ChatUseCase`, `ChatController`, `chat.jsp` 등 나머지 코드는 **한 줄도 바뀌지 않습니다.** 인메모리 저장소를 DB로 바꾸는 것도 `ChatRepository`를 구현하는 새 어댑터를 만들면 끝입니다.\r\n\r\n---\r\n\r\n## ⚠️ 알려진 제약 / 개선 예정\r\n\r\n- **인메모리 저장** — 서버를 재시작하면 대화가 사라집니다. 실사용 시 DB 어댑터로 교체 필요.\r\n- **Groq 응답 후처리(`getFinalAnswer`)가 휴리스틱** — 줄 단위로 영어/마커를 지우고 한글만 남기는 방식이라, 답변이 영어이거나 형식이 다르면 잘려 나갈 수 있습니다.\r\n- **`WebEnvListener`의 디버그 로그 경로가 하드코딩** — 윈도우 절대경로(`C:\\workspace\\...`)라 다른 OS에서는 로그 파일 기록이 조용히 실패합니다(앱 동작에는 영향 없음).\r\n- **JSP 출력 미이스케이프** — `${chat.message}` 직접 출력으로 XSS 여지가 있어 `<c:out>` 처리 권장.\r\n- **`pom.xml`의 `junit-jupiter-api` 중복 선언** — 동일 의존성이 두 번 선언되어 있어 하나로 정리 필요. (`artifactId`/`name`은 `FatDogAI`로 정리 완료)\r\n\r\n---\r\n",
+      "tags": [
+        "Java",
+        "HTML/CSS",
+        "AI/RAG",
+        "Web/Backend"
+      ],
+      "readingTime": 21
+    },
+    {
+      "id": "jpa2",
+      "project": "jpa2",
+      "description": "🐾 JPA 실습 프로젝트: 반려동물 & 진료 예약 관리 서비스 (JPA2)",
+      "link": "docs/jpa2.md",
+      "date": "2026-07-24",
+      "title": "🐾 JPA 실습 프로젝트: 반려동물 & 진료 예약 관리 서비스 (JPA2)",
+      "content": "# 🐾 JPA 실습 프로젝트: 반려동물 & 진료 예약 관리 서비스 (JPA2)\n\n이 프로젝트는 자바 표준 ORM 기술인 **JPA(Java Persistence API)**의 기초부터 연관관계 매핑, 그리고 성능 최적화(N+1 문제 해결)까지 학습하기 위한 실습 애플리케이션입니다.\n\n공부를 처음 시작하거나 프로그래밍을 잘 모르는 사람도 쉽게 이해할 수 있도록 동작 원리와 파일 구조를 나누어 설명합니다.\n\n---\n\n## 📖 핵심 개념 쉽게 이해하기\n\n### 1. JPA(Java Persistence API)란 무엇인가요?\n* **JPA**는 자바 프로그램과 데이터베이스 사이에서 동작하는 **'번역기(통역사)'** 역할을 합니다.\n* 과거에는 개발자가 직접 복잡한 데이터베이스 명령어(SQL)를 하나하나 작성해야 했지만, JPA를 사용하면 자바 코드로 데이터를 조작할 때 JPA가 알아서 데이터베이스 명령어로 번역하여 실행해 줍니다.\n\n### 2. 엔티티(Entity)란 무엇인가요?\n* 데이터베이스의 테이블과 1:1로 매칭되는 자바 클래스입니다. 데이터베이스에 저장할 **'데이터의 설계도'**라고 생각하시면 편합니다.\n\n---\n\n## 📂 실습 핵심 파일 구조 및 역할 설명\n\n### 1. 뼈대 데이터 설계도 (Entity)\n* [Animal.java](file:///C:/workspace/jpa2/src/main/java/org/example/jpa2/entity/Animal.java): **동물 분류** (예: 강아지, 고양이, 앵무새 등)를 표현합니다.\n* [Pet.java](file:///C:/workspace/jpa2/src/main/java/org/example/jpa2/entity/Pet.java): **반려동물 정보** (이름, 나이 등)를 가집니다. 각 펫은 하나의 동물 분류에 속합니다. (N:1 연관관계)\n* [PetHistory.java](file:///C:/workspace/jpa2/src/main/java/org/example/jpa2/entity/PetHistory.java): 펫 정보가 몇 번 수정되었는지 횟수를 누적해서 기록하는 **로그(이력)** 설계도입니다.\n* [Doctor.java](file:///C:/workspace/jpa2/src/main/java/org/example/jpa2/entity/Doctor.java): 진료를 담당할 **수의사(의사) 정보** 설계도입니다.\n* [Reservation.java](file:///C:/workspace/jpa2/src/main/java/org/example/jpa2/entity/Reservation.java): 어떤 펫이 어떤 수의사에게 언제 진료를 받을지 기록하는 **예약 정보** 설계도입니다.\n\n### 2. 브라우저 요청 처리기 (Controller)\n* [MainController.java](file:///C:/workspace/jpa2/src/main/java/org/example/jpa2/controller/MainController.java): 펫 등록, 목록 조회, 상세 정보 보기, 수정, 삭제 기능을 제어합니다.\n* [ReservationController.java](file:///C:/workspace/jpa2/src/main/java/org/example/jpa2/controller/ReservationController.java): 수의사 등록 및 예약 신청, 예약 목록 조회 기능을 제어합니다.\n\n### 3. 비즈니스 로직 처리기 (Service)\n* [PetService.java](file:///C:/workspace/jpa2/src/main/java/org/example/jpa2/service/PetService.java): 펫의 등록/수정/삭제 시 DB 트랜잭션 처리 및 상세 로직을 실행합니다.\n* [ReservationService.java](file:///C:/workspace/jpa2/src/main/java/org/example/jpa2/service/ReservationService.java): 수의사와 예약의 데이터 조회 및 등록 과정을 처리합니다.\n\n### 4. 화면 페이지 (JSP Views)\n* [index.jsp](file:///C:/workspace/jpa2/src/main/webapp/WEB-INF/views/index.jsp): 메인 화면으로, 등록된 펫 목록 확인 및 새 펫/동물 종류를 추가할 수 있습니다.\n* [detail.jsp](file:///C:/workspace/jpa2/src/main/webapp/WEB-INF/views/detail.jsp): 특정 펫의 정보를 수정하거나 소프트 삭제(Soft Delete)를 수행합니다.\n* [reservation.jsp](file:///C:/workspace/jpa2/src/main/webapp/WEB-INF/views/reservation.jsp): 수의사를 등록하고 예약을 진행하며, 전체 예약 목록과 N+1 문제를 검증할 수 있는 예약 목록을 보여줍니다.\n* [n1.jsp](file:///C:/workspace/jpa2/src/main/webapp/WEB-INF/views/n1.jsp): JPA 성능 최적화(N+1 조회 문제 해결) 결과를 보여주는 단순 예약 조회 화면입니다.\n\n---\n\n## ⚠️ 필수 주의 사항 (오류 발생 원인 안내)\n\n이 프로젝트는 교육용 실습 예제로 제작되어 **예외 처리(방어 코드)가 구현되어 있지 않습니다.** 따라서 아래 상황에서는 오류 페이지가 발생하므로 주의해 주시기 바랍니다.\n\n### 1. 입력값을 누락한 채 전송할 때 (500 에러)\n* **현상**: 이름이나 나이, 의사 이름 등의 입력란을 **비워두고(공백 상태) '추가'나 '수정' 버튼을 누르면** 브라우저에 **Whitelabel Error Page(500 Internal Server Error)**가 표시됩니다.\n* **이유**: 데이터베이스 설계상 필수 값(`NOT NULL`)으로 입력되어야 하는 항목들에 빈 값이 전달되어 DB 저장 실패 예외가 발생하기 때문입니다.\n* **해결법**: 펫 이름, 나이, 의사 이름 등의 입력칸에 **반드시 값을 올바르게 채워 넣고** 버튼을 눌러주세요.\n\n### 2. 존재하지 않는 ID를 조회할 때 (500 에러)\n* **현상**: 브라우저 주소창에 `http://localhost:8080/999`와 같이 데이터베이스에 없는 임의의 ID를 입력하여 상세 페이지 조회를 시도하면 **500 에러**가 발생합니다.\n* **이유**: 소스 코드 내부에서 조회 실패 시 `orElseThrow()`를 호출하여 자바 예외(`NoSuchElementException`)를 발생시키기 때문입니다.\n\n---\n\n## 🚀 로컬 서버 실행 방법\n1. 로컬 PC에 Java 17 이상이 설치되어 있는지 확인합니다.\n2. 프로젝트 루트 폴더에 데이터베이스 연결 정보를 담은 `C:\\workspace\\jpa2\\.env.dev` 파일이 존재하는지 확인합니다.\n3. 터미널 또는 IDE에서 프로젝트를 실행한 뒤 브라우저에서 `http://localhost:8080`으로 접속합니다.\n",
+      "tags": [
+        "Spring",
+        "Java",
+        "Database",
+        "Web/Backend"
+      ],
+      "readingTime": 9
+    },
+    {
+      "id": "plan",
+      "project": "plan",
+      "description": "📅 정보처리기사 3과목 (데이터베이스 구축) D-23 합격 학습 계획서",
+      "link": "docs/plan.md",
+      "date": "2026-07-14",
+      "title": "📅 정보처리기사 3과목 (데이터베이스 구축) D-23 합격 학습 계획서",
+      "content": "# 📅 정보처리기사 3과목 (데이터베이스 구축) D-23 합격 학습 계획서\n\n* **현재 날짜:** 2026년 7월 14일\n* **원서 접수일:** 2026년 7월 20일 (월) ⚠️\n* **시험일:** 2026년 8월 7일 (금) 🎯\n* **남은 기간:** 총 23일\n\n---\n\n## 🗺️ 맞춤형 학습 로드맵 (7/15 ~ 8/7)\n\n```mermaid\ngraph LR\n    Step1(1단계: DB 설계 & 모델링<br>7/15 ~ 7/20) --> Step2(2단계: SQL 기본 & 활용<br>7/21 ~ 7/26)\n    Step2 --> Step3(3단계: 고급 DB & 최적화<br>7/27 ~ 8/1)\n    Step3 --> Step4(4단계: 데이터 전환 & 실전<br>8/2 ~ 8/6)\n    Step4 --> Exam((8/7 필기 시험일))\n\n    Reg[7/20 원서 접수 시작] -.-> Step2\n\n    style Step1 fill:#e1f5fe,stroke:#03a9f4,stroke-width:2px\n    style Exam fill:#ffebee,stroke:#f44336,stroke-width:2px\n    style Reg fill:#fff8e1,stroke:#ffc107,stroke-width:2px\n```\n\n---\n\n## 📝 일자별 상세 학습 계획\n\n### 1단계: DB 설계 및 데이터 모델링 (7/15 ~ 7/20)\n> [!IMPORTANT]\n> **7월 20일(월) 오전 10시**에 큐넷(Q-net) 필기 원서 접수가 시작됩니다. 잊지 말고 접수부터 완료하세요!\n\n| 날짜 | 구분 | 학습 주제 | 상세 학습 내용 |\n| :--- | :--- | :--- | :--- |\n| **7/15 (수)** | Day 1 | 데이터베이스 정의 및 설계 | 데이터베이스 특징, 설계 5단계 (개념 ➡️ 논리 ➡️ 물리) |\n| **7/16 (목)** | Day 2 | 데이터 모델링 및 E-R 모델 | 개체(Entity), 속성, 관계 및 E-R 다이어그램 표현법 |\n| **7/17 (금)** | Day 3 | 관계 데이터 모델 및 무결성 | 릴레이션 구조(차수, 카디널리티), 키(기본키/외래키 등), 무결성 제약조건 |\n| **7/18 (토)** | Day 4 | 정규화 (1) | 이상 현상(삽입/삭제/갱신), 정규화의 목적, 1~3정규형 |\n| **7/19 (일)** | Day 5 | 정규화 (2) | BCNF, 4~5정규형, 반정규화(역정규화)의 정의 및 특징 |\n| **7/20 (월)** | Day 6 | **원서 접수 & 1단계 복습** | 🔔 **필기 시험 원서 접수 완료하기** / 정규화 두음법 복습 (**도부이결다조**) |\n\n---\n\n### 2단계: SQL 기본 및 활용 (7/21 ~ 7/26)\n> [!TIP]\n> SQL 문법은 필기와 실기 모두에서 직접 코딩 문제로 출제되므로, 단순히 읽는 것보다 쿼리의 실행 결과를 직접 머릿속으로 그려보는 것이 중요합니다.\n\n| 날짜 | 구분 | 학습 주제 | 상세 학습 내용 |\n| :--- | :--- | :--- | :--- |\n| **7/21 (화)** | Day 7 | DDL (데이터 정의어) | CREATE, ALTER, DROP 문법 및 CASCADE/RESTRICT 옵션 |\n| **7/22 (수)** | Day 8 | DQL (기본 조회) | SELECT, WHERE 조건절, ORDER BY, DISTINCT, 와일드카드 |\n| **7/23 (목)** | Day 9 | DML (데이터 조작어) | INSERT, UPDATE, DELETE 구문 및 DML 처리 특징 |\n| **7/24 (금)** | Day 10 | DCL (데이터 제어어) | GRANT, REVOKE, COMMIT, ROLLBACK 권한 및 트랜잭션 제어 |\n| **7/25 (토)** | Day 11 | JOIN (조인) | Inner Join, Left/Right Outer Join, Cross Join 구조 및 연산 |\n| **7/26 (일)** | Day 12 | 서브쿼리 및 그룹화 | GROUP BY, HAVING, 집계 함수, 중첩 및 상관 서브쿼리 |\n\n---\n\n### 3단계: 고급 데이터베이스 및 성능 최적화 (7/27 ~ 8/1)\n> [!NOTE]\n> 트랜잭션의 ACID 특성, 병행 제어의 로킹 기법, 분산 DB 투명성 등은 객관식에서 말장난으로 오답을 유도하기 좋은 파트입니다. 명확한 정의를 외워야 합니다.\n\n| 날짜 | 구분 | 학습 주제 | 상세 학습 내용 |\n| :--- | :--- | :--- | :--- |\n| **7/27 (월)** | Day 13 | 뷰(View)와 인덱스(Index) | 뷰의 가상 테이블 특징(물리적 저장 X), 인덱스의 장단점 |\n| **7/28 (화)** | Day 14 | 트랜잭션 (ACID) | 트랜잭션 개념 및 특징 (**A**tomicity, **C**onsistency, **I**solation, **D**urability) |\n| **7/29 (수)** | Day 15 | 병행 제어 및 교착 상태 | 병행 제어 목적, 문제점(갱신 분실 등), 로킹(Locking) 단위 |\n| **7/30 (목)** | Day 16 | DB 회복(Recovery) 기법 | 로그 기반 회복(즉시/지연), 체크포인트, 그림자 페이지 |\n| **7/31 (금)** | Day 17 | 절차형 SQL | 트리거(Trigger), 프로시저(Procedure), 사용자 정의 함수 특징 |\n| **8/01 (토)** | Day 18 | 분산 DB 및 보안 | 분산 데이터베이스 투명성 4가지 (**위중병장**), 접근 통제(DAC, MAC, RBAC) |\n\n---\n\n### 4단계: 데이터 전환 및 실전 모의고사 (8/2 ~ 8/6)\n> [!CAUTION]\n> 시험 직전 5일입니다. 점수를 끌어올리기 가장 좋은 기간이므로 기출문제를 풀면서 오답 노트를 작성하고, 암기 리스트를 반복 회독해야 합니다.\n\n| 날짜 | 구분 | 학습 주제 | 상세 학습 내용 |\n| :--- | :--- | :--- | :--- |\n| **8/02 (일)** | Day 19 | 데이터 전환 및 물리 DB 설계 | ETL 프로세스, 파티셔닝(범위, 해시 등) 기법 |\n| **8/03 (월)** | Day 20 | 기출문제 풀이 (1) | 최근 2개년 기출문제 중 3과목 집중 풀이 및 오답 정리 |\n| **8/04 (화)** | Day 21 | 기출문제 풀이 (2) | 자주 틀리는 파트(정규화, JOIN 쿼리) 기본서 이론 재확인 |\n| **8/05 (수)** | Day 22 | 최종 요약집 회독 | 전체 핵심 키워드 및 암기 공식 빠르게 리마인드 |\n| **8/06 (목)** | Day 23 | 실전 대비 최종 점검 | 모의고사 1회 풀이 및 오답노트 정독 후 컨디션 관리 |\n| **8/07 (금)** | **D-Day** | **시험 당일** | 🎯 **정보처리기사 필기 시험 합격!** |\n\n---\n\n## 💡 필수 암기 요약집 (시험장 직전 회독용)\n\n1. **정규화 단계:** 도 ➡️ 부 ➡️ 이 ➡️ 결 ➡️ 다 ➡️ 조\n   * 1NF: **도**메인 원자값\n   * 2NF: **부**분 함수적 종속 제거\n   * 3NF: **이**행적 종속 제거\n   * BCNF: **결**정자이면서 후보키가 아닌 것 제거\n   * 4NF: **다**치 종속 제거\n   * 5NF: **조**인 종속 제거\n2. **트랜잭션 ACID 특징:**\n   * **원자성(Atomicity):** All or Nothing (모두 반영되거나 아예 안 되거나)\n   * **일관성(Consistency):** 트랜잭션 성공 후 언제나 일관된 DB 상태 유지\n   * **격리성/고립성(Isolation):** 둘 이상의 트랜잭션이 동시에 실행될 때 끼어들기 불가\n   * **영속성(Durability):** 성공한 트랜잭션의 결과는 시스템 장애가 나도 영구 보존\n3. **분산 데이터베이스 투명성:** **위중병장**\n   * **위치** 투명성, **중복** 투명성, **병행** 투명성, **장애** 투명성\n",
+      "tags": [
+        "Database"
+      ],
+      "readingTime": 11
+    },
+    {
+      "id": "thssr",
+      "project": "thssr",
+      "description": "📚 Spring Boot & Thymeleaf 도서 관리 시스템 (thssr) 실습 정리",
+      "link": "docs/thssr.md",
+      "date": "2026-08-05",
+      "title": "📚 Spring Boot & Thymeleaf 도서 관리 시스템 (thssr) 실습 정리",
+      "content": "# 📚 Spring Boot & Thymeleaf 도서 관리 시스템 (thssr) 실습 정리\n\n이 프로젝트는 **Spring Boot**, **Spring Data JPA**, 그리고 **Thymeleaf**를 사용하여 간단한 도서 관리 시스템을 구축하는 실습 프로젝트입니다. \n초보자분들도 쉽게 이해할 수 있도록 오늘 구현하고 실습한 파일들의 역할과 핵심 개념들을 정리했습니다.\n\n---\n\n## 🏗️ 전체 아키텍처 구조\n\n이 서비스는 웹 브라우저(HTML 화면)부터 데이터베이스(DB)까지 아래와 같은 흐름으로 데이터를 주고받습니다:\n\n```\n[ 브라우저 (HTML 화면) ] <----> [ Controller (컨트롤러) ] <----> [ Service (비즈니스 로직) ] <----> [ Repository (데이터 저장소) ] <----> [ Database (H2 DB) ]\n```\n\n---\n\n## 📂 실습 파일 및 역할 소개\n\n### 1. ⚙️ 설정 관련 파일 (Configuration & Properties)\n\n#### 📝 [JpaConfig.java](file:///C:/workspace/thssr/src/main/java/org/example/thssr/config/JpaConfig.java)\n* **역할**: JPA Auditing(자동 시간 기록 기능)을 활성화합니다.\n* **설명**: `@EnableJpaAuditing` 애노테이션을 설정하여 데이터가 생성되거나 수정될 때 생성 시간과 수정 시간을 자동으로 DB에 기록해 주는 기능을 켭니다.\n\n#### 📝 [CustomProperties.java](file:///C:/workspace/thssr/src/main/java/org/example/thssr/config/CustomProperties.java)\n* **역할**: `application.yaml` 설정 파일에 적어둔 커스텀 값들을 안전하게 Java 객체로 가져옵니다.\n* **설명**: 스프링 부트에서 제공하는 외부 설정 바인딩 기능(`@ConfigurationProperties`)을 활용하여, 사이트의 소유자(site-owner) 등 관리 정보를 자바의 `record` 객체로 자동 바인딩합니다.\n\n#### 📝 [ThssrApplication.java](file:///C:/workspace/thssr/src/main/java/org/example/thssr/ThssrApplication.java)\n* **역할**: 애플리케이션의 시작점(메인 클래스)입니다.\n* **설명**: `@ConfigurationPropertiesScan` 애노테이션을 추가하여, `CustomProperties` 같은 설정 클래스들을 스프링이 자동으로 찾아서 빈(Bean)으로 등록하게 했습니다.\n\n#### 📝 [application.yaml](file:///C:/workspace/thssr/src/main/resources/application.yaml)\n* **역할**: 애플리케이션의 환경 설정 파일입니다.\n* **설명**: 데이터베이스 연결 정보, Thymeleaf 캐시 설정 및 사이트 소유자 정보(`custom.site-owner`)를 정의합니다.\n\n#### 📝 [messages.properties](file:///C:/workspace/thssr/src/main/resources/messages.properties)\n* **역할**: 유효성 검증 실패 시 화면에 보여줄 **친절한 한글 에러 메시지**를 정의합니다.\n* **설명**: 빈 유효성 검증(Bean Validation) 도중 에러가 나면 기본 영어 에러 메시지 대신 한글 메시지(예: `공백일 수 없습니다`)가 출력되도록 연결해 줍니다.\n\n---\n\n### 2. 🗄️ 데이터베이스 및 엔티티 (Database & Entity)\n\n#### 📝 [BaseEntity.java](file:///C:/workspace/thssr/src/main/java/org/example/thssr/model/entity/BaseEntity.java)\n* **역할**: 모든 DB 테이블이 공통으로 가지는 기본 정보를 정의한 부모 클래스입니다.\n* **설명**: 모든 데이터의 고유 식별자(`id`)와 생성 시간(`createdAt`), 수정 시간(`updatedAt`)을 공통으로 관리합니다. 식별자 자동 생성 전략을 `IDENTITY`로 설정하여 DB가 알아서 ID를 증가(Auto Increment)시키도록 설정했습니다.\n\n#### 📝 [BookEntity.java](file:///C:/workspace/thssr/src/main/java/org/example/thssr/model/entity/BookEntity.java)\n* **역할**: 실제 데이터베이스 내 **도서(Book) 테이블**과 1:1로 매핑되는 객체입니다.\n* **설명**: 도서의 제목(title), 저자(author), 카테고리(category), 가격(price) 필드를 가지고 있으며 도서 정보를 데이터베이스에 저장하고 수정할 때 원본 데이터 역할을 수행합니다.\n\n---\n\n### 3. 💾 데이터 저장소 및 서비스 (Repository & Service)\n\n#### 📝 [BookJpaRepository.java](file:///C:/workspace/thssr/src/main/java/org/example/thssr/model/repository/BookJpaRepository.java)\n* **역할**: Spring Data JPA가 제공하는 강력한 DB 조작 인터페이스입니다.\n* **설명**: SQL 쿼리를 직접 짜지 않아도 이름 규칙에 맞춰 메서드를 선언(예: `findByTitleContaining`)하면 스프링이 알아서 제목으로 도서를 검색하는 쿼리를 만들어 줍니다.\n\n#### 📝 [BookRepository.java](file:///C:/workspace/thssr/src/main/java/org/example/thssr/model/repository/BookRepository.java) & [BookRepositoryImpl.java](file:///C:/workspace/thssr/src/main/java/org/example/thssr/model/repository/BookRepositoryImpl.java)\n* **역할**: 서비스 계층과 DB 데이터 계층을 느슨하게 연결(디커플링)하기 위한 추상화 인터페이스와 그 구현체입니다.\n\n#### 📝 [BookService.java](file:///C:/workspace/thssr/src/main/java/org/example/thssr/service/BookService.java)\n* **역할**: 도서 관리의 모든 비즈니스 로직(저장, 상세 조회, 수정, 삭제, 검색)을 담당하는 중심부입니다.\n* **설명**: 컨트롤러로부터 요청을 받아 필요한 가공 처리를 하고 저장소를 통해 영구적으로 데이터를 변경합니다.\n\n---\n\n### 4. 📤 데이터 전달 및 검증 (DTO & Validation)\n\n#### 📝 [BookFormDTO.java](file:///C:/workspace/thssr/src/main/java/org/example/thssr/dto/BookFormDTO.java)\n* **역할**: 화면 입력 폼의 데이터를 주고받기 위한 **전용 데이터 바구니(DTO)**입니다.\n* **설명**: 엔티티 객체를 화면에 직접 노출하지 않고 안전하게 입력값만을 걸러내어 사용합니다. 빈 검증 애노테이션을 부착하여 검증 규칙을 설정했습니다.\n  * `@NotBlank`: 공백이나 null을 허용하지 않음 (도서명, 저자, 카테고리)\n  * `@NotNull`: 필수 입력 값 (가격)\n  * `@Min(1000)`: 책 가격은 최소 1,000원 이상이어야 함\n\n#### 📝 [Update.java](file:///C:/workspace/thssr/src/main/java/org/example/thssr/dto/Update.java)\n* **역할**: 도서 정보 **수정(Update) 단계에만** 적용할 검증 그룹을 구분하기 위한 마커 인터페이스입니다.\n* **설명**: 책을 새로 등록할 때는 ID가 없지만, 수정할 때는 수정하려는 책의 고유 ID가 필수적입니다. 이처럼 수정 상황에만 ID 검증을 활성화하기 위해 검증 그룹(Validation Group)을 지정하여 처리했습니다.\n\n---\n\n### 5. 🎮 웹 요청 처리 (Controller)\n\n#### 📝 [BookController.java](file:///C:/workspace/thssr/src/main/java/org/example/thssr/controller/BookController.java)\n* **역할**: 웹 브라우저의 모든 요청(URL 주소 입력, 버튼 클릭, 폼 제출)을 받아 적절한 응답 화면이나 처리를 실행합니다.\n* **주요 기능**:\n  * **도서 목록 및 검색**: `@RequestParam(defaultValue = \"\") String keyword`을 사용하여 사용자가 검색어를 입력하지 않으면 전체를 보여주고, 입력하면 제목 기반으로 필터링하여 보여줍니다.\n  * **도서 등록 및 수정**:\n    * 신규 등록 시에는 일반 검증을 적용하고, 수정 시에는 `@Validated(Update.class)`를 적용하여 수정용 검증 그룹만 따로 체크합니다.\n    * 특정 카테고리(예: \"소설\")의 도서는 가격이 너무 저렴하면 안 되는 복합 로직의 경우, `bindingResult.reject()`를 호출해 글로벌 에러(특정 필드가 아닌 객체 전체의 에러)를 동적으로 발생시켰습니다.\n  * **일회성 메시지 전달 (Flash Attribute)**: 도서의 등록, 수정, 삭제 처리가 완료되고 나면 브라우저가 첫 화면으로 리다이렉트되는데, 이때 딱 한 번만 화면에 \"성공했습니다!\"라는 알림 배너가 뜨도록 `RedirectAttributes`의 `addFlashAttribute`를 사용했습니다.\n\n---\n\n### 6. 🖥️ 화면 템플릿 (Thymeleaf HTML View)\n\n스프링 웹 서버에서 데이터를 동적으로 결합하여 최종 HTML을 완성해 주는 Thymeleaf 템플릿 엔진 파일들입니다.\n\n#### 📝 [index.html](file:///C:/workspace/thssr/src/main/resources/templates/index.html)\n* **설명**: 메인 도서 목록 및 제목 검색 화면입니다.\n  * 상단에 설정 파일에서 읽어온 사이트 소유자 명을 동적으로 표시합니다.\n  * 등록, 수정, 삭제 성공 시 전달된 플래시 속성을 활용해 화면 상단에 녹색 알림 배너를 띄웁니다.\n  * 검색 창을 배치하여 키워드로 실시간 도서 필터링이 가능합니다.\n\n#### 📝 [form.html](file:///C:/workspace/thssr/src/main/resources/templates/form.html)\n* **설명**: 도서의 등록과 수정을 동시에 처리하는 똑똑한 입력 폼입니다.\n  * Thymeleaf의 `th:object=\"${bookForm}\"`을 통해 입력값들을 컨트롤러 DTO와 유연하게 연동합니다.\n  * 유효성 검증(Validation) 도중 에러가 나면 `th:errors`를 통해 사용자가 적어 넣은 값 바로 밑에 붉은 글씨로 커스텀 에러 메시지를 출력합니다.\n  * 에러가 난 필드는 `th:errorclass`에 의해 테두리가 붉은색으로 변해 입력 오류가 있음을 시각적으로 바로 알려줍니다.\n\n#### 📝 [detail.html](file:///C:/workspace/thssr/src/main/resources/templates/detail.html)\n* **설명**: 등록된 도서의 상세 내용을 보여주는 페이지로, 이곳에서 도서 정보를 수정하거나 삭제할 수 있는 액션 버튼을 제공합니다.\n\n---\n\n## 💡 오늘 실습에서 배운 가장 중요한 핵심 개념 (핵심 트러블슈팅)\n\n### 🚨 BindingResult의 필수 매개변수 위치 규칙\n스프링 MVC 컨트롤러에서 데이터 유효성 검증(`@Validated` 등) 결과를 받아내기 위해 `BindingResult` 객체를 사용할 때는 **반드시 검증 대상 객체 바로 다음에 적어야 합니다.**\n```java\n// 🙆‍♂️ 올바른 위치 (검증 대상 바로 다음)\npublic String updateBook(@Validated(Update.class) @ModelAttribute(\"bookForm\") BookFormDTO bookFormDTO,\n                         BindingResult bindingResult, \n                         RedirectAttributes redirectAttributes)\n\n// 🙅‍♂️ 잘못된 위치 (사이에 다른 인자가 있으면 예외가 발생하거나 검증 결과가 템플릿으로 전달되지 않음)\npublic String updateBook(@Validated(Update.class) @ModelAttribute(\"bookForm\") BookFormDTO bookFormDTO,\n                         RedirectAttributes redirectAttributes,\n                         BindingResult bindingResult)\n```\n이 순서를 어기면 스프링이 에러 바인딩을 처리하지 못하고 400 Bad Request 에러 등을 뱉어내기 때문에 항상 기억해야 합니다!\n",
+      "tags": [
+        "Spring",
+        "Java",
+        "Database",
+        "HTML/CSS"
+      ],
+      "readingTime": 17
+    },
+    {
+      "id": "springsupamemo",
+      "project": "springsupamemo",
+      "description": "📝 Spring SupaMemo: 스프링 MVC에서 Supabase 연동까지의 여정",
+      "link": "docs/springsupamemo.md",
+      "date": "2026-07-07",
+      "title": "📝 Spring SupaMemo: 스프링 MVC에서 Supabase 연동까지의 여정",
+      "content": "# 📝 Spring SupaMemo: 스프링 MVC에서 Supabase 연동까지의 여정\r\n\r\n> **Spring MVC 아키텍처 수립과 Supabase REST API를 활용한 데이터 영속화 구현 프로젝트**\r\n> \r\n> 본 프로젝트는 단순한 서블릿 템플릿에서 시작하여 단계적으로 **Spring MVC 프레임워크**를 도입하고, 최종적으로 **3계층 아키텍처(Layered Architecture)**와 외부 클라우드 데이터베이스 플랫폼인 **Supabase**를 연동하기까지의 전 과정을 단계별 브랜치로 구성하여 기록한 교육용 아키텍처 학습 프로젝트입니다.\r\n\r\n---\r\n\r\n## 🗺️ 프로젝트 발전 로드맵 (단계별 요약)\r\n\r\n다음은 본 프로젝트가 발전해 온 과정과 브랜치 구성표입니다. 각 단계의 상세 내역은 해당하는 파일 링크를 클릭하여 확인할 수 있습니다.\r\n\r\n| 단계 | 브랜치명 | 핵심 목표 | 도입 기능 및 주요 변경사항 | 주요 생성/수정 파일 | 상세 파일 |\r\n| :--- | :--- | :--- | :--- | :--- | :--- |\r\n| **Step 0** | `step0` | 프로젝트 초기화 | Maven 기반 기초 웹 프로젝트 세팅 및 전통적 Servlet 구동 | `HelloServlet.java`, `index.jsp` | [step0.md](file:///Users/morgan/Documents/workspace/springsupamemo/step0.md) |\r\n| **Step 1** | `step1` | Spring MVC 도입 | Java Config 기반 프론트 컨트롤러 패턴 및 스프링 IoC 컨테이너 설정 | `WebAppInitializer.java`, `WebConfig.java`, `HomeController.java`, `home.jsp` | [step1.md](file:///Users/morgan/Documents/workspace/springsupamemo/step1.md) |\r\n| **Step 2** | `step2` | 인터랙션 구현 | CSS 분리, DTO 도입, WAS 세션을 이용한 메모 임시 저장 및 PRG 패턴 확립 | `style.css`, `MemoFormDTO.java`, `MemoViewDTO.java`, JSTL 목록 출력 | [step2.md](file:///Users/morgan/Documents/workspace/springsupamemo/step2.md) |\r\n| **Step 3** | `step3` / `main` | 데이터베이스 연동 | 3계층 구조 분할 및 Supabase REST API(HTTP Client) 기반 데이터 영속화 완성 | `SupabaseUtil.java`, `MemoRepository.java`, `MemoService.java`, `MemoEntity.java`, `MemoTableDTO.java` | [step3.md](file:///Users/morgan/Documents/workspace/springsupamemo/step3.md) |\r\n\r\n---\r\n\r\n## 🎨 아키텍처 흐름도 (Mermaid)\r\n\r\n스프링 MVC 구조와 계층형 아키텍처 하에서 사용자의 메모 요청이 외부 클라우드 DB인 Supabase까지 도달했다가 갱신되어 브라우저에 뿌려지는 전체적인 데이터 흐름도입니다.\r\n\r\n```mermaid\r\nsequenceDiagram\r\n    autonumber\r\n    actor User as 사용자 브라우저\r\n    participant DS as DispatcherServlet\r\n    participant Controller as HomeController\r\n    participant Service as MemoService\r\n    participant Repository as MemoRepository\r\n    participant Util as SupabaseUtil\r\n    participant DB as Supabase Cloud\r\n\r\n    Note over User, DB: 1. 메모 저장 흐름 (POST)\r\n    User->>DS: POST / (memo 전송)\r\n    DS->>Controller: memoForm(MemoFormDTO) 호출\r\n    Controller->>Service: save(MemoFormDTO) 호출\r\n    Note over Service: DTO 데이터를 기반으로 영속성용 MemoEntity 빌드\r\n    Service->>Repository: save(MemoEntity) 호출\r\n    Repository->>Util: save(MemoEntity) 호출\r\n    Note over Util: Jackson을 통해 MemoSupabaseDTO로 직렬화\r\n    Util->>DB: HTTP POST /rest/v1/memo (API Key 포함)\r\n    DB-->>Util: HTTP 201 Created 응답\r\n    Util-->>Repository: void 반환\r\n    Repository-->>Service: void 반환\r\n    Service-->>Controller: void 반환\r\n    Controller-->>User: 302 Redirect (redirect:/)\r\n    \r\n    Note over User, DB: 2. 리다이렉트 후 화면 조회 흐름 (GET)\r\n    User->>DS: GET /\r\n    DS->>Controller: home(Model) 호출\r\n    Controller->>Service: findAll() 호출\r\n    Service->>Repository: findAll() 호출\r\n    Repository->>Util: getAll() 호출\r\n    Util->>DB: HTTP GET /rest/v1/memo\r\n    DB-->>Util: HTTP 200 OK (JSON 리스트 반환)\r\n    Note over Util: Response JSON을 List<MemoTableDTO>로 변환\r\n    Util-->>Repository: List<MemoEntity> 반환 (Entity 변환)\r\n    Repository-->>Service: List<MemoEntity> 반환\r\n    Note over Service: Entity 스트림을 가공해 화면용 List<MemoViewDTO>로 변환\r\n    Service-->>Controller: List<MemoViewDTO> 반환\r\n    Note over Controller: Model에 memoList 담기\r\n    Controller-->>DS: home (뷰 이름 반환)\r\n    Note over DS: ViewResolver를 거쳐 home.jsp 해석 및 JSTL c:forEach 렌더링\r\n    DS-->>User: 렌더링된 HTML 응답\r\n```\r\n\r\n---\r\n\r\n## 🍽️ 초심자를 위한 비유: \"스프링 웹 애플리케이션 식당\"\r\n\r\n웹 개발과 아키텍처가 처음이라면, 이 시스템 전체를 하나의 **고급 예약제 레스토랑**으로 생각해보세요!\r\n\r\n> [!TIP]\r\n> * **웹 브라우저 (손님)**: 맛있는 음식을 주문하고 다 차려진 음식을 먹는 존재입니다.\r\n> * **톰캣 WAS (식당 건물과 기본 유틸리티)**: 식당이 정상적으로 돌아가기 위한 물, 불, 전기가 공급되는 인프라입니다.\r\n> * **DispatcherServlet (수석 지배인 / 매니저)**: 문 앞에 서서 들어오는 모든 손님의 주문을 접수하고, 어떤 서빙 직원에게 보낼지 조율하는 핵심 총괄자입니다.\r\n> * **HomeController (홀 서빙 직원)**: 매니저에게 주문표를 건네받아 주방에 알리고, 음식이 나오면 손님에게 예쁜 그릇에 담아 테이블로 직접 나르는 직원입니다.\r\n> * **MemoFormDTO (주문서)**: 손님이 직접 펜으로 끄적여서 적어낸 메뉴 요구 사항입니다.\r\n> * **MemoViewDTO (서빙 트레이)**: 조리가 끝난 뒤 손님 앞에 나갈 수 있도록 가공해서 담아놓은 예쁜 개인 접시 세트입니다.\r\n> * **MemoService (메인 셰프 / 요리사)**: 서빙 직원이 전달한 주문서를 보고 재료를 가공하고 조합하여 실제 완성된 음식으로 만들어내는 요리의 브레인입니다.\r\n> * **MemoEntity (손질된 신선한 생재료)**: 주방 요리 도구에 맞게 껍질을 까고 손질해 놓은 날것의 재료입니다.\r\n> * **MemoRepository (창고 관리인)**: 셰프가 \"재료 가져와라\", \"재료 보관해라\"라고 명령하면 묵묵히 창고로 가서 조달해 주는 직원입니다.\r\n> * **SupabaseUtil (트럭 기사)**: 창고에 재료가 없거나 멀리 있는 외부 대형 농장(클라우드 DB)에 보관해야 할 때, 직접 고속도로를 달려 외부 농장에 물건을 던져두고 가져오는 외부 배송 기사입니다.\r\n> * **Supabase (식자재 전문 외부 대형 물류센터)**: 식당 내부에 두기에는 너무나 방대한 양의 데이터(식재료)를 안전하게 무제한으로 보관해 주는 외부 전문 업체입니다.\r\n\r\n---\r\n\r\n## 🛠️ 주니어를 위한 백엔드 핵심 원리/구조 설명\r\n\r\n### 1. Java Servlet과 Spring DispatcherServlet의 관계와 기동 원리\r\n전통적인 서블릿 환경(Step 0)에서는 URL 매핑 단위로 클래스(`HttpServlet` 상속)를 다수 생성해야 했으며, 자원 할당 및 요청 분배 코드가 중복되는 문제가 있었습니다. \r\n스프링 MVC는 이를 극복하기 위해 **프론트 컨트롤러 패턴(Front Controller Pattern)**의 결정체인 `DispatcherServlet`을 단일 진입점으로 세웁니다.\r\n* **톰캣(WAS) 기동**: `WebApplicationInitializer` 인터페이스를 구현한 클래스([WebAppInitializer](file:///Users/morgan/Documents/workspace/springsupamemo/src/main/java/org/example/springsupamemo/config/WebAppInitializer.java))를 찾아서 기동 시점에 컨텍스트를 로드합니다.\r\n* **서블릿 등록**: `DispatcherServlet` 인스턴스를 서블릿 컨텍스트에 등록하고 모든 요청(`/*` 또는 `/`)을 매핑합니다.\r\n* **인터셉트**: 들어오는 모든 HTTP 요청은 `DispatcherServlet`을 거치며, 컨트롤러의 `@RequestMapping` 정보에 매핑되어 적절한 컨트롤러로 위임됩니다.\r\n\r\n### 2. XML에서 Java Config로의 변화와 그 이점\r\n과거 스프링은 `web.xml`이나 `applicationContext.xml` 등 방대한 XML 설정을 필요로 했습니다. 이는 오타에 취약하고 컴파일 시점 검증이 불가능하다는 치명적 단점이 있었습니다.\r\n* **타입 안정성**: 자바 클래스 기반([WebConfig](file:///Users/morgan/Documents/workspace/springsupamemo/src/main/java/org/example/springsupamemo/config/WebConfig.java))으로 구성하여 컴파일 타임에 모든 빈(Bean) 스캔 및 오타 검증이 수행됩니다.\r\n* **코드 가독성**: 어노테이션 기반 설정(`@EnableWebMvc`, `@ComponentScan`)을 통해 코드의 흐름을 직관적으로 추적할 수 있습니다.\r\n\r\n### 3. 제어의 역전(IoC)과 생성자 주입(DI)의 구조\r\n스프링은 개발자가 직접 `new Service()`를 호출하여 객체의 생명주기를 결정하지 않고, 스프링 컨테이너에 객체를 빈(Bean)으로 등록해 필요한 곳에 주입해주는 **의존성 주입(Dependency Injection)** 방식을 사용합니다.\r\n* **생성자 주입(Constructor Injection)**: 순환 참조를 방지하고, 주입받는 객체의 불변성(`final` 필드 사용 가능)을 보장하며, 테스트 코드 작성 시 Mock 객체를 직접 주입하기에 매우 유리합니다.\r\n* Lombok의 `@RequiredArgsConstructor`는 클래스 내부의 `final` 지정을 가진 필드를 모아 자동으로 매개변수 생성자를 만들어 줍니다. 스프링 프레임워크 4.3 버전 이후부터는 단일 생성자를 가진 클래스의 경우 자동으로 스프링 컨테이너가 해당 생성자를 이용해 의존성을 주입하므로 추가적인 `@Autowired` 애노테이션조차 명시할 필요가 없습니다.\r\n\r\n### 4. DTO(Data Transfer Object)와 Entity를 반드시 분리하는 이유\r\n* **Entity**: 실제 DB 테이블 스키마와 직접 결합되어 있는 코어 도메인 모델([MemoEntity](file:///Users/morgan/Documents/workspace/springsupamemo/src/main/java/org/example/springsupamemo/model/MemoEntity.java))입니다. 비즈니스 규칙과 핵심 속성을 담고 있어 프레젠테이션(화면) 계층의 요구사항 변화로 인해 도메인 모델이 흔들려서는 안 됩니다.\r\n* **DTO**: 화면이나 외부 API 통신 요구사항에 맞춤 설계된 전송용 가방([MemoFormDTO](file:///Users/morgan/Documents/workspace/springsupamemo/src/main/java/org/example/springsupamemo/dto/MemoFormDTO.java), [MemoViewDTO](file:///Users/morgan/Documents/workspace/springsupamemo/src/main/java/org/example/springsupamemo/dto/MemoViewDTO.java), [MemoTableDTO](file:///Users/morgan/Documents/workspace/springsupamemo/src/main/java/org/example/springsupamemo/dto/MemoTableDTO.java))입니다.\r\n  - 필요한 데이터만 정제해서 노출하므로 보안성이 증대됩니다.\r\n  - 화면 포맷(예: 날짜 형식 포맷팅)에 따른 도메인 손상을 원천적으로 차단합니다.\r\n\r\n### 5. Java HttpClient를 통한 외부 REST API 연동 구조\r\n* **자바 기본 네이티브 HTTP 클라이언트**: 별도의 거대한 프레임워크 의존성(예: WebClient 등) 없이 JDK 11부터 내장된 `java.net.http.HttpClient`를 활용하여 경량화된 네트워크 요청을 전송합니다.\r\n* **직렬화/역직렬화**: Jackson 라이브러리의 `ObjectMapper`를 사용하여 자바 객체와 JSON 포맷 문자열 간의 데이터 마샬링(Marshalling)을 처리합니다. 수신 시에는 `TypeReference` 구조를 사용해 제네릭 소거(Type Erasure) 문제를 피하고 안전하게 `List<MemoTableDTO>`로 역직렬화합니다.\r\n\r\n---\r\n\r\n## 🎯 면접 대비 백엔드 예상 Q&A 문항\r\n\r\n> [!IMPORTANT]\r\n> 백엔드 개발자 면접 시 물어볼 법한 날카로운 예상 질문과 해설 답변 모음입니다.\r\n\r\n### Q1. 스프링 구동 시 `WebApplicationInitializer`의 동작 방식과 WAS(톰캣 등)와의 연동 원리는 무엇인가요?\r\n**A1.**  \r\n톰캣과 같은 WAS는 시작할 때 자바 표준 기술 규약인 **ServletContainerInitializer(SCI)**를 탐색하여 로딩합니다. 스프링 프레임워크는 내부적으로 SCI의 구현체인 `SpringServletContainerInitializer`를 보유하고 있으며, 이 클래스는 `@HandlesTypes(WebApplicationInitializer.class)` 애노테이션 설정을 통해 구동 시점에 클래스패스 상에 존재하는 `WebApplicationInitializer` 인터페이스 구현체들을 수집합니다. \r\n수집된 구현체(본 프로젝트의 `WebAppInitializer`)의 `onStartup(ServletContext)` 메서드를 호출하고, 이때 자바 코드로 스프링 컨테이너인 `AnnotationConfigWebApplicationContext`를 생성 및 `DispatcherServlet`을 등록하는 일련의 서블릿 라이프사이클 바인딩 작업이 프로그램 방식으로 완료됩니다.\r\n\r\n---\r\n\r\n### Q2. Web.xml 기반 설정 대신 Java Config 설정을 사용하는 이유와 장단점은 무엇인가요?\r\n**A2.**  \r\n* **이유와 장점**: Java Config는 코드로 설정을 구성하므로 자동 완성, 타입 안정성, 상속을 통한 재사용성 등 자바 언어 자체의 강력한 정적 분석 지원을 받습니다. 또한 빌드 시 컴파일 에러를 바로 잡아주어 런타임 이전에 오류를 감지할 수 있습니다. \r\n* **단점**: 설정 변경 사항이 생길 때마다 매번 애플리케이션 코드를 재컴파일하고 재배포해야 한다는 한계가 존재합니다. (XML의 경우 빌드 없이 텍스트 수정만으로 반영이 가능한 경우가 있었습니다.)\r\n\r\n---\r\n\r\n### Q3. 컨트롤러에서 POST 요청 처리 후 곧바로 뷰를 렌더링하지 않고 `redirect:/`로 리턴하는 이유(PRG 패턴)는 무엇인가요?\r\n**A3.**  \r\n이를 **PRG(Post-Redirect-Get) 패턴**이라고 합니다. 사용자가 메모 등록 등의 쓰기 작업(POST)을 한 뒤 리다이렉트 처리 없이 그 자리에서 HTML 화면을 결과로 내려주게 되면, 사용자가 브라우저에서 '새로고침(F5)'을 누를 때마다 동일한 브라우저의 직전 POST 요청이 다시 전송되어 서버상에 중복으로 메모가 등록되는 오작동이 발생하게 됩니다. \r\nPOST 요청 성공 후 즉시 302 상태 코드와 함께 GET 요청용 URL 주소로 리다이렉션을 시키면, 브라우저의 최근 요청 이력이 GET으로 변경되므로 사용자가 새로고침을 하더라도 쓰기 작업이 반복 실행되지 않고 안전하게 조회 화면만 재요청하게 됩니다.\r\n\r\n---\r\n\r\n### Q4. 3계층 아키텍처(Controller - Service - Repository)로 단계를 나누는 이유와 결합도/응집도 측면의 장점은 무엇인가요?\r\n**A4.**  \r\n각 레이어가 오직 **자신이 전담해야 하는 단 하나의 책임(관심사 분리)**에만 집중할 수 있게 만들기 위해서입니다.\r\n* **Controller**: HTTP 요청 수신, 데이터 검증, 응답 포맷 결정에 집중합니다.\r\n* **Service**: 순수한 도메인 비즈니스 규칙 정의와 트랜잭션 관리 등의 논리 연산을 처리합니다.\r\n* **Repository**: 외부 인프라스트럭처나 DB에 무관하게 데이터의 조회/적재 기능만을 추상화하여 보장합니다.\r\n이를 통해 각 계층은 하위 레이어가 무엇을 쓰는지(예: 인메모리 세션인지 Supabase DB인지) 세부 구현을 알지 못하게 인터페이스와 DTO를 매개체로 두어 **결합도를 대폭 감소**시키고, 각 파일은 고유한 역할에 집중하여 **응집도를 극대화**합니다. 결과적으로 특정 기술의 변화(예: DB 벤더 변경 등)가 발생했을 때 상위 계층의 비즈니스 코드를 전혀 수정하지 않아도 되므로 높은 유지보수성을 가지게 됩니다.\r\n\r\n---\r\n\r\n### Q5. DTO와 Entity를 분리해야 하는 이유는 무엇이며, 이들을 상호 변환하는 작업은 아키텍처 상 어디서 수행하는 것이 적절할까요?\r\n**A5.**  \r\n* **분리 이유**: Entity는 영속성 계층과 강하게 결합되어 있으므로, 화면 요구사항의 변덕에 따라 Entity 구조가 매번 바뀌면 연관된 데이터베이스 테이블 설계가 깨져 성능 저하나 원하지 않는 사이드 이펙트가 발생합니다. DTO를 통해 각 통신 지점(입력 폼, 화면 출력, API 연동 등)에 딱 필요한 필드와 포맷만 정제해서 껍데기를 입혀주는 것이 구조상 안전합니다.\r\n* **적절한 변환 위치**: DTO를 Entity로 변환하는 변환 작업의 책임은 비즈니스 정책을 수립하는 **Service 계층** 또는 데이터 접근 시 전달될 매개값을 빌딩하는 단계에서 수행하는 것이 보편적으로 선호됩니다. 컨트롤러는 DTO 데이터의 유효성 검증만 수행하고 영속성 객체의 내부 형태까지는 알지 못하도록 하여 계층 간 격리를 단단하게 유지하는 것이 좋은 설계 원칙에 가깝습니다. (조회의 경우 Repository에서 가져온 Entity 리스트를 Service 레이어에서 스트림 파이프라인을 거치며 `MemoViewDTO`로 가공하여 Controller 방향으로 올려 보내는 구조가 권장됩니다.)\r\n",
+      "tags": [
+        "Spring",
+        "Java",
+        "Database",
+        "HTML/CSS",
+        "Web/Backend"
+      ],
+      "readingTime": 26
+    },
+    {
+      "id": "jpa3",
+      "project": "jpa3",
+      "description": "📱 Spring Data JPA 실습 프로젝트 (JPA3)",
+      "link": "docs/jpa3.md",
+      "date": "2026-07-27",
+      "title": "📱 Spring Data JPA 실습 프로젝트 (JPA3)",
+      "content": "# 📱 Spring Data JPA 실습 프로젝트 (JPA3)\n\n이 프로젝트는 **Spring Data JPA**의 핵심적인 고급 기능들을 실습하고 이해하기 위해 구성된 프로젝트입니다.  \n초보자분들도 쉽게 학습할 수 있도록 실습에서 다룬 주요 개념(Auditing, Dirty Checking, Transaction, Self-Invocation, Paging/Sorting)을 실제 코드 예시와 함께 단계별로 정리해 두었습니다.\n\n---\n\n## 🛠️ 기술 스택 (Tech Stack)\n- **Java**: 17\n- **Framework**: Spring Boot 4.1.0\n- **Build Tool**: Maven\n- **Database**: PostgreSQL\n- **JPA & ORM**: Spring Data JPA, Hibernate, QueryDSL (JPAQueryFactory 설정)\n- **View**: JSP (JavaServer Pages) & JSTL\n\n---\n\n## 📂 프로젝트 구조 및 주요 파일\n각 파일을 클릭하면 해당 실습 코드로 바로 이동하여 확인하실 수 있습니다.\n\n- **Entity & Configuration**\n  - [JPAConfig.java](file:///C:/workspace/jpa3/src/main/java/org/example/jpa3/config/JPAConfig.java): Auditing 기능 활성화 및 QueryDSL `JPAQueryFactory` 빈 설정\n  - [BaseEntity.java](file:///C:/workspace/jpa3/src/main/java/org/example/jpa3/entity/BaseEntity.java): 생성 시간/수정 시간을 자동으로 기록하는 공통 부모 엔티티\n  - [Phone.java](file:///C:/workspace/jpa3/src/main/java/org/example/jpa3/entity/Phone.java): 휴대폰 정보를 담은 메인 데이터베이스 엔티티\n\n- **Repository (데이터 접근 계층)**\n  - [PhoneRepository.java](file:///C:/workspace/jpa3/src/main/java/org/example/jpa3/repository/PhoneRepository.java): 휴대폰 저장소의 비즈니스용 인터페이스\n  - [JPAPhoneRepository.java](file:///C:/workspace/jpa3/src/main/java/org/example/jpa3/repository/JPAPhoneRepository.java): Spring Data JPA에서 기본으로 제공하는 `JpaRepository` 구현체\n  - [PhoneRepositoryImpl.java](file:///C:/workspace/jpa3/src/main/java/org/example/jpa3/repository/PhoneRepositoryImpl.java): 외부 인터페이스와 JPA/QueryDSL 기술을 연결해주는 구현 클래스\n\n- **Service (비즈니스 로직 계층)**\n  - [PhoneService.java](file:///C:/workspace/jpa3/src/main/java/org/example/jpa3/service/PhoneService.java): 트랜잭션, 더티 체킹, 롤백 규칙, 자가 호출 문제를 다루는 핵심 서비스 클래스\n  - [PhoneService2.java](file:///C:/workspace/jpa3/src/main/java/org/example/jpa3/service/PhoneService2.java): 프록시(AOP) 동작과 트랜잭션 전파(Propagation)를 검증하기 위한 서브 서비스 클래스\n\n- **Controller & DTO & UI**\n  - [MainController.java](file:///C:/workspace/jpa3/src/main/java/org/example/jpa3/controller/MainController.java): 페이지네이션 및 생성/수정 요청을 받아 처리하는 웹 컨트롤러\n  - [PhoneFormDTO.java](file:///C:/workspace/jpa3/src/main/java/org/example/jpa3/dto/PhoneFormDTO.java): 클라이언트로부터 전달되는 폰 정보를 담는 Java 17 Record DTO\n  - [index.jsp](file:///C:/workspace/jpa3/src/main/webapp/WEB-INF/views/index.jsp): 화면에 폰 목록을 렌더링하고, 생성/수정/페이지 정렬 테스트가 가능한 UI 페이지\n\n---\n\n## 💡 핵심 실습 개념 이해하기 (Beginner's Guide)\n\n### 1. Spring Data JPA Auditing (등록/수정 시간 자동 생성)\n데이터베이스의 테이블마다 등록 시간(`createdAt`)과 수정 시간(`updatedAt`)을 매번 직접 입력하는 것은 매우 번거롭습니다. Spring Data JPA는 이를 자동으로 넣어주는 **Auditing** 기능을 지원합니다.\n\n* **어떻게 동작하나요?**\n  1. [BaseEntity.java](file:///C:/workspace/jpa3/src/main/java/org/example/jpa3/entity/BaseEntity.java)에 `@MappedSuperclass`를 붙여 다른 엔티티들이 상속받을 수 있도록 하고, `@EntityListeners(AuditingEntityListener.class)`를 붙여 변경 감지 리스너를 장착합니다.\n  2. 필드 위에 `@CreatedDate`와 `@LastModifiedDate`를 붙입니다.\n  3. [JPAConfig.java](file:///C:/workspace/jpa3/src/main/java/org/example/jpa3/config/JPAConfig.java) 설정 클래스 상단에 `@EnableJpaAuditing`을 선언하여 기능을 활성화합니다.\n  4. 이후 [Phone.java](file:///C:/workspace/jpa3/src/main/java/org/example/jpa3/entity/Phone.java) 엔티티가 저장되거나 수정될 때 데이터베이스에 시간이 자동으로 기록됩니다.\n\n---\n\n### 2. Dirty Checking (더티 체킹 / 변경 감지)\n데이터를 수정할 때 보통 `update()` 나 `save()` 메서드를 직접 호출해야 할 것 같지만, JPA 환경에서는 영속 상태의 엔티티 값만 변경하면 자동으로 수정 쿼리가 실행됩니다. 이를 **더티 체킹(변경 감지)**이라고 부릅니다.\n\n* **동작 원리**\n  - 트랜잭션 범위 안에서 데이터베이스로부터 데이터를 조회해 오면, JPA는 그 데이터의 초기 상태를 캡처(Snapshot)해 둡니다.\n  - 비즈니스 로직에 의해 엔티티의 상태(예: 이름 수정)가 변경된 상태에서 트랜잭션이 종료(Commit)되는 시점에, JPA는 **초기 Snapshot과 현재 상태를 비교**합니다.\n  - 달라진 부분이 있다면 **자동으로 `UPDATE` SQL을 생성하여 실행**합니다.\n\n```java\n// PhoneService.java 코드 예시\n@Transactional // <- 트랜잭션 시작\npublic void changeName(Long id, String name) {\n    Phone phone = findById(id); // DB에서 조회 (JPA 영속성 컨텍스트 관리 하에 들어감)\n    phone.changeName(name);     // 값을 수정함 (따로 save()를 호출하지 않음!)\n} // <- 트랜잭션 종료 시 변경 사항 감지 후 UPDATE SQL 자동 실행!\n```\n\n---\n\n### 3. Spring 트랜잭션의 예외 처리와 롤백 (Rollback) 규칙\nSpring의 `@Transactional`은 기본적으로 어떤 에러(Exception)가 났는지에 따라 롤백을 할지 안 할지가 결정됩니다.\n\n* **기본 규칙**: \n  - **Unchecked Exception** (런타임 예외: `RuntimeException`, `Error` 등): **자동으로 전체 롤백**\n  - **Checked Exception** (`Exception` 등): **기본적으로 롤백되지 않고 커밋됨** (중요!)\n* **실습 코드 설명**:\n  [PhoneService.java](file:///C:/workspace/jpa3/src/main/java/org/example/jpa3/service/PhoneService.java#L80-L95)에서는 이 규칙을 커스텀하게 조절하는 예제를 실습했습니다.\n  ```java\n  @Transactional(\n      rollbackFor = { NullPointerException.class, NoSuchElementException.class }, // 이 예외들이 발생하면 롤백해라\n      noRollbackFor = ArithmeticException.class // 0으로 나누는 수학적 에러가 발생해도 롤백하지 말고 그냥 커밋해라!\n  )\n  public void tx3() {\n      save(Phone.builder().name(\"tx3\").build());\n      System.out.println(1 / 0); // ArithmeticException 발생! (롤백하지 않고 'tx3' 저장 커밋 처리됨)\n  }\n  ```\n\n---\n\n### 4. Spring AOP 자가 호출 문제 (Self-Invocation)\nSpring에서 `@Transactional`은 **AOP(Aspect Oriented Programming) 프록시 패턴**을 사용하여 적용됩니다. 즉, 외부에서 서비스 객체를 호출할 때 Spring이 만든 가짜 껍데기(Proxy)가 트랜잭션을 시작해주고 실제 비즈니스 메서드를 호출해 주는 방식입니다.\n\n* **자가 호출(Self-Invocation) 문제**:\n  동일한 클래스 내에서 A 메서드가 B 메서드를 호출하는 경우, Spring 프록시를 통하지 않고 내부의 진짜 메서드가 직접 호출됩니다. 이 때문에 B 메서드에 붙은 `@Transactional(propagation = Propagation.REQUIRES_NEW)` 같은 트랜잭션 설정이 완전히 무시됩니다.\n* **실습 예제 코드 분석**:\n  - **실패 사례**: [PhoneService.java](file:///C:/workspace/jpa3/src/main/java/org/example/jpa3/service/PhoneService.java#L73-L78)의 `tx2Out()` -> 내부 메서드 `tx2()`를 직접 호출하므로 `tx2()`의 트랜잭션 전파 속성이 무시됨.\n  - **성공 사례 (외부 호출)**: [PhoneService2.java](file:///C:/workspace/jpa3/src/main/java/org/example/jpa3/service/PhoneService2.java#L12-L17)의 `tx2Out()` -> 외부 빈인 `phoneService`의 `tx2()`를 호출하므로 Spring 프록시를 정상적으로 통과하여 `REQUIRES_NEW`가 동작함.\n\n---\n\n### 5. Paging & Sorting (정렬과 페이징 처리)\n데이터베이스의 대용량 데이터를 일정한 크기 단위로 나누어 보여주는 기능입니다. Spring MVC와 Spring Data JPA는 `Pageable` 인터페이스를 제공하여 이 처리를 매우 단순화해줍니다.\n\n* **컨트롤러에서 다루는 방법**:\n  [MainController.java](file:///C:/workspace/jpa3/src/main/java/org/example/jpa3/controller/MainController.java#L31-L48)의 `/list` 엔드포인트를 참고하세요.\n  ```java\n  @GetMapping(\"/list\")\n  public String list(\n          @PageableDefault(\n                  page = 0,               // 기본 페이지 번호 (0부터 시작)\n                  size = 5,               // 기본 페이지 크기 (5개씩 보기)\n                  sort = \"id\",            // 정렬 기준 필드\n                  direction = Sort.Direction.DESC // 정렬 방향 (내림차순)\n          ) Pageable pageable, \n          Model model) {\n      model.addAttribute(\"phones\", phoneService.findAll(pageable).toList());\n      return \"index\";\n  }\n  ```\n  - 클라이언트가 브라우저 주소창에 `http://localhost:8080/list?page=0&size=5&sort=name,asc` 와 같이 파라미터를 넘겨주면, Spring이 알아서 `Pageable` 객체로 바인딩하여 쿼리에 필요한 정렬 조건과 offset/limit 조회를 수행합니다.\n\n---\n\n## 🏃 실행 및 테스트 방법\n\n1. **환경 설정 파일 작성**\n   - 루트 경로에 있는 [.env.dev.example](file:///C:/workspace/jpa3/.env.dev.example) 파일을 복사하여 `.env.dev` 파일을 생성합니다.\n   - 본인의 로컬 PostgreSQL 데이터베이스 연결 환경에 맞게 `DB_URL`, `DB_USERNAME`, `DB_PASSWORD` 등을 기입합니다.\n\n2. **애플리케이션 실행**\n   IDE를 이용하거나 아래의 Maven 래퍼 명령어로 구동할 수 있습니다.\n   ```bash\n   # application-dev.properties 프로파일 설정으로 실행됨\n   ./mvnw spring-boot:run\n   ```\n\n3. **기능 검증**\n   - `http://localhost:8080`에 접속하여 데이터 추가, 이름 수정, 정렬 조건 변경에 따른 페이징이 제대로 일어나는지 확인합니다.\n",
+      "tags": [
+        "Spring",
+        "Java",
+        "Database",
+        "Web/Backend"
+      ],
+      "readingTime": 18
+    },
+    {
+      "id": "todayfortune",
+      "project": "todayfortune",
+      "description": "🔮 오늘의 운세 서비스 (todayfortune) 단계별 구현 가이드",
+      "link": "docs/todayfortune.md",
+      "date": "2026-07-03",
+      "title": "🔮 오늘의 운세 서비스 (todayfortune) 단계별 구현 가이드",
+      "content": "# 🔮 오늘의 운세 서비스 (todayfortune) 단계별 구현 가이드\r\n\r\n본 문서에서는 `todayfortune` 프로젝트의 단계별 구현 순서와 핵심 개념을 정리합니다. 각 단계에 대해 **초심자용 비유**, **주니어용 원리 설명**, 그리고 **예상 면접 질문**을 통해 동작 원리와 아키텍처를 깊이 있게 파악할 수 있도록 돕습니다.\r\n\r\n---\r\n\r\n## 목차\r\n1. [1단계: 웹 애플리케이션 뼈대 구축 및 기본 파일 정리](#1단계-웹-애플리케이션-뼈대-구축-및-기본-파일-정리)\r\n2. [2단계: 사용자 입력(이름) 폼 구축 및 레이아웃 수정](#2단계-사용자-입력이름-폼-구축-및-레이아웃-수정)\r\n3. [3단계: POST 요청 처리 및 세션을 활용한 데이터 전달 (PRG 패턴)](#3단계-post-요청-처리-및-세션을-활용한-데이터-전달-prg-패턴)\r\n4. [4단계: 외부 AI 연동을 위한 구조 설계 및 의존성 추가](#4단계-외부-ai-연동을-위한-구조-설계-및-의존성-추가)\r\n5. [5단계: AI API 연동 완성, JSON 파싱 및 리팩토링](#5단계-ai-api-연동-완성-json-파싱-및-리팩토링)\r\n\r\n---\r\n\r\n## 1단계: 웹 애플리케이션 뼈대 구축 및 기본 파일 정리\r\n\r\n### 📌 개요\r\n프로젝트 시작 시 제공되는 기본 Hello World 템플릿 서블릿(`HelloServlet`) 및 기본 `index.jsp`를 삭제하고, 운세 서비스를 처리할 MVC 구조의 핵심 요소(`FortuneController`, `FortuneService`, `FortuneResult`, `fortune.jsp`)를 구축했습니다.\r\n\r\n### 💡 초심자를 위한 비유\r\n> **\"새로운 가게의 간판과 기본 메뉴판 준비하기\"**\r\n>\r\n> 이전 주인이 쓰던 낡은 간판(`HelloServlet`, `index.jsp`)을 떼어내고, \"오늘의 운세 전문점\"이라는 새로운 간판을 달았습니다. 주방에서 요리를 담당할 주방장(`FortuneService`), 손님의 주문을 접수하고 서빙할 지배인(`FortuneController`), 요리 결과를 담을 깔끔한 그릇(`FortuneResult`), 그리고 손님이 보게 될 멋진 메뉴판 화면(`fortune.jsp`)을 새로 마련한 단계입니다.\r\n\r\n### 🛠️ 주니어를 위한 원리 설명\r\n* **Jakarta Servlet & JSP (MVC Pattern):**\r\n    * 클라이언트의 요청이 오면 서블릿 클래스인 `FortuneController`가 진입점(Controller) 역할을 합니다.\r\n    * 비즈니스 로직은 싱글톤 패턴으로 구현된 `FortuneService`(Service)로 위임하여 처리합니다.\r\n    * 처리된 데이터는 레코드 객체인 `FortuneResult`(Model)에 담아 JSP(View)로 전달하며, Controller가 `RequestDispatcher.forward()`를 사용하여 제어권을 뷰로 넘깁니다.\r\n\r\n### ❓ 면접을 위한 예상 면접 질문\r\n* **Q1. 서블릿(Servlet)의 생명주기(Lifecycle)에 대해 설명해 주세요.**\r\n    * *A1.* 서블릿은 최초 요청 시(또는 설정에 따라 구동 시) `init()` 메소드가 호출되며 초기화 및 인스턴스가 생성됩니다. 이후 요청이 올 때마다 스레드가 생성되어 `service()` 메소드를 거쳐 `doGet()`, `doPost()` 등이 실행됩니다. 최종적으로 서블릿이 종료되거나 컨테이너가 멈출 때 `destroy()` 메소드가 실행되어 자원이 해제됩니다.\r\n* **Q2. `FortuneService`에 싱글톤(Singleton) 패턴을 적용한 이유가 무엇인가요?**\r\n    * *A2.* 서비스 클래스는 상태를 가지지 않고 로직만을 공유하는 객체인 경우가 많습니다. 매 요청마다 새로운 인스턴스를 생성하면 가비지 컬렉션(GC)의 부담이 늘어나고 메모리가 낭비되므로, 단 하나의 인스턴스만 메모리에 올려 재사용하기 위해 싱글톤 패턴을 적용합니다.\r\n\r\n---\r\n\r\n## 2단계: 사용자 입력(이름) 폼 구축 및 레이아웃 수정\r\n\r\n### 📌 개요\r\n사용자가 자신의 한글 이름을 입력하고 운세를 조회할 수 있도록 HTML `<form>` 태그를 `fortune.jsp`에 배치하고, 화면 레이아웃이 깔끔하게 정렬되도록 CSS Flexbox 설정을 수정했습니다 (`justify-content: start` ➡️ `align-items: start`).\r\n\r\n### 💡 초심자를 위한 비유\r\n> **\"손님의 주문서 양식지와 깔끔한 테이블 매트 세팅\"**\r\n>\r\n> 손님이 이름을 적을 수 있는 빈 주문서 양식지(`<form>` 및 `<textarea>`)를 테이블 위에 올려두었습니다. 또한, 비뚤어져 있던 수저와 그릇의 위치를 깔끔하게 정렬(`align-items: start`)하여 손님이 주문하기 편리하도록 식탁 테이블보(CSS 레이아웃)를 정리한 단계입니다.\r\n\r\n### 🛠️ 주니어를 위한 원리 설명\r\n* **CSS Flexbox Layout:**\r\n    * 부모 컨테이너의 `display: flex`와 `flex-direction: column` 설정 하에서 정렬 축이 바뀝니다.\r\n    * 세로 배치(`column`) 상태에서 주축(Main Axis)은 세로 방향이고, 교차축(Cross Axis)은 가로 방향이 됩니다.\r\n    * 기존의 `justify-content: start`는 세로 방향의 정렬 방식이었으나, 요소들이 좌측에 가지런히 맞물리도록 하기 위해 가로 방향(교차축) 정렬 속성인 `align-items: start`로 수정하여 레이아웃을 고정했습니다.\r\n\r\n### ❓ 면접을 위한 예상 면접 질문\r\n* **Q1. CSS Flexbox에서 `justify-content`와 `align-items`의 차이는 무엇인가요?**\r\n    * *A1.* `justify-content`는 Flex 주축(Main Axis)을 기준으로 아이템들을 정렬하는 속성이고, `align-items`는 교차축(Cross Axis)을 기준으로 정렬하는 속성입니다. `flex-direction`이 `row`(기본값)일 때는 주축이 가로이고 교차축이 세로이지만, `column`일 때는 주축이 세로가 되고 교차축이 가로가 됩니다.\r\n* **Q2. HTTP POST 요청 시 `<form>`의 기본 동작과 전송 데이터 포맷은 어떻게 되나요?**\r\n    * *A2.* `<form method=\"post\">`로 데이터를 전송하면 Body 영역에 `application/x-www-form-urlencoded` 포맷(예: `koreanName=%ED%99%8D%EA%B8%B8%EB%8F%99`)으로 데이터가 인코딩되어 서버로 전달됩니다. URL에 데이터가 노출되지 않으므로 GET 요청에 비해 상대적으로 보안에 유리하고 대용량 전송이 가능합니다.\r\n\r\n---\r\n\r\n## 3단계: POST 요청 처리 및 세션을 활용한 데이터 전달 (PRG 패턴)\r\n\r\n### 📌 개요\r\n사용자가 폼을 전송(POST)했을 때 컨트롤러가 요청을 받아 운세 데이터를 생성한 후, 브라우저 새로고침 시 동일한 POST 요청이 중복해서 전송되는 문제를 막기 위해 **PRG(Post-Redirect-Get) 패턴**을 적용했습니다. 결과 데이터는 `HttpSession`에 저장되어 안전하게 GET 화면으로 전달되었고, JSP 화면에서는 JSTL의 `<c:choose>` 태그를 사용해 조건부로 운세 결과를 출력했습니다.\r\n\r\n### 💡 초심자를 위한 비유\r\n> **\"주문서 접수 후 번호표 제공과 중복 결제 방지\"**\r\n>\r\n> 손님이 계산대에서 이름표가 적힌 주문서를 제출(POST)했습니다. 직원은 주문서를 받아 서랍(Session)에 임시 보관한 뒤, 손님에게 \"자리에 가서 잠시 기다려 주세요\"라며 자리 번호표를 쥐어주고 대기석으로 이동(Redirect)시킵니다. 대기석에 앉은 손님은 화면(JSP)을 보며 전광판에 자기 번호와 함께 운세 텍스트가 나타나기를(JSTL 분기 출력) 기다리는 방식입니다. 이렇게 하면 손님이 계산대에 여러 번 줄을 서는 사고(새로고침 시 중복 요청)를 방지할 수 있습니다.\r\n\r\n### 🛠️ 주니어를 위한 원리 설명\r\n* **PRG (Post-Redirect-Get) 패턴:**\r\n    * 만약 사용자가 POST 요청 후 결과 화면을 그대로 포워드(`forward`) 받으면, 브라우저 새로고침 시 이전에 보냈던 POST 요청이 다시 전송되어 데이터 중복 삽입/변경 등의 결함이 발생할 수 있습니다.\r\n    * 이를 방지하기 위해 POST 요청의 응답으로 `sendRedirect(\"/fortune\")`을 반환하여 브라우저가 다시 GET 요청을 보내도록 유도합니다.\r\n* **JSTL & Session Storage:**\r\n    * 리다이렉트가 발생하면 HTTP Request 객체는 소멸하므로 데이터를 보존하기 위해 사용자의 고유 저장소인 `HttpSession`에 `fortuneResult` 객체를 저장합니다.\r\n    * 뷰단(`fortune.jsp`)에서는 JSTL core 태그(`<%@ taglib prefix=\"c\" ... %>`)와 EL(Expression Language)을 이용해 세션에 데이터가 있을 때만 결과를 보여주고 없을 때는 기본 안내 문구를 띄우도록 제어합니다.\r\n\r\n### ❓ 면접을 위한 예상 면접 질문\r\n* **Q1. Forward와 Redirect의 가장 결정적인 차이점은 무엇인가요?**\r\n    * *A1.* **Forward**는 서버 내부에서만 페이지 이동이 일어나는 방식으로, 웹 브라우저는 페이지 이동을 전혀 감지하지 못해 URL이 변경되지 않으며 Request/Response 객체가 유지됩니다. 반면 **Redirect**는 서버가 브라우저에게 \"이 주소로 다시 요청해라\"고 응답(3xx status code)을 주어 브라우저가 새로운 URL로 다시 GET 요청을 보내게 만듭니다. 이 과정에서 Request 객체는 새로 생성됩니다.\r\n* **Q2. HTTP Session과 Cookie의 개념 차이와 웹 서비스에서 각각 어떻게 쓰이는지 설명해 주세요.**\r\n    * *A2.* **쿠키(Cookie)**는 데이터를 클라이언트(브라우저) 측에 직접 텍스트 형태로 보관하는 저장소이며 보안에 취약합니다. 반면 **세션(Session)**은 데이터 자체를 서버 측 메모리나 데이터베이스에 저장하고, 클라이언트에게는 무작위로 생성된 세션 ID(Session Cookie 형태)만 전달하여 브라우저 식별자로 활용하므로 보안성이 더 높습니다. 주로 세션은 로그인 정보나 일시적인 장바구니 데이터를 보관할 때 사용합니다.\r\n\r\n---\r\n\r\n## 4단계: 외부 AI 연동을 위한 구조 설계 및 의존성 추가\r\n\r\n### 📌 개요\r\n하드코딩된 정적 운세 결과 대신 외부 대형 언어 모델(LLM) API(Groq)를 통해 실시간으로 운세를 생성하기 위해 설계 구조를 개편했습니다. `AIUtil` 인터페이스를 설계하고, Java 표준 `HttpClient` 호출을 위한 `GroqAIUtil` 싱글톤 구현체를 추가했습니다. 더불어 JSON 데이터 처리를 위한 `jackson-databind` 라이브러리를 `pom.xml`에 추가했습니다.\r\n\r\n### 💡 초심자를 위한 비유\r\n> **\"외부 전문 상담가 채용 및 전용 무전기 설치\"**\r\n>\r\n> 매번 같은 답변만 주는 기성품 운세 자판기를 치우고, 진짜 운세를 기가 막히게 풀어줄 외부 전문 상담가(Groq AI)와 계약을 맺었습니다. 이 상담가와 소통하려면 전문 비서(`AIUtil` 인터페이스)가 필요하며, 상담가와 연락할 수 있는 전용 무전기(`HttpClient`)와 영문 서류를 한글 기안서로 번역 및 정리할 통역사(`Jackson ObjectMapper`)를 장만한 과정입니다.\r\n\r\n### 🛠️ 주니어를 위한 원리 설명\r\n* **인터페이스 기반 개발(IoC/DIP 지향):**\r\n    * 서비스 클래스가 구체적인 외부 API 연동 구현체(`GroqAIUtil`)에 직접 의존하면, 향후 OpenAI나 Claude 등 다른 AI 서비스로 변경할 때 서비스의 핵심 코드를 수정해야 합니다.\r\n    * 이를 막기 위해 인터페이스인 `AIUtil`을 두고 의존하도록 설계하여 느슨한 결합(Loose Coupling)을 구현했습니다.\r\n* **Java HTTP Client:**\r\n    * Java 11부터 표준 패키지(`java.net.http`)에 편입된 `HttpClient` API를 활용하여 외부 Groq 엔드포인트로 JSON payload를 포함한 동기적 POST 요청을 보낼 수 있는 네트워크 커넥션을 구축했습니다.\r\n\r\n### ❓ 면접을 위한 예상 면접 질문\r\n* **Q1. 클래스에 직접 의존하지 않고 인터페이스를 정의하여 의존관계를 맺는 설계상의 장점은 무엇인가요?**\r\n    * *A1.* 의존관계 역전 원칙(DIP)을 따르게 되며 결합도가 낮아집니다. 이를 통해 서비스 구현 로직의 변경 없이도 다른 기술 스택(예: Groq가 아닌 다른 AI 유틸리티 구현체)으로 손쉽게 교체할 수 있어 유지보수성과 확장성이 극대화되고 단위 테스트(Mock 객체 주입 등)를 수행하기 용이해집니다.\r\n* **Q2. Jackson Library의 역할과 `ObjectMapper`의 직렬화(Serialization)/역직렬화(Deserialization)에 대해 설명해 주세요.**\r\n    * *A2.* Jackson은 자바 객체와 JSON 포맷의 문자열 사이의 상호 변환을 지원하는 라이브러리입니다. 자바 객체를 JSON 텍스트 문자열로 변환하는 작업을 **직렬화(Serialization - writeValueAsString)**라고 하며, 반대로 수신한 JSON 문자열을 자바의 Object나 Record 구조로 변환하는 작업을 **역직렬화(Deserialization - readValue)**라고 합니다.\r\n\r\n---\r\n\r\n## 5단계: AI API 연동 완성, JSON 파싱 및 리팩토링\r\n\r\n### 📌 개요\r\n마지막 단계로 AI 운세 생성을 위한 사용자 맞춤형 프롬프트를 고도화하고, 외부 API로부터 반환된 JSON 원시 텍스트를 Java Record 객체 모델로 역직렬화했습니다. Stream API를 이용해 대답 텍스트 영역을 필터링하여 웹 화면에 최종 출력하도록 핵심 로직을 완성하였으며, 고성능 경량 LLM 모델인 `qwen/qwen3.6-27b`로의 교체 및 주석 정리를 진행했습니다.\r\n\r\n### 💡 초심자를 위한 비유\r\n> **\"상담가의 복잡한 보고서에서 핵심 운세 문장만 골라내기\"**\r\n>\r\n> 전문 상담가(Qwen AI)에게 \"이름과 오늘의 날짜를 기반으로 100자 내로 운세를 적어주세요\"라는 명확한 양식의 의뢰서(고도화된 프롬프트)를 제출했습니다. 상담가가 보내온 매우 길고 복잡한 보고서 봉투(Groq API JSON 결과 데이터)를 뜯어서 내용물(자바 Record)을 하나씩 분류한 뒤, 본문 글자(Stream API 필터링)만 쏙 뽑아내어 손님에게 전달하는 깔끔한 시스템을 완성하고 설명서(주석)를 붙인 최종 단계입니다.\r\n\r\n### 🛠️ 주니어를 위한 원리 설명\r\n* **Java Record (Java 16+):**\r\n    * API 응답 JSON을 매핑하기 위해 보일러플레이트 코드(getter, setter, equals, hashCode 등)가 필요 없는 불변(Immutable) 데이터 객체인 `Record`를 사용했습니다. 응답 객체의 JSON 구조(ex: `{output: [{content: [{text: \"\"}], type: \"\"}]}`)를 구조화한 중첩 Record를 활용해 직관적인 바인딩을 제공합니다.\r\n* **Java Stream API & Lambda:**\r\n    * 응답 결과 목록(`result.output()`) 중에서 생성된 텍스트 메시지 블록(`type.equals(\"message\")`)만 필터링하여 가져오기 위해 자바 스트림과 람다식을 사용했습니다.\r\n    * 가독성을 높이고 선언형 프로그래밍 방식을 취해 복잡한 중첩 반복문 없이 효율적인 필터링 체이닝을 구성했습니다.\r\n\r\n### ❓ 면접을 위한 예상 면접 질문\r\n* **Q1. Java의 전통적인 Class와 16버전 이후의 Record의 가장 큰 차이점은 무엇인가요?**\r\n    * *A1.* `Record`는 불변(Immutable) 데이터를 운반하는 DTO(Data Transfer Object) 목적에 특화된 클래스 종류입니다. 컴파일 시 필드들을 읽기 위한 읽기 전용 getter(메소드명이 필드명과 동일), `equals()`, `hashCode()`, `toString()` 메소드가 자동으로 생성되어 상투적 코드가 획기적으로 줄어듭니다. 또한 필드가 모두 `final`로 지정되어 데이터의 안전성을 보장합니다.\r\n* **Q2. 외부 API 장애나 타임아웃 등으로 인해 웹 서비스 전체가 먹통이 되는 현상을 예방하려면 어떻게 아키텍처를 개선할 수 있을까요?**\r\n    * *A2.* 외부 API 호출부 근처에 서킷 브레이커(Circuit Breaker) 패턴을 도입해 장애 감지 시 호출을 즉시 차단하고 기본 운세 결과(Fallback)를 보여주도록 안전장치를 마련할 수 있습니다. 또한 `HttpClient` 호출 시 만료 타임아웃을 짧게 지정하고 비동기 요청(`sendAsync()`) 처리 혹은 별도의 독립된 스레드 풀에서 비동기로 실행하여 메인 톰캣(Tomcat) 스레드가 락에 빠지는 상황을 최소화해야 합니다.\r\n\r\n---\r\n\r\n*본 문서는 오늘운세(`todayfortune`) 프로젝트의 발자취와 핵심 컴퓨터 과학 원리를 담고 있습니다. 추가 질문이나 수정 사항이 있다면 Pair Programming 에이전트와 함께 개선해 나가시기 바랍니다.*",
+      "tags": [
+        "Java",
+        "Database",
+        "HTML/CSS",
+        "AI/RAG",
+        "Web/Backend"
+      ],
+      "readingTime": 22
+    },
+    {
+      "id": "worrydoll",
+      "project": "worrydoll",
+      "description": "🧸 걱정인형 (Worrydoll) - Spring AI & RAG 실습 프로젝트",
+      "link": "docs/worrydoll.md",
+      "date": "2026-08-04",
+      "title": "🧸 걱정인형 (Worrydoll) - Spring AI & RAG 실습 프로젝트",
+      "content": "# 🧸 걱정인형 (Worrydoll) - Spring AI & RAG 실습 프로젝트\n\n이 프로젝트는 **Spring Boot**와 **Spring AI**, 그리고 **PostgreSQL (pgvector)**을 활용하여 사용자의 대화 내용을 기억하고, 과거 대화에서 필요한 정보를 찾아 답변해 주는 AI 기반의 채팅 및 RAG(검색 증강 생성) 웹 서비스입니다. \n\n초보자분들도 쉽게 이해할 수 있도록 동작 원리와 설치 방법을 자세하게 설명합니다!\n\n---\n\n## 💡 주요 개념 눈높이 설명\n\nAI 서비스를 처음 접하는 분들을 위해 핵심 기술을 쉽게 풀어 설명해 드릴게요.\n\n### 1. Spring AI 🍃\n* **설명**: 스프링(Spring) 프레임워크에서 OpenAI나 Google Gemini 같은 인공지능 모델을 편리하게 연동할 수 있도록 도와주는 도구입니다.\n* **이 프로젝트에서의 역할**: Google의 **Gemini AI 모델**(`gemini-3.5-flash-lite`, `gemini-3.1-flash-lite`)과 대화하고 요청을 주고받는 창구 역할을 합니다.\n\n### 2. Chat Memory (대화 메모리) 🧠\n* **설명**: AI는 기본적으로 이전 질문을 기억하지 못합니다(State-less). 대화의 맥락을 기억하기 위해 이전 대화 기록들을 보관해 두었다가 다음 질문을 보낼 때 같이 묶어서 보내주는 기술입니다.\n* **이 프로젝트에서의 역할**: 사용자가 대화방에서 계속해서 이야기를 나눌 때, AI가 이전 대화의 흐름을 기억한 채 자연스럽게 대답할 수 있도록 돕습니다. (데이터베이스에 대화 이력이 저장됩니다.)\n\n### 3. Vector DB (벡터 데이터베이스) & 임베딩(Embedding) 🔍\n* **설명**:\n  * **임베딩**: 컴퓨터가 텍스트의 '의미'를 이해할 수 있도록 문장을 여러 개의 숫자(벡터)로 변환하는 기술입니다. 예를 들어 \"배고프다\"와 \"밥 먹고 싶다\"는 단어는 다르지만 의미가 유사하므로 비슷한 숫자로 변환됩니다.\n  * **Vector DB**: 이 변환된 숫자들을 저장하고, 사용자가 질문을 던졌을 때 **의미상 가장 유사한 데이터를 빠르게 검색**해 주는 특수 데이터베이스입니다.\n* **이 프로젝트에서의 역할**: 사용자가 입력한 모든 대화 내용을 벡터로 변환하여 **PostgreSQL의 pgvector 확장 프로그램**에 저장합니다.\n\n### 4. RAG (Retrieval-Augmented Generation, 검색 증강 생성) 🚀\n* **설명**: AI가 학습하지 않은 외부 정보(이 프로젝트에서는 사용자의 과거 대화 기록)를 검색하여 그 정보에 기반해 답변을 생성하는 기법입니다.\n* **이 프로젝트에서의 역할**: 사용자가 과거 대화 내용에 대해 질문하면, 벡터 DB에서 해당 사용자의 과거 대화들을 검색(Retrieve)하고, 그 결과를 AI에게 참고 자료로 제공하여 정확한 답변을 유도합니다.\n\n---\n\n## 🛠️ 기술 스택 (Tech Stack)\n\n* **Backend**: Java 17, Spring Boot 3.x, Spring AI\n* **Database**: PostgreSQL (pgvector 확장 활성화 필요)\n* **View**: JSP (JavaServer Pages)\n* **AI Model**: Google Gemini (`gemini-3.5-flash-lite`, `gemini-3.1-flash-lite`)\n\n---\n\n## 🏗️ 시스템 아키텍처 및 동작 흐름\n\n```mermaid\ngraph TD\n    User([사용자 웹 화면]) -->|1. 사용자 등록 / 채팅 / 검색| Controller[MainController]\n    Controller -->|2. 비즈니스 로직 처리| Service[ChatService]\n    Service -->|3-1. 대화 내역 영구 저장| DB[(PostgreSQL)]\n    Service -->|3-2. 질문 의미 변환 및 저장| VectorDB[(pgvector Vector Store)]\n    Service -->|4. 과거 맥락 검색| VectorDB\n    Service -->|5. AI 모델 연동 및 답변 생성| Gemini[Google Gemini AI]\n    Gemini -->|6. 답변 반환| User\n```\n\n1. **대화(Chat) 흐름**: \n   * 사용자가 대화창에 메시지를 입력합니다.\n   * `ChatClient`가 이전 대화 메모리를 장착하여 Gemini AI에 전달하고 답변을 받아옵니다.\n   * 입력된 메시지는 나중에 검색할 수 있도록 벡터 변환(Embedding)을 거쳐 **Vector Store (pgvector)**에 저장됩니다.\n2. **검색(Search/RAG) 흐름**:\n   * 사용자가 검색창에 질문을 입력합니다.\n   * 질문과 가장 의미가 유사한 과거 메시지들을 벡터 데이터베이스에서 찾아냅니다. (이때 로그인한 사용자의 대화만 매칭되도록 필터링 처리합니다.)\n   * 찾아낸 대화 내역들을 Gemini AI에 컨텍스트로 제공하며: *\"이 맥락 안에서만 대답하고, 모르는 정보라면 '정보가 없다'고 대답해줘\"* 라는 시스템 프롬프트에 맞춰 정확히 필터링된 답변을 만들어냅니다.\n\n---\n\n## ⚙️ 실행 방법 (Getting Started)\n\n프로젝트를 로컬에서 구동하기 위해 필요한 단계입니다.\n\n### 1. 사전 준비 사항\n* **Java 17** 이상이 설치되어 있어야 합니다.\n* **Google Gemini API Key**가 필요합니다. [Google AI Studio](https://aistudio.google.com/)에서 무료로 발급받을 수 있습니다.\n* **PostgreSQL**이 설치되어 있고, `pgvector` 확장이 활성화되어 있어야 합니다.\n\n### 2. 환경 변수 설정\n프로젝트 루트 디렉토리에 `.env.dev` 파일을 생성하여 다음과 같이 환경 변수를 입력해 줍니다. (`.env.dev.sample` 파일 참고)\n\n```properties\n# 데이터베이스 연결 정보\nDB_URL=jdbc:postgresql://localhost:5432/worrydoll\nDB_USERNAME=your_username\nDB_PASSWORD=your_password\n\n# Google Gemini API 키\nGEMINI_API_KEY=your_gemini_api_key_here\n```\n\n### 3. 프로젝트 실행\n터미널에서 아래 명령어를 실행하여 서비스를 구동합니다.\n\n```bash\n# Windows\n./mvnw.cmd spring-boot:run\n\n# Mac/Linux\n./mvnw spring-boot:run\n```\n실행이 완료되면 브라우저에서 `http://localhost:8080`에 접속하여 사용할 수 있습니다.\n\n---\n\n## 📂 주요 코드 구조 및 설명\n\n* [MainController.java](file:///C:/workspace/worrydoll/src/main/java/org/example/worrydoll/controller/MainController.java): 사용자의 HTTP 요청(대화 입력, 유저 세션 관리, RAG 검색 요청)을 가로채서 처리하는 컨트롤러입니다.\n* [ChatService.java](file:///C:/workspace/worrydoll/src/main/java/org/example/worrydoll/service/ChatService.java): 대화 기록을 로드하고, 벡터 DB에 이력을 적재하며, RAG 검색을 수행하는 핵심 비즈니스 로직 클래스입니다.\n* [AiConfig.java](file:///C:/workspace/worrydoll/src/main/java/org/example/worrydoll/config/AiConfig.java): Spring AI의 `ChatClient`와 `ChatMemory` 설정 및 RAG 검색 시 임계값(Similarity Threshold)과 시스템 프롬프트를 지정해 주는 구성(Configuration) 파일입니다.\n",
+      "tags": [
+        "Spring",
+        "Java",
+        "Database",
+        "AI/RAG",
+        "Web/Backend"
+      ],
+      "readingTime": 10
+    },
+    {
+      "id": "boot-legacy",
+      "project": "boot-legacy",
+      "description": "🚀 Boot Legacy 실습 프로젝트",
+      "link": "docs/boot-legacy.md",
+      "date": "2026-07-08",
+      "title": "🚀 Boot Legacy 실습 프로젝트",
+      "content": "# 🚀 Boot Legacy 실습 프로젝트\r\n\r\n스프링 부트(Spring Boot 3.x) 환경에서 레거시 기술 스펙(JSP, JSTL)을 수용하고, 설정 외부화 및 컨테이너 기반 배포(Docker Multi-stage Build)까지 점진적으로 고도화하는 학습용 저장소입니다.\r\n\r\n---\r\n\r\n## 🛠️ 기술 스택 (Tech Stack)\r\n\r\n![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.x-brightgreen?style=for-the-badge&logo=springboot)\r\n![Java 17](https://img.shields.io/badge/Java-17-orange?style=for-the-badge&logo=openjdk)\r\n![Maven](https://img.shields.io/badge/Maven-Build-red?style=for-the-badge&logo=apachemaven)\r\n![Docker](https://img.shields.io/badge/Docker-Container-blue?style=for-the-badge&logo=docker)\r\n![JSP/JSTL](https://img.shields.io/badge/JSP%20%2F%20JSTL-JakartaEE-orange?style=for-the-badge&logo=jakartaee)\r\n\r\n---\r\n\r\n## 🗺️ 프로젝트 점진적 고도화 로드맵 (Roadmap)\r\n\r\n```mermaid\r\nflowchart TD\r\n    step1[\"Step 1: 설정 외부화 & 보안\"] -->|포트 환경변수화 및 Git 추적 제외| step2[\"Step 2: 컴포넌트 스캔 규칙\"]\r\n    step2 -->|패키지 설계 및 단일 진입점 정립| step3[\"Step 3: JSP/JSTL 템플릿 연동\"]\r\n    step3 -->|내장 톰캣 Jasper 엔진 및 ViewResolver 설정| step4[\"Step 4: 도커라이징 & WAR 패키징\"]\r\n    step4 -->|멀티 스테이지 빌드 및 가벼운 컨테이너 구동| target[\"Docker 컨테이너 배포 완료\"]\r\n    \r\n    style step1 fill:#f9f,stroke:#333,stroke-width:2px\r\n    style step2 fill:#bbf,stroke:#333,stroke-width:2px\r\n    style step3 fill:#fbf,stroke:#333,stroke-width:2px\r\n    style step4 fill:#bfb,stroke:#333,stroke-width:2px\r\n    style target fill:#fbb,stroke:#333,stroke-width:2px\r\n```\r\n\r\n---\r\n\r\n## 📂 단계별 학습 문서 (Step-by-Step Guides)\r\n\r\n각 브랜치와 실습 단계에 대한 세부 아키텍처 및 원리 분석은 아래의 개별 문서에서 확인할 수 있습니다.\r\n\r\n### 🔌 [Step 1: 설정 외부화 및 Git 보안 설정](file:///Users/morgan/Documents/workspace/boot-legacy/step1.md)\r\n* **핵심 주제**: `server.port=${PORT:8080}` 동적 환경 변수 주입 및 `.gitignore`를 통한 환경 변수 설정 파일(`.env`) 보안 관리.\r\n* **관련 기술**:\r\n  ![Spring Boot](https://img.shields.io/badge/Spring_Boot-Properties-green)\r\n  ![Git](https://img.shields.io/badge/Git-Security-red)\r\n\r\n### 🕵️‍♂️ [Step 2: 컴포넌트 스캔 및 패키지 레이아웃](file:///Users/morgan/Documents/workspace/boot-legacy/step2.md)\r\n* **핵심 주제**: `@SpringBootApplication` 어노테이션의 패키지 루트 위치 중요성 및 스프링 빈(Bean) 스캔 탐색 범위 오류 분석.\r\n* **관련 기술**:\r\n  ![Spring Bean](https://img.shields.io/badge/Spring-Bean_Lifecycle-lightgrey)\r\n  ![Scan](https://img.shields.io/badge/Spring_Boot-Component_Scan-blue)\r\n\r\n### 🧪 [Step 3: 레거시 JSP/JSTL 연동](file:///Users/morgan/Documents/workspace/boot-legacy/step3.md)\r\n* **핵심 주제**: 내장 톰캣(`tomcat-embed-jasper`) 환경에서 JSP 파일 분석 메커니즘 구축 및 Jakarta EE 10 스펙 하의 JSTL API/구현체 이중 의존성 설정.\r\n* **관련 기술**:\r\n  ![JSP](https://img.shields.io/badge/Jakarta-JSP-orange)\r\n  ![JSTL](https://img.shields.io/badge/Jakarta-JSTL-blue)\r\n  ![Tomcat](https://img.shields.io/badge/Tomcat-Jasper-yellow)\r\n\r\n### 🍱 [Step 4: Docker 멀티 스테이지 빌드 및 WAR 패키징](file:///Users/morgan/Documents/workspace/boot-legacy/step4.md)\r\n* **핵심 주제**: JSP 리소스의 가상 디렉토리 규격 유지를 위한 `WAR` 패키징(`Executable WAR`) 채택, 빌드/런타임 레이어를 분리하는 Docker 멀티 스테이지 빌드 도입 및 중복 진입점(`@SpringBootApplication`) 제거.\r\n* **관련 기술**:\r\n  ![Docker](https://img.shields.io/badge/Docker-Multi--stage-blue)\r\n  ![WAR](https://img.shields.io/badge/Packaging-WAR-orange)\r\n  ![Maven Plugin](https://img.shields.io/badge/Maven-Plugin-red)\r\n",
+      "tags": [
+        "Spring",
+        "Java",
+        "HTML/CSS",
+        "Web/Backend"
+      ],
+      "readingTime": 8
+    },
+    {
+      "id": "rag",
+      "project": "rag",
+      "description": "🚀 Spring AI RAG (Retrieval-Augmented Generation) 실습 프로젝트",
+      "link": "docs/rag.md",
+      "date": "2026-07-30",
+      "title": "🚀 Spring AI RAG (Retrieval-Augmented Generation) 실습 프로젝트",
+      "content": "# 🚀 Spring AI RAG (Retrieval-Augmented Generation) 실습 프로젝트\n\n이 프로젝트는 **Spring Boot**와 **Spring AI** 라이브러리를 활용하여 최신 LLM(대형 언어 모델) 및 벡터 데이터베이스를 연동하고, **RAG(검색 증강 생성)** 서비스를 구축하는 실습 프로젝트입니다.\n\n---\n\n## 💡 RAG(검색 증강 생성)란 무엇인가요?\n\n일반적인 AI(예: GPT, Gemini 등)는 학습 데이터에 포함되지 않은 정보(우리 회사 내부 문서, 실시간 뉴스 등)에 대해 물어보면 올바른 답변을 하지 못하거나 거짓말(환각 현상, Hallucination)을 하게 됩니다.\n\n**RAG(Retrieval-Augmented Generation)**는 이 문제를 해결하기 위해 다음과 같은 단계를 거칩니다:\n1. **검색(Retrieval)**: 사용자가 질문을 하면, 데이터베이스(벡터 DB)에서 질문과 관련된 정보가 담긴 문서를 찾습니다.\n2. **증강(Augmented)**: 찾아낸 관련 문서를 사용자의 질문과 합쳐서 AI에게 전달합니다.\n3. **생성(Generation)**: AI는 제공받은 참고 문서 내용을 기반으로 하여 거짓말하지 않고 정확한 답변을 생성합니다.\n\n---\n\n## 🛠️ 오늘 실습한 핵심 기능 및 파일 요약\n\n초보자분들의 이해를 돕기 위해 실습 파일별 역할과 이론을 정리했습니다.\n\n### 1. 🔍 텍스트 임베딩 (Embedding)\n* **개념**: 컴퓨터는 인간의 언어를 직접 이해하지 못합니다. **임베딩(Embedding)**은 단어나 문장을 3차원 공간 속의 특정 좌표(숫자 배열, Vector)로 변환해 주는 기술입니다. 의미가 비슷한 문장일수록 좌표 공간에서 거리가 가까워집니다.\n* **관련 파일**:\n  * [`EmbeddingService.java`](src/main/java/org/example/rag/service/EmbeddingService.java): Google의 `gemini-embedding-001` 모델을 사용하여 사용자가 입력한 텍스트를 벡터 좌표값(float 배열)으로 변환해 주는 서비스입니다.\n\n### 2. 🗄️ 벡터 데이터베이스와 유사도 검색 (Vector Database & Similarity Search)\n* **개념**: 텍스트를 숫자로 나타낸 벡터 데이터를 저장하고 빠르게 찾아낼 수 있는 전용 데이터베이스입니다. 본 실습에서는 PostgreSQL의 `pgvector` 확장을 사용했습니다.\n* **관련 파일**:\n  * [`DocumentService.java`](src/main/java/org/example/rag/service/DocumentService.java) (`save`, `search` 메서드):\n    * **`save`**: 입력받은 텍스트 문서와 카테고리 메타데이터를 함께 벡터 데이터베이스에 저장합니다. (저장할 때 자동으로 임베딩을 수행합니다.)\n    * **`search`**: 사용자 질문(Query)과 벡터 데이터베이스에 들어있는 문서들의 유사도(코사인 유사도 등)를 계산하여, 가장 연관성이 높은 문서 `topK(최대 4개)`를 뽑아옵니다. 최소 유사도 임계치(`similarityThreshold`)를 설정하여 관련 없는 문서는 걸러냅니다.\n\n### 3. ⚙️ 문서 적재 ETL 파이프라인 (Chunking & Ingest)\n* **개념**: 책 한 권이나 긴 문서를 한 번에 AI에게 주면 요금이 많이 나오고 집중력이 흐려집니다. 그래서 문서를 적절한 크기(Chunk Size)로 잘게 쪼개는 **청킹(Chunking)** 과정이 필요합니다. \n* **관련 파일**:\n  * [`DocumentService.java`](src/main/java/org/example/rag/service/DocumentService.java) (`ingest` 메서드):\n    * **Extract (추출)**: `TextReader`를 이용하여 `sample.txt` 파일 내용을 읽어옵니다.\n    * **Transform (변환/청킹)**: `TokenTextSplitter`를 사용해 사용자가 지정한 크기(예: 200토큰 또는 1000토큰)만큼 텍스트를 쪼갭니다. 이 때 중복 저장을 방지하기 위해 텍스트 내용을 해싱하여 고유한 UUID를 발급합니다.\n    * **Load (적재)**: 쪼개진 여러 개의 문서 조각(Chunk)들을 벡터 데이터베이스에 한 번에 저장합니다.\n  * [`sample.txt`](src/main/resources/docs/sample.txt): RAG 테스트를 위해 미리 작성해 둔 코딩 팁, 프로그래밍 가이드 등의 원본 문서 파일입니다.\n\n### 4. 💬 RAG 기반 카테고리 필터링 채팅 (RAG Chat & Filter)\n* **개념**: 사용자의 질문에 대답할 때 관련 문서를 데이터베이스에서 자동으로 찾아와 참고 답변을 생성합니다. 또한 메타데이터 필터(예: `category == 'java'`)를 적용하여 특정 주제의 문서들만 집중적으로 참고하도록 제한할 수 있습니다.\n* **관련 파일**:\n  * [`RagConfig.java`](src/main/java/org/example/rag/config/RagConfig.java):\n    * `ChatClient`를 설정하는 곳입니다.\n    * **System Prompt**: AI에게 \"주어진 컨텍스트 내에서만 대답하고, 모르는 내용은 찾을 수 없다고 답변하라\"는 페르소나와 규칙을 설정합니다.\n    * **QuestionAnswerAdvisor**: 질문이 오면 자동으로 벡터 DB에서 관련 문서를 검색해 질문과 함께 LLM에 덧붙여 주는 RAG 핵심 컴포넌트(Advisor)를 연결합니다.\n  * [`DocumentService.java`](src/main/java/org/example/rag/service/DocumentService.java) (`chat` 메서드):\n    * `FILTER_EXPRESSION` 매개변수를 활용하여 사용자가 원하는 특정 카테고리의 정보만 필터링해서 참고 문서로 사용하도록 필터 기능을 구현했습니다.\n\n### 5. 🖥️ 웹 인터페이스 및 설정 파일\n* **관련 파일**:\n  * [`MainController.java`](src/main/java/org/example/rag/controller/MainController.java): 프론트엔드 폼 전송 요청을 받아 적절한 서비스(임베딩, 적재, 검색, 채팅)로 전달해 주는 컨트롤러입니다.\n  * [`index.jsp`](src/main/webapp/WEB-INF/views/index.jsp): 사용자가 직접 텍스트 임베딩, 문서 주입(Chunk 200/1000), 데이터 입력, 유사도 검색, RAG 채팅을 직관적으로 테스트할 수 있는 웹 UI 페이지입니다. 마크다운 형식의 AI 답변을 깔끔하게 보여주기 위해 `marked.js`가 내장되어 있습니다.\n  * [`application-dev.properties`](src/main/resources/application-dev.properties) & [`.env.dev.sample`](.env.dev.sample): Neon PostgreSQL 데이터베이스 접속 정보, Groq 및 Gemini API 키 등 중요 환경 변수를 주입하는 설정 파일입니다.\n  * [`lombok.config`](lombok.config): 스프링 환경에서 의존성 주입 시 `@RequiredArgsConstructor`를 사용할 때 롬복이 `@Qualifier` 어노테이션까지 같이 전파할 수 있도록 돕는 세부 설정 파일입니다.\n\n---\n\n## 🏃‍♂️ 실행 방법 (로컬 환경)\n\n1. **환경 변수 복사**: \n   `.env.dev.sample` 파일을 복사하여 `.env.dev` 파일을 생성합니다.\n2. **API 키 설정**:\n   생성한 `.env.dev` 파일 내부의 데이터베이스 호스트, 비밀번호 및 사용하실 API Key(Gemini, Groq 등) 정보를 실제 정보로 기입합니다. (이 파일은 `.gitignore`에 등록되어 외부로 노출되지 않습니다.)\n3. **애플리케이션 실행**:\n   `mvnw spring-boot:run` 또는 개발 IDE에서 `RagApplication`을 실행합니다.\n4. **브라우저 접속**:\n   `http://localhost:8080` 으로 접속하여 직접 문서를 적재하고 RAG 채팅을 테스트해 봅니다!\n",
+      "tags": [
+        "Spring",
+        "Java",
+        "Database",
+        "AI/RAG",
+        "Web/Backend"
+      ],
+      "readingTime": 11
+    },
+    {
+      "id": "portfolio",
+      "project": "portfolio",
+      "description": "개인 포트폴리오 웹사이트 백업 📁",
+      "link": "docs/portfolio.md",
+      "date": "2026-08-05",
+      "title": "개인 포트폴리오 웹사이트 백업 📁",
+      "content": "# 개인 포트폴리오 웹사이트 백업 📁\n\n나의 개발 이력, 프로젝트 성과, 기술 블로그 링크 등을 매력적으로 묶어두는 개인 포트폴리오 사이트의 작업용 백업 디렉토리입니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- 현재 이 폴더는 빈 상태입니다.\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **자기 마케팅**: 나의 개발 역량을 한눈에 알기 쉽게 요약 정리하는 포트폴리오 기획과 리소스 관리를 준비합니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n실행 가능한 코드가 존재하지 않는 백업용 폴더입니다.\n",
+      "tags": [
+        "기타"
+      ],
+      "readingTime": 1
+    },
+    {
+      "id": "HW-news",
+      "project": "HW-news",
+      "description": "객체 지향 설계 기반 뉴스 스크래퍼(News Scraper) 홈워크 📰🤖",
+      "link": "docs/HW-news.md",
+      "date": "2026-05-28",
+      "title": "객체 지향 설계 기반 뉴스 스크래퍼(News Scraper) 홈워크 📰🤖",
+      "content": "# 객체 지향 설계 기반 뉴스 스크래퍼(News Scraper) 홈워크 📰🤖\n\n인터넷 포털에서 뉴스 기사 정보를 긁어모아 가공하는 자바 콘솔 기반 프로그램으로, 깃허브 액션(GitHub Actions) CI/CD 워크플로우를 이용해 자동화 배포 및 통합 테스트를 연습하는 과제입니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [src/oop/search/](file:///C:/workspace/HW-news/src/oop/search/) : 신문사 검색 및 파싱 알고리즘 자바 소스코드\n- [.github/workflows/news-scraper.yml](file:///C:/workspace/HW-news/.github/workflows/news-scraper.yml) : 코드가 푸시될 때마다 GitHub 서버에서 자동으로 자바 컴파일 및 테스트를 돌리는 자동화 스크립트\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **CI/CD 파이프라인**: 깃허브 원격 저장소와 연동하여 자동으로 코드 검증을 실행하는 지속적 통합(CI) 작동 원리를 이해합니다.\n- **객체 지향적 모듈화**: 뉴스 기사, 크롤러, 필터 모듈을 인터페이스 구조로 정갈하게 격리 설계합니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. 로컬 환경에서 `src/oop/search` 디렉토리 내의 메인 실행 클래스를 켭니다.\n2. 터미널 콘솔창에 뉴스 검색 결과 리스트가 정상 파싱되어 출력되는지 확인합니다.\n",
+      "tags": [
+        "기타"
+      ],
+      "readingTime": 2
+    },
+    {
+      "id": "news-scraper",
+      "project": "news-scraper",
+      "description": "뉴스 정보 수집 자동화 프로그램(News Scraper) 📰🤖",
+      "link": "docs/news-scraper.md",
+      "date": "2026-05-28",
+      "title": "뉴스 정보 수집 자동화 프로그램(News Scraper) 📰🤖",
+      "content": "# 뉴스 정보 수집 자동화 프로그램(News Scraper) 📰🤖\n\n외부 언론사 뉴스 기사 데이터를 주기적으로 추출 및 정리해 주는 자바 스크립트 도구이자, 깃허브 워크플로우를 이용해 수집 주기를 자동으로 통제하는 자동 크롤링 아키텍처 실습입니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [src/oop/search/](file:///C:/workspace/news-scraper/src/oop/search/) : 신문 기사 데이터 파싱 및 객체 지향적 자료구조화 자바 코드\n- [.github/workflows/news-scraper.yml](file:///C:/workspace/news-scraper/.github/workflows/news-scraper.yml) : 주기적으로 스크립트를 깨워 원격 구동시키는 깃허브 액션 설정\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **웹 데이터 추출(Scraping)**: HTML 구조에서 원하는 기사 제목 and 본문 데이터의 텍스트 토큰을 안전하게 솎아내는 기본 원리를 배웁니다.\n- **자동화 스케줄링**: cron 표현식을 활용해 깃허브 클라우드가 스스로 매일 정해진 시각에 서버 코드를 구동하게끔 조율하는 데브옵스 기초를 배웁니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. 로컬 개발 환경에서 파싱 코드를 단독 컴파일하여 데이터가 출력되는지 점검합니다.\n",
+      "tags": [
+        "HTML/CSS"
+      ],
+      "readingTime": 2
+    },
+    {
+      "id": "fatdog2",
+      "project": "fatdog2",
+      "description": "뚱냥이(FatDog) 스프링 부트 웹 프로젝트 V2 🐱🍃",
+      "link": "docs/fatdog2.md",
+      "date": "2026-05-27",
+      "title": "뚱냥이(FatDog) 스프링 부트 웹 프로젝트 V2 🐱🍃",
+      "content": "# 뚱냥이(FatDog) 스프링 부트 웹 프로젝트 V2 🐱🍃\n\n스프링 부트를 기반으로 웹 애플리케이션의 공통 설정, 기본 홈 컨트롤러 개설, 템플릿 엔진 서빙을 테스트하는 프로젝트 뼈대입니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [pom.xml](file:///C:/workspace/fatdog2/pom.xml) : Spring Boot Starter Web 종속성이 포함된 빌드 명세서\n- [src/main/java/](file:///C:/workspace/fatdog2/src/main/java/) : 웹 요청 주소를 매핑하여 화면을 연결하는 컨트롤러 로직 파일들\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **스프링 부트 아키텍처**: 내장 톰캣 서버를 구동해 빠르게 자바 기반 웹사이트를 배포하는 핵심 환경 구조를 배웁니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. IDE에서 메인 Application 클래스를 Run 하거나, 터미널에서 `./mvnw spring-boot:run`을 실행합니다.\n",
+      "tags": [
+        "Spring",
+        "Java"
+      ],
+      "readingTime": 2
+    },
+    {
+      "id": "til-skin",
+      "project": "til-skin",
+      "description": "바닐라 자바스크립트 기반 공부 일지(TIL) 스킨 프론트엔드 📝🎨",
+      "link": "docs/til-skin.md",
+      "date": "2026-05-26",
+      "title": "바닐라 자바스크립트 기반 공부 일지(TIL) 스킨 프론트엔드 📝🎨",
+      "content": "# 바닐라 자바스크립트 기반 공부 일지(TIL) 스킨 프론트엔드 📝🎨\n\n오늘 배운 내용을 기록하는 TIL(Today I Learned) 서비스의 가벼운 프론트엔드 디자인 스킨으로, 로컬 JSON 데이터 정보를 자바스크립트 카드로 시각화해 주는 웹 대시보드 프로젝트입니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [index.html](file:///C:/workspace/til-skin/index.html) : TIL 목록 카드 정렬 화면 문서\n- [style.css](file:///C:/workspace/til-skin/style.css) : 깔끔하고 가독성 좋은 피드 형태의 CSS 스타일시트\n- [app.js](file:///C:/workspace/til-skin/app.js) : `til-data.json` 또는 `notes.json` 데이터를 로드해 화면에 뿌려주는 자바스크립트 로직\n- [til-data.json](file:///C:/workspace/til-skin/til-data.json) : 복습 기록 정보가 누적 보관된 데이터셋 파일\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **비동기 JSON 파싱**: 로컬 데이터 파일을 읽어 자바스크립트 객체 배열로 만들고, 이를 화면 템플릿 스트링으로 치환해 HTML 영역에 꽂아 넣는 동적 렌더링 구조를 이해합니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. [index.html](file:///C:/workspace/til-skin/index.html) 파일을 크롬 브라우저로 엽니다.\n2. JSON 파일 내용이 화면 피드 카드로 예쁘게 자동 출력되는지 확인합니다.\n",
+      "tags": [
+        "HTML/CSS"
+      ],
+      "readingTime": 3
+    },
+    {
+      "id": "board",
+      "project": "board",
+      "description": "바닐라 자바스크립트 기반 미니 추리 보드 게임 웹 애플리케이션 🕵️‍♂️🃏",
+      "link": "docs/board.md",
+      "date": "2026-05-27",
+      "title": "바닐라 자바스크립트 기반 미니 추리 보드 게임 웹 애플리케이션 🕵️‍♂️🃏",
+      "content": "# 바닐라 자바스크립트 기반 미니 추리 보드 게임 웹 애플리케이션 🕵️‍♂️🃏\n\n백엔드 연동 없이 순수 HTML, CSS, Vanilla JavaScript 프론트엔드 역량으로만 구성한, 미스터리 추리 게임(Clue 테마)의 단서 수집 및 기록을 시각적으로 지원하는 미니 보드 게임 웹 애플리케이션입니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [index.html](file:///C:/workspace/board/index.html) : 추리 게임 현황판 마크업 구조\n- [index.css](file:///C:/workspace/board/index.css) : 추리 현장에 걸맞은 몰입도 있는 어두운 숲 분위기의 다크 무비 스타일 및 카드 컴포넌트 CSS\n- [app.js](file:///C:/workspace/board/app.js) : 사용자가 카드를 클릭하거나 사건 기록 대시보드를 바인딩할 때 가상 이벤트 데이터 흐름을 조정하는 제어 스크립트\n- [assets/](file:///C:/workspace/board/assets/) : Clue 테마 커버와 단서 수집 디자인용 카드 이미지 리소스들\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **상태 기반 UI 렌더링**: 프론트엔드 상태 변수 값의 변화에 따라 자바스크립트로 그리드 내의 추리 카드 활성화 상태를 조절하는 렌더링 최적화를 연습합니다.\n- **에셋 디자인 바인딩**: 로컬 이미지 에셋을 HTML 이미지 노드와 동적으로 링크하여 일관성 있는 비주얼 컴포넌트를 설계합니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. [index.html](file:///C:/workspace/board/index.html) 파일을 브라우저로 엽니다.\n2. 단서 카드들을 클릭해 보며 인터페이스가 실시간 반응하여 단서를 표시해 주는지 게임 화면을 점검합니다.\n",
+      "tags": [
+        "JavaScript",
+        "HTML/CSS"
+      ],
+      "readingTime": 3
+    },
+    {
+      "id": "QandA",
+      "project": "QandA",
+      "description": "바닐라 자바스크립트 텍스트 분석 및 음성 합성(TTS) 질의응답 웹 💬🔊",
+      "link": "docs/QandA.md",
+      "date": "2026-05-27",
+      "title": "바닐라 자바스크립트 텍스트 분석 및 음성 합성(TTS) 질의응답 웹 💬🔊",
+      "content": "# 바닐라 자바스크립트 텍스트 분석 및 음성 합성(TTS) 질의응답 웹 💬🔊\n\n순수 웹 언어(HTML/CSS/JS)를 사용해 만든 텍스트 분석 연습장으로, 텍스트 질문 데이터 수집과 브라우저 자체 음성 합성(TTS, Text-to-Speech) API를 연결하는 실습을 포함합니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [index.html](file:///C:/workspace/QandA/index.html) : 사용자 질문 입력 및 응답 텍스트가 노출되는 UI 문서\n- [script.js](file:///C:/workspace/QandA/script.js) : 음성 합성 엔진을 트리거하고 질문 답변 데이터를 로드해 바인딩하는 스크립트\n- [qa.md](file:///C:/workspace/QandA/qa.md) / [re.md](file:///C:/workspace/QandA/re.md) : 학습용 질문 답변 데이터 모음 문서\n- [tts.txt](file:///C:/workspace/QandA/tts.txt) : TTS 작동 테스트를 위한 임시 텍스트 파일\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **웹 음성 API (Speech Synthesis)**: 별도의 클라우드 서버 없이 브라우저 내장 TTS 기능을 호출해 한글이나 영어를 말소리로 송출하는 방법을 이해합니다.\n- **DOM 이벤트 바인딩**: 폼 제출 시 질문 내용을 분석해 화면 말풍선으로 업데이트하는 로직을 복습합니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. [index.html](file:///C:/workspace/QandA/index.html) 파일을 브라우저로 엽니다.\n2. 텍스트를 입력하고 버튼을 눌러 음성 출력 및 텍스트 렌더링을 관찰합니다.\n",
+      "tags": [
+        "JavaScript",
+        "HTML/CSS"
+      ],
+      "readingTime": 3
+    },
+    {
+      "id": "saju",
+      "project": "saju",
+      "description": "사주풀이 AI 융합 웹 애플리케이션 백엔드 🍃🔮",
+      "link": "docs/saju.md",
+      "date": "2026-06-05",
+      "title": "사주풀이 AI 융합 웹 애플리케이션 백엔드 🍃🔮",
+      "content": "# 사주풀이 AI 융합 웹 애플리케이션 백엔드 🍃🔮\n\n스프링 부트를 이용해 구동되는 백엔드 서버 프로젝트로, 사용자의 생년월일시 입력값을 받아 동양 역학 사주 알고리즘 및 외부 AI를 조합해 분석 결과를 산출해 주는 이색 웹 서비스 백엔드입니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [pom.xml](file:///C:/workspace/saju/pom.xml) : 롬복, 스프링 웹 등 종속성 명세\n- [Dockerfile](file:///C:/workspace/saju/Dockerfile) : 클라우드 컨테이너화 배포를 위한 도커 설정\n- [src/main/resources/](file:///C:/workspace/saju/src/main/resources/) : 데이터 소스 연결 및 기본 파라미터 매핑 리소스들\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **비즈니스 도메인 서비스 설계**: 생년월일과 시간을 60갑자 사주 정보로 변환해 주는 로직을 스프링 컨트롤러와 서비스 구조에 얹어 웹 API로 배포하는 방식을 익힙니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. `.env` 파일에 API Key 등 필요한 정보를 매핑합니다.\n2. IDE에서 서버를 가동하거나 `./mvnw spring-boot:run`을 실행해 웹 포트로 접속합니다.\n",
+      "tags": [
+        "Spring",
+        "AI/RAG"
+      ],
+      "readingTime": 2
+    },
+    {
+      "id": "spring-jdbc",
+      "project": "spring-jdbc",
+      "description": "스프링 데이터 접근 - Spring JDBC & 드라이버 연동 🍃💾",
+      "link": "docs/spring-jdbc.md",
+      "date": "2026-07-20",
+      "title": "스프링 데이터 접근 - Spring JDBC & 드라이버 연동 🍃💾",
+      "content": "# 스프링 데이터 접근 - Spring JDBC & 드라이버 연동 🍃💾\n\n스프링 부트 환경에서 DB 드라이버 설정을 외부 속성 파일로 격리시키고, JdbcTemplate을 이용해 관계형 DB 테이블의 영속 처리를 유기적으로 구동해 보는 기본 실습 아키텍처입니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [pom.xml](file:///C:/workspace/spring-jdbc/pom.xml) : Spring Boot Starter JDBC 명세\n- [sql/mysql_ddl.sql](file:///C:/workspace/spring-jdbc/sql/mysql_ddl.sql) : MySQL 테스트용 테이블 생성 쿼리\n- [src/main/java/](file:///C:/workspace/spring-jdbc/src/main/java/) : JdbcTemplate 레포지토리를 사용해 데이터 조회 및 저장을 담당하는 자바 코드\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **데이터소스 (DataSource)**: 커넥션 풀을 관리하여 성능 저하를 방지하고 스프링이 안전하게 DB 세션을 회수하도록 하는 기본 설정을 학습합니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. `src/main/resources/application.properties`에 데이터베이스 세션을 올바르게 선언합니다.\n2. 프로젝트를 구동하여 테이블 데이터의 입력/조회가 정상 작동하는지 로그로 추적합니다.\n",
+      "tags": [
+        "Spring",
+        "Java",
+        "Database",
+        "Web/Backend"
+      ],
+      "readingTime": 2
+    },
+    {
+      "id": "archat",
+      "project": "archat",
+      "description": "스프링 백엔드 아키텍처 비교 실습 - Layered MVC vs Clean Architecture 🍃🏰",
+      "link": "docs/archat.md",
+      "date": "2026-05-29",
+      "title": "스프링 백엔드 아키텍처 비교 실습 - Layered MVC vs Clean Architecture 🍃🏰",
+      "content": "# 스프링 백엔드 아키텍처 비교 실습 - Layered MVC vs Clean Architecture 🍃🏰\n\n인공지능 챗봇(Archat) 백엔드 서버를 구축하면서, 컨트롤러-서비스-리포지토리로 이루어진 기본적인 레이어드 아키텍처(Spring MVC) 구조와 도메인 영역을 보호하며 느슨한 연결 관계를 지향하는 클린 아키텍처(Clean Architecture) 구조의 차이를 배우고 분석하는 고급 실습입니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [pom.xml](file:///C:/workspace/archat/pom.xml) : 스프링 웹 및 기타 라이브러리 설정\n- [step1_mvc.md](file:///C:/workspace/archat/step1_mvc.md) / [step2_clean.md](file:///C:/workspace/archat/step2_clean.md) : 레이어드 MVC 스타일의 설계 포인트와 이로 인해 생기는 결합 문제를 어댑터/포트 패턴을 도입해 해결하는 클린 아키텍처 구조 해설 문서\n- [src/main/java/](file:///C:/workspace/archat/src/main/java/) : MVC 레이어 클래스들과 클린 아키텍처 인터페이스 포트(Port), 유스케이스(UseCase)를 구현한 자바 소스코드들\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **레이어드 아키텍처 (Layered Architecture)**: 구현이 직관적이고 빠르지만 비즈니스 로직이 데이터베이스 라이브러리에 강하게 결합되는 한계점을 배웁니다.\n- **포트와 어댑터 (Hexagonal / Clean)**: 비즈니스 로직(도메인)이 중심이 되고, DB나 웹 프레임워크는 주변부 '어댑터'가 되어 인터페이스인 '포트'를 꽂아 동작하도록 결합도를 낮추는 견고한 엔터프라이즈 설계 능력을 배웁니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. 아키텍처 설계 문서(`step1_mvc.md`, `step2_clean.md`)를 보며 클래스 간의 호출 방향과 결합도를 비교합니다.\n2. 프로젝트의 메인 스프링 클래스를 실행하여 AI 챗 서버 구동 과정을 테스트합니다.\n",
+      "tags": [
+        "Spring",
+        "Java",
+        "Database",
+        "AI/RAG"
+      ],
+      "readingTime": 3
+    },
+    {
+      "id": "mybatis",
+      "project": "mybatis",
+      "description": "스프링 부트 MyBatis SQL 매퍼(Mapper) 입문 V1 🍃💾",
+      "link": "docs/mybatis.md",
+      "date": "2026-06-02",
+      "title": "스프링 부트 MyBatis SQL 매퍼(Mapper) 입문 V1 🍃💾",
+      "content": "# 스프링 부트 MyBatis SQL 매퍼(Mapper) 입문 V1 🍃💾\n\n자바 코드 내에 SQL 문을 하드코딩하지 않고, 별도의 XML 파일에 SQL을 깨끗하게 격리 관리하여 복잡한 DB 쿼리를 쉽게 실행하는 SQL 매퍼 프레임워크 'MyBatis'의 기초 입문 프로젝트입니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [pom.xml](file:///C:/workspace/mybatis/pom.xml) : MyBatis Spring Boot Starter 및 데이터베이스 커넥터 설정 명세\n- [src/main/resources/](file:///C:/workspace/mybatis/src/main/resources/) : SQL 쿼리가 작성된 XML 매퍼 파일 및 스프링 속성 설정\n- [src/main/java/](file:///C:/workspace/mybatis/src/main/java/) : MyBatis 인터페이스와 데이터 교환용 DTO(Data Transfer Object) 자바 클래스들\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **SQL 매퍼 (SQL Mapper)**: 소스코드와 쿼리문을 완전 분리해 데이터베이스 수정이나 성능 튜닝 시 자바 코드를 건드릴 필요가 없는 구조를 배웁니다.\n- **인터페이스 바인딩**: 마이바티스가 자바 인터페이스와 XML 태그의 ID를 연결해 자동으로 실행 쿼리 인스턴스를 주입해 주는 원리를 학습합니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. `application.properties`에 데이터베이스 접속 키를 등록합니다.\n2. 서버를 구동하여 마이바티스 레포지토리가 정상적으로 SQL 데이터의 INSERT 및 SELECT 조회를 수행하는지 검증합니다.\n",
+      "tags": [
+        "Spring",
+        "Java",
+        "Database"
+      ],
+      "readingTime": 3
+    },
+    {
+      "id": "spring",
+      "project": "spring",
+      "description": "스프링 코어(Spring Core) - IoC 컨테이너 & 스프링 빈(Bean) 기초 🍃🏛",
+      "link": "docs/spring.md",
+      "date": "2026-05-29",
+      "title": "스프링 코어(Spring Core) - IoC 컨테이너 & 스프링 빈(Bean) 기초 🍃🏛",
+      "content": "# 스프링 코어(Spring Core) - IoC 컨테이너 & 스프링 빈(Bean) 기초 🍃🏛\n\n스프링 프레임워크의 가장 깊은 내부 핵심인 '제어의 역전(IoC)'과 객체의 생명주기를 알아서 매니징하는 '스프링 빈(Bean)' 등록 및 관리 원리를 학습하는 순수 스프링 입문서입니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [pom.xml](file:///C:/workspace/spring/pom.xml) : Spring Context 등 코어 라이브러리 종속성\n- [step1+2.md](file:///C:/workspace/spring/step1+2.md) ~ [step4.md](file:///C:/workspace/spring/step4.md) : 자바 클래스를 스프링 공장(ApplicationContext)에 집어넣는 XML 설정법, 어노테이션 기반 컴포넌트 스캔, 의존관계 자동 주입(`@Autowired`) 이론서\n- [src/main/java/](file:///C:/workspace/spring/src/main/java/) : 의존성을 주입받아 작동을 실행해보는 자바 빈(Bean) 실습 소스코드\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **제어의 역전 (IoC)**: 객체의 제어권이 개발자의 `new`에서 스프링 컨테이너로 넘어가는 객체지향 설계의 진수를 배웁니다.\n- **의존관계 주입 (DI)**: 생성자나 필드 주입을 통해 결합도를 낮추고 테스트하기 편한 객체로 탈바꿈시키는 스프링의 핵심 메커니즘을 마스터합니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. 메인 자바 코드를 IDE에서 구동하여 스프링 컨테이너가 켜진 뒤 등록된 객체들을 알아서 꺼내 동작시키는 과정을 관찰합니다.\n",
+      "tags": [
+        "Spring",
+        "Java"
+      ],
+      "readingTime": 3
+    },
+    {
+      "id": "servlet",
+      "project": "servlet",
+      "description": "자바 백엔드의 근본 - 서블릿(Servlet) 라이프사이클 & 스코프 ☕🔌",
+      "link": "docs/servlet.md",
+      "date": "2026-06-01",
+      "title": "자바 백엔드의 근본 - 서블릿(Servlet) 라이프사이클 & 스코프 ☕🔌",
+      "content": "# 자바 백엔드의 근본 - 서블릿(Servlet) 라이프사이클 & 스코프 ☕🔌\n\n스프링 프레임워크 뒤에서 브라우저의 HTTP 요청을 자바 클래스로 직접 응답해 주는 핵심 기초 백엔드 스펙인 '서블릿(Servlet)'의 작동 원리, 생성 소멸 주기 및 4대 영역(Scope)을 학습합니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [pom.xml](file:///C:/workspace/servlet/pom.xml) : 서블릿 API 및 톰캣 관련 라이브러리 지정\n- [FirstServlet.md](file:///C:/workspace/servlet/FirstServlet.md) ~ [ScopeServlet2.md](file:///C:/workspace/servlet/ScopeServlet2.md) : 서블릿 구조, `init-service-destroy` 라이프사이클 분석, 데이터 보관용 영역(Page, Request, Session, Application Scope)에 대한 이론 정리\n- [src/main/java/](file:///C:/workspace/servlet/src/main/java/) : `doGet`/`doPost` 메소드를 재정의해 동적으로 HTML 문자열을 인코딩해 던지는 자바 서블릿 실습 파일들\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **서블릿 라이프사이클**: 첫 요청 시 객체가 메모리에 뜨는 과정(`init`)과 스레드로 일하는 과정(`service`)을 이해합니다.\n- **데이터 스코프**: 요청 한 번 동안만 유지되는 `RequestScope`와, 브라우저가 꺼지기 전까지 살아있는 `SessionScope`의 차이와 자바 객체 바인딩을 공부합니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. 톰캣 서버 설정을 맞추고 프로젝트를 빌드/배포합니다.\n2. `http://localhost:8080/servlet/first` 등의 주소로 접속해 서블릿이 자바 코드로 출력해 주는 화면과 톰캣 콘솔의 초기화 동작 로그를 확인합니다.\n",
+      "tags": [
+        "Java",
+        "HTML/CSS",
+        "Web/Backend"
+      ],
+      "readingTime": 3
+    },
+    {
+      "id": "jsp",
+      "project": "jsp",
+      "description": "자바 서버 페이지(JSP) 고급 기법 - 표현언어(EL) & JSTL 태그 라이브러리 🍃🎨",
+      "link": "docs/jsp.md",
+      "date": "2026-06-01",
+      "title": "자바 서버 페이지(JSP) 고급 기법 - 표현언어(EL) & JSTL 태그 라이브러리 🍃🎨",
+      "content": "# 자바 서버 페이지(JSP) 고급 기법 - 표현언어(EL) & JSTL 태그 라이브러리 🍃🎨\n\nHTML 코드 사이에 지저분한 자바 스크립틀릿 문법(`<% ... %>`)을 걷어내고, 전용 태그와 중괄호 표현식만으로 뷰 영역 데이터를 깔끔하게 출력하는 고급 JSP 기술을 공부합니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [pom.xml](file:///C:/workspace/jsp/pom.xml) : JSTL 라이브러리 종속성이 적힌 Maven 설정 파일\n- [01_secure.md](file:///C:/workspace/jsp/01_secure.md) ~ [04_jstl.md](file:///C:/workspace/jsp/04_jstl.md) : XSS 공격 방어 등 보안 실무, 중복 레이아웃을 합치는 `<jsp:include>`, 데이터를 출력하는 EL(`\\\\${data}`), 조건/반복 처리를 태그로 수행하는 JSTL 문법 이론 요약본\n- [src/main/webapp/](file:///C:/workspace/jsp/src/main/webapp/) : 실제 EL과 JSTL 태그가 적용된 JSP 템플릿 화면 파일들\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **표현 언어 (Expression Language)**: 자바의 복잡한 Getter 호출 없이 `\\\\${member.name}` 형태로 브라우저 화면에 출력하는 방식을 마스터합니다.\n- **JSTL**: 자바의 `if`, `for` 문 대신 `<c:if>`, `<c:forEach>` 태그를 이용해 퍼블리셔와 개발자가 협업하기 편한 화면 코드를 만듭니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. WAS(톰캣) 서버를 구동하고 프로젝트 웹 에셋 경로를 확인합니다.\n2. 브라우저로 JSP 페이지들을 열어 자바 백엔드 데이터가 정상 치환되어 완전한 웹페이지로 그려지는지 테스트합니다.\n",
+      "tags": [
+        "HTML/CSS",
+        "Web/Backend"
+      ],
+      "readingTime": 3
+    },
+    {
+      "id": "justchat",
+      "project": "justchat",
+      "description": "자바 서블릿/JSP AI 연동 챗봇 & 도커 및 클라우드 배포 🐳💬",
+      "link": "docs/justchat.md",
+      "date": "2026-06-04",
+      "title": "자바 서블릿/JSP AI 연동 챗봇 & 도커 및 클라우드 배포 🐳💬",
+      "content": "# 자바 서블릿/JSP AI 연동 챗봇 & 도커 및 클라우드 배포 🐳💬\n\n순수 서블릿과 JSP 환경에서 AI 챗 프론트엔드를 구성하고, 백엔드에서는 Gemini 모델 API를 연동하여 실시간 대화 서버를 구축한 뒤 이를 Docker 컨테이너로 묶어 클라우드(Render 등)에 실제 배포하는 고급 종합 실습입니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [pom.xml](file:///C:/workspace/justchat/pom.xml) : 서블릿, HTTP 클라이언트 및 JSON 파서 라이브러리 종속성 명세\n- [Dockerfile](file:///C:/workspace/justchat/Dockerfile) : 톰캣 웹 애플리케이션을 리눅스 가상화 컨테이너로 빌드하기 위한 도커 규격서\n- [01_servlet_jsp_chat.md](file:///C:/workspace/justchat/01_servlet_jsp_chat.md) ~ [03_docker_render_deployment.md](file:///C:/workspace/justchat/03_docker_render_deployment.md) : 서블릿 기반 비동기 채팅 서버 구현, AI API 연동 원리, 도커 이미지 구성 및 Render 클라우드 배포 실무 가이드 문서\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **서블릿 비동기 통신**: 브라우저의 화면 리로드 없이 자바 서블릿과 백그라운드로 메시지를 주고받는 AJAX 파이프라인을 구축합니다.\n- **배포 자동화**: 도커 컨테이너 빌드를 통해 운영체제에 구애받지 않고 언제 어디서나 챗봇 서비스를 상용 서버에 올리는 과정을 학습합니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. `.env` 파일에 AI API Key값을 매핑합니다.\n2. Maven으로 `war` 패키징을 수행한 뒤 톰캣으로 띄우거나, `docker build -t justchat .`을 쳐서 도커 가상 컨테이너로 서버를 띄워 접속합니다.\n",
+      "tags": [
+        "AI/RAG",
+        "Web/Backend"
+      ],
+      "readingTime": 3
+    },
+    {
+      "id": "cookiesession",
+      "project": "cookiesession",
+      "description": "자바 웹 상태 유지 기술 - 쿠키(Cookie) & 세션(Session) 🍪🔒",
+      "link": "docs/cookiesession.md",
+      "date": "2026-06-02",
+      "title": "자바 웹 상태 유지 기술 - 쿠키(Cookie) & 세션(Session) 🍪🔒",
+      "content": "# 자바 웹 상태 유지 기술 - 쿠키(Cookie) & 세션(Session) 🍪🔒\n\n웹 브라우저와 서버 간에 연결 상태를 끊지 않고 사용자의 로그인 정보나 장바구니 데이터를 기억하게 해주는 웹 핵심 상태 보존 기술인 쿠키와 세션의 서블릿 구현법을 다룹니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [pom.xml](file:///C:/workspace/cookiesession/pom.xml) : 서블릿 및 톰캣 구동용 Maven 디펜던시 설정\n- [step1.md](file:///C:/workspace/cookiesession/step1.md) ~ [step5.md](file:///C:/workspace/cookiesession/step5.md) : HTTP 비연결성(Stateless)의 한계, 쿠키의 동작 흐름, 안전한 서버 세션 생성과 소멸, 세션 타임아웃 이론 및 코드 실습 요약서\n- [src/main/java/](file:///C:/workspace/cookiesession/src/main/java/) : `HttpServletRequest`로부터 세션을 꺼내어 상태를 등록/검증하는 자바 컨트롤러 소스코드\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **HTTP Stateless**: 웹의 근본적인 무상태 프로토콜 특징을 이해하고, 왜 보조 저장소(쿠키, 세션)가 탄생했는지 이해합니다.\n- **쿠키 vs 세션**: 클라이언트 브라우저에 텍스트로 보관하는 쿠키와, 서버 안전한 메모리에 객체로 보관하는 세션의 보안적/성능적 차이를 배웁니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. 톰캣(Tomcat) 서버를 연동하여 프로젝트를 빌드 및 구동합니다.\n2. 로그인/로그아웃 페이지를 브라우저로 띄운 뒤, 크롬 개발자 도구의 **Application -> Storage** 메뉴에서 실제 생성되는 쿠키(JSESSIONID) 정보를 추적합니다.\n",
+      "tags": [
+        "Java",
+        "AI/RAG",
+        "Web/Backend"
+      ],
+      "readingTime": 3
+    },
+    {
+      "id": "260622HW",
+      "project": "260622HW",
+      "description": "자바 제어 로직 구현 코딩 홈워크 📝",
+      "link": "docs/260622HW.md",
+      "date": "2026-06-22",
+      "title": "자바 제어 로직 구현 코딩 홈워크 📝",
+      "content": "# 자바 제어 로직 구현 코딩 홈워크 📝\n\n주말 동안 자바의 핵심 문법(배열, 반복문, 복합 조건 제어)을 활용하여 주어진 문제 요건을 완벽하게 충족하는 알고리즘 함수를 구현해 제출하는 과제 프로젝트입니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [src/Solution.java](file:///C:/workspace/260622HW/src/Solution.java) : 과제 요구 조건에 맞춘 솔루션 알고리즘 구현 파일\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **요구사항 분석**: 상세 명세서를 읽고, 예외 케이스(잘못된 인풋 등)에 대응하는 정밀하고 꼼꼼한 방어적 프로그래밍 기법을 연습합니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. IDE에서 `Solution.java`를 열고 실행 단축키(`Ctrl + Shift + F10`)를 눌러 출력 결과를 확인합니다.\n",
+      "tags": [
+        "Java"
+      ],
+      "readingTime": 2
+    },
+    {
+      "id": "tli-skin",
+      "project": "tli-skin",
+      "description": "티스토리 스킨 배포 규격본 🎨",
+      "link": "docs/tli-skin.md",
+      "date": "2026-05-26",
+      "title": "티스토리 스킨 배포 규격본 🎨",
+      "content": "# 티스토리 스킨 배포 규격본 🎨\n\n티스토리 블로그 관리자 페이지에 즉석으로 업로드하여 사용할 수 있도록 치환자 세팅을 정리한 순수 블로그 배포용 정적 에셋 폴더입니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [skin.html](file:///C:/workspace/tli-skin/skin.html) : 티스토리 데이터 매핑용 메인 XML/HTML 파일\n- [style.css](file:///C:/workspace/tli-skin/style.css) : 블로그 레이아웃 테마 스타일시트\n- [index.xml](file:///C:/workspace/tli-skin/index.xml) : 스킨 이름 및 상세 옵션 메타데이터 정의 파일\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **스킨 배포 명세**: 티스토리 관리자 환경에 호환되어 정상적으로 테마 옵션이 출력되도록 `index.xml` 규격을 통제하는 법을 학습합니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. 본 폴더 내 파일 3종을 티스토리 스킨 등록 페이지에 업로드하여 적용합니다.\n",
+      "tags": [
+        "HTML/CSS"
+      ],
+      "readingTime": 2
+    },
+    {
+      "id": "tli",
+      "project": "tli",
+      "description": "티스토리(Tistory) 블로그 스킨 맞춤 커스터마이징 🎨🛠",
+      "link": "docs/tli.md",
+      "date": "2026-05-26",
+      "title": "티스토리(Tistory) 블로그 스킨 맞춤 커스터마이징 🎨🛠",
+      "content": "# 티스토리(Tistory) 블로그 스킨 맞춤 커스터마이징 🎨🛠\n\n국내 블로그 서비스인 티스토리(Tistory)의 스킨 구조 명세에 맞춰 커스텀 스타일 및 동작 레이아웃을 구현해보는 독립 웹 디자인 프로젝트입니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [index.html](file:///C:/workspace/tli/index.html) : 로컬에서 스킨 레이아웃을 모의 테스트해보는 가상 테스트 HTML\n- [style.css](file:///C:/workspace/tli/style.css) : 사이드바, 본문 폰트, 여백 등을 통제하는 메인 스타일 코드\n- [tistory-skin/](file:///C:/workspace/tli/tistory-skin/) : 티스토리 스킨 업로드 규격 파일인 `index.xml`, `skin.html` 파일이 담긴 폴더\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **티스토리 스킨 엔진**: 티스토리 치환자(예: `[##_title_##]`)가 들어간 `skin.html`의 뼈대를 분석해 원하는 위치에 스타일이 덮어씌워지도록 조정하는 규칙을 배웁니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. 로컬 테스트 화면을 보기 위해 [index.html](file:///C:/workspace/tli/index.html) 파일을 크롬 브라우저로 실행하여 결과물을 검증합니다.\n",
+      "tags": [
+        "HTML/CSS"
+      ],
+      "readingTime": 2
+    },
+    {
+      "id": "programmers-refactor-practice",
+      "project": "programmers-refactor-practice",
+      "description": "프로그래머스 리팩토링 및 클린 코드 자바 실습 ☕⚙",
+      "link": "docs/programmers-refactor-practice.md",
+      "date": "2026-05-26",
+      "title": "프로그래머스 리팩토링 및 클린 코드 자바 실습 ☕⚙",
+      "content": "# 프로그래머스 리팩토링 및 클린 코드 자바 실습 ☕⚙\n\n자바로 알고리즘 문제를 푼 뒤, 코드 가독성을 높이고 유지보수를 편리하게 하기 위해 함수 분리, 네이밍 개선, 그리고 중복 코드를 제거하는 '리팩토링(Refactoring)' 연습 프로젝트입니다. (Gradle 빌드 환경)\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [build.gradle.kts](file:///C:/workspace/programmers-refactor-practice/build.gradle.kts) : Kotlin DSL 기반의 Gradle 의존성 빌드 설정 파일\n- [src/main/java/](file:///C:/workspace/programmers-refactor-practice/src/main/java/) : 리팩토링 대상 자바 코드 및 개선체 소스파일\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **클린 코드 (Clean Code)**: 변수명을 의미 있게 짓고, 하나의 메소드는 단 하나의 역할만 수행하게 쪼개어 가독성을 높이는 훈련을 합니다.\n- **Gradle 빌드 시스템**: 빌드 속도가 빠른 코틀린 기반 Gradle 환경에서 의존성을 주입하고 컴파일하는 과정을 실습합니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. IntelliJ 등에서 본 폴더를 열어 Gradle 빌드가 완료될 때까지 대기합니다.\n2. `src/test/java`에 마련된 단위 테스트를 수행하여 리팩토링 후에도 기능이 깨지지 않고 동일하게 작동하는지 검증합니다.\n",
+      "tags": [
+        "Java"
+      ],
+      "readingTime": 2
+    },
+    {
+      "id": "aibe7-team2",
+      "project": "aibe7-team2",
+      "description": "AIBE7 프로젝트 1 - 팀별 AI 여행 플래너 구현 모음 ✈🤖",
+      "link": "docs/aibe7-team2.md",
+      "date": "2026-05-22",
+      "title": "AIBE7 프로젝트 1 - 팀별 AI 여행 플래너 구현 모음 ✈🤖",
+      "content": "# AIBE7 프로젝트 1 - 팀별 AI 여행 플래너 구현 모음 ✈🤖\n\nAIBE7 과정의 프로젝트 1 작업 공간으로, 다양한 팀(Team 02, Team 04 등)의 인공지능 기반 여행 일정 플래너 웹 애플리케이션 저장소들을 한데 모아둔 통합 워크스페이스 컨테이너입니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [AIBE7-Project1-E1I3/](file:///C:/workspace/aibe7-team2/AIBE7-Project1-E1I3/) : E1I3 팀의 여행 플래너 프로젝트 폴더\n- [AIBE7-Project1-Team02/](file:///C:/workspace/aibe7-team2/AIBE7-Project1-Team02/) : Team02의 여행 일정 추천 및 게시판 통합 프로젝트\n- [AIBE7-Project1-Team04/](file:///C:/workspace/aibe7-team2/AIBE7-Project1-Team04/) : Team04의 Supabase 인증 및 여행 지도 플래너 프로젝트\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **프로젝트 구성 분석**: 동일한 AI 여행 플래너 요구사항에 대해 여러 팀이 설계한 데이터베이스 모델(Supabase), 백엔드 API 라우팅, 프론트엔드 UI 컴포넌트의 다채로운 아키텍처 방식을 비교 분석하기 좋습니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. 각 팀 폴더(예: `AIBE7-Project1-Team02`)로 들어가서 해당 폴더에 작성된 개별 README 파일을 참조하여 서버를 빌드하고 테스트합니다.\n",
+      "tags": [
+        "Database",
+        "AI/RAG"
+      ],
+      "readingTime": 3
+    },
+    {
+      "id": "plz2",
+      "project": "plz2",
+      "description": "AIBE7 프로젝트 1 - Team 01 'MOTIPE' 백업용 워크스페이스 ✈🤖",
+      "link": "docs/plz2.md",
+      "date": "2026-05-22",
+      "title": "AIBE7 프로젝트 1 - Team 01 'MOTIPE' 백업용 워크스페이스 ✈🤖",
+      "content": "# AIBE7 프로젝트 1 - Team 01 'MOTIPE' 백업용 워크스페이스 ✈🤖\n\nAIBE7 과정 프로젝트 1의 Team 01 결과물인 'MOTIPE' 웹 애플리케이션의 개발 중간 코드 백업 및 버전별 테스트 분기를 기록해 두는 백업 보관함입니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [AIBE7-Project1-Team01/](file:///C:/workspace/plz2/AIBE7-Project1-Team01/) : 백업 복제본 프로젝트 폴더\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **스냅샷 보존**: 프로젝트 진행 중 소스 코드 꼬임이나 초기 복원용 원본을 보관하여 작업 유실을 방지합니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. 백업 원본 확인이 필요한 경우 내부 프로젝트 폴더의 스크립트 파일들을 참조합니다.\n",
+      "tags": [
+        "기타"
+      ],
+      "readingTime": 2
+    },
+    {
+      "id": "plz",
+      "project": "plz",
+      "description": "AIBE7 프로젝트 1 - Team 01 'MOTIPE' 정민 커스텀 개발 브랜치 ✈🤖",
+      "link": "docs/plz.md",
+      "date": "2026-05-22",
+      "title": "AIBE7 프로젝트 1 - Team 01 'MOTIPE' 정민 커스텀 개발 브랜치 ✈🤖",
+      "content": "# AIBE7 프로젝트 1 - Team 01 'MOTIPE' 정민 커스텀 개발 브랜치 ✈🤖\n\nAIBE7 프로젝트 1의 Team 01 결과물인 AI 여행 플래너 'MOTIPE'를 바탕으로, 정민(jungmin) 작업자가 개인 기능 추가 및 디테일한 버그 리팩토링을 수행하는 개인 커스텀 작업 공간입니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [AIBE7-Project1-Team01-jungmin/](file:///C:/workspace/plz/AIBE7-Project1-Team01-jungmin/) : 정민 전용 커스텀 기능 구현 및 디버깅 폴더\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **개인 기능 고도화**: 기본 공통 기능 외에 카카오 맵 줌인/줌아웃 싱크 조절, AI 프롬프트 정교화 등 1인 고도화 실습에 집중합니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. `AIBE7-Project1-Team01-jungmin` 폴더 안으로 이동하여 환경 설정 완료 후 `node server.js`를 기동해 변경 내역을 확인합니다.\n",
+      "tags": [
+        "AI/RAG"
+      ],
+      "readingTime": 2
+    },
+    {
+      "id": "HWHWHW",
+      "project": "HWHWHW",
+      "description": "AIBE7 프로젝트 1 - Team 01 AI 여행 도우미 'MOTIPE' ✈🤖",
+      "link": "docs/HWHWHW.md",
+      "date": "2026-05-22",
+      "title": "AIBE7 프로젝트 1 - Team 01 AI 여행 도우미 'MOTIPE' ✈🤖",
+      "content": "# AIBE7 프로젝트 1 - Team 01 AI 여행 도우미 'MOTIPE' ✈🤖\n\nAIBE7 과정 프로젝트 1의 Team 01 통합 워크스페이스입니다. 카카오 맵 API, 한국관광공사 Tour API, Supabase 로그인 및 실시간 AI 일정 생성을 연계한 똑똑한 AI 여행 플래너 'MOTIPE' 프로젝트입니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [AIBE7-Project1-Team01/](file:///C:/workspace/HWHWHW/AIBE7-Project1-Team01/) : Team 01 공동 개발 프로젝트 원본 폴더\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **통합 모듈 설계**: Kakao Map 지도 연동, Supabase 인증, OpenAI/Gemini의 챗봇 기능을 한데 어우러지게 조율한 구조적 웹 서비스 흐름을 이해합니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. `AIBE7-Project1-Team01` 폴더 내로 들어가 `npm install` 후 환경변수를 적용하고 `node server.js`로 로컬 테스트를 진행합니다.\n",
+      "tags": [
+        "AI/RAG"
+      ],
+      "readingTime": 2
+    },
+    {
+      "id": "hw2_ex",
+      "project": "hw2_ex",
+      "description": "CSS 스타일 연습 - 여행 테마별 랜딩페이지 실습 🎨✈",
+      "link": "docs/hw2_ex.md",
+      "date": "2026-05-21",
+      "title": "CSS 스타일 연습 - 여행 테마별 랜딩페이지 실습 🎨✈",
+      "content": "# CSS 스타일 연습 - 여행 테마별 랜딩페이지 실습 🎨✈\n\n동일한 정보 골격을 가진 여행 사이트를 바탕으로, 다채로운 CSS 색상 테마(다크모드, 힐링 네이처, 석양, 미니멀 등)와 폰트 디자인을 적용하여 웹 디자인 감각을 극대화하는 실습 프로젝트 공간입니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [hw2_ex/01_ex/](file:///C:/workspace/hw2_ex/hw2_ex/01_ex/) : 기본적인 반응형 정렬 방식을 테스트하는 기초 폴더\n- [hw2_ex/02_ex/](file:///C:/workspace/hw2_ex/hw2_ex/02_ex/) : `luxury`, `minimal`, `nature`, `youthful` 등 테마별 CSS가 적용된 여러 버전의 여행 정보 페이지 모음\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **디자인 감각 트레이닝**: 동일한 마크업 구조에서 CSS 스타일시트만 다르게 연결하여 사이트의 전반적인 분위기와 사용자 경험(UX)을 완전히 변화시키는 디자인 파워를 실습합니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. [hw2_ex/02_ex/](file:///C:/workspace/hw2_ex/hw2_ex/02_ex/) 폴더 내의 각 테마별 html 파일(예: `nature_healing_travel.html`)을 브라우저로 엽니다.\n2. 스타일 변화를 시각적으로 직접 체감해 봅니다.\n",
+      "tags": [
+        "HTML/CSS"
+      ],
+      "readingTime": 2
+    },
+    {
+      "id": "temp_FatDogAI",
+      "project": "temp_FatDogAI",
+      "description": "FatDog AI 플랫폼 임시 스냅샷 디렉토리 📁",
+      "link": "docs/temp_FatDogAI.md",
+      "date": "2026-05-20",
+      "title": "FatDog AI 플랫폼 임시 스냅샷 디렉토리 📁",
+      "content": "# FatDog AI 플랫폼 임시 스냅샷 디렉토리 📁\n\nFatDog AI 프로젝트 진행 중 분기 변경이나 리소스 안전 보관을 위해 임시 저장해 둔 소스코드 백업용 스냅샷 폴더입니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [pom.xml](file:///C:/workspace/temp_FatDogAI/pom.xml) : 임시 저장용 백업 빌드 설정\n- [src/main/webapp/](file:///C:/workspace/temp_FatDogAI/src/main/webapp/) : 임시 저장된 프론트엔드 에셋 및 JSP 파일 모음\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **프로젝트 형상 관리**: 소스코드 손실 방지를 위한 중간 스냅샷 보존 상태를 이해합니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n구동 테스트 대상이 아닌 백업 목적의 임시 보존 폴더입니다.\n",
+      "tags": [
+        "AI/RAG",
+        "Web/Backend"
+      ],
+      "readingTime": 2
+    },
+    {
+      "id": "FatDogAi2",
+      "project": "FatDogAi2",
+      "description": "FatDog AI 플랫폼 V2 - JPA & 도커 가상화 🐳🤖",
+      "link": "docs/FatDogAi2.md",
+      "date": "2026-05-20",
+      "title": "FatDog AI 플랫폼 V2 - JPA & 도커 가상화 🐳🤖",
+      "content": "# FatDog AI 플랫폼 V2 - JPA & 도커 가상화 🐳🤖\n\n스프링 부트 환경에서 데이터베이스 데이터 모델 클래스인 JPA 엔티티를 활용하고, 인공지능 API 호출 기능과 도커(Docker) 컨테이너 패키징 설정을 함께 엮어 배포 준비 과정을 훈련하는 고급 프로젝트입니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [pom.xml](file:///C:/workspace/FatDogAi2/pom.xml) : Spring Data JPA, AI 드라이버, Lombok 라이브러리 종속성 설정\n- [Dockerfile](file:///C:/workspace/FatDogAi2/Dockerfile) : 서버를 리눅스 컨테이너 가상 환경에 패키징하여 빌드하는 도커 파일\n- [scratch/merge_jpa.ps1](file:///C:/workspace/FatDogAi2/scratch/merge_jpa.ps1) : JPA 관련 설정을 병합 제어해 주는 유틸 스크립트\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **JPA 데이터 영속성**: SQL 문을 매번 짜지 않고 자바 객체와 테이블을 1:1 자동 맵핑하여 데이터를 조작하는 ORM 핵심 기술을 공부합니다.\n- **컨테이너 가상화 (Docker)**: 개발 컴퓨터뿐만 아니라 어떤 환경에서도 서버가 정상 구동되도록 가상 환경의 종속성을 이미지로 조립하는 개념을 익힙니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. `.env.dev.example` 파일을 참고하여 개발용 설정 환경변수 `.env.dev`를 만듭니다.\n2. 도커가 켜진 상태에서 `docker build -t fatdog-ai-2 .` 명령으로 이미지를 생성하거나, IDE에서 직접 Spring Boot 서비스를 띄웁니다.\n",
+      "tags": [
+        "Spring",
+        "Database",
+        "AI/RAG"
+      ],
+      "readingTime": 3
+    },
+    {
+      "id": "Fatdogaiex",
+      "project": "Fatdogaiex",
+      "description": "FatDog AI 확장 실습 플랫폼 🍃🤖",
+      "link": "docs/Fatdogaiex.md",
+      "date": "2026-05-20",
+      "title": "FatDog AI 확장 실습 플랫폼 🍃🤖",
+      "content": "# FatDog AI 확장 실습 플랫폼 🍃🤖\n\n스프링 부트 프로젝트와 인공지능 API SDK 기능을 유기적으로 연동하여 텍스트 생성 및 시뮬레이션을 구현해 보는 심화 실습 프로젝트입니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [pom.xml](file:///C:/workspace/Fatdogaiex/pom.xml) : 프로젝트 의존성 설정 파일\n- [src/main/java/](file:///C:/workspace/Fatdogaiex/src/main/java/) : AI 쿼리를 수행하고 결과를 응답받는 컨트롤러 및 도메인 로직\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **백엔드 AI 연동**: 외부 대형 언어 모델(LLM)에 쿼리를 쏘고 JSON 등으로 수신받아 로컬 DB 구조에 매핑하는 풀 아키텍처 연습입니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. 프로젝트를 실행한 후 AI 질문 전송 컨트롤러 매핑 주소로 로컬 호출을 수행하여 API 반응을 검증합니다.\n",
+      "tags": [
+        "Java",
+        "AI/RAG"
+      ],
+      "readingTime": 2
+    },
+    {
+      "id": "HELP",
+      "project": "HELP",
+      "description": "MOTIPE - 지역 축제 기반 AI 여행 추천 플랫폼",
+      "link": "docs/HELP.md",
+      "date": "2026-06-08",
+      "title": "MOTIPE - 지역 축제 기반 AI 여행 추천 플랫폼",
+      "content": "# MOTIPE - 지역 축제 기반 AI 여행 추천 플랫폼\r\n\r\n## 프로젝트 소개\r\n\r\n사용자의 성향을 분석해 최적화된 지역 축제 및 여행 일정을 추천하는 AI 플랫폼입니다.\r\n\r\n## 기술 스택\r\n\r\n- Frontend: HTML5, CSS3, JavaScript ES6+\r\n- Backend: Node.js, Express.js\r\n- Database: Supabase\r\n\r\n## 주요 기능\r\n\r\n- 사용자 축제 성향 진단 및 맞춤형 칭호 부여\r\n- AI 기반 축제 연계 여행 일정 생성 (최대 3개 키워드)\r\n- 커뮤니티 게시판 (리뷰 및 꿀팁 공유)\r\n\r\n## AI 추천 알고리즘\r\n\r\n추천 점수 = 축제 테마 적합도 50% + 일정&날씨 적합도 20% + 동선 15% + 동행자 15%\r\n\r\n## 실행 방법\r\n\r\n```bash\r\nnpm install\r\nnpm start\r\n```\r\n",
+      "tags": [
+        "JavaScript",
+        "Database",
+        "HTML/CSS",
+        "AI/RAG",
+        "Web/Backend"
+      ],
+      "readingTime": 2
+    },
+    {
+      "id": "mybatis3",
+      "project": "mybatis3",
+      "description": "MyBatis 트랜잭션 제어 & 고급 커스텀 데이터베이스 설정 V3 🍃💾",
+      "link": "docs/mybatis3.md",
+      "date": "2026-06-02",
+      "title": "MyBatis 트랜잭션 제어 & 고급 커스텀 데이터베이스 설정 V3 🍃💾",
+      "content": "# MyBatis 트랜잭션 제어 & 고급 커스텀 데이터베이스 설정 V3 🍃💾\n\n다수의 SQL 연산을 하나의 원자성 단위로 묶는 데이터베이스 트랜잭션 처리 기법과, 마이바티스의 커스텀 설정(CamlCase 언더바 컬럼 자동 변환 등)을 가미하는 마이바티스 최종 심화 프로젝트입니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [pom.xml](file:///C:/workspace/mybatis3/pom.xml) : 롬복 및 스프링 데이터 관련 최종 종속성\n- [src/main/java/](file:///C:/workspace/mybatis3/src/main/java/) : `@Transactional` 어노테이션을 사용하여 비즈니스 비정상 예외 발생 시 DB 롤백 처리를 주도하는 서비스 및 레포지토리 레이어 자바 코드\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **트랜잭션 ACID**: 하나라도 실패하면 전부 없던 일로 취급하는 금융 결제 등의 안전한 데이터베이스 가공 개념과 스프링 부트 연계 기술을 다룹니다.\n- **MyBatis Configuration**: 언더바 형식의 컬럼명(`user_id`)을 자바의 카멜케이스 변수명(`userId`)으로 자동 매치시키는 매핑 커스텀 설정을 이해합니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. 데이터베이스 스키마 생성 및 연동 정보를 맞춥니다.\n2. 고의로 예외가 발생하는 모의 테스트 코드를 돌려, DB에 트랜잭션 롤백이 성공해 더러운 데이터가 남지 않는지 확인합니다.\n",
+      "tags": [
+        "Java",
+        "Database"
+      ],
+      "readingTime": 2
+    },
+    {
+      "id": "mybatis2",
+      "project": "mybatis2",
+      "description": "MyBatis SQL 매퍼 심화 - 동적 SQL & 복합 관계 매핑 V2 🍃💾",
+      "link": "docs/mybatis2.md",
+      "date": "2026-06-02",
+      "title": "MyBatis SQL 매퍼 심화 - 동적 SQL & 복합 관계 매핑 V2 🍃💾",
+      "content": "# MyBatis SQL 매퍼 심화 - 동적 SQL & 복합 관계 매핑 V2 🍃💾\n\n매번 쿼리를 다르게 작성할 필요 없이 조건식에 따라 쿼리가 실시간으로 달라지는 '동적 SQL(<if>, <choose>, <foreach>)' 기법과, 1:N 이나 N:M 테이블 구조를 객체 필드로 조인해 가져오는 ResultMap 맵핑 기술을 다룹니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [pom.xml](file:///C:/workspace/mybatis2/pom.xml) : 빌드 및 종속성 관리 설정 파일\n- [src/main/resources/](file:///C:/workspace/mybatis2/src/main/resources/) : 동적 분기 태그가 들어간 XML SQL 매퍼들\n- [src/main/java/](file:///C:/workspace/mybatis2/src/main/java/) : 쿼리 파라미터 매핑을 전달하고 다중 리스트를 회수하는 고도화된 자바 코드\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **동적 SQL**: 조건부 조회 필터링, 검색 키워드가 비어있을 때 전체 조회 처리 등 실제 비즈니스에 핵심적인 조건부 쿼리 제작 능력을 키웁니다.\n- **ResultMap 설계**: 테이블 조인 결과를 자바 객체 내의 List 컬렉션 필드로 바로 채워넣어 조립(Mapping)해 주는 기법을 익힙니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. 개발 환경에 대응하는 데이터베이스에 연결하고 스프링 부트 서버를 가동합니다.\n2. 동적 다중 조건 검색 컨트롤러 주소를 테스트하여 알맞은 조건의 검색 행들만 골라 반환되는지 확인합니다.\n",
+      "tags": [
+        "Java",
+        "Database"
+      ],
+      "readingTime": 3
+    },
+    {
+      "id": "nim-rest-client",
+      "project": "nim-rest-client",
+      "description": "NIM REST Client (AI 기반 학습 계획 생성 시스템)",
+      "link": "docs/nim-rest-client.md",
+      "date": "2026-07-09",
+      "title": "NIM REST Client (AI 기반 학습 계획 생성 시스템)",
+      "content": "# NIM REST Client (AI 기반 학습 계획 생성 시스템)\r\n\r\nSpring Boot 4와 Spring 7의 HTTP 클라이언트인 `RestClient`를 활용하여 NVIDIA NIM API(DeepSeek V4 Flash)와 연동하고, 사용자가 입력한 과목에 대한 2주 분량의 맞춤형 학습 계획을 자동 생성해주는 웹 애플리케이션입니다.\r\n\r\n---\r\n\r\n## 🛠️ Tech Stack & Badges\r\n\r\n![Java](https://img.shields.io/badge/Java-17-orange?style=flat-square&logo=openjdk)\r\n![Spring Boot](https://img.shields.io/badge/Spring%20Boot-4.x-brightgreen?style=flat-square&logo=springboot)\r\n![Spring MVC](https://img.shields.io/badge/Spring%20MVC-JSP-blue?style=flat-square&logo=spring)\r\n![Spring RestClient](https://img.shields.io/badge/Spring%207-RestClient-green?style=flat-square)\r\n![NVIDIA NIM](https://img.shields.io/badge/NVIDIA%20NIM-DeepSeek%20V4%20Flash-black?style=flat-square&logo=nvidia)\r\n![Lombok](https://img.shields.io/badge/Lombok-v1.18-red?style=flat-square)\r\n\r\n---\r\n\r\n## 📂 Branch Roadmap & Architecture\r\n\r\n본 프로젝트는 초보자가 점진적으로 학습할 수 있도록 단계별 브랜치 전략을 통해 단계적으로 구현되었습니다.\r\n\r\n```mermaid\r\ngitGraph\r\n    commit id: \"Initial Setup\" tag: \"step0\"\r\n    branch step1\r\n    checkout step1\r\n    commit id: \"JSP & Controller\"\r\n    checkout main\r\n    merge step1\r\n    branch step2\r\n    checkout step2\r\n    commit id: \"Redirect & PlanService\"\r\n    checkout main\r\n    merge step2\r\n    branch step3\r\n    checkout step3\r\n    commit id: \"RestClient & NIM API\"\r\n    checkout main\r\n    merge step3\r\n```\r\n\r\n---\r\n\r\n## 🌿 에센셜 요약 (Step-by-Step Summary)\r\n\r\n각 단계별 핵심 내용 요약 및 상세 문서 링크입니다. (상세 링크에서 **초심자 비유**, **주니어용 원리/구조**, **면접 예상 질문**을 확인하실 수 있습니다.)\r\n\r\n| 단계 | 브랜치 | 핵심 요약 | 상세 가이드 |\r\n| :--- | :--- | :--- | :--- |\r\n| **Step 0** | `step0` | Spring Boot 4 기초 빌드 환경 세팅 및 의존성 구성 | [상세 분석 문서 보기](./docs/step0.md) |\r\n| **Step 1** | `step1` | JSP View Resolver 연동 및 Web MVC 기본 컨트롤러 매핑 | [상세 분석 문서 보기](./docs/step1.md) |\r\n| **Step 2** | `step2` | POST 폼 추가, PRG(Post-Redirect-Get) 패턴 및 FlashAttributes 데이터 보존 적용 | [상세 분석 문서 보기](./docs/step2.md) |\r\n| **Step 3** | `step3` | RestClient 설계 및 NVIDIA NIM API(DeepSeek V4) AI 실연동 | [상세 분석 문서 보기](./docs/step3.md) |\r\n\r\n---\r\n\r\n## 🏃 어떻게 실행하나요?\r\n\r\n### 1. API 키 설정 (환경 변수)\r\nNVIDIA NIM API를 사용하기 위해 [NVIDIA API Keys](https://build.nvidia.com/settings/api-keys)에서 발급받은 API 키를 로컬 시스템에 설정해야 합니다.\r\n\r\n프로젝트 루트의 `.env` 파일에 발급받은 키를 작성해주세요. (또는 시스템 환경변수로 등록)\r\n```bash\r\nNIM_API_KEY=your_nvidia_nim_api_key_here\r\n```\r\n\r\n### 2. IntelliJ IDEA를 통한 실행\r\n1. IntelliJ IDEA에서 본 프로젝트를 오픈합니다.\r\n2. `src/main/java/org/example/nimrestclient/NimRestClientApplication.java` 메인 클래스로 이동합니다.\r\n3. `main` 메서드 좌측의 초록색 실행 버튼(▶)을 클릭하여 **'Run 'NimRestClientApplication''**을 통해 실행합니다.\r\n   > ⚠️ **환경변수 설정 주의**\r\n   >\r\n   > IntelliJ에서 애플리케이션을 구동하기 전, 반드시 상단 실행 구성 설정(**Run/Debug Configurations**)의 **Environment variables** 필드에 `NIM_API_KEY` 환경변수와 값을 추가하거나 `EnvFile` 플러그인을 활성화하여 API 키 값을 주입해야 에러 없이 정상 연동됩니다.\r\n4. 구동 완료 후 브라우저에서 `http://localhost:8080`에 접속하여 학습 계획 생성을 테스트합니다.\r\n\r\n",
+      "tags": [
+        "Spring",
+        "Java",
+        "AI/RAG",
+        "Web/Backend"
+      ],
+      "readingTime": 7
+    }
+  ],
+  "buildTime": "2026-08-06T07:21:38.773Z"
+};
+
+if (typeof window !== 'undefined') {
+  window.TIL_DATA = TIL_DATA;
+}
+if (typeof module !== 'undefined') {
+  module.exports = TIL_DATA;
+}
