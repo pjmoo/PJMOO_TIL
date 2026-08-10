@@ -38,58 +38,63 @@ const initApp = () => {
     if (typeof window.TIL_DATA === 'undefined') {
       console.log('TIL_DATA not found. Attempting to fetch from GitHub...');
       
-      // Fetch latest commit SHA from API to bypass Fastly CDN cache
-      fetch('https://api.github.com/repos/pjmoo/PJMOO_TIL/commits/main')
-        .then(res => {
-          if (!res.ok) throw new Error('API rate limit or error');
-          return res.json();
-        })
-        .then(commit => {
-          const sha = commit.sha;
-          console.log('Latest commit SHA:', sha);
-          return fetch(`https://raw.githubusercontent.com/pjmoo/PJMOO_TIL/${sha}/docs_data.js`);
-        })
-        .catch(err => {
-          console.warn('GitHub API failed, falling back to main branch raw URL:', err);
-          return fetch('https://raw.githubusercontent.com/pjmoo/PJMOO_TIL/main/docs_data.js?v=' + Date.now());
-        })
-        .then(response => {
-          if (!response.ok) {
-            throw new Error('Network response was not ok');
-          }
-          return response.text();
-        })
-        .then(text => {
-          try {
-            // Robust JSON extraction to avoid eval/script injection blocks
-            const jsonStart = text.indexOf('{');
-            const jsonEnd = text.lastIndexOf('};');
-            if (jsonStart !== -1 && jsonEnd !== -1) {
-              const jsonText = text.substring(jsonStart, jsonEnd + 1);
-              window.TIL_DATA = JSON.parse(jsonText.trim());
-              console.log('TIL_DATA successfully parsed from GitHub JSON.');
-              continueInit();
-            } else {
-              throw new Error('Could not find JSON object in data');
+      const loadDataFromUrl = (url) => {
+        return fetch(url)
+          .then(response => {
+            if (!response.ok) throw new Error('Network response was not ok');
+            return response.text();
+          })
+          .then(text => {
+            try {
+              const jsonStart = text.indexOf('{');
+              const jsonEnd = text.lastIndexOf('};');
+              if (jsonStart !== -1 && jsonEnd !== -1) {
+                const jsonText = text.substring(jsonStart, jsonEnd + 1);
+                window.TIL_DATA = JSON.parse(jsonText.trim());
+                console.log('TIL_DATA successfully parsed from GitHub JSON.');
+                continueInit();
+              } else {
+                throw new Error('Could not find JSON object in data');
+              }
+            } catch (e) {
+              console.warn('JSON.parse failed, falling back to script injection:', e);
+              const script = document.createElement('script');
+              script.text = text;
+              document.head.appendChild(script);
+              if (typeof window.TIL_DATA !== 'undefined') {
+                continueInit();
+              } else {
+                showError();
+              }
             }
-          } catch (e) {
-            console.warn('JSON.parse failed, falling back to script injection:', e);
-            const script = document.createElement('script');
-            script.text = text;
-            document.head.appendChild(script);
-            
-            if (typeof window.TIL_DATA !== 'undefined') {
-              console.log('TIL_DATA successfully loaded via script injection fallback.');
-              continueInit();
-            } else {
-              showError();
-            }
-          }
-        })
-        .catch(err => {
-          console.error('Failed to load TIL_DATA from GitHub:', err);
-          showError();
-        });
+          });
+      };
+
+      if (window.GIT_SHA) {
+        loadDataFromUrl('https://raw.githubusercontent.com/pjmoo/PJMOO_TIL/' + window.GIT_SHA + '/docs_data.js')
+          .catch(err => {
+            console.error('Failed to load docs_data.js with GIT_SHA:', err);
+            showError();
+          });
+      } else {
+        // Fallback if app.js is loaded without skin.html GIT_SHA (e.g. testing)
+        fetch('https://api.github.com/repos/pjmoo/PJMOO_TIL/commits/main?v=' + Date.now())
+          .then(res => {
+            if (!res.ok) throw new Error('API rate limit or error');
+            return res.json();
+          })
+          .then(commit => {
+            return loadDataFromUrl('https://raw.githubusercontent.com/pjmoo/PJMOO_TIL/' + commit.sha + '/docs_data.js');
+          })
+          .catch(err => {
+            console.warn('GitHub API failed, loading from main branch raw:', err);
+            return loadDataFromUrl('https://raw.githubusercontent.com/pjmoo/PJMOO_TIL/main/docs_data.js?v=' + Date.now());
+          })
+          .catch(err => {
+            console.error('Final load failed:', err);
+            showError();
+          });
+      }
     } else {
       continueInit();
     }

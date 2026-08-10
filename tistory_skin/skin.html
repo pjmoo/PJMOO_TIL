@@ -145,11 +145,25 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-xml-doc.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-bash.min.js"></script>
 
-  <!-- app.js & docs_data.js are loaded dynamically from GitHub raw to bypass CORS, browser blocks, and CDN caching -->
+  <!-- app.js & docs_data.js are loaded dynamically from GitHub raw using the latest commit SHA to bypass all CDN and browser caching instantly -->
   <script>
     (function() {
-      console.log('Fetching latest app.js from GitHub...');
-      fetch('https://raw.githubusercontent.com/pjmoo/PJMOO_TIL/main/app.js?v=' + Date.now())
+      console.log('Fetching latest commit SHA from GitHub API...');
+      fetch('https://api.github.com/repos/pjmoo/PJMOO_TIL/commits/main?v=' + Date.now())
+        .then(res => {
+          if (!res.ok) throw new Error('API error or rate limit');
+          return res.json();
+        })
+        .then(commit => {
+          const sha = commit.sha;
+          window.GIT_SHA = sha; // Share SHA with app.js
+          console.log('Latest commit SHA:', sha);
+          return fetch('https://raw.githubusercontent.com/pjmoo/PJMOO_TIL/' + sha + '/app.js');
+        })
+        .catch(err => {
+          console.warn('Failed to fetch SHA, falling back to main branch:', err);
+          return fetch('https://raw.githubusercontent.com/pjmoo/PJMOO_TIL/main/app.js?v=' + Date.now());
+        })
         .then(response => {
           if (!response.ok) throw new Error('Network response was not ok');
           return response.text();
@@ -161,7 +175,7 @@
           console.log('app.js successfully loaded from GitHub.');
         })
         .catch(err => {
-          console.error('Failed to load app.js from GitHub:', err);
+          console.error('Failed to load app.js:', err);
         });
     })();
   </script>
