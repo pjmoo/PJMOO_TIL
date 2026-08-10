@@ -744,6 +744,18 @@ const TIL_DATA = {
         "기타"
       ],
       "readingTime": 1
+    },
+    {
+      "id": "260812_real_auto_test",
+      "date": "2026-08-12",
+      "topic": "🌟 8월 12일 최종 자동 연동 검증 성공! 🚀",
+      "link": "docs/260812_real_auto_test.md",
+      "title": "🌟 8월 12일 최종 자동 연동 검증 성공! 🚀",
+      "content": "# 🌟 8월 12일 최종 자동 연동 검증 성공! 🚀\n\n이 글은 8월 12일 날짜의 자동 연동을 실제로 검증하기 위해 생성된 파일입니다.\n티스토리에는 어떠한 조작도 가하지 않고, 오직 로컬 파일 작성 후 `git push`만 진행했습니다.\n티스토리 홈 화면에서 새로고침만 하면 이 글이 자동으로 노출되는 것을 확인하실 수 있습니다!\n",
+      "tags": [
+        "기타"
+      ],
+      "readingTime": 1
     }
   ],
   "projectLogs": [
@@ -1501,9 +1513,22 @@ const TIL_DATA = {
         "기타"
       ],
       "readingTime": 1
+    },
+    {
+      "id": "260812_real_auto_test",
+      "project": "260812_real_auto_test",
+      "description": "🌟 8월 12일 최종 자동 연동 검증 성공! 🚀",
+      "link": "docs/260812_real_auto_test.md",
+      "date": "2026-08-12",
+      "title": "🌟 8월 12일 최종 자동 연동 검증 성공! 🚀",
+      "content": "# 🌟 8월 12일 최종 자동 연동 검증 성공! 🚀\n\n이 글은 8월 12일 날짜의 자동 연동을 실제로 검증하기 위해 생성된 파일입니다.\n티스토리에는 어떠한 조작도 가하지 않고, 오직 로컬 파일 작성 후 `git push`만 진행했습니다.\n티스토리 홈 화면에서 새로고침만 하면 이 글이 자동으로 노출되는 것을 확인하실 수 있습니다!\n",
+      "tags": [
+        "기타"
+      ],
+      "readingTime": 1
     }
   ],
-  "buildTime": "2026-08-10T07:50:20.843Z"
+  "buildTime": "2026-08-10T07:58:51.733Z"
 };
 
 if (typeof window !== 'undefined') {
