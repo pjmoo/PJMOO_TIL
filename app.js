@@ -45,15 +45,30 @@ document.addEventListener('DOMContentLoaded', () => {
           return response.text();
         })
         .then(text => {
-          const script = document.createElement('script');
-          script.text = text;
-          document.head.appendChild(script);
-          
-          if (typeof window.TIL_DATA !== 'undefined') {
-            console.log('TIL_DATA successfully loaded from GitHub.');
-            continueInit();
-          } else {
-            showError();
+          try {
+            // Robust JSON extraction to avoid eval/script injection blocks
+            const jsonStart = text.indexOf('{');
+            const jsonEnd = text.lastIndexOf('}') + 1;
+            if (jsonStart !== -1 && jsonEnd !== -1) {
+              const jsonText = text.substring(jsonStart, jsonEnd);
+              window.TIL_DATA = JSON.parse(jsonText);
+              console.log('TIL_DATA successfully parsed from GitHub JSON.');
+              continueInit();
+            } else {
+              throw new Error('Could not find JSON object in data');
+            }
+          } catch (e) {
+            console.warn('JSON.parse failed, falling back to script injection:', e);
+            const script = document.createElement('script');
+            script.text = text;
+            document.head.appendChild(script);
+            
+            if (typeof window.TIL_DATA !== 'undefined') {
+              console.log('TIL_DATA successfully loaded via script injection fallback.');
+              continueInit();
+            } else {
+              showError();
+            }
           }
         })
         .catch(err => {
