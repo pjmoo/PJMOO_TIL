@@ -309,3 +309,27 @@ if (typeof module !== 'undefined') {
 
 fs.writeFileSync(outputPath, outputContent, 'utf8');
 console.log(`Build complete! Saved combined data with dates to ${outputPath}.`);
+
+// Also update the Tistory skin folder files to stay in sync
+const tistoryDir = path.join(__dirname, 'tistory_skin');
+if (fs.existsSync(tistoryDir)) {
+  const tistoryDocsDataPath = path.join(tistoryDir, 'docs_data.js');
+  const tistoryAppPath = path.join(tistoryDir, 'app.js');
+  const tistoryStylePath = path.join(tistoryDir, 'style.css');
+
+  fs.writeFileSync(tistoryDocsDataPath, outputContent, 'utf8');
+  console.log(`Synced: docs_data.js -> ${tistoryDocsDataPath}`);
+
+  const rootAppPath = path.join(__dirname, 'app.js');
+  if (fs.existsSync(rootAppPath)) {
+    fs.copyFileSync(rootAppPath, tistoryAppPath);
+    console.log(`Synced: app.js -> ${tistoryAppPath}`);
+  }
+
+  const rootStylePath = path.join(__dirname, 'style.css');
+  if (fs.existsSync(rootStylePath)) {
+    fs.copyFileSync(rootStylePath, tistoryStylePath);
+    console.log(`Synced: style.css -> ${tistoryStylePath}`);
+  }
+}
+

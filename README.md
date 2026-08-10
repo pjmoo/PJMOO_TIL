@@ -62,10 +62,7 @@
 | 2026-08-05 | Spring Boot & Thymeleaf 도서 관리 시스템 (thssr) 실습 정리 📚 | [상세 보기](docs/thssr.md) |
 | 2026-08-06 | 영화 관리 서비스 실습 정리 (Frag) 🎬 | [상세 보기](docs/260806_frag.md) |
 | 2026-08-07 | Spring Boot 파일 업로드 & 스토리지 연동 실습 정리 (260807_fileupload) 💾 | [상세 보기](docs/260807_fileupload.md) |
-
-
-
-
+| 2026-08-10 | AI 파일 & 이미지 RAG 시스템 (PDF & Image RAG) 🚀 | [상세 보기](docs/260810_aifile.md) |
 
 ---
 
@@ -122,4 +119,4 @@
 | mybatis2 | MyBatis SQL 매퍼 심화 - 동적 SQL & 복합 관계 매핑 V2 🍃💾 | [상세 보기](docs/mybatis2.md) |
 | nim-rest-client | NIM REST Client (AI 기반 학습 계획 생성 시스템) | [상세 보기](docs/nim-rest-client.md) |
 | 260807_fileupload | 💾 Spring Boot 파일 업로드 & 스토리지 연동 실습 정리 | [상세 보기](docs/260807_fileupload.md) |
-
+| 260810_aifile | 📂 AI 파일 & 이미지 RAG 시스템 (PDF & Image RAG) 🚀 | [상세 보기](docs/260810_aifile.md) |
