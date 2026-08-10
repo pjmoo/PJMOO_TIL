@@ -3,7 +3,7 @@
    Interactive Single Page Application (SPA) Controller with Timeline and UX features.
    ========================================================================== */
 
-document.addEventListener('DOMContentLoaded', () => {
+const initApp = () => {
   // State variables
   let activeTab = 'all'; // 'all', 'daily', or 'project'
   let searchQuery = '';
@@ -962,4 +962,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Initialize
   init();
-});
+};
+
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initApp);
+} else {
+  initApp();
+}

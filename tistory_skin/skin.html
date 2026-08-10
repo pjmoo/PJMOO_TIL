@@ -145,10 +145,26 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-xml-doc.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-bash.min.js"></script>
 
-  <!-- docs_data.js is loaded dynamically by app.js from GitHub raw to bypass CORS, browser blocks, and CDN caching -->
-
-  <!-- Client Router and Controller Script -->
-  <script src="./images/app.js"></script>
+  <!-- app.js & docs_data.js are loaded dynamically from GitHub raw to bypass CORS, browser blocks, and CDN caching -->
+  <script>
+    (function() {
+      console.log('Fetching latest app.js from GitHub...');
+      fetch('https://raw.githubusercontent.com/pjmoo/PJMOO_TIL/main/app.js?v=' + Date.now())
+        .then(response => {
+          if (!response.ok) throw new Error('Network response was not ok');
+          return response.text();
+        })
+        .then(text => {
+          const script = document.createElement('script');
+          script.text = text;
+          document.head.appendChild(script);
+          console.log('app.js successfully loaded from GitHub.');
+        })
+        .catch(err => {
+          console.error('Failed to load app.js from GitHub:', err);
+        });
+    })();
+  </script>
 
     <!-- Hidden Tistory required elements for validation -->
     <div style="display: none;">
