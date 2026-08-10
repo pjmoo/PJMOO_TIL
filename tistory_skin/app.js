@@ -36,10 +36,40 @@ document.addEventListener('DOMContentLoaded', () => {
   // Initialize
   function init() {
     if (typeof window.TIL_DATA === 'undefined') {
-      el.mainContent.innerHTML = `<div class="content-body"><h2>데이터 오류</h2><p>학습 데이터를 불러올 수 없습니다. <code>node build.js</code> 명령어를 실행해 데이터 파일을 갱신해 주세요.</p></div>`;
-      return;
+      console.log('TIL_DATA not found. Attempting to fetch from GitHub raw content...');
+      fetch('https://raw.githubusercontent.com/pjmoo/PJMOO_TIL/main/docs_data.js?v=' + Date.now())
+        .then(response => {
+          if (!response.ok) {
+            throw new Error('Network response was not ok');
+          }
+          return response.text();
+        })
+        .then(text => {
+          const script = document.createElement('script');
+          script.text = text;
+          document.head.appendChild(script);
+          
+          if (typeof window.TIL_DATA !== 'undefined') {
+            console.log('TIL_DATA successfully loaded from GitHub.');
+            continueInit();
+          } else {
+            showError();
+          }
+        })
+        .catch(err => {
+          console.error('Failed to load TIL_DATA from GitHub:', err);
+          showError();
+        });
+    } else {
+      continueInit();
     }
+  }
 
+  function showError() {
+    el.mainContent.innerHTML = `<div class="content-body"><h2>데이터 오류</h2><p>학습 데이터를 불러올 수 없습니다. <code>node build.js</code> 명령어를 실행해 데이터 파일을 갱신해 주세요.</p></div>`;
+  }
+
+  function continueInit() {
     // Combine all logs with type mapping
     const rawDaily = window.TIL_DATA.dailyLogs || [];
     const rawProjects = window.TIL_DATA.projectLogs || [];
