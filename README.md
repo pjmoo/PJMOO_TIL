@@ -63,10 +63,7 @@
 | 2026-08-06 | 영화 관리 서비스 실습 정리 (Frag) 🎬 | [상세 보기](docs/260806_frag.md) |
 | 2026-08-07 | Spring Boot 파일 업로드 & 스토리지 연동 실습 정리 (260807_fileupload) 💾 | [상세 보기](docs/260807_fileupload.md) |
 | 2026-08-10 | AI 파일 & 이미지 RAG 시스템 (PDF & Image RAG) 🚀 | [상세 보기](docs/260810_aifile.md) |
-| 2026-08-10 | 🔌 GitHub-티스토리 자동 연동 테스트 성공! 🎉 | [상세 보기](docs/260810_connection_test.md) |
-| 2026-08-11 | 🚀 티스토리-GitHub 연동 완료! 260811 최종 실습 | [상세 보기](docs/260811_final_test.md) |
-| 2026-08-12 | 🌟 8월 12일 자동 연동 실전 테스트 성공! 🚀 | [상세 보기](docs/260812_test_auto.md) |
-| 2026-08-13 | 🎯 8월 13일 완전 자동 연동 테스트 성공! 🏆 | [상세 보기](docs/260813_test_real_auto.md) |
+| 2026-08-11 | 🎯 8월 11일 실시간 자동 연동 완벽 작동! 🏆 | [상세 보기](docs/260811_auto_test.md) |
 
 ---
 
@@ -124,7 +121,4 @@
 | nim-rest-client | NIM REST Client (AI 기반 학습 계획 생성 시스템) | [상세 보기](docs/nim-rest-client.md) |
 | 260807_fileupload | 💾 Spring Boot 파일 업로드 & 스토리지 연동 실습 정리 | [상세 보기](docs/260807_fileupload.md) |
 | 260810_aifile | 📂 AI 파일 & 이미지 RAG 시스템 (PDF & Image RAG) 🚀 | [상세 보기](docs/260810_aifile.md) |
-| 260810_connection_test | 🔌 GitHub-티스토리 자동 연동 테스트 성공! 🎉 | [상세 보기](docs/260810_connection_test.md) |
-| 260811_final_test | 🚀 티스토리-GitHub 연동 완료! 260811 최종 실습 | [상세 보기](docs/260811_final_test.md) |
-| 260812_test_auto | 🌟 8월 12일 자동 연동 실전 테스트 성공! 🚀 | [상세 보기](docs/260812_test_auto.md) |
-| 260813_test_real_auto | 🎯 8월 13일 완전 자동 연동 테스트 성공! 🏆 | [상세 보기](docs/260813_test_real_auto.md) |
+| 260811_auto_test | 🎯 8월 11일 실시간 자동 연동 완벽 작동! 🏆 | [상세 보기](docs/260811_auto_test.md) |

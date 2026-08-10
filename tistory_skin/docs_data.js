@@ -734,48 +734,12 @@ const TIL_DATA = {
       "readingTime": 8
     },
     {
-      "id": "260810_connection_test",
-      "date": "2026-08-10",
-      "topic": "🔌 GitHub-티스토리 자동 연동 테스트 성공! 🎉",
-      "link": "docs/260810_connection_test.md",
-      "title": "🔌 GitHub-티스토리 자동 연동 테스트 성공! 🎉",
-      "content": "# 🔌 GitHub-티스토리 자동 연동 테스트 성공! 🎉\n\n이 일지는 GitHub 저장소와 티스토리 블로그 스킨의 실시간 자동 동기화 기능이 정상적으로 작동하는지 확인하기 위해 생성된 테스트용 문서입니다.\n\n작성 후 `node build.js`를 실행하고 GitHub에 push하는 것만으로 티스토리 블로그(`myinfo30840.tistory.com`)에 별도 업로드 없이 실시간으로 즉시 반영됩니다.\n",
-      "tags": [
-        "기타"
-      ],
-      "readingTime": 1
-    },
-    {
-      "id": "260811_final_test",
+      "id": "260811_auto_test",
       "date": "2026-08-11",
-      "topic": "🚀 티스토리-GitHub 연동 완료! 260811 최종 실습",
-      "link": "docs/260811_final_test.md",
-      "title": "🚀 티스토리-GitHub 연동 완료! 260811 최종 실습",
-      "content": "# 🚀 티스토리-GitHub 연동 완료! 260811 최종 실습\n\n드디어 티스토리와 GitHub의 연동이 완벽하게 끝났습니다!\n\n이 파일은 2026년 8월 11일자로 자동 생성된 학습 로그입니다.\n로컬에서 마크다운을 작성한 뒤 `node build.js`를 실행하고 git push하면 티스토리 블로그(`myinfo30840.tistory.com`)에 실시간으로 안전하게 즉시 추가되는 것을 보실 수 있습니다.\n",
-      "tags": [
-        "기타"
-      ],
-      "readingTime": 1
-    },
-    {
-      "id": "260812_test_auto",
-      "date": "2026-08-12",
-      "topic": "🌟 8월 12일 자동 연동 실전 테스트 성공! 🚀",
-      "link": "docs/260812_test_auto.md",
-      "title": "🌟 8월 12일 자동 연동 실전 테스트 성공! 🚀",
-      "content": "# 🌟 8월 12일 자동 연동 실전 테스트 성공! 🚀\n\n이 글은 8월 12일자로 작성된 실전 테스트 글입니다.\n로컬 마크다운 작성 -> `node build.js` 빌드 -> `git push` 실행의 3단계 흐름이 티스토리 블로그(`myinfo30840.tistory.com`)에 실시간으로 완벽하게 연동되는 것을 증명합니다.\n",
-      "tags": [
-        "기타"
-      ],
-      "readingTime": 1
-    },
-    {
-      "id": "260813_test_real_auto",
-      "date": "2026-08-13",
-      "topic": "🎯 8월 13일 완전 자동 연동 테스트 성공! 🏆",
-      "link": "docs/260813_test_real_auto.md",
-      "title": "🎯 8월 13일 완전 자동 연동 테스트 성공! 🏆",
-      "content": "# 🎯 8월 13일 완전 자동 연동 테스트 성공! 🏆\n\n이 글은 어떠한 티스토리 스킨 파일 업로드도 없이, 오직 로컬 파일 작성 후 `git push`만으로 티스토리 홈페이지에 자동 등록되었음을 알리는 최종 테스트 글입니다.\n\n이제 모든 세팅이 완전히 끝났으므로 파일 업로드 과정 없이 편하게 공부 기록만 작성하고 푸시하시면 됩니다!\n",
+      "topic": "🎯 8월 11일 실시간 자동 연동 완벽 작동! 🏆",
+      "link": "docs/260811_auto_test.md",
+      "title": "🎯 8월 11일 실시간 자동 연동 완벽 작동! 🏆",
+      "content": "# 🎯 8월 11일 실시간 자동 연동 완벽 작동! 🏆\n\n이 글은 GitHub 원격 저장소와 티스토리 블로그 스킨의 실시간 자동 동기화 기능이 완벽하게 작동하는지 검증하기 위한 최종 실습 문서입니다.\n\n이제 모든 세팅이 완전히 끝났으므로 수동 업로드 없이 공부 기록을 작성하고 `node build.js` 및 `git push`를 실행하는 것만으로 블로그에 즉시 업데이트됩니다!\n",
       "tags": [
         "기타"
       ],
@@ -1526,59 +1490,20 @@ const TIL_DATA = {
       "readingTime": 8
     },
     {
-      "id": "260810_connection_test",
-      "project": "260810_connection_test",
-      "description": "🔌 GitHub-티스토리 자동 연동 테스트 성공! 🎉",
-      "link": "docs/260810_connection_test.md",
-      "date": "2026-08-10",
-      "title": "🔌 GitHub-티스토리 자동 연동 테스트 성공! 🎉",
-      "content": "# 🔌 GitHub-티스토리 자동 연동 테스트 성공! 🎉\n\n이 일지는 GitHub 저장소와 티스토리 블로그 스킨의 실시간 자동 동기화 기능이 정상적으로 작동하는지 확인하기 위해 생성된 테스트용 문서입니다.\n\n작성 후 `node build.js`를 실행하고 GitHub에 push하는 것만으로 티스토리 블로그(`myinfo30840.tistory.com`)에 별도 업로드 없이 실시간으로 즉시 반영됩니다.\n",
-      "tags": [
-        "기타"
-      ],
-      "readingTime": 1
-    },
-    {
-      "id": "260811_final_test",
-      "project": "260811_final_test",
-      "description": "🚀 티스토리-GitHub 연동 완료! 260811 최종 실습",
-      "link": "docs/260811_final_test.md",
+      "id": "260811_auto_test",
+      "project": "260811_auto_test",
+      "description": "🎯 8월 11일 실시간 자동 연동 완벽 작동! 🏆",
+      "link": "docs/260811_auto_test.md",
       "date": "2026-08-11",
-      "title": "🚀 티스토리-GitHub 연동 완료! 260811 최종 실습",
-      "content": "# 🚀 티스토리-GitHub 연동 완료! 260811 최종 실습\n\n드디어 티스토리와 GitHub의 연동이 완벽하게 끝났습니다!\n\n이 파일은 2026년 8월 11일자로 자동 생성된 학습 로그입니다.\n로컬에서 마크다운을 작성한 뒤 `node build.js`를 실행하고 git push하면 티스토리 블로그(`myinfo30840.tistory.com`)에 실시간으로 안전하게 즉시 추가되는 것을 보실 수 있습니다.\n",
-      "tags": [
-        "기타"
-      ],
-      "readingTime": 1
-    },
-    {
-      "id": "260812_test_auto",
-      "project": "260812_test_auto",
-      "description": "🌟 8월 12일 자동 연동 실전 테스트 성공! 🚀",
-      "link": "docs/260812_test_auto.md",
-      "date": "2026-08-12",
-      "title": "🌟 8월 12일 자동 연동 실전 테스트 성공! 🚀",
-      "content": "# 🌟 8월 12일 자동 연동 실전 테스트 성공! 🚀\n\n이 글은 8월 12일자로 작성된 실전 테스트 글입니다.\n로컬 마크다운 작성 -> `node build.js` 빌드 -> `git push` 실행의 3단계 흐름이 티스토리 블로그(`myinfo30840.tistory.com`)에 실시간으로 완벽하게 연동되는 것을 증명합니다.\n",
-      "tags": [
-        "기타"
-      ],
-      "readingTime": 1
-    },
-    {
-      "id": "260813_test_real_auto",
-      "project": "260813_test_real_auto",
-      "description": "🎯 8월 13일 완전 자동 연동 테스트 성공! 🏆",
-      "link": "docs/260813_test_real_auto.md",
-      "date": "2026-08-13",
-      "title": "🎯 8월 13일 완전 자동 연동 테스트 성공! 🏆",
-      "content": "# 🎯 8월 13일 완전 자동 연동 테스트 성공! 🏆\n\n이 글은 어떠한 티스토리 스킨 파일 업로드도 없이, 오직 로컬 파일 작성 후 `git push`만으로 티스토리 홈페이지에 자동 등록되었음을 알리는 최종 테스트 글입니다.\n\n이제 모든 세팅이 완전히 끝났으므로 파일 업로드 과정 없이 편하게 공부 기록만 작성하고 푸시하시면 됩니다!\n",
+      "title": "🎯 8월 11일 실시간 자동 연동 완벽 작동! 🏆",
+      "content": "# 🎯 8월 11일 실시간 자동 연동 완벽 작동! 🏆\n\n이 글은 GitHub 원격 저장소와 티스토리 블로그 스킨의 실시간 자동 동기화 기능이 완벽하게 작동하는지 검증하기 위한 최종 실습 문서입니다.\n\n이제 모든 세팅이 완전히 끝났으므로 수동 업로드 없이 공부 기록을 작성하고 `node build.js` 및 `git push`를 실행하는 것만으로 블로그에 즉시 업데이트됩니다!\n",
       "tags": [
         "기타"
       ],
       "readingTime": 1
     }
   ],
-  "buildTime": "2026-08-10T07:47:23.930Z"
+  "buildTime": "2026-08-10T07:50:20.843Z"
 };
 
 if (typeof window !== 'undefined') {
