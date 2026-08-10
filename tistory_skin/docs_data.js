@@ -1478,7 +1478,7 @@ const TIL_DATA = {
       "readingTime": 8
     }
   ],
-  "buildTime": "2026-08-10T07:05:15.477Z"
+  "buildTime": "2026-08-10T07:07:29.779Z"
 };
 
 if (typeof window !== 'undefined') {

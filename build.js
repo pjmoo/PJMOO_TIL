@@ -12,7 +12,96 @@ if (!fs.existsSync(readmePath)) {
   process.exit(1);
 }
 
-const readmeContent = fs.readFileSync(readmePath, 'utf8');
+let readmeContent = fs.readFileSync(readmePath, 'utf8');
+
+// --- START AUTO-SCAN AND REGISTER NEW FILES ---
+const allFiles = fs.readdirSync(docsDir).filter(file => file.endsWith('.md'));
+const registeredFiles = new Set();
+const linkRegex = /docs\/[a-zA-Z0-9_\-\.]+/g;
+let match;
+while ((match = linkRegex.exec(readmeContent)) !== null) {
+  registeredFiles.add(path.basename(match[0]));
+}
+
+const newFiles = allFiles.filter(file => !registeredFiles.has(file));
+
+if (newFiles.length > 0) {
+  console.log(`Found ${newFiles.length} unregistered markdown files in docs/. Registering...`);
+  let readmeLines = readmeContent.split('\n');
+  let dailyIndex = -1;
+  let projectIndex = -1;
+  
+  for (let i = 0; i < readmeLines.length; i++) {
+    const line = readmeLines[i].trim();
+    if (line.startsWith('## ') && (line.includes('날짜별') || line.includes('Daily Logs'))) {
+      dailyIndex = i;
+    }
+    if (line.startsWith('## ') && (line.includes('주제별') || line.includes('Project Logs'))) {
+      projectIndex = i;
+    }
+  }
+
+  let lastDailyRowIndex = -1;
+  for (let i = dailyIndex + 1; i < readmeLines.length; i++) {
+    const line = readmeLines[i].trim();
+    if (line.startsWith('## ') || line === '---') break;
+    if (line.startsWith('|')) {
+      lastDailyRowIndex = i;
+    }
+  }
+
+  let lastProjectRowIndex = -1;
+  for (let i = projectIndex + 1; i < readmeLines.length; i++) {
+    const line = readmeLines[i].trim();
+    if (line.startsWith('## ') || line === '---') break;
+    if (line.startsWith('|')) {
+      lastProjectRowIndex = i;
+    }
+  }
+
+  const newDailyRows = [];
+  const newProjectRows = [];
+  
+  newFiles.sort();
+
+  for (const file of newFiles) {
+    const filePath = path.join(docsDir, file);
+    const fileContent = fs.readFileSync(filePath, 'utf8');
+    const titleMatch = fileContent.match(/^#\s+(.+)$/m);
+    let title = titleMatch ? titleMatch[1].trim() : path.basename(file, '.md');
+    
+    const projectID = path.basename(file, '.md');
+    
+    let date = '';
+    const dateMatch = file.match(/^(2\d)(0[1-9]|1[0-2])(0[1-9]|[12]\d|3[01])/);
+    if (dateMatch) {
+      date = `20${dateMatch[1]}-${dateMatch[2]}-${dateMatch[3]}`;
+    } else {
+      const stat = fs.statSync(filePath);
+      const d = stat.birthtime || stat.mtime;
+      const year = d.getFullYear();
+      const month = String(d.getMonth() + 1).padStart(2, '0');
+      const day = String(d.getDate()).padStart(2, '0');
+      date = `${year}-${month}-${day}`;
+    }
+    
+    newDailyRows.push(`| ${date} | ${title} | [상세 보기](docs/${file}) |`);
+    newProjectRows.push(`| ${projectID} | ${title} | [상세 보기](docs/${file}) |`);
+  }
+
+  if (lastProjectRowIndex !== -1 && newProjectRows.length > 0) {
+    readmeLines.splice(lastProjectRowIndex + 1, 0, ...newProjectRows);
+  }
+  if (lastDailyRowIndex !== -1 && newDailyRows.length > 0) {
+    readmeLines.splice(lastDailyRowIndex + 1, 0, ...newDailyRows);
+  }
+
+  readmeContent = readmeLines.join('\n');
+  fs.writeFileSync(readmePath, readmeContent, 'utf8');
+  console.log(`Successfully registered ${newFiles.length} files in README.md.`);
+}
+// --- END AUTO-SCAN AND REGISTER NEW FILES ---
+
 const lines = readmeContent.split('\n');
 
 let currentSection = '';
