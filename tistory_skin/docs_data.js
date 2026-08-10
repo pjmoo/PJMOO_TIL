@@ -732,6 +732,18 @@ const TIL_DATA = {
         "AI/RAG"
       ],
       "readingTime": 8
+    },
+    {
+      "id": "260810_connection_test",
+      "date": "2026-08-10",
+      "topic": "🔌 GitHub-티스토리 자동 연동 테스트 성공! 🎉",
+      "link": "docs/260810_connection_test.md",
+      "title": "🔌 GitHub-티스토리 자동 연동 테스트 성공! 🎉",
+      "content": "# 🔌 GitHub-티스토리 자동 연동 테스트 성공! 🎉\n\n이 일지는 GitHub 저장소와 티스토리 블로그 스킨의 실시간 자동 동기화 기능이 정상적으로 작동하는지 확인하기 위해 생성된 테스트용 문서입니다.\n\n작성 후 `node build.js`를 실행하고 GitHub에 push하는 것만으로 티스토리 블로그(`myinfo30840.tistory.com`)에 별도 업로드 없이 실시간으로 즉시 반영됩니다.\n",
+      "tags": [
+        "기타"
+      ],
+      "readingTime": 1
     }
   ],
   "projectLogs": [
@@ -1476,9 +1488,22 @@ const TIL_DATA = {
         "AI/RAG"
       ],
       "readingTime": 8
+    },
+    {
+      "id": "260810_connection_test",
+      "project": "260810_connection_test",
+      "description": "🔌 GitHub-티스토리 자동 연동 테스트 성공! 🎉",
+      "link": "docs/260810_connection_test.md",
+      "date": "2026-08-10",
+      "title": "🔌 GitHub-티스토리 자동 연동 테스트 성공! 🎉",
+      "content": "# 🔌 GitHub-티스토리 자동 연동 테스트 성공! 🎉\n\n이 일지는 GitHub 저장소와 티스토리 블로그 스킨의 실시간 자동 동기화 기능이 정상적으로 작동하는지 확인하기 위해 생성된 테스트용 문서입니다.\n\n작성 후 `node build.js`를 실행하고 GitHub에 push하는 것만으로 티스토리 블로그(`myinfo30840.tistory.com`)에 별도 업로드 없이 실시간으로 즉시 반영됩니다.\n",
+      "tags": [
+        "기타"
+      ],
+      "readingTime": 1
     }
   ],
-  "buildTime": "2026-08-10T07:07:29.779Z"
+  "buildTime": "2026-08-10T07:16:15.949Z"
 };
 
 if (typeof window !== 'undefined') {
