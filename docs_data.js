@@ -744,6 +744,18 @@ const TIL_DATA = {
         "기타"
       ],
       "readingTime": 1
+    },
+    {
+      "id": "260811_final_test",
+      "date": "2026-08-11",
+      "topic": "🚀 티스토리-GitHub 연동 완료! 260811 최종 실습",
+      "link": "docs/260811_final_test.md",
+      "title": "🚀 티스토리-GitHub 연동 완료! 260811 최종 실습",
+      "content": "# 🚀 티스토리-GitHub 연동 완료! 260811 최종 실습\n\n드디어 티스토리와 GitHub의 연동이 완벽하게 끝났습니다!\n\n이 파일은 2026년 8월 11일자로 자동 생성된 학습 로그입니다.\n로컬에서 마크다운을 작성한 뒤 `node build.js`를 실행하고 git push하면 티스토리 블로그(`myinfo30840.tistory.com`)에 실시간으로 안전하게 즉시 추가되는 것을 보실 수 있습니다.\n",
+      "tags": [
+        "기타"
+      ],
+      "readingTime": 1
     }
   ],
   "projectLogs": [
@@ -1501,9 +1513,22 @@ const TIL_DATA = {
         "기타"
       ],
       "readingTime": 1
+    },
+    {
+      "id": "260811_final_test",
+      "project": "260811_final_test",
+      "description": "🚀 티스토리-GitHub 연동 완료! 260811 최종 실습",
+      "link": "docs/260811_final_test.md",
+      "date": "2026-08-11",
+      "title": "🚀 티스토리-GitHub 연동 완료! 260811 최종 실습",
+      "content": "# 🚀 티스토리-GitHub 연동 완료! 260811 최종 실습\n\n드디어 티스토리와 GitHub의 연동이 완벽하게 끝났습니다!\n\n이 파일은 2026년 8월 11일자로 자동 생성된 학습 로그입니다.\n로컬에서 마크다운을 작성한 뒤 `node build.js`를 실행하고 git push하면 티스토리 블로그(`myinfo30840.tistory.com`)에 실시간으로 안전하게 즉시 추가되는 것을 보실 수 있습니다.\n",
+      "tags": [
+        "기타"
+      ],
+      "readingTime": 1
     }
   ],
-  "buildTime": "2026-08-10T07:18:33.339Z"
+  "buildTime": "2026-08-10T07:20:36.833Z"
 };
 
 if (typeof window !== 'undefined') {

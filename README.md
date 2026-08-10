@@ -64,6 +64,7 @@
 | 2026-08-07 | Spring Boot 파일 업로드 & 스토리지 연동 실습 정리 (260807_fileupload) 💾 | [상세 보기](docs/260807_fileupload.md) |
 | 2026-08-10 | AI 파일 & 이미지 RAG 시스템 (PDF & Image RAG) 🚀 | [상세 보기](docs/260810_aifile.md) |
 | 2026-08-10 | 🔌 GitHub-티스토리 자동 연동 테스트 성공! 🎉 | [상세 보기](docs/260810_connection_test.md) |
+| 2026-08-11 | 🚀 티스토리-GitHub 연동 완료! 260811 최종 실습 | [상세 보기](docs/260811_final_test.md) |
 
 ---
 
@@ -122,3 +123,4 @@
 | 260807_fileupload | 💾 Spring Boot 파일 업로드 & 스토리지 연동 실습 정리 | [상세 보기](docs/260807_fileupload.md) |
 | 260810_aifile | 📂 AI 파일 & 이미지 RAG 시스템 (PDF & Image RAG) 🚀 | [상세 보기](docs/260810_aifile.md) |
 | 260810_connection_test | 🔌 GitHub-티스토리 자동 연동 테스트 성공! 🎉 | [상세 보기](docs/260810_connection_test.md) |
+| 260811_final_test | 🚀 티스토리-GitHub 연동 완료! 260811 최종 실습 | [상세 보기](docs/260811_final_test.md) |
