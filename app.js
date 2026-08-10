@@ -48,10 +48,10 @@ document.addEventListener('DOMContentLoaded', () => {
           try {
             // Robust JSON extraction to avoid eval/script injection blocks
             const jsonStart = text.indexOf('{');
-            const jsonEnd = text.lastIndexOf('}') + 1;
+            const jsonEnd = text.lastIndexOf('};');
             if (jsonStart !== -1 && jsonEnd !== -1) {
-              const jsonText = text.substring(jsonStart, jsonEnd);
-              window.TIL_DATA = JSON.parse(jsonText);
+              const jsonText = text.substring(jsonStart, jsonEnd + 1);
+              window.TIL_DATA = JSON.parse(jsonText.trim());
               console.log('TIL_DATA successfully parsed from GitHub JSON.');
               continueInit();
             } else {
