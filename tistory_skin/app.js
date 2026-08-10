@@ -36,8 +36,23 @@ const initApp = () => {
   // Initialize
   function init() {
     if (typeof window.TIL_DATA === 'undefined') {
-      console.log('TIL_DATA not found. Attempting to fetch from GitHub raw content...');
-      fetch('https://raw.githubusercontent.com/pjmoo/PJMOO_TIL/main/docs_data.js?v=' + Date.now())
+      console.log('TIL_DATA not found. Attempting to fetch from GitHub...');
+      
+      // Fetch latest commit SHA from API to bypass Fastly CDN cache
+      fetch('https://api.github.com/repos/pjmoo/PJMOO_TIL/commits/main')
+        .then(res => {
+          if (!res.ok) throw new Error('API rate limit or error');
+          return res.json();
+        })
+        .then(commit => {
+          const sha = commit.sha;
+          console.log('Latest commit SHA:', sha);
+          return fetch(`https://raw.githubusercontent.com/pjmoo/PJMOO_TIL/${sha}/docs_data.js`);
+        })
+        .catch(err => {
+          console.warn('GitHub API failed, falling back to main branch raw URL:', err);
+          return fetch('https://raw.githubusercontent.com/pjmoo/PJMOO_TIL/main/docs_data.js?v=' + Date.now());
+        })
         .then(response => {
           if (!response.ok) {
             throw new Error('Network response was not ok');
