@@ -756,6 +756,18 @@ const TIL_DATA = {
         "기타"
       ],
       "readingTime": 1
+    },
+    {
+      "id": "260812_test_auto",
+      "date": "2026-08-12",
+      "topic": "🌟 8월 12일 자동 연동 실전 테스트 성공! 🚀",
+      "link": "docs/260812_test_auto.md",
+      "title": "🌟 8월 12일 자동 연동 실전 테스트 성공! 🚀",
+      "content": "# 🌟 8월 12일 자동 연동 실전 테스트 성공! 🚀\n\n이 글은 8월 12일자로 작성된 실전 테스트 글입니다.\n로컬 마크다운 작성 -> `node build.js` 빌드 -> `git push` 실행의 3단계 흐름이 티스토리 블로그(`myinfo30840.tistory.com`)에 실시간으로 완벽하게 연동되는 것을 증명합니다.\n",
+      "tags": [
+        "기타"
+      ],
+      "readingTime": 1
     }
   ],
   "projectLogs": [
@@ -1526,9 +1538,22 @@ const TIL_DATA = {
         "기타"
       ],
       "readingTime": 1
+    },
+    {
+      "id": "260812_test_auto",
+      "project": "260812_test_auto",
+      "description": "🌟 8월 12일 자동 연동 실전 테스트 성공! 🚀",
+      "link": "docs/260812_test_auto.md",
+      "date": "2026-08-12",
+      "title": "🌟 8월 12일 자동 연동 실전 테스트 성공! 🚀",
+      "content": "# 🌟 8월 12일 자동 연동 실전 테스트 성공! 🚀\n\n이 글은 8월 12일자로 작성된 실전 테스트 글입니다.\n로컬 마크다운 작성 -> `node build.js` 빌드 -> `git push` 실행의 3단계 흐름이 티스토리 블로그(`myinfo30840.tistory.com`)에 실시간으로 완벽하게 연동되는 것을 증명합니다.\n",
+      "tags": [
+        "기타"
+      ],
+      "readingTime": 1
     }
   ],
-  "buildTime": "2026-08-10T07:20:36.833Z"
+  "buildTime": "2026-08-10T07:37:28.649Z"
 };
 
 if (typeof window !== 'undefined') {
