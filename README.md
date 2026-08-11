@@ -63,6 +63,8 @@
 | 2026-08-06 | 영화 관리 서비스 실습 정리 (Frag) 🎬 | [상세 보기](docs/260806_frag.md) |
 | 2026-08-07 | Spring Boot 파일 업로드 & 스토리지 연동 실습 정리 (260807_fileupload) 💾 | [상세 보기](docs/260807_fileupload.md) |
 | 2026-08-10 | AI 파일 & 이미지 RAG 시스템 (PDF & Image RAG) 🚀 | [상세 보기](docs/260810_aifile.md) |
+| 2026-08-11 | 🎨 Cloudflare Workers AI & Supabase 이미지 생성 프로젝트 (Imagegen) | [상세 보기](docs/260811_imagegen.md) |
+| 2026-08-11 | 🔒 Spring Security 기초 실습 프로젝트 (Sec) | [상세 보기](docs/260811_sec.md) |
 
 
 ---
@@ -121,4 +123,6 @@
 | nim-rest-client | NIM REST Client (AI 기반 학습 계획 생성 시스템) | [상세 보기](docs/nim-rest-client.md) |
 | 260807_fileupload | 💾 Spring Boot 파일 업로드 & 스토리지 연동 실습 정리 | [상세 보기](docs/260807_fileupload.md) |
 | 260810_aifile | 📂 AI 파일 & 이미지 RAG 시스템 (PDF & Image RAG) 🚀 | [상세 보기](docs/260810_aifile.md) |
+| 260811_imagegen | 🎨 Cloudflare Workers AI & Supabase 이미지 생성 프로젝트 (Imagegen) | [상세 보기](docs/260811_imagegen.md) |
+| 260811_sec | 🔒 Spring Security 기초 실습 프로젝트 (Sec) | [상세 보기](docs/260811_sec.md) |
 
