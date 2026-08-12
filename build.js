@@ -167,6 +167,7 @@ console.log(`Parsed ${dailyLogs.length} daily logs and ${projectLogs.length} pro
 
 // Static mapping of known project creation/commit dates (matches GitHub repository timeline)
 const projectDatesMap = {
+  "260812_sec_crud": "2026-08-12",
   "thssr": "2026-08-05",
   "thymeleaf": "2026-08-04",
 
