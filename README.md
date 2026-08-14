@@ -67,6 +67,7 @@
 | 2026-08-11 | 🔒 Spring Security 기초 실습 프로젝트 (Sec) | [상세 보기](docs/260811_sec.md) |
 | 2026-08-12 | 🔐 Spring Security & JPA CRUD 실습 프로젝트 (260812_sec_crud) | [상세 보기](docs/260812_sec_crud.md) |
 | 2026-08-13 | 🔐 Spring Boot Security & JPA 소셜 로그인 실습 프로젝트 (secu) | [상세 보기](docs/260813_secu_social.md) |
+| 2026-08-14 | 📌 Spring Boot 게시판 REST API 실습 프로젝트 (rest) | [상세 보기](docs/260814_rest.md) |
 
 
 ---
@@ -129,4 +130,5 @@
 | 260811_sec | 🔒 Spring Security 기초 실습 프로젝트 (Sec) | [상세 보기](docs/260811_sec.md) |
 | 260812_sec_crud | 🔐 Spring Security & JPA CRUD 실습 프로젝트 (260812_sec_crud) | [상세 보기](docs/260812_sec_crud.md) |
 | 260813_secu_social | 🔐 Spring Boot Security & JPA 소셜 로그인 실습 프로젝트 (secu) | [상세 보기](docs/260813_secu_social.md) |
+| 260814_rest | 📌 Spring Boot 게시판 REST API 실습 프로젝트 (rest) | [상세 보기](docs/260814_rest.md) |
 

@@ -794,6 +794,21 @@ const TIL_DATA = {
         "HTML/CSS"
       ],
       "readingTime": 14
+    },
+    {
+      "id": "260814_rest",
+      "date": "2026-08-14",
+      "topic": "📌 Spring Boot 게시판 REST API 실습 프로젝트 (rest)",
+      "link": "docs/260814_rest.md",
+      "title": "📌 Spring Boot 게시판 REST API 실습 프로젝트 (rest)",
+      "content": "# 📌 Spring Boot 게시판 REST API 실습 프로젝트 (rest)\n\n이 프로젝트는 Spring Boot, Spring Data JPA를 기반으로 구축된 **게시판 REST API** 애플리케이션 실습 저장소입니다.  \n게시글의 생성, 조회, 수정, 삭제(CRUD) 기능과 예외 처리, CORS 설정, 그리고 Swagger를 이용한 API 문서화가 적용되어 있습니다.\n\n---\n\n## 🛠 기술 스택\n- **Framework**: Spring Boot 3.x\n- **Database**: MySQL (Aiven Cloud 활용)\n- **ORM / JPA**: Spring Data JPA, Hibernate\n- **Build Tool**: Gradle\n- **Documentation**: SpringDoc OpenAPI (Swagger UI)\n- **Utility**: Lombok\n\n---\n\n## 📂 프로젝트 패키지 구조\n```text\nsrc/main/java/org/example/rest/\n├── RestApplication.java       # 애플리케이션 진입점\n├── config/\n│   ├── SwaggerConfig.java     # OpenAPI / Swagger UI 설정\n│   └── WebConfig.java         # CORS 전역 설정 (WebMvcConfigurer)\n├── controller/\n│   ├── BoardController.java   # 게시판 CRUD REST 컨트롤러\n│   └── MyController.java      # 단순 테스트용 REST 컨트롤러\n├── domain/\n│   └── entity/\n│       ├── BaseEntity.java    # 등록/수정 시간 JPA Auditing 기반 추상 클래스\n│       └── BoardEntity.java   # 게시글 JPA 엔티티 (UUID 기반 외부 식별자 제공)\n├── dto/\n│   ├── BoardRequestDTO.java   # 게시글 생성/수정 요청 DTO (Bean Validation 적용)\n│   └── BoardResponseDTO.java  # 게시글 정보 반환 DTO\n├── exception/\n│   ├── GlobalControllerAdvice.java             # 커스텀 예외 전역 처리기\n│   ├── GlobalControllerAdviceProblemDetail.java # RFC 7807 Problem Details 기반 예외 처리기\n│   └── NotFoundedException.java                # 404 예외 정의 클래스\n└── service/\n    └── BoardService.java      # 게시판 비즈니스 로직\n```\n\n---\n\n## 📡 REST API 엔드포인트 명세\n모든 요청 및 응답은 `application/json` 형식으로 처리됩니다.\n\n| HTTP 메서드 | URI | 설명 | 주요 HTTP 상태 코드 |\n| :--- | :--- | :--- | :--- |\n| **POST** | `/board` | 게시글 생성 | `201 Created` / `400 Bad Request` |\n| **GET** | `/board` | 게시글 전체 목록 조회 | `200 OK` |\n| **GET** | `/board/{uuid}` | 특정 게시글 상세 조회 | `200 OK` / `404 Not Found` |\n| **PUT** | `/board/{uuid}` | 특정 게시글 전체 수정 | `200 OK` |\n| **PATCH** | `/board/{uuid}/title` | 특정 게시글 제목 수정 | `200 OK` |\n| **DELETE** | `/board/{uuid}` | 특정 게시글 삭제 | `204 No Content` |\n| **GET** | `/board/error` | 고의 에러 발생 테스트 | `500 Internal Server Error` |\n\n---\n\n## 💡 주요 구현 특징\n\n### 1. 외부 노출용 UUID 활용\n- 데이터베이스 기본 키(`id`)로 Auto-Increment `Long`을 사용하되, 보안과 유추 방지를 위해 외부에 공개되는 엔드포인트는 `UUID` 기반 식별자(`uuid`)를 활용하여 데이터를 조회 및 관리합니다.\n\n### 2. JPA Auditing 기능 구현\n- [`BaseEntity.java`](file:///C:/workspace/rest/src/main/java/org/example/rest/domain/entity/BaseEntity.java)에 `@CreatedDate` 및 `@LastModifiedDate`를 적용하여 모든 테이블의 생성 시간과 최종 수정 시간이 자동으로 기록되도록 하였습니다.\n\n### 3. RFC 7807 (Problem Details) 표준 에러 응답\n- 예외 발생 시 표준 규격에 맞추어 클라이언트에 응답을 주고자 [`GlobalControllerAdviceProblemDetail.java`](file:///C:/workspace/rest/src/main/java/org/example/rest/exception/GlobalControllerAdviceProblemDetail.java)를 통해 `ProblemDetail` 표준 객체 형식으로 에러 정보와 메세지를 정교하게 리턴합니다.\n\n### 4. CORS 전역 설정 및 정적 테스트 페이지 제공\n- 외부 프론트엔드 환경에서의 자유로운 테스트를 위해 [`WebConfig.java`](file:///C:/workspace/rest/src/main/java/org/example/rest/config/WebConfig.java)에 글로벌 CORS 필터를 정의하여 특정 오리진(`http://localhost:5500`, `http://127.0.0.1:5500`)에 대해 API 접근 권한과 캐싱 시간을 제공합니다.\n- [`src/main/resources/static/index.html`](file:///C:/workspace/rest/src/main/resources/static/index.html)에 CORS 및 비동기 Fetch 동작 여부를 직접 테스트할 수 있는 웹 페이지가 마련되어 있습니다.\n\n### 5. Swagger UI 연동을 통한 대화형 API 문서\n- 개발(Dev) 프로필 구동 시 `springdoc-openapi`가 적용되어 API의 상세 동작과 설명을 대화형 UI로 확인할 수 있습니다.\n\n---\n\n## 🚀 실행 및 실행 방법\n\n### 1. 환경 설정 파일 생성\n프로젝트 루트 디렉토리에 `.env.dev` 파일을 생성하고 아래 형식을 바탕으로 데이터베이스 접속 세부 환경 정보를 입력합니다:\n```properties\nDB_HOST={MySQL 호스트 주소}\nDB_PORT={MySQL 포트 번호}\nDB_NAME={데이터베이스 이름}\nDB_USERNAME={데이터베이스 사용자 아이디}\nDB_PASSWORD={데이터베이스 사용자 비밀번호}\n```\n\n### 2. 애플리케이션 실행\n프로젝트 루트 폴더에서 아래 Gradle 명령어를 이용하여 애플리케이션을 구동합니다:\n\n**Windows PowerShell:**\n```powershell\n./gradlew bootRun\n```\n\n**Linux / macOS:**\n```bash\nchmod +x gradlew\n./gradlew bootRun\n```\n\n### 3. API 문서 확인 (Swagger UI)\n애플리케이션이 실행되면 브라우저에서 아래 주소로 접속하여 API 문서 확인 및 직접 테스트(Try it out)가 가능합니다:\n- **Swagger UI 주소**: `http://localhost:8080/swagger-ui/index.html`\n",
+      "tags": [
+        "Spring",
+        "Java",
+        "Database",
+        "HTML/CSS"
+      ],
+      "readingTime": 10
     }
   ],
   "projectLogs": [
@@ -1604,9 +1619,25 @@ const TIL_DATA = {
         "HTML/CSS"
       ],
       "readingTime": 14
+    },
+    {
+      "id": "260814_rest",
+      "project": "260814_rest",
+      "description": "📌 Spring Boot 게시판 REST API 실습 프로젝트 (rest)",
+      "link": "docs/260814_rest.md",
+      "date": "2026-08-14",
+      "title": "📌 Spring Boot 게시판 REST API 실습 프로젝트 (rest)",
+      "content": "# 📌 Spring Boot 게시판 REST API 실습 프로젝트 (rest)\n\n이 프로젝트는 Spring Boot, Spring Data JPA를 기반으로 구축된 **게시판 REST API** 애플리케이션 실습 저장소입니다.  \n게시글의 생성, 조회, 수정, 삭제(CRUD) 기능과 예외 처리, CORS 설정, 그리고 Swagger를 이용한 API 문서화가 적용되어 있습니다.\n\n---\n\n## 🛠 기술 스택\n- **Framework**: Spring Boot 3.x\n- **Database**: MySQL (Aiven Cloud 활용)\n- **ORM / JPA**: Spring Data JPA, Hibernate\n- **Build Tool**: Gradle\n- **Documentation**: SpringDoc OpenAPI (Swagger UI)\n- **Utility**: Lombok\n\n---\n\n## 📂 프로젝트 패키지 구조\n```text\nsrc/main/java/org/example/rest/\n├── RestApplication.java       # 애플리케이션 진입점\n├── config/\n│   ├── SwaggerConfig.java     # OpenAPI / Swagger UI 설정\n│   └── WebConfig.java         # CORS 전역 설정 (WebMvcConfigurer)\n├── controller/\n│   ├── BoardController.java   # 게시판 CRUD REST 컨트롤러\n│   └── MyController.java      # 단순 테스트용 REST 컨트롤러\n├── domain/\n│   └── entity/\n│       ├── BaseEntity.java    # 등록/수정 시간 JPA Auditing 기반 추상 클래스\n│       └── BoardEntity.java   # 게시글 JPA 엔티티 (UUID 기반 외부 식별자 제공)\n├── dto/\n│   ├── BoardRequestDTO.java   # 게시글 생성/수정 요청 DTO (Bean Validation 적용)\n│   └── BoardResponseDTO.java  # 게시글 정보 반환 DTO\n├── exception/\n│   ├── GlobalControllerAdvice.java             # 커스텀 예외 전역 처리기\n│   ├── GlobalControllerAdviceProblemDetail.java # RFC 7807 Problem Details 기반 예외 처리기\n│   └── NotFoundedException.java                # 404 예외 정의 클래스\n└── service/\n    └── BoardService.java      # 게시판 비즈니스 로직\n```\n\n---\n\n## 📡 REST API 엔드포인트 명세\n모든 요청 및 응답은 `application/json` 형식으로 처리됩니다.\n\n| HTTP 메서드 | URI | 설명 | 주요 HTTP 상태 코드 |\n| :--- | :--- | :--- | :--- |\n| **POST** | `/board` | 게시글 생성 | `201 Created` / `400 Bad Request` |\n| **GET** | `/board` | 게시글 전체 목록 조회 | `200 OK` |\n| **GET** | `/board/{uuid}` | 특정 게시글 상세 조회 | `200 OK` / `404 Not Found` |\n| **PUT** | `/board/{uuid}` | 특정 게시글 전체 수정 | `200 OK` |\n| **PATCH** | `/board/{uuid}/title` | 특정 게시글 제목 수정 | `200 OK` |\n| **DELETE** | `/board/{uuid}` | 특정 게시글 삭제 | `204 No Content` |\n| **GET** | `/board/error` | 고의 에러 발생 테스트 | `500 Internal Server Error` |\n\n---\n\n## 💡 주요 구현 특징\n\n### 1. 외부 노출용 UUID 활용\n- 데이터베이스 기본 키(`id`)로 Auto-Increment `Long`을 사용하되, 보안과 유추 방지를 위해 외부에 공개되는 엔드포인트는 `UUID` 기반 식별자(`uuid`)를 활용하여 데이터를 조회 및 관리합니다.\n\n### 2. JPA Auditing 기능 구현\n- [`BaseEntity.java`](file:///C:/workspace/rest/src/main/java/org/example/rest/domain/entity/BaseEntity.java)에 `@CreatedDate` 및 `@LastModifiedDate`를 적용하여 모든 테이블의 생성 시간과 최종 수정 시간이 자동으로 기록되도록 하였습니다.\n\n### 3. RFC 7807 (Problem Details) 표준 에러 응답\n- 예외 발생 시 표준 규격에 맞추어 클라이언트에 응답을 주고자 [`GlobalControllerAdviceProblemDetail.java`](file:///C:/workspace/rest/src/main/java/org/example/rest/exception/GlobalControllerAdviceProblemDetail.java)를 통해 `ProblemDetail` 표준 객체 형식으로 에러 정보와 메세지를 정교하게 리턴합니다.\n\n### 4. CORS 전역 설정 및 정적 테스트 페이지 제공\n- 외부 프론트엔드 환경에서의 자유로운 테스트를 위해 [`WebConfig.java`](file:///C:/workspace/rest/src/main/java/org/example/rest/config/WebConfig.java)에 글로벌 CORS 필터를 정의하여 특정 오리진(`http://localhost:5500`, `http://127.0.0.1:5500`)에 대해 API 접근 권한과 캐싱 시간을 제공합니다.\n- [`src/main/resources/static/index.html`](file:///C:/workspace/rest/src/main/resources/static/index.html)에 CORS 및 비동기 Fetch 동작 여부를 직접 테스트할 수 있는 웹 페이지가 마련되어 있습니다.\n\n### 5. Swagger UI 연동을 통한 대화형 API 문서\n- 개발(Dev) 프로필 구동 시 `springdoc-openapi`가 적용되어 API의 상세 동작과 설명을 대화형 UI로 확인할 수 있습니다.\n\n---\n\n## 🚀 실행 및 실행 방법\n\n### 1. 환경 설정 파일 생성\n프로젝트 루트 디렉토리에 `.env.dev` 파일을 생성하고 아래 형식을 바탕으로 데이터베이스 접속 세부 환경 정보를 입력합니다:\n```properties\nDB_HOST={MySQL 호스트 주소}\nDB_PORT={MySQL 포트 번호}\nDB_NAME={데이터베이스 이름}\nDB_USERNAME={데이터베이스 사용자 아이디}\nDB_PASSWORD={데이터베이스 사용자 비밀번호}\n```\n\n### 2. 애플리케이션 실행\n프로젝트 루트 폴더에서 아래 Gradle 명령어를 이용하여 애플리케이션을 구동합니다:\n\n**Windows PowerShell:**\n```powershell\n./gradlew bootRun\n```\n\n**Linux / macOS:**\n```bash\nchmod +x gradlew\n./gradlew bootRun\n```\n\n### 3. API 문서 확인 (Swagger UI)\n애플리케이션이 실행되면 브라우저에서 아래 주소로 접속하여 API 문서 확인 및 직접 테스트(Try it out)가 가능합니다:\n- **Swagger UI 주소**: `http://localhost:8080/swagger-ui/index.html`\n",
+      "tags": [
+        "Spring",
+        "Java",
+        "Database",
+        "HTML/CSS"
+      ],
+      "readingTime": 10
     }
   ],
-  "buildTime": "2026-08-13T07:41:33.110Z"
+  "buildTime": "2026-08-14T07:02:35.660Z"
 };
 
 if (typeof window !== 'undefined') {
