@@ -70,6 +70,7 @@
 | 2026-08-14 | 📌 Spring Boot 게시판 REST API 실습 프로젝트 (rest) | [상세 보기](docs/260814_rest.md) |
 | 2026-08-18 | 🔒 Spring Boot REST Security & JWT 실습 프로젝트 (rest-sec) | [상세 보기](docs/260818_rest_sec.md) |
 | 2026-08-19 | 🔒 Spring Security & JWT 실습 프로젝트 (`sec-jwt`) | [상세 보기](docs/260819_sec_jwt.md) |
+| 2026-08-20 | 🍪 Spring Security + JWT + Redis Refresh Token 기반 인증 시스템 (jwt-fetch) | [상세 보기](docs/260820_jwt_fetch.md) |
 
 
 ---
@@ -135,4 +136,5 @@
 | 260814_rest | 📌 Spring Boot 게시판 REST API 실습 프로젝트 (rest) | [상세 보기](docs/260814_rest.md) |
 | 260818_rest_sec | 🔒 Spring Boot REST Security & JWT 실습 프로젝트 (rest-sec) | [상세 보기](docs/260818_rest_sec.md) |
 | 260819_sec_jwt | 🔒 Spring Security & JWT 실습 프로젝트 (`sec-jwt`) | [상세 보기](docs/260819_sec_jwt.md) |
+| 260820_jwt_fetch | 🍪 Spring Security + JWT + Redis Refresh Token 기반 인증 시스템 (jwt-fetch) | [상세 보기](docs/260820_jwt_fetch.md) |
 
