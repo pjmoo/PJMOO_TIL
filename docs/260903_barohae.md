@@ -8,7 +8,7 @@
 
 | 구분 | 내용 |
 | --- | --- |
-| 기간 | 2026.08 ~ 2026.09 |
+| 기록 기간 | 2026.08.20 ~ 2026.09.03 |
 | 백엔드 | Java 17, Spring Boot, Spring MVC, Spring Data JPA |
 | 화면 | Thymeleaf, CSS |
 | 인증 | Spring Security, Form Login, Kakao·Google OAuth2 |
