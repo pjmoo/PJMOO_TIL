@@ -72,6 +72,7 @@
 | 2026-08-19 | 🔒 Spring Security & JWT 실습 프로젝트 (`sec-jwt`) | [상세 보기](docs/260819_sec_jwt.md) |
 | 2026-08-20 | 🍪 Spring Security + JWT + Redis Refresh Token 기반 인증 시스템 (jwt-fetch) | [상세 보기](docs/260820_jwt_fetch.md) |
 | 2026-08-20 ~ 2026-09-03 | BaroHae - 긴급 업무 매칭 플랫폼 프로젝트 회고와 구현 기록 | [상세 보기](docs/260903_barohae.md) |
+| 2026-09-07 | Docker와 Linux 기초 명령어 실습 | [상세 보기](docs/260907_infra.md) |
 
 
 ---
@@ -139,4 +140,5 @@
 | 260819_sec_jwt | 🔒 Spring Security & JWT 실습 프로젝트 (`sec-jwt`) | [상세 보기](docs/260819_sec_jwt.md) |
 | 260820_jwt_fetch | 🍪 Spring Security + JWT + Redis Refresh Token 기반 인증 시스템 (jwt-fetch) | [상세 보기](docs/260820_jwt_fetch.md) |
 | 260903_barohae | BaroHae - 긴급 업무 매칭 플랫폼 프로젝트 회고와 구현 기록 | [상세 보기](docs/260903_barohae.md) |
+| 260907_infra | Docker와 Linux 기초 명령어 실습 | [상세 보기](docs/260907_infra.md) |
 
