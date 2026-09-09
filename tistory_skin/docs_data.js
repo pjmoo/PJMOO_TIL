@@ -6,10 +6,10 @@ const TIL_DATA = {
       "date": "2026-05-14",
       "topic": "260514",
       "link": "docs/260514.md",
-      "title": "260514",
-      "content": "# 260514",
+      "title": "생성형 AI · 개발 환경 · Git 기초",
+      "content": "# 생성형 AI · 개발 환경 · Git 기초\n\n## 학습 정리\n\n- 생성형 AI는 텍스트·이미지·코드 같은 결과를 생성하며, LLM은 다음 토큰을 예측하는 대규모 언어 모델이다.\n- AI 응답은 확률적이므로 환각·지식 최신성·맥락 이탈을 검증 절차와 검색/RAG로 보완한다.\n- 프롬프트에는 역할, 작업, 맥락, 출력 형식, 예시를 포함하면 결과의 재현성을 높일 수 있다.\n- Git은 Working Directory → Staging Area → Local Repository 순서로 변경을 관리한다.\n\n## TIL\n\n- AI는 정답 보증 도구가 아니라 검증 가능한 초안을 빠르게 만드는 도구다.\n- 커밋은 작은 작업 단위와 명확한 메시지로 남긴다.\n",
       "tags": [
-        "기타"
+        "AI/RAG"
       ],
       "readingTime": 1
     },
@@ -18,8 +18,8 @@ const TIL_DATA = {
       "date": "2026-05-15",
       "topic": "260515_ex01",
       "link": "docs/260515_ex01.md",
-      "title": "260515_ex01",
-      "content": "# 260515_ex01\n",
+      "title": "Git 로컬 · 원격 저장소 관리",
+      "content": "# Git 로컬 · 원격 저장소 관리\n\n## 학습 정리\n\n- `git status`로 변경 상태를 확인하고, `git add`로 다음 커밋에 포함할 변경을 선택한다.\n- `git remote add origin <URL>`로 원격을 연결하며, 첫 푸시는 `git push -u origin main`으로 upstream을 설정한다.\n- `git pull`은 fetch와 merge를 함께 수행한다. 변경을 먼저 확인하려면 `git fetch`를 사용한다.\n\n## TIL\n\n- `add`는 파일 저장이 아니라 커밋 대상을 선택하는 단계다.\n- 강제 푸시는 협업 이력을 덮어쓸 수 있으므로 피한다.\n",
       "tags": [
         "기타"
       ],
@@ -55,11 +55,11 @@ const TIL_DATA = {
       "topic": "HTML 주요 태그 & CSS 기초 정복하기 🎨",
       "link": "docs/260518_ex.md",
       "title": "HTML 주요 태그 & CSS 기초 정복하기 🎨",
-      "content": "# HTML 주요 태그 & CSS 기초 정복하기 🎨\n\n웹 페이지의 뼈대(HTML)를 조금 더 다양하게 구성하고, 이를 예쁘게 꾸미는 스타일시트(CSS)의 첫 기초를 배우는 실습 프로젝트입니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [01_main-tag.html](file:///C:/workspace/260518_ex/01_main-tag.html) : 헤더, 본문, 푸터 등 웹 문서의 기본 구획을 나누는 시맨틱(Semantic) 태그 실습\n- [02_form.html](file:///C:/workspace/260518_ex/02_form.html) : 로그인, 회원가입 화면처럼 글씨를 입력받고 버튼을 누르는 양식(Form) 실습\n- [03_naver.html](file:///C:/workspace/260518_ex/03_naver.html) : 실제 네이버 메인 페이지의 구조를 흉내 내어 구현해 본 레이아웃 모작 연습\n- [04_css-basic.html](file:///C:/workspace/260518_ex/04_css-basic.html) : 글자 색상, 폰트 크기, 배경색 등 스타일 적용의 극초기 기본 연습\n- [05_css+selector.html](file:///C:/workspace/260518_ex/05_css+selector.html) : ID, Class, 태그 등 스타일을 주고 싶은 태그를 콕 집어내는 CSS 선택자(Selector) 연습\n- [06_deploy.html](file:///C:/workspace/260518_ex/06_deploy.html) : 작성한 웹 문서를 배포할 때 점검하는 기초 절차 연습\n- [style.css](file:///C:/workspace/260518_ex/style.css) : HTML 요소들의 레이아웃과 색상, 여백 등을 꾸미는 공통 스타일시트 파일\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **시맨틱 태그 (Semantic Tags)**: 단순히 상자(`<div>`)만 만드는 것이 아닌, 브라우저와 검색엔진이 문서 구조를 쉽게 이해할 수 있게 의미 있는 태그(`header`, `nav`, `section`, `footer`)를 씁니다.\n- **CSS 선택자 (Selectors)**: 특정 영역만 클래스(`.className`)나 아이디(`#idName`)를 지정해 개별적인 디자인을 적용하는 원리를 이해합니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. 각 실습 HTML 파일(예: [03_naver.html](file:///C:/workspace/260518_ex/03_naver.html))을 브라우저로 엽니다.\n2. 화면을 보면서 코드를 수정해보고 브라우저에서 `F5`를 눌러 변경 사항을 새로고침하여 확인합니다.\n",
+      "content": "# HTML 주요 태그 & CSS 기초 정복하기 🎨\n\n웹 페이지의 뼈대(HTML)를 조금 더 다양하게 구성하고, 이를 예쁘게 꾸미는 스타일시트(CSS)의 첫 기초를 배우는 실습 프로젝트입니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [01_main-tag.html](file:///C:/workspace/260518_ex/01_main-tag.html) : 헤더, 본문, 푸터 등 웹 문서의 기본 구획을 나누는 시맨틱(Semantic) 태그 실습\n- [02_form.html](file:///C:/workspace/260518_ex/02_form.html) : 로그인, 회원가입 화면처럼 글씨를 입력받고 버튼을 누르는 양식(Form) 실습\n- [03_naver.html](file:///C:/workspace/260518_ex/03_naver.html) : 실제 네이버 메인 페이지의 구조를 흉내 내어 구현해 본 레이아웃 모작 연습\n- [04_css-basic.html](file:///C:/workspace/260518_ex/04_css-basic.html) : 글자 색상, 폰트 크기, 배경색 등 스타일 적용의 극초기 기본 연습\n- [05_css+selector.html](file:///C:/workspace/260518_ex/05_css+selector.html) : ID, Class, 태그 등 스타일을 주고 싶은 태그를 콕 집어내는 CSS 선택자(Selector) 연습\n- [06_deploy.html](file:///C:/workspace/260518_ex/06_deploy.html) : 작성한 웹 문서를 배포할 때 점검하는 기초 절차 연습\n- [style.css](file:///C:/workspace/260518_ex/style.css) : HTML 요소들의 레이아웃과 색상, 여백 등을 꾸미는 공통 스타일시트 파일\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **시맨틱 태그 (Semantic Tags)**: 단순히 상자(`<div>`)만 만드는 것이 아닌, 브라우저와 검색엔진이 문서 구조를 쉽게 이해할 수 있게 의미 있는 태그(`header`, `nav`, `section`, `footer`)를 씁니다.\n- **CSS 선택자 (Selectors)**: 특정 영역만 클래스(`.className`)나 아이디(`#idName`)를 지정해 개별적인 디자인을 적용하는 원리를 이해합니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. 각 실습 HTML 파일(예: [03_naver.html](file:///C:/workspace/260518_ex/03_naver.html))을 브라우저로 엽니다.\n2. 화면을 보면서 코드를 수정해보고 브라우저에서 `F5`를 눌러 변경 사항을 새로고침하여 확인합니다.\n\n---\n\n## PDF 기반 보충 정리 · TIL\n\n- HTML은 문서의 구조와 의미를 표현하므로 시맨틱 태그를 우선 사용한다.\n- 폼 입력에는 서버가 값을 구분할 수 있도록 `name`을 지정한다. 조회는 주로 GET, 데이터 변경은 POST를 사용한다.\n- 외부 CSS는 재사용과 유지보수에 유리하다. 스타일 문제는 선택자 일치와 우선순위부터 확인한다.\n- 정적 배포 전에는 상대 경로, 모바일 화면, 콘솔 오류를 점검한다.\n",
       "tags": [
         "HTML/CSS"
       ],
-      "readingTime": 4
+      "readingTime": 5
     },
     {
       "id": "260518_self-pra",
@@ -79,11 +79,11 @@ const TIL_DATA = {
       "topic": "CSS 레이아웃 핵심(Flex & Position) & 부트스트랩/테일윈드 맛보기 📐",
       "link": "docs/260519_ex.md",
       "title": "CSS 레이아웃 핵심(Flex & Position) & 부트스트랩/테일윈드 맛보기 📐",
-      "content": "# CSS 레이아웃 핵심(Flex & Position) & 부트스트랩/테일윈드 맛보기 📐\n\n현대 웹 레이아웃 설계의 가장 핵심이 되는 요소 크기 계산법, 가로/세로 정렬 기법(Flexbox), 그리고 편리한 오픈소스 CSS 라이브러리(Bootstrap, Tailwind) 사용법을 익히는 실습 프로젝트입니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [01_box-sizing.html](file:///C:/workspace/260519_ex/01_box-sizing.html) : 테두리(border)와 여백(padding) 때문에 상자가 의도한 크기보다 커지는 문제를 방지하는 `box-sizing: border-box` 실습\n- [02_block_inline.html](file:///C:/workspace/260519_ex/02_block_inline.html) : 줄을 혼자 다 쓰는 블록(Block) 요소와 다른 글자들과 한 줄에 배치되는 인라인(Inline) 요소의 차이점 파악\n- [03_size-inheritance.html](file:///C:/workspace/260519_ex/03_size-inheritance.html) : 부모의 너비/높이를 비율(`%`)로 물려받는 자식 크기 상속 구조 실습\n- [04_flex_position.html](file:///C:/workspace/260519_ex/04_flex_position.html) : 화면 특정 위치에 요소를 고정(position)하거나 정렬하는 기법 실습\n- [05_flex.html](file:///C:/workspace/260519_ex/05_flex.html) : 현대적인 가로 정렬의 필수 도구인 Flexbox 정렬 기능 실습\n- [06_bootstrap.html](file:///C:/workspace/260519_ex/06_bootstrap.html) : 미리 꾸며진 버튼, 상자, 네비게이션 등을 클래스명만 붙여 바로 쓰는 부트스트랩(Bootstrap) 사용 실습\n- [07_tailwind.html](file:///C:/workspace/260519_ex/07_tailwind.html) : 별도의 CSS 파일 없이 HTML 태그 안에 유틸리티 클래스(예: `flex justify-center`)만으로 즉석 스타일링하는 테일윈드 CSS 사용 실습\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **Flexbox 정렬**: `display: flex;`를 부모 상자에 선언한 뒤, 가로 정렬(`justify-content`) 및 세로 정렬(`align-items`)을 손쉽게 수행하는 기법을 배웁니다.\n- **Position 속성**: 화면에 요소를 둥둥 띄우거나(`absolute`), 브라우저 화면의 절대 좌표에 박아두는(`fixed`) 위치 결정 방식을 이해합니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. 원하는 실습 파일을 브라우저로 엽니다.\n2. 화면을 보면서 브라우저 개발자 도구(F12)의 '요소(Elements)' 탭을 켜서 Flex 정렬이나 박스 크기(margin, padding)가 어떻게 변하는지 분석합니다.\n",
+      "content": "# CSS 레이아웃 핵심(Flex & Position) & 부트스트랩/테일윈드 맛보기 📐\n\n현대 웹 레이아웃 설계의 가장 핵심이 되는 요소 크기 계산법, 가로/세로 정렬 기법(Flexbox), 그리고 편리한 오픈소스 CSS 라이브러리(Bootstrap, Tailwind) 사용법을 익히는 실습 프로젝트입니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [01_box-sizing.html](file:///C:/workspace/260519_ex/01_box-sizing.html) : 테두리(border)와 여백(padding) 때문에 상자가 의도한 크기보다 커지는 문제를 방지하는 `box-sizing: border-box` 실습\n- [02_block_inline.html](file:///C:/workspace/260519_ex/02_block_inline.html) : 줄을 혼자 다 쓰는 블록(Block) 요소와 다른 글자들과 한 줄에 배치되는 인라인(Inline) 요소의 차이점 파악\n- [03_size-inheritance.html](file:///C:/workspace/260519_ex/03_size-inheritance.html) : 부모의 너비/높이를 비율(`%`)로 물려받는 자식 크기 상속 구조 실습\n- [04_flex_position.html](file:///C:/workspace/260519_ex/04_flex_position.html) : 화면 특정 위치에 요소를 고정(position)하거나 정렬하는 기법 실습\n- [05_flex.html](file:///C:/workspace/260519_ex/05_flex.html) : 현대적인 가로 정렬의 필수 도구인 Flexbox 정렬 기능 실습\n- [06_bootstrap.html](file:///C:/workspace/260519_ex/06_bootstrap.html) : 미리 꾸며진 버튼, 상자, 네비게이션 등을 클래스명만 붙여 바로 쓰는 부트스트랩(Bootstrap) 사용 실습\n- [07_tailwind.html](file:///C:/workspace/260519_ex/07_tailwind.html) : 별도의 CSS 파일 없이 HTML 태그 안에 유틸리티 클래스(예: `flex justify-center`)만으로 즉석 스타일링하는 테일윈드 CSS 사용 실습\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **Flexbox 정렬**: `display: flex;`를 부모 상자에 선언한 뒤, 가로 정렬(`justify-content`) 및 세로 정렬(`align-items`)을 손쉽게 수행하는 기법을 배웁니다.\n- **Position 속성**: 화면에 요소를 둥둥 띄우거나(`absolute`), 브라우저 화면의 절대 좌표에 박아두는(`fixed`) 위치 결정 방식을 이해합니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. 원하는 실습 파일을 브라우저로 엽니다.\n2. 화면을 보면서 브라우저 개발자 도구(F12)의 '요소(Elements)' 탭을 켜서 Flex 정렬이나 박스 크기(margin, padding)가 어떻게 변하는지 분석합니다.\n\n---\n\n## PDF 기반 보충 정리 · TIL\n\n- `box-sizing: border-box`는 지정한 크기에 padding과 border를 포함해 레이아웃을 예측하기 쉽게 한다.\n- Flexbox에서는 `justify-content`가 주축, `align-items`가 교차축 정렬을 담당한다.\n- Bootstrap은 준비된 컴포넌트를, Tailwind CSS는 유틸리티 클래스 조합을 중심으로 사용한다.\n- 레이아웃 오류는 `width`만 수정하지 말고 box model과 부모의 flex 설정부터 확인한다.\n",
       "tags": [
         "HTML/CSS"
       ],
-      "readingTime": 4
+      "readingTime": 5
     },
     {
       "id": "260520_ex",
@@ -91,11 +91,11 @@ const TIL_DATA = {
       "topic": "개발자의 문서 작성법 마크다운(Markdown) & 기본 텍스트 핸들링 📝",
       "link": "docs/260520_ex.md",
       "title": "개발자의 문서 작성법 마크다운(Markdown) & 기본 텍스트 핸들링 📝",
-      "content": "# 개발자의 문서 작성법 마크다운(Markdown) & 기본 텍스트 핸들링 📝\n\n모든 개발자가 GitHub나 프로젝트 문서를 꾸밀 때 사용하는 표준 마크다운 문법을 습득하고, 텍스트 파일들을 다루며 Git의 버전 관리 시스템 동작을 실습해 보는 가벼운 기초 연습장입니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [01_markdown.md](file:///C:/workspace/260520_ex/01_markdown.md) : 제목(#), 목록(*), 굵은 글씨, 이미지 링크, 그리고 소스코드 하이라이팅을 연습한 마크다운 문서 파일\n- 다수의 텍스트 파일들 (`a.txt`, `b.txt` ~ `i.txt`) : 파일 생성, 삭제, 수정 등의 이력을 Git이 어떻게 추적(Track)하는지 테스트해 보기 위해 생성한 파일들\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **마크다운 문법**: 일반 글씨를 가독성 높은 예쁜 문서로 포맷팅하는 규칙을 익힙니다.\n- **Git 파일 추적**: 수많은 파일들의 생성 및 수정이 로컬 저장소에 어떻게 기록되고 기록을 지워나가는지 실습합니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. VS Code 등의 편집기를 사용할 경우, 마크다운 파일을 연 뒤 단축키 `Ctrl + K, V`를 눌러 예쁘게 렌더링된 미리보기 화면을 봅니다.\n2. 각 텍스트 파일의 변화를 보면서 Git Bash나 터미널에서 `git status` 명령을 내려 상태 변화를 확인해 보세요.\n",
+      "content": "# 개발자의 문서 작성법 마크다운(Markdown) & 기본 텍스트 핸들링 📝\n\n모든 개발자가 GitHub나 프로젝트 문서를 꾸밀 때 사용하는 표준 마크다운 문법을 습득하고, 텍스트 파일들을 다루며 Git의 버전 관리 시스템 동작을 실습해 보는 가벼운 기초 연습장입니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [01_markdown.md](file:///C:/workspace/260520_ex/01_markdown.md) : 제목(#), 목록(*), 굵은 글씨, 이미지 링크, 그리고 소스코드 하이라이팅을 연습한 마크다운 문서 파일\n- 다수의 텍스트 파일들 (`a.txt`, `b.txt` ~ `i.txt`) : 파일 생성, 삭제, 수정 등의 이력을 Git이 어떻게 추적(Track)하는지 테스트해 보기 위해 생성한 파일들\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **마크다운 문법**: 일반 글씨를 가독성 높은 예쁜 문서로 포맷팅하는 규칙을 익힙니다.\n- **Git 파일 추적**: 수많은 파일들의 생성 및 수정이 로컬 저장소에 어떻게 기록되고 기록을 지워나가는지 실습합니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. VS Code 등의 편집기를 사용할 경우, 마크다운 파일을 연 뒤 단축키 `Ctrl + K, V`를 눌러 예쁘게 렌더링된 미리보기 화면을 봅니다.\n2. 각 텍스트 파일의 변화를 보면서 Git Bash나 터미널에서 `git status` 명령을 내려 상태 변화를 확인해 보세요.\n\n---\n\n## PDF 기반 보충 정리 · TIL\n\n- Markdown은 제목 계층, 목록, 링크, 코드 블록을 일관되게 사용하면 문서와 AI의 문맥 파악에 도움이 된다.\n- 기능별 브랜치에서 작업하고 Pull Request로 검토한 뒤 병합하는 GitHub Flow를 기본 협업 흐름으로 사용한다.\n- 충돌은 최종 의도를 선택한 뒤 테스트하고 커밋한다.\n- `feat`, `fix`, `docs` 같은 커밋 접두사는 변경 이력을 읽기 쉽게 만든다.\n",
       "tags": [
         "기타"
       ],
-      "readingTime": 2
+      "readingTime": 3
     },
     {
       "id": "260521_ex",
@@ -103,13 +103,13 @@ const TIL_DATA = {
       "topic": "자바스크립트(JavaScript) 기초 문법 다지기 💻",
       "link": "docs/260521_ex.md",
       "title": "자바스크립트(JavaScript) 기초 문법 다지기 💻",
-      "content": "# 자바스크립트(JavaScript) 기초 문법 다지기 💻\n\n웹페이지에 똑똑한 동작과 생동감을 불어넣어 주는 프로그래밍 언어, 자바스크립트의 첫걸음입니다. 연산, 변수, 자료구조(객체, 배열), 제어문(조건문, 반복문)의 기초 개념을 배웁니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [01_hello-js.html](file:///C:/workspace/260521_ex/01_hello-js.html) : HTML 문서 안에 자바스크립트 코드를 불러오고 브라우저에서 실행시켜 주는 연결 통로 파일\n- [01_script.js](file:///C:/workspace/260521_ex/01_script.js) : HTML에서 호출하여 브라우저의 알림창이나 개발자 도구 콘솔에 글씨를 출력하는 스크립트 파일\n- [02_syntax.js](file:///C:/workspace/260521_ex/02_syntax.js) : 자바스크립트 문법의 작성 규칙과 주의사항 정리\n- [03_var.js](file:///C:/workspace/260521_ex/03_var.js) : 변할 수 있는 데이터를 담는 변수(`let`)와 한 번 지정하면 바꿀 수 없는 상수(`const`) 기초 실습\n- [04_data-types.js](file:///C:/workspace/260521_ex/04_data-types.js) : 숫자, 글자(문자열), 참/거짓(Boolean), 비어있음(null/undefined) 등 데이터 종류 학습\n- [05_objects-arr.js](file:///C:/workspace/260521_ex/05_objects-arr.js) : 데이터를 하나로 묶어 다루는 객체(Object, `{키:값}`)와 순서대로 보관하는 배열(Array, `[값,값]`) 이해\n- [06_operator.js](file:///C:/workspace/260521_ex/06_operator.js) : 더하기/빼기 연산, 비교 연산, 논리 연산(`&&`, `||`) 등 계산 원리 학습\n- [07_if.js](file:///C:/workspace/260521_ex/07_if.js) / [08_switch.js](file:///C:/workspace/260521_ex/08_switch.js) : 상황에 따라 다른 코드를 실행시키는 조건문 학습\n- [09_while.js](file:///C:/workspace/260521_ex/09_while.js) : 만족하는 조건 동안 코드를 여러 번 실행하는 반복문(`while`) 실습\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **변수의 스코프**: 기존의 `var` 대신 현대 자바스크립트에서는 안전한 코드 작성을 위해 `let`과 `const`를 주로 사용하는 이유를 배웁니다.\n- **기초 알고리즘 제어**: 조건문과 반복문을 엮어서 컴퓨터가 조건에 맞게 스스로 반복적인 계산을 처리하도록 시키는 원리를 배웁니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n**방법 A (브라우저 콘솔 확인)**: [01_hello-js.html](file:///C:/workspace/260521_ex/01_hello-js.html) 파일을 열고 F12 개발자 도구의 **Console(콘솔)** 탭에서 출력 내용을 확인합니다.\n**방법 B (Node.js 실행)**: 컴퓨터에 Node.js가 설치되어 있다면 터미널에서 `node 파일명.js` (예: `node 03_var.js`)를 쳐서 바로 실행 결과를 출력해 볼 수 있습니다.\n",
+      "content": "# 자바스크립트(JavaScript) 기초 문법 다지기 💻\n\n웹페이지에 똑똑한 동작과 생동감을 불어넣어 주는 프로그래밍 언어, 자바스크립트의 첫걸음입니다. 연산, 변수, 자료구조(객체, 배열), 제어문(조건문, 반복문)의 기초 개념을 배웁니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [01_hello-js.html](file:///C:/workspace/260521_ex/01_hello-js.html) : HTML 문서 안에 자바스크립트 코드를 불러오고 브라우저에서 실행시켜 주는 연결 통로 파일\n- [01_script.js](file:///C:/workspace/260521_ex/01_script.js) : HTML에서 호출하여 브라우저의 알림창이나 개발자 도구 콘솔에 글씨를 출력하는 스크립트 파일\n- [02_syntax.js](file:///C:/workspace/260521_ex/02_syntax.js) : 자바스크립트 문법의 작성 규칙과 주의사항 정리\n- [03_var.js](file:///C:/workspace/260521_ex/03_var.js) : 변할 수 있는 데이터를 담는 변수(`let`)와 한 번 지정하면 바꿀 수 없는 상수(`const`) 기초 실습\n- [04_data-types.js](file:///C:/workspace/260521_ex/04_data-types.js) : 숫자, 글자(문자열), 참/거짓(Boolean), 비어있음(null/undefined) 등 데이터 종류 학습\n- [05_objects-arr.js](file:///C:/workspace/260521_ex/05_objects-arr.js) : 데이터를 하나로 묶어 다루는 객체(Object, `{키:값}`)와 순서대로 보관하는 배열(Array, `[값,값]`) 이해\n- [06_operator.js](file:///C:/workspace/260521_ex/06_operator.js) : 더하기/빼기 연산, 비교 연산, 논리 연산(`&&`, `||`) 등 계산 원리 학습\n- [07_if.js](file:///C:/workspace/260521_ex/07_if.js) / [08_switch.js](file:///C:/workspace/260521_ex/08_switch.js) : 상황에 따라 다른 코드를 실행시키는 조건문 학습\n- [09_while.js](file:///C:/workspace/260521_ex/09_while.js) : 만족하는 조건 동안 코드를 여러 번 실행하는 반복문(`while`) 실습\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **변수의 스코프**: 기존의 `var` 대신 현대 자바스크립트에서는 안전한 코드 작성을 위해 `let`과 `const`를 주로 사용하는 이유를 배웁니다.\n- **기초 알고리즘 제어**: 조건문과 반복문을 엮어서 컴퓨터가 조건에 맞게 스스로 반복적인 계산을 처리하도록 시키는 원리를 배웁니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n**방법 A (브라우저 콘솔 확인)**: [01_hello-js.html](file:///C:/workspace/260521_ex/01_hello-js.html) 파일을 열고 F12 개발자 도구의 **Console(콘솔)** 탭에서 출력 내용을 확인합니다.\n**방법 B (Node.js 실행)**: 컴퓨터에 Node.js가 설치되어 있다면 터미널에서 `node 파일명.js` (예: `node 03_var.js`)를 쳐서 바로 실행 결과를 출력해 볼 수 있습니다.\n\n---\n\n## PDF 기반 보충 정리 · TIL\n\n- JavaScript는 브라우저와 Node.js에서 실행할 수 있으며, 실행 환경이 제공하는 기능은 다르다.\n- 기본은 `const`, 재할당이 필요할 때만 `let`을 사용한다. 새 코드에서는 `var`를 피한다.\n- 객체와 배열은 참조로 다뤄지므로 객체끼리의 `===` 비교는 내용이 아닌 동일한 참조인지 확인한다.\n- `switch`의 `break`를 빠뜨리면 다음 case까지 실행되는 fall-through가 발생한다.\n",
       "tags": [
         "JavaScript",
         "HTML/CSS",
         "Web/Backend"
       ],
-      "readingTime": 5
+      "readingTime": 6
     },
     {
       "id": "260522_ex",
@@ -117,7 +117,7 @@ const TIL_DATA = {
       "topic": "자바스크립트 중급 핵심 - 반복문, 함수, 호이스팅 & 클로저 🧠",
       "link": "docs/260522_ex.md",
       "title": "자바스크립트 중급 핵심 - 반복문, 함수, 호이스팅 & 클로저 🧠",
-      "content": "# 자바스크립트 중급 핵심 - 반복문, 함수, 호이스팅 & 클로저 🧠\n\n자바스크립트 개발의 기초 중의 기초이자, 면접에서도 반드시 물어보는 가장 중요한 동작 원리들(호이스팅, 스코프, 클로저)과 함께 함수 설계법을 공부하는 심층 실습 프로젝트입니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [01_for.js](file:///C:/workspace/260522_ex/01_for.js) : 일정한 횟수만큼 반복시키는 기본 `for` 문 실습\n- [02_for+in+of.js](file:///C:/workspace/260522_ex/02_for+in+of.js) : 객체의 키를 도는 `for..in`과 배열의 값을 도는 `for..of`의 명확한 쓰임새 차이 실습\n- [03_function.js](file:///C:/workspace/260522_ex/03_function.js) / [04_parameter.js](file:///C:/workspace/260522_ex/04_parameter.js) / [05_.function2.js](file:///C:/workspace/260522_ex/05_.function2.js) : 코드를 필요할 때마다 재사용할 수 있게 묶어두는 '함수'의 정의 및 인수(Parameter) 전달법 실습\n- [07_hoisting.js](file:///C:/workspace/260522_ex/07_hoisting.js) : 변수와 함수 선언이 실제 소스 코드의 위치보다 위쪽으로 당겨져서 실행되는 듯한 독특한 호이스팅(Hoisting) 개념 분석\n- [08_scope.js](file:///C:/workspace/260522_ex/08_scope.js) : 변수가 태어난 블록 바깥에서는 그 변수를 쓸 수 없게 제한하는 변수의 수명/영역(Scope) 규칙 실습\n- [09_closure.js](file:///C:/workspace/260522_ex/09_closure.js) : 내부 함수가 사라져도 외부 함수의 변수를 기억하고 유지하는 강력한 폐쇄성(Closure) 개념 실습\n- [10_object.js](file:///C:/workspace/260522_ex/10_object.js) / [11_array.js](file:///C:/workspace/260522_ex/11_array.js) : 내장 객체와 내장 배열을 가공할 때 많이 쓰는 기본 메소드 실습\n- [TIL_2026-05-22.md](file:///C:/workspace/260522_ex/TIL_2026-05-22.md) : 오늘 학습한 이론과 실습 내용을 복습하고 메모한 공부 일지 문서\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **클로저 (Closure)**: 자바스크립트에서 캡슐화를 모방하여 변수의 변경을 특정 내부 함수를 통해서만 허용하도록 데이터를 안전하게 꽁꽁 감싸는 메커니즘을 배웁니다.\n- **스코프 & 호이스팅**: 스크립트 엔진이 메모리를 어떻게 확보하고 변수의 생명 주기를 결정하는지에 대한 컴퓨터 과학적 기본 상식을 다집니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. 터미널(VS Code 내장 터미널 등)을 엽니다.\n2. `node 09_closure.js`와 같이 `node 파일명.js`를 타이핑하여 실행 결과를 바로 관찰합니다.\n",
+      "content": "# 자바스크립트 중급 핵심 - 반복문, 함수, 호이스팅 & 클로저 🧠\n\n자바스크립트 개발의 기초 중의 기초이자, 면접에서도 반드시 물어보는 가장 중요한 동작 원리들(호이스팅, 스코프, 클로저)과 함께 함수 설계법을 공부하는 심층 실습 프로젝트입니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [01_for.js](file:///C:/workspace/260522_ex/01_for.js) : 일정한 횟수만큼 반복시키는 기본 `for` 문 실습\n- [02_for+in+of.js](file:///C:/workspace/260522_ex/02_for+in+of.js) : 객체의 키를 도는 `for..in`과 배열의 값을 도는 `for..of`의 명확한 쓰임새 차이 실습\n- [03_function.js](file:///C:/workspace/260522_ex/03_function.js) / [04_parameter.js](file:///C:/workspace/260522_ex/04_parameter.js) / [05_.function2.js](file:///C:/workspace/260522_ex/05_.function2.js) : 코드를 필요할 때마다 재사용할 수 있게 묶어두는 '함수'의 정의 및 인수(Parameter) 전달법 실습\n- [07_hoisting.js](file:///C:/workspace/260522_ex/07_hoisting.js) : 변수와 함수 선언이 실제 소스 코드의 위치보다 위쪽으로 당겨져서 실행되는 듯한 독특한 호이스팅(Hoisting) 개념 분석\n- [08_scope.js](file:///C:/workspace/260522_ex/08_scope.js) : 변수가 태어난 블록 바깥에서는 그 변수를 쓸 수 없게 제한하는 변수의 수명/영역(Scope) 규칙 실습\n- [09_closure.js](file:///C:/workspace/260522_ex/09_closure.js) : 내부 함수가 사라져도 외부 함수의 변수를 기억하고 유지하는 강력한 폐쇄성(Closure) 개념 실습\n- [10_object.js](file:///C:/workspace/260522_ex/10_object.js) / [11_array.js](file:///C:/workspace/260522_ex/11_array.js) : 내장 객체와 내장 배열을 가공할 때 많이 쓰는 기본 메소드 실습\n- [TIL_2026-05-22.md](file:///C:/workspace/260522_ex/TIL_2026-05-22.md) : 오늘 학습한 이론과 실습 내용을 복습하고 메모한 공부 일지 문서\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **클로저 (Closure)**: 자바스크립트에서 캡슐화를 모방하여 변수의 변경을 특정 내부 함수를 통해서만 허용하도록 데이터를 안전하게 꽁꽁 감싸는 메커니즘을 배웁니다.\n- **스코프 & 호이스팅**: 스크립트 엔진이 메모리를 어떻게 확보하고 변수의 생명 주기를 결정하는지에 대한 컴퓨터 과학적 기본 상식을 다집니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. 터미널(VS Code 내장 터미널 등)을 엽니다.\n2. `node 09_closure.js`와 같이 `node 파일명.js`를 타이핑하여 실행 결과를 바로 관찰합니다.\n\n---\n\n## PDF 기반 보충 정리 · TIL\n\n- 함수 선언문은 선언 전에 호출할 수 있지만, 함수 표현식은 초기화 전 호출 시 오류가 난다.\n- `let`/`const`는 블록 스코프를 가지며, `var`는 함수 스코프와 재선언 특성이 있다.\n- 클로저는 함수가 선언된 렉시컬 스코프를 기억하는 성질로, 캡슐화에 활용할 수 있다.\n- 배열 값 순회에는 `for...of`, 객체 키 순회에는 `for...in`을 사용한다.\n",
       "tags": [
         "기타"
       ],
@@ -142,12 +142,12 @@ const TIL_DATA = {
       "topic": "자바스크립트 ES6+ 핵심 자료구조 & 객체 지향 프로그래밍(OOP) 및 예외 처리 ⚙",
       "link": "docs/260526_ex.md",
       "title": "자바스크립트 ES6+ 핵심 자료구조 & 객체 지향 프로그래밍(OOP) 및 예외 처리 ⚙",
-      "content": "# 자바스크립트 ES6+ 핵심 자료구조 & 객체 지향 프로그래밍(OOP) 및 예외 처리 ⚙\n\n모던 자바스크립트(ES6)에 도입된 혁신적인 내장 자료구조와 배열을 한 줄로 요리하는 법, 클래스를 활용한 객체 지향 프로그램 설계, 그리고 예기치 못한 에러에 대비하는 법을 실습합니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [01_map.js](file:///C:/workspace/260526_ex/01_map.js) : 키(Key)값으로 글자뿐만 아니라 객체 등 무엇이든 담을 수 있는 유연한 Map 자료형 실습\n- [02_set.js](file:///C:/workspace/260526_ex/02_set.js) : 중복된 값을 알아서 걸러주는 고마운 Set 자료형 실습\n- [03_higher.js](file:///C:/workspace/260526_ex/03_higher.js) : 배열의 원소를 걸러내거나(`filter`), 변형하거나(`map`), 다 더하는(`reduce`) 핵심 고차 함수 실습\n- [04_copy.js](file:///C:/workspace/260526_ex/04_copy.js) : 객체를 복제할 때 원래 정보까지 함께 꼬여서 변하는 것을 막는 얕은 복사(Shallow Copy)와 깊은 복사(Deep Copy)의 차이 파악\n- [05_oop.js](file:///C:/workspace/260526_ex/05_oop.js) / [06_class1.js](file:///C:/workspace/260526_ex/06_class1.js) / [07_class2.js](file:///C:/workspace/260526_ex/07_class2.js) : 클래스(Class)를 생성하여 붕어빵 틀처럼 객체들을 찍어내고 상속받아 사용하는 객체 지향 프로그래밍 실습\n- [08_exception.js](file:///C:/workspace/260526_ex/08_exception.js) / [09_exception.js](file:///C:/workspace/260526_ex/09_exception.js) : 코드에서 에러가 발생해도 전체 프로그램이 다운되지 않고 차분하게 우회 조치하도록 돕는 `try-catch-finally` 문법 실습\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **고차 함수 (Higher-Order Functions)**: 코드를 간결하고 세련되게 만드는 함수형 프로그래밍 방식을 체득합니다.\n- **예외 처리 (Exception Handling)**: 프로그램 실행 중에 발생할 수 있는 네트워크 에러, 입력 오류 등을 안전하게 처리해 시스템 안정성을 높이는 기법을 배웁니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. Node.js를 이용해 터미널에 `node 03_higher.js` 또는 `node 08_exception.js` 명령을 쳐서 간편하게 동작 결과를 관찰합니다.\n",
+      "content": "# 자바스크립트 ES6+ 핵심 자료구조 & 객체 지향 프로그래밍(OOP) 및 예외 처리 ⚙\n\n모던 자바스크립트(ES6)에 도입된 혁신적인 내장 자료구조와 배열을 한 줄로 요리하는 법, 클래스를 활용한 객체 지향 프로그램 설계, 그리고 예기치 못한 에러에 대비하는 법을 실습합니다.\n\n---\n\n## 📂 학습 파일 구성 (Files)\n\n- [01_map.js](file:///C:/workspace/260526_ex/01_map.js) : 키(Key)값으로 글자뿐만 아니라 객체 등 무엇이든 담을 수 있는 유연한 Map 자료형 실습\n- [02_set.js](file:///C:/workspace/260526_ex/02_set.js) : 중복된 값을 알아서 걸러주는 고마운 Set 자료형 실습\n- [03_higher.js](file:///C:/workspace/260526_ex/03_higher.js) : 배열의 원소를 걸러내거나(`filter`), 변형하거나(`map`), 다 더하는(`reduce`) 핵심 고차 함수 실습\n- [04_copy.js](file:///C:/workspace/260526_ex/04_copy.js) : 객체를 복제할 때 원래 정보까지 함께 꼬여서 변하는 것을 막는 얕은 복사(Shallow Copy)와 깊은 복사(Deep Copy)의 차이 파악\n- [05_oop.js](file:///C:/workspace/260526_ex/05_oop.js) / [06_class1.js](file:///C:/workspace/260526_ex/06_class1.js) / [07_class2.js](file:///C:/workspace/260526_ex/07_class2.js) : 클래스(Class)를 생성하여 붕어빵 틀처럼 객체들을 찍어내고 상속받아 사용하는 객체 지향 프로그래밍 실습\n- [08_exception.js](file:///C:/workspace/260526_ex/08_exception.js) / [09_exception.js](file:///C:/workspace/260526_ex/09_exception.js) : 코드에서 에러가 발생해도 전체 프로그램이 다운되지 않고 차분하게 우회 조치하도록 돕는 `try-catch-finally` 문법 실습\n\n---\n\n## 🛠 배운 핵심 개념 (What We Learned)\n\n- **고차 함수 (Higher-Order Functions)**: 코드를 간결하고 세련되게 만드는 함수형 프로그래밍 방식을 체득합니다.\n- **예외 처리 (Exception Handling)**: 프로그램 실행 중에 발생할 수 있는 네트워크 에러, 입력 오류 등을 안전하게 처리해 시스템 안정성을 높이는 기법을 배웁니다.\n\n---\n\n## 🚀 실행 및 확인 방법 (How to Run)\n\n1. Node.js를 이용해 터미널에 `node 03_higher.js` 또는 `node 08_exception.js` 명령을 쳐서 간편하게 동작 결과를 관찰합니다.\n\n---\n\n## PDF 기반 보충 정리 · TIL\n\n- `Map`은 키-값 조회, `Set`은 중복 제거·존재 확인에 적합하다. 숫자 정렬에는 `sort((a, b) => a - b)`처럼 비교 함수를 제공한다.\n- `map`/`filter`/`reduce`는 새 값을 만드는 흐름에 적합하지만, `sort()`는 원본 배열을 변경한다.\n- 전개 연산자 복사는 얕은 복사다. 중첩 구조까지 분리해야 하면 `structuredClone()`을 고려한다.\n- class의 `#private` 필드와 getter/setter는 내부 상태를 보호하고 검증된 접근을 제공한다. 상속 생성자에서는 `this`보다 먼저 `super()`를 호출한다.\n- `finally`의 `return`은 앞선 반환값이나 예외를 덮어쓸 수 있으므로 정리 작업만 둔다.\n- JavaScript에서 `shift()` 기반 큐는 `O(N)`일 수 있다. `head`/`tail` 인덱스 큐로 enqueue/dequeue를 `O(1)`로 구현한다.\n",
       "tags": [
         "JavaScript",
         "Web/Backend"
       ],
-      "readingTime": 4
+      "readingTime": 5
     },
     {
       "id": "260527_ex",
@@ -1736,7 +1736,7 @@ const TIL_DATA = {
       "readingTime": 19
     }
   ],
-  "buildTime": "2026-08-20T08:10:38.685Z"
+  "buildTime": "2026-09-09T07:28:09.023Z"
 };
 
 if (typeof window !== 'undefined') {
