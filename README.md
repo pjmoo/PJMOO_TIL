@@ -74,6 +74,7 @@
 | 2026-08-20 ~ 2026-09-03 | BaroHae - 긴급 업무 매칭 플랫폼 프로젝트 회고와 구현 기록 | [상세 보기](docs/260903_barohae.md) |
 | 2026-09-07 | Docker와 Linux 기초 명령어 실습 | [상세 보기](docs/260907_infra.md) |
 | 2026-09-08 | Docker 네트워크와 GHCR 이미지 배포 실습 | [상세 보기](docs/260908_docker-ghcr.md) |
+| 2026-09-09 | Docker Compose 환경 분리와 Nginx 리버스 프록시 실습 | [상세 보기](docs/260909_docker-compose-nginx.md) |
 
 
 ---
@@ -143,4 +144,5 @@
 | 260903_barohae | BaroHae - 긴급 업무 매칭 플랫폼 프로젝트 회고와 구현 기록 | [상세 보기](docs/260903_barohae.md) |
 | 260907_infra | Docker와 Linux 기초 명령어 실습 | [상세 보기](docs/260907_infra.md) |
 | 260908_docker-ghcr | Docker 네트워크와 GHCR 이미지 배포 실습 | [상세 보기](docs/260908_docker-ghcr.md) |
+| 260909_docker-compose-nginx | Docker Compose 환경 분리와 Nginx 리버스 프록시 실습 | [상세 보기](docs/260909_docker-compose-nginx.md) |
 
