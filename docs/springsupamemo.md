@@ -160,3 +160,28 @@ POST 요청 성공 후 즉시 302 상태 코드와 함께 GET 요청용 URL 주�
 **A5.**  
 * **분리 이유**: Entity는 영속성 계층과 강하게 결합되어 있으므로, 화면 요구사항의 변덕에 따라 Entity 구조가 매번 바뀌면 연관된 데이터베이스 테이블 설계가 깨져 성능 저하나 원하지 않는 사이드 이펙트가 발생합니다. DTO를 통해 각 통신 지점(입력 폼, 화면 출력, API 연동 등)에 딱 필요한 필드와 포맷만 정제해서 껍데기를 입혀주는 것이 구조상 안전합니다.
 * **적절한 변환 위치**: DTO를 Entity로 변환하는 변환 작업의 책임은 비즈니스 정책을 수립하는 **Service 계층** 또는 데이터 접근 시 전달될 매개값을 빌딩하는 단계에서 수행하는 것이 보편적으로 선호됩니다. 컨트롤러는 DTO 데이터의 유효성 검증만 수행하고 영속성 객체의 내부 형태까지는 알지 못하도록 하여 계층 간 격리를 단단하게 유지하는 것이 좋은 설계 원칙에 가깝습니다. (조회의 경우 Repository에서 가져온 Entity 리스트를 Service 레이어에서 스트림 파이프라인을 거치며 `MemoViewDTO`로 가공하여 Controller 방향으로 올려 보내는 구조가 권장됩니다.)
+
+<!-- pdf-til-supplement:start -->
+## TIL 부연 설명 — PDF와 연결하기
+
+기존 실습 내용을 이해하기 위한 PDF 기반 부연 설명이다. 아래 예시는 개념을 설명하기 위한 것이며, 이 프로젝트에서 실행해 관찰한 결과와는 구분한다. 페이지 번호는 표지를 포함한 PDF 순서다.
+
+함께 읽을 파일: [src/main/java/org/example/springsupamemo/controller/HomeController.java](<../../springsupamemo/src/main/java/org/example/springsupamemo/controller/HomeController.java>) · [src/main/java/org/example/springsupamemo/repository/MemoRepository.java](<../../springsupamemo/src/main/java/org/example/springsupamemo/repository/MemoRepository.java>) · [src/main/java/org/example/springsupamemo/service/MemoService.java](<../../springsupamemo/src/main/java/org/example/springsupamemo/service/MemoService.java>)
+
+### 요청 바인딩과 응답 변환의 갈림길
+
+DispatcherServlet은 경로에 맞는 컨트롤러를 찾고 실행을 중개한다. 폼·쿼리 파라미터를 객체에 바인딩하는 것과 JSON 본문을 메시지 컨버터로 읽는 것은 서로 다른 경로다. 반환값도 뷰 이름으로 해석할지 응답 본문으로 직렬화할지 컨트롤러 구성에 따라 달라진다.
+
+**예시로 이해하기:** 일반 Controller가 "books"를 반환하면 모델과 템플릿으로 HTML을 만드는 구성을 사용할 수 있다. ResponseBody가 적용되면 그 문자열 자체가 본문이 된다. Model에 넣은 속성 이름과 템플릿에서 읽는 이름이 맞는지도 확인한다.
+
+근거: 241-2 Spring Web MVC — [6쪽](<../../260629_ex/새 폴더/7-7/241-2_Spring_Web_MVC.pdf#page=6>) · [7쪽](<../../260629_ex/새 폴더/7-7/241-2_Spring_Web_MVC.pdf#page=7>) · [9쪽](<../../260629_ex/새 폴더/7-7/241-2_Spring_Web_MVC.pdf#page=9>) · [12쪽](<../../260629_ex/새 폴더/7-7/241-2_Spring_Web_MVC.pdf#page=12>) · [18쪽](<../../260629_ex/새 폴더/7-7/241-2_Spring_Web_MVC.pdf#page=18>)
+
+### 인증 정보와 행 접근 권한 연결하기
+
+Supabase는 데이터베이스·인증·스토리지를 API로 제공한다. 브라우저에서 연결할 수 있다는 사실이 모든 행을 읽거나 수정해도 된다는 뜻은 아니다. 인증은 사용자를 식별하고 RLS는 그 사용자가 접근 가능한 행을 제한한다. 화면에서 수정 버튼을 숨기는 것만으로 데이터 접근을 막을 수는 없다.
+
+**예시로 이해하기:** 게시글 수정에서는 현재 사용자와 작성자 ID의 관계를 정책에서 확인하는 흐름을 생각한다. 파일 업로드 권한과 게시글 행의 수정 권한도 별개다. 공개 클라이언트 키와 서버 전용 비밀키를 구분하고, DB 저장 실패 시 이미 업로드한 파일이 남는 경우까지 살펴본다.
+
+근거: 163-2 Supabase — [5쪽](<../../260629_ex/새 폴더/6-2/163-2_Supabase.pdf#page=5>) · [6쪽](<../../260629_ex/새 폴더/6-2/163-2_Supabase.pdf#page=6>) · [11쪽](<../../260629_ex/새 폴더/6-2/163-2_Supabase.pdf#page=11>) · [17쪽](<../../260629_ex/새 폴더/6-2/163-2_Supabase.pdf#page=17>)
+
+<!-- pdf-til-supplement:end -->

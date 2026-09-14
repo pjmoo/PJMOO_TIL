@@ -107,3 +107,30 @@ spring:
    ./gradlew bootRun
    ```
 4. 웹 브라우저에서 `http://localhost:8080`에 접속하여 영화 등록, 다중 이미지 업로드 및 유저 프로필 등록 페이지를 테스트합니다.
+
+<!-- pdf-til-supplement:start -->
+## TIL 부연 설명 — PDF와 연결하기
+
+기존 실습 내용을 이해하기 위한 PDF 기반 부연 설명이다. 아래 예시는 개념을 설명하기 위한 것이며, 이 프로젝트에서 실행해 관찰한 결과와는 구분한다. 페이지 번호는 표지를 포함한 PDF 순서다.
+
+함께 읽을 파일: [src/main/java/org/example/fileupload/controller/FileController.java](<../../fileupload/src/main/java/org/example/fileupload/controller/FileController.java>) · [src/main/java/org/example/fileupload/controller/FileViewController.java](<../../fileupload/src/main/java/org/example/fileupload/controller/FileViewController.java>) · [src/main/java/org/example/fileupload/controller/MainController.java](<../../fileupload/src/main/java/org/example/fileupload/controller/MainController.java>)
+
+**현재 실습과 연결:** UserProfileService.insert는 FileStore.storeFile을 먼저 호출하고 반환된 원본명·저장명을 엔티티에 담아 Repository에 저장한다. 이 순서에서 DB 저장이 실패해도 파일 저장은 이미 끝났을 수 있다. FileStore 인터페이스는 저장 동작의 계약만 제공하며 DB 롤백에 따른 파일 삭제까지 보장하지 않는다.
+
+### 업로드 파일·DB 메타데이터·조회 URL
+
+파일 업로드는 일반 문자열 폼과 달리 multipart 요청으로 바이트를 전달한다. 원본 파일명은 표시용 메타데이터로 보관하고 저장 이름은 충돌과 경로 문제를 피하도록 별도로 정한다. 확장자와 Content-Type은 클라이언트가 보낼 수 있는 값이므로 그것만으로 내용을 신뢰하지 않는다.
+
+**예시로 이해하기:** 컨트롤러 수신 → 크기·형식 검사 → 파일 저장 → DB 메타데이터 기록 → 조회 URL 제공으로 추적한다. DB 행 삭제나 orphanRemoval이 디스크 파일까지 자동으로 지워 주지는 않는다. 파일 저장 성공 후 DB 저장이 실패하는 경우의 정리 책임도 필요하다.
+
+근거: 404-1 파일 다루기 — [7쪽](<../../260629_ex/새 폴더/8-7/404-1_파일_다루기.pdf#page=7>) · [12쪽](<../../260629_ex/새 폴더/8-7/404-1_파일_다루기.pdf#page=12>) · [15쪽](<../../260629_ex/새 폴더/8-7/404-1_파일_다루기.pdf#page=15>) · [20쪽](<../../260629_ex/새 폴더/8-7/404-1_파일_다루기.pdf#page=20>) · [34쪽](<../../260629_ex/새 폴더/8-7/404-1_파일_다루기.pdf#page=34>) · [48쪽](<../../260629_ex/새 폴더/8-7/404-1_파일_다루기.pdf#page=48>)
+
+### 객체 키와 접근 URL을 나누어 보관하기
+
+객체 스토리지는 버킷 안의 키로 파일을 찾는다. DB에 만료되는 서명 URL보다 안정적인 객체 키를 보관하면 제공 방식과 저장 위치를 바꾸기 쉽다. FileStore 같은 인터페이스는 로컬 저장과 객체 스토리지 구현의 차이를 서비스 밖으로 분리한다.
+
+**예시로 이해하기:** 비공개 파일은 로그인 사용자와 파일 소유 관계를 확인한 뒤 읽기 경로를 제공한다. 스토리지 업로드와 DB 트랜잭션은 별개라 DB가 롤백되어도 업로드한 객체는 남을 수 있다. 보상 삭제나 정리 작업이 필요한 실패 구간을 표시한다.
+
+근거: 404-2 객체 스토리지로 파일 저장하기 — [5쪽](<../../260629_ex/새 폴더/8-7/404-2_객체_스토리지로_파일_저장하기.pdf#page=5>) · [27쪽](<../../260629_ex/새 폴더/8-7/404-2_객체_스토리지로_파일_저장하기.pdf#page=27>) · [28쪽](<../../260629_ex/새 폴더/8-7/404-2_객체_스토리지로_파일_저장하기.pdf#page=28>) · [35쪽](<../../260629_ex/새 폴더/8-7/404-2_객체_스토리지로_파일_저장하기.pdf#page=35>) · [41쪽](<../../260629_ex/새 폴더/8-7/404-2_객체_스토리지로_파일_저장하기.pdf#page=41>) · [46쪽](<../../260629_ex/새 폴더/8-7/404-2_객체_스토리지로_파일_저장하기.pdf#page=46>)
+
+<!-- pdf-til-supplement:end -->

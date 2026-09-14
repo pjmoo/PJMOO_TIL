@@ -39,3 +39,20 @@
 ### [Step 4: Web Bean Scopes & Scoped Proxy](step4.md)
 * **주요 내용**: 요청 범위(`@RequestScope`)와 세션 범위(`@SessionScope`) 빈 생성 및 생명 주기 검증, 싱글톤 빈과의 결합 모순 해결
 * **핵심 개념**: 생성자 주입(`@RequiredArgsConstructor`), AOP Scoped Proxy 메커니즘, `RequestContextHolder` (ThreadLocal)
+
+<!-- pdf-til-supplement:start -->
+## TIL 부연 설명 — PDF와 연결하기
+
+기존 실습 내용을 이해하기 위한 PDF 기반 부연 설명이다. 아래 예시는 개념을 설명하기 위한 것이며, 이 프로젝트에서 실행해 관찰한 결과와는 구분한다. 페이지 번호는 표지를 포함한 PDF 순서다.
+
+함께 읽을 파일: [src/main/java/org/example/webmvc/step2/controller/FoodController.java](<../../webmvc/src/main/java/org/example/webmvc/step2/controller/FoodController.java>) · [src/main/java/org/example/webmvc/step3/controller/ShirtController.java](<../../webmvc/src/main/java/org/example/webmvc/step3/controller/ShirtController.java>) · [src/main/java/org/example/webmvc/step4/ScopeController.java](<../../webmvc/src/main/java/org/example/webmvc/step4/ScopeController.java>)
+
+### 요청 바인딩과 응답 변환의 갈림길
+
+DispatcherServlet은 경로에 맞는 컨트롤러를 찾고 실행을 중개한다. 폼·쿼리 파라미터를 객체에 바인딩하는 것과 JSON 본문을 메시지 컨버터로 읽는 것은 서로 다른 경로다. 반환값도 뷰 이름으로 해석할지 응답 본문으로 직렬화할지 컨트롤러 구성에 따라 달라진다.
+
+**예시로 이해하기:** 일반 Controller가 "books"를 반환하면 모델과 템플릿으로 HTML을 만드는 구성을 사용할 수 있다. ResponseBody가 적용되면 그 문자열 자체가 본문이 된다. Model에 넣은 속성 이름과 템플릿에서 읽는 이름이 맞는지도 확인한다.
+
+근거: 241-2 Spring Web MVC — [6쪽](<../../260629_ex/새 폴더/7-7/241-2_Spring_Web_MVC.pdf#page=6>) · [7쪽](<../../260629_ex/새 폴더/7-7/241-2_Spring_Web_MVC.pdf#page=7>) · [9쪽](<../../260629_ex/새 폴더/7-7/241-2_Spring_Web_MVC.pdf#page=9>) · [12쪽](<../../260629_ex/새 폴더/7-7/241-2_Spring_Web_MVC.pdf#page=12>) · [18쪽](<../../260629_ex/새 폴더/7-7/241-2_Spring_Web_MVC.pdf#page=18>)
+
+<!-- pdf-til-supplement:end -->

@@ -91,3 +91,36 @@
   - **Builder Stage:** 무겁지만 빌드 툴이 들어있는 Gradle JDK 이미지에서 소스코드를 컴파일 및 빌드하여 `app.jar`를 만듭니다.
   - **Run Stage:** 완성된 `app.jar` 파일만 쏙 빼와서 가벼운 경량 JRE 17 Alpine 이미지 위로 얹어 가볍게 구동합니다.
   - 실행 매개변수에 `-XX:MaxRAMPercentage=75.0`을 지정하여 클라우드 컨테이너의 메모리 한계에서 발생할 수 있는 Out-Of-Memory(OOM) 현상을 방지하도록 실행 성능 최적화를 적용했습니다.
+
+<!-- pdf-til-supplement:start -->
+## TIL 부연 설명 — PDF와 연결하기
+
+기존 실습 내용을 이해하기 위한 PDF 기반 부연 설명이다. 아래 예시는 개념을 설명하기 위한 것이며, 이 프로젝트에서 실행해 관찰한 결과와는 구분한다. 페이지 번호는 표지를 포함한 PDF 순서다.
+
+함께 읽을 파일: [src/main/java/org/example/thymeleaf/controller/MainController.java](<../../thymeleaf/src/main/java/org/example/thymeleaf/controller/MainController.java>) · [src/main/java/org/example/thymeleaf/ThymeleafApplication.java](<../../thymeleaf/src/main/java/org/example/thymeleaf/ThymeleafApplication.java>) · [src/main/resources/templates/index.html](<../../thymeleaf/src/main/resources/templates/index.html>)
+
+### Gradle Wrapper와 의존성 범위
+
+Wrapper는 프로젝트에서 사용할 Gradle 버전을 정해 개발자마다 설치된 빌드 도구의 차이를 줄인다. implementation·runtimeOnly·testImplementation은 의존성이 필요한 단계를 구분한다. BOM은 라이브러리 버전 조합을 관리하지만 모든 라이브러리를 자동 추가하지는 않는다.
+
+**예시로 이해하기:** JDBC 드라이버가 실행 시에만 필요한 경우와 소스에서 직접 사용하는 라이브러리를 비교하면 의존성 범위의 차이가 보인다. PDF의 Spring Boot 4 실습을 읽더라도 기존 프로젝트의 버전을 곧바로 바꾸지 말고 build.gradle과 Wrapper 설정을 기준으로 동작을 해석한다.
+
+근거: 401-1 Spring Boot 4와 Gradle (1) — [20쪽](<../../260629_ex/새 폴더/8-4/401-1_Spring_Boot_4와_Gradle (1).pdf#page=20>) · [21쪽](<../../260629_ex/새 폴더/8-4/401-1_Spring_Boot_4와_Gradle (1).pdf#page=21>) · [23쪽](<../../260629_ex/새 폴더/8-4/401-1_Spring_Boot_4와_Gradle (1).pdf#page=23>) · [25쪽](<../../260629_ex/새 폴더/8-4/401-1_Spring_Boot_4와_Gradle (1).pdf#page=25>)
+
+### 설정 파일의 값과 실제 적용값 구분하기
+
+같은 설정 키가 여러 출처에 있으면 우선순위에 따라 최종 값이 정해진다. 프로파일은 환경별 설정을 선택하고 ConfigurationProperties는 관련 값을 타입으로 묶는다. 파일에 값이 적혀 있다는 사실만으로 그 값이 실행 시 사용된다고 판단하면 설정 오류를 놓칠 수 있다.
+
+**예시로 이해하기:** 개발 포트를 바꿨는데 반영되지 않으면 활성 프로파일과 환경 변수·실행 인자를 함께 확인한다. .env 파일도 존재만으로 모든 실행 도구에 자동 적용되는 것은 아니므로 import나 로딩 구성을 읽는다. 비밀 값 자체보다 어떤 설정 키가 어디서 공급되는지를 TIL에 남긴다.
+
+근거: 401-2 application-yml과 외부 설정 — [10쪽](<../../260629_ex/새 폴더/8-4/401-2_application-yml과_외부_설정.pdf#page=10>) · [13쪽](<../../260629_ex/새 폴더/8-4/401-2_application-yml과_외부_설정.pdf#page=13>) · [17쪽](<../../260629_ex/새 폴더/8-4/401-2_application-yml과_외부_설정.pdf#page=17>) · [28쪽](<../../260629_ex/새 폴더/8-4/401-2_application-yml과_외부_설정.pdf#page=28>) · [32쪽](<../../260629_ex/새 폴더/8-4/401-2_application-yml과_외부_설정.pdf#page=32>) · [34쪽](<../../260629_ex/새 폴더/8-4/401-2_application-yml과_외부_설정.pdf#page=34>)
+
+### 템플릿 표현식이 HTML로 바뀌는 시점
+
+Thymeleaf는 서버가 모델과 템플릿을 결합해 HTML을 만든다. 브라우저는 완성된 HTML을 받으므로 th:if로 제외된 요소는 단순히 CSS로 가린 요소와 다르다. 변수·메시지·링크 표현식은 각각 데이터 출력, 다국어 문구, URL 조립이라는 목적을 갖는다.
+
+**예시로 이해하기:** 책 제목을 th:text로 출력하면 HTML 이스케이프가 적용된다. th:utext는 HTML을 해석하므로 신뢰하지 않는 입력에 사용하면 위험하다. 메뉴가 렌더링되지 않아도 사용자가 직접 URL을 호출할 수 있으므로 권한 검사는 서버에서 수행한다.
+
+근거: 401-3 Thymeleaf 기초 — [6쪽](<../../260629_ex/새 폴더/8-4/401-3_Thymeleaf_기초.pdf#page=6>) · [13쪽](<../../260629_ex/새 폴더/8-4/401-3_Thymeleaf_기초.pdf#page=13>) · [23쪽](<../../260629_ex/새 폴더/8-4/401-3_Thymeleaf_기초.pdf#page=23>) · [26쪽](<../../260629_ex/새 폴더/8-4/401-3_Thymeleaf_기초.pdf#page=26>) · [34쪽](<../../260629_ex/새 폴더/8-4/401-3_Thymeleaf_기초.pdf#page=34>) · [35쪽](<../../260629_ex/새 폴더/8-4/401-3_Thymeleaf_기초.pdf#page=35>)
+
+<!-- pdf-til-supplement:end -->

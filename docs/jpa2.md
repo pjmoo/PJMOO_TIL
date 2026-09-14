@@ -61,3 +61,28 @@
 1. 로컬 PC에 Java 17 이상이 설치되어 있는지 확인합니다.
 2. 프로젝트 루트 폴더에 데이터베이스 연결 정보를 담은 `C:\workspace\jpa2\.env.dev` 파일이 존재하는지 확인합니다.
 3. 터미널 또는 IDE에서 프로젝트를 실행한 뒤 브라우저에서 `http://localhost:8080`으로 접속합니다.
+
+<!-- pdf-til-supplement:start -->
+## TIL 부연 설명 — PDF와 연결하기
+
+기존 실습 내용을 이해하기 위한 PDF 기반 부연 설명이다. 아래 예시는 개념을 설명하기 위한 것이며, 이 프로젝트에서 실행해 관찰한 결과와는 구분한다. 페이지 번호는 표지를 포함한 PDF 순서다.
+
+함께 읽을 파일: [src/main/java/org/example/jpa2/controller/MainController.java](<../../jpa2/src/main/java/org/example/jpa2/controller/MainController.java>) · [src/main/java/org/example/jpa2/controller/ReservationController.java](<../../jpa2/src/main/java/org/example/jpa2/controller/ReservationController.java>) · [src/main/java/org/example/jpa2/Jpa2Application.java](<../../jpa2/src/main/java/org/example/jpa2/Jpa2Application.java>)
+
+### 영속 상태와 변경 감지
+
+JPA는 엔티티와 테이블의 매핑을 정의하는 표준이고 Hibernate는 이를 구현한다. 영속성 컨텍스트가 관리하는 엔티티의 변경은 flush 시점에 SQL로 반영될 수 있다. 객체 필드를 바꾸는 즉시 DB에 커밋되는 것은 아니며 flush와 commit도 같은 뜻이 아니다.
+
+**예시로 이해하기:** 트랜잭션 안에서 조회한 엔티티의 상태를 바꾸는 흐름과 화면에서 받은 새 객체를 save하는 흐름을 구분한다. 쓰기 트랜잭션 밖의 객체 변경이 자동 저장된다고 가정하지 않는다. 엔티티를 응답에 직접 노출하기보다 필요한 값을 DTO에 담으면 저장 구조와 응답 계약을 분리할 수 있다.
+
+근거: 323-1 JPA와 Hibernate — [31쪽](<../../260629_ex/새 폴더/7-23/323-1_JPA와_Hibernate.pdf#page=31>) · [33쪽](<../../260629_ex/새 폴더/7-23/323-1_JPA와_Hibernate.pdf#page=33>) · [35쪽](<../../260629_ex/새 폴더/7-23/323-1_JPA와_Hibernate.pdf#page=35>) · [42쪽](<../../260629_ex/새 폴더/7-23/323-1_JPA와_Hibernate.pdf#page=42>) · [46쪽](<../../260629_ex/새 폴더/7-23/323-1_JPA와_Hibernate.pdf#page=46>)
+
+### 연관관계의 주인과 N+1의 발생 시점
+
+양방향 관계에서는 외래키 변경을 반영하는 연관관계의 주인이 중요하다. 반대쪽 컬렉션에만 추가하면 기대한 FK 변경이 저장되지 않을 수 있다. LAZY는 필요한 시점까지 조회를 미루지만 반복문에서 연관 객체를 하나씩 읽으면 N+1 쿼리가 생길 수 있다.
+
+**예시로 이해하기:** 회원 목록 1회 조회 후 각 회원의 팀을 읽으며 추가 SQL이 발생하는지 확인한다. fetch join이나 조회 전용 DTO로 필요한 데이터를 가져오는 방법을 비교한다. 컬렉션 fetch join과 페이징을 함께 쓰면 행 수가 늘어나므로 단순히 한 번의 쿼리로 줄이는 것만 목표로 삼지 않는다.
+
+근거: 323-2 JPA 연관관계 매핑과 N1 문제 — [9쪽](<../../260629_ex/새 폴더/7-23/323-2_JPA_연관관계_매핑과_N1_문제.pdf#page=9>) · [11쪽](<../../260629_ex/새 폴더/7-23/323-2_JPA_연관관계_매핑과_N1_문제.pdf#page=11>) · [19쪽](<../../260629_ex/새 폴더/7-23/323-2_JPA_연관관계_매핑과_N1_문제.pdf#page=19>) · [21쪽](<../../260629_ex/새 폴더/7-23/323-2_JPA_연관관계_매핑과_N1_문제.pdf#page=21>) · [26쪽](<../../260629_ex/새 폴더/7-23/323-2_JPA_연관관계_매핑과_N1_문제.pdf#page=26>) · [28쪽](<../../260629_ex/새 폴더/7-23/323-2_JPA_연관관계_매핑과_N1_문제.pdf#page=28>)
+
+<!-- pdf-til-supplement:end -->

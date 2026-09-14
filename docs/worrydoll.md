@@ -104,3 +104,36 @@ GEMINI_API_KEY=your_gemini_api_key_here
 * [MainController.java](file:///C:/workspace/worrydoll/src/main/java/org/example/worrydoll/controller/MainController.java): 사용자의 HTTP 요청(대화 입력, 유저 세션 관리, RAG 검색 요청)을 가로채서 처리하는 컨트롤러입니다.
 * [ChatService.java](file:///C:/workspace/worrydoll/src/main/java/org/example/worrydoll/service/ChatService.java): 대화 기록을 로드하고, 벡터 DB에 이력을 적재하며, RAG 검색을 수행하는 핵심 비즈니스 로직 클래스입니다.
 * [AiConfig.java](file:///C:/workspace/worrydoll/src/main/java/org/example/worrydoll/config/AiConfig.java): Spring AI의 `ChatClient`와 `ChatMemory` 설정 및 RAG 검색 시 임계값(Similarity Threshold)과 시스템 프롬프트를 지정해 주는 구성(Configuration) 파일입니다.
+
+<!-- pdf-til-supplement:start -->
+## TIL 부연 설명 — PDF와 연결하기
+
+기존 실습 내용을 이해하기 위한 PDF 기반 부연 설명이다. 아래 예시는 개념을 설명하기 위한 것이며, 이 프로젝트에서 실행해 관찰한 결과와는 구분한다. 페이지 번호는 표지를 포함한 PDF 순서다.
+
+함께 읽을 파일: [src/main/java/org/example/worrydoll/controller/MainController.java](<../../worrydoll/src/main/java/org/example/worrydoll/controller/MainController.java>) · [src/main/java/org/example/worrydoll/WorrydollApplication.java](<../../worrydoll/src/main/java/org/example/worrydoll/WorrydollApplication.java>) · [src/main/java/org/example/worrydoll/repository/ChatMessageJpaRepository.java](<../../worrydoll/src/main/java/org/example/worrydoll/repository/ChatMessageJpaRepository.java>)
+
+### 구조화 출력과 대화 메모리는 별도 문제
+
+구조화 출력은 모델 응답을 앱에서 다루기 쉬운 타입으로 변환하는 과정이다. JSON으로 파싱되었다고 내용까지 맞는 것은 아니므로 필수 값과 범위를 검증해야 한다. 대화 메모리는 이전 메시지를 다시 실어 보내며 conversationId로 대화를 구분한다.
+
+**예시로 이해하기:** 일정 결과의 날짜·장소 필드가 존재해도 실제로 가능한 일정인지는 별도 검증 대상이다. 대화 ID를 받는 API는 그 ID가 현재 사용자의 것인지 확인해야 한다. 메모리 저장소에 기록했다는 사실과 모델 요청에 이력이 포함되었다는 사실도 구분한다.
+
+근거: 331-2 Spring AI 활용 — [11쪽](<../../260629_ex/새 폴더/7-28/331-2_Spring_AI_활용.pdf#page=11>) · [13쪽](<../../260629_ex/새 폴더/7-28/331-2_Spring_AI_활용.pdf#page=13>) · [27쪽](<../../260629_ex/새 폴더/7-28/331-2_Spring_AI_활용.pdf#page=27>) · [29쪽](<../../260629_ex/새 폴더/7-28/331-2_Spring_AI_활용.pdf#page=29>) · [33쪽](<../../260629_ex/새 폴더/7-28/331-2_Spring_AI_활용.pdf#page=33>)
+
+### RAG의 검색 단계와 생성 단계
+
+RAG는 문서를 조각으로 나누어 검색 가능하게 저장하고 질문과 관련된 조각을 찾아 답변의 근거로 전달한다. 생성 모델의 지식을 다시 학습시키는 과정과 다르다. 문서와 질문의 벡터는 같은 임베딩 공간에서 비교해야 하며 차원이 같다는 것만으로 서로 다른 모델의 벡터가 호환되지는 않는다.
+
+**예시로 이해하기:** 답변이 틀리면 먼저 원하는 문서가 적재되었는지, 적절한 조각이 검색되었는지, 마지막으로 모델이 근거를 제대로 사용했는지 분리해 확인한다. top-k를 무조건 늘리면 관련 없는 정보도 늘어날 수 있으므로 검색 결과와 출처를 함께 관찰한다.
+
+근거: 332-1 RAG와 VectorDB 기초 — [14쪽](<../../260629_ex/새 폴더/7-30/332-1_RAG와_VectorDB_기초.pdf#page=14>) · [19쪽](<../../260629_ex/새 폴더/7-30/332-1_RAG와_VectorDB_기초.pdf#page=19>) · [27쪽](<../../260629_ex/새 폴더/7-30/332-1_RAG와_VectorDB_기초.pdf#page=27>) · [37쪽](<../../260629_ex/새 폴더/7-30/332-1_RAG와_VectorDB_기초.pdf#page=37>) · [45쪽](<../../260629_ex/새 폴더/7-30/332-1_RAG와_VectorDB_기초.pdf#page=45>)
+
+### 청크와 메타데이터가 답변 품질을 결정한다
+
+Document는 본문뿐 아니라 식별자와 메타데이터를 갖는다. 청크가 너무 작으면 맥락을 잃고 너무 크면 검색에 불필요한 내용이 섞인다. 원문 파일·페이지·소유자 정보를 함께 저장하면 답변 출처를 표시하고 검색 대상을 제한할 수 있다.
+
+**예시로 이해하기:** 사내 문서 검색에서는 사용자가 읽을 수 있는 문서만 검색 단계에서 걸러야 한다. 검색 후 화면에서 숨기는 것은 이미 모델에 전달된 정보의 노출을 막지 못한다. 같은 문서를 재업로드할 때 중복 적재와 기존 조각 갱신 방식도 정한다.
+
+근거: 332-2 Spring Boot 기반 RAG 구현 — [9쪽](<../../260629_ex/새 폴더/7-30/332-2_Spring_Boot_기반_RAG_구현.pdf#page=9>) · [11쪽](<../../260629_ex/새 폴더/7-30/332-2_Spring_Boot_기반_RAG_구현.pdf#page=11>) · [25쪽](<../../260629_ex/새 폴더/7-30/332-2_Spring_Boot_기반_RAG_구현.pdf#page=25>) · [27쪽](<../../260629_ex/새 폴더/7-30/332-2_Spring_Boot_기반_RAG_구현.pdf#page=27>) · [30쪽](<../../260629_ex/새 폴더/7-30/332-2_Spring_Boot_기반_RAG_구현.pdf#page=30>) · [35쪽](<../../260629_ex/새 폴더/7-30/332-2_Spring_Boot_기반_RAG_구현.pdf#page=35>)
+
+<!-- pdf-til-supplement:end -->

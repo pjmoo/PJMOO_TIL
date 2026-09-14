@@ -69,3 +69,28 @@
    `mvnw spring-boot:run` 또는 개발 IDE에서 `RagApplication`을 실행합니다.
 4. **브라우저 접속**:
    `http://localhost:8080` 으로 접속하여 직접 문서를 적재하고 RAG 채팅을 테스트해 봅니다!
+
+<!-- pdf-til-supplement:start -->
+## TIL 부연 설명 — PDF와 연결하기
+
+기존 실습 내용을 이해하기 위한 PDF 기반 부연 설명이다. 아래 예시는 개념을 설명하기 위한 것이며, 이 프로젝트에서 실행해 관찰한 결과와는 구분한다. 페이지 번호는 표지를 포함한 PDF 순서다.
+
+함께 읽을 파일: [src/main/java/org/example/rag/controller/MainController.java](<../../rag/src/main/java/org/example/rag/controller/MainController.java>) · [src/main/java/org/example/rag/RagApplication.java](<../../rag/src/main/java/org/example/rag/RagApplication.java>) · [src/main/java/org/example/rag/service/DocumentService.java](<../../rag/src/main/java/org/example/rag/service/DocumentService.java>)
+
+### RAG의 검색 단계와 생성 단계
+
+RAG는 문서를 조각으로 나누어 검색 가능하게 저장하고 질문과 관련된 조각을 찾아 답변의 근거로 전달한다. 생성 모델의 지식을 다시 학습시키는 과정과 다르다. 문서와 질문의 벡터는 같은 임베딩 공간에서 비교해야 하며 차원이 같다는 것만으로 서로 다른 모델의 벡터가 호환되지는 않는다.
+
+**예시로 이해하기:** 답변이 틀리면 먼저 원하는 문서가 적재되었는지, 적절한 조각이 검색되었는지, 마지막으로 모델이 근거를 제대로 사용했는지 분리해 확인한다. top-k를 무조건 늘리면 관련 없는 정보도 늘어날 수 있으므로 검색 결과와 출처를 함께 관찰한다.
+
+근거: 332-1 RAG와 VectorDB 기초 — [14쪽](<../../260629_ex/새 폴더/7-30/332-1_RAG와_VectorDB_기초.pdf#page=14>) · [19쪽](<../../260629_ex/새 폴더/7-30/332-1_RAG와_VectorDB_기초.pdf#page=19>) · [27쪽](<../../260629_ex/새 폴더/7-30/332-1_RAG와_VectorDB_기초.pdf#page=27>) · [37쪽](<../../260629_ex/새 폴더/7-30/332-1_RAG와_VectorDB_기초.pdf#page=37>) · [45쪽](<../../260629_ex/새 폴더/7-30/332-1_RAG와_VectorDB_기초.pdf#page=45>)
+
+### 청크와 메타데이터가 답변 품질을 결정한다
+
+Document는 본문뿐 아니라 식별자와 메타데이터를 갖는다. 청크가 너무 작으면 맥락을 잃고 너무 크면 검색에 불필요한 내용이 섞인다. 원문 파일·페이지·소유자 정보를 함께 저장하면 답변 출처를 표시하고 검색 대상을 제한할 수 있다.
+
+**예시로 이해하기:** 사내 문서 검색에서는 사용자가 읽을 수 있는 문서만 검색 단계에서 걸러야 한다. 검색 후 화면에서 숨기는 것은 이미 모델에 전달된 정보의 노출을 막지 못한다. 같은 문서를 재업로드할 때 중복 적재와 기존 조각 갱신 방식도 정한다.
+
+근거: 332-2 Spring Boot 기반 RAG 구현 — [9쪽](<../../260629_ex/새 폴더/7-30/332-2_Spring_Boot_기반_RAG_구현.pdf#page=9>) · [11쪽](<../../260629_ex/새 폴더/7-30/332-2_Spring_Boot_기반_RAG_구현.pdf#page=11>) · [25쪽](<../../260629_ex/새 폴더/7-30/332-2_Spring_Boot_기반_RAG_구현.pdf#page=25>) · [27쪽](<../../260629_ex/새 폴더/7-30/332-2_Spring_Boot_기반_RAG_구현.pdf#page=27>) · [30쪽](<../../260629_ex/새 폴더/7-30/332-2_Spring_Boot_기반_RAG_구현.pdf#page=30>) · [35쪽](<../../260629_ex/새 폴더/7-30/332-2_Spring_Boot_기반_RAG_구현.pdf#page=35>)
+
+<!-- pdf-til-supplement:end -->

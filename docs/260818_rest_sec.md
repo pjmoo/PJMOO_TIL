@@ -108,3 +108,36 @@ sequenceDiagram
 
 ### 4. 보호된 API 호출
 * `/chair` 등의 엔드포인트에 요청을 전송해 권한에 따라 정상 처리되는지 확인합니다.
+
+<!-- pdf-til-supplement:start -->
+## TIL 부연 설명 — PDF와 연결하기
+
+기존 실습 내용을 이해하기 위한 PDF 기반 부연 설명이다. 아래 예시는 개념을 설명하기 위한 것이며, 이 프로젝트에서 실행해 관찰한 결과와는 구분한다. 페이지 번호는 표지를 포함한 PDF 순서다.
+
+함께 읽을 파일: [src/main/java/org/example/restsec/controller/AuthController.java](<../../rest-sec/src/main/java/org/example/restsec/controller/AuthController.java>) · [src/main/java/org/example/restsec/controller/ChairController.java](<../../rest-sec/src/main/java/org/example/restsec/controller/ChairController.java>) · [src/main/java/org/example/restsec/RestSecApplication.java](<../../rest-sec/src/main/java/org/example/restsec/RestSecApplication.java>)
+
+### 보안 필터의 오류와 컨트롤러 오류
+
+보안 필터에서 차단된 요청은 컨트롤러까지 도달하지 않을 수 있어 ControllerAdvice만으로 모든 오류를 처리할 수 없다. 인증 실패는 AuthenticationEntryPoint, 접근 거부는 AccessDeniedHandler 같은 보안 계층의 처리 지점과 연결한다. 401과 403을 구분해야 클라이언트도 로그인과 권한 부족을 다르게 안내한다.
+
+**예시로 이해하기:** 구체적인 허용 규칙을 앞에 두고 포괄 규칙을 뒤에 두는 순서를 읽는다. JWT 또는 REST라는 이름만으로 CSRF를 꺼도 된다고 판단하지 않는다. 쿠키처럼 브라우저가 자격 증명을 자동 전송하는지와 실제 인증 방식을 기준으로 검토한다.
+
+근거: 423 Spring Security와 REST API 인증인가 — [13쪽](<../../260629_ex/새 폴더/8-18/423_Spring_Security와_REST_API_인증인가.pdf#page=13>) · [25쪽](<../../260629_ex/새 폴더/8-18/423_Spring_Security와_REST_API_인증인가.pdf#page=25>) · [27쪽](<../../260629_ex/새 폴더/8-18/423_Spring_Security와_REST_API_인증인가.pdf#page=27>) · [33쪽](<../../260629_ex/새 폴더/8-18/423_Spring_Security와_REST_API_인증인가.pdf#page=33>) · [35쪽](<../../260629_ex/새 폴더/8-18/423_Spring_Security와_REST_API_인증인가.pdf#page=35>) · [36쪽](<../../260629_ex/새 폴더/8-18/423_Spring_Security와_REST_API_인증인가.pdf#page=36>)
+
+### JWT를 읽는 것과 검증하는 것의 차이
+
+JWT의 payload는 Base64URL로 표현되며 일반적으로 누구나 디코딩할 수 있다. 서명은 내용 변조를 검증하는 수단이지 본문을 숨기는 암호화가 아니다. 서버는 서명·만료와 앱이 요구하는 클레임을 검증한 뒤 인증 객체를 만들어야 한다.
+
+**예시로 이해하기:** 토큰에서 사용자 ID를 읽었다는 이유만으로 인증을 통과시키면 안 된다. Bearer 토큰 추출 → 검증 → SecurityContext 구성 → 인가 순서로 읽는다. 클라이언트가 토큰을 삭제해도 복사된 토큰은 만료 전까지 유효할 수 있어 로그아웃 정책과 별도로 생각해야 한다.
+
+근거: 424-1 JWT 기반 무상태 인증 — [15쪽](<../../260629_ex/새 폴더/8-18/424-1_JWT_기반_무상태_인증.pdf#page=15>) · [17쪽](<../../260629_ex/새 폴더/8-18/424-1_JWT_기반_무상태_인증.pdf#page=17>) · [18쪽](<../../260629_ex/새 폴더/8-18/424-1_JWT_기반_무상태_인증.pdf#page=18>) · [20쪽](<../../260629_ex/새 폴더/8-18/424-1_JWT_기반_무상태_인증.pdf#page=20>) · [29쪽](<../../260629_ex/새 폴더/8-18/424-1_JWT_기반_무상태_인증.pdf#page=29>) · [39쪽](<../../260629_ex/새 폴더/8-18/424-1_JWT_기반_무상태_인증.pdf#page=39>)
+
+### 오류 응답을 클라이언트가 처리할 수 있게 만들기
+
+REST의 오류 응답은 상태 코드와 일관된 본문이 함께 있어야 한다. ProblemDetail의 type·title·status·detail·instance는 오류의 종류와 상황을 표현하고 필요한 필드 오류는 확장 정보로 추가할 수 있다. 도메인 예외를 HTTP 응답으로 바꾸는 책임을 공통 처리기에 모으면 중복을 줄인다.
+
+**예시로 이해하기:** 없는 글은 404, 입력 검증 실패는 400처럼 클라이언트가 대응을 구분할 수 있게 한다. 서버의 SQL·스택 추적·비밀 설정을 응답에 담지 않고 요청 식별자로 로그와 연결한다. 실제 HTTP 상태와 본문의 status가 일치하는지도 확인한다.
+
+근거: 421-2 REST API 예외 처리와 문서화 — [9쪽](<../../260629_ex/새 폴더/8-13/421-2_REST_API_예외_처리와_문서화.pdf#page=9>) · [17쪽](<../../260629_ex/새 폴더/8-13/421-2_REST_API_예외_처리와_문서화.pdf#page=17>) · [18쪽](<../../260629_ex/새 폴더/8-13/421-2_REST_API_예외_처리와_문서화.pdf#page=18>) · [31쪽](<../../260629_ex/새 폴더/8-13/421-2_REST_API_예외_처리와_문서화.pdf#page=31>) · [39쪽](<../../260629_ex/새 폴더/8-13/421-2_REST_API_예외_처리와_문서화.pdf#page=39>)
+
+<!-- pdf-til-supplement:end -->

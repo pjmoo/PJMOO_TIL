@@ -133,3 +133,38 @@ public String updateBook(@Validated(Update.class) @ModelAttribute("bookForm") Bo
                          BindingResult bindingResult)
 ```
 이 순서를 어기면 스프링이 에러 바인딩을 처리하지 못하고 400 Bad Request 에러 등을 뱉어내기 때문에 항상 기억해야 합니다!
+
+<!-- pdf-til-supplement:start -->
+## TIL 부연 설명 — PDF와 연결하기
+
+기존 실습 내용을 이해하기 위한 PDF 기반 부연 설명이다. 아래 예시는 개념을 설명하기 위한 것이며, 이 프로젝트에서 실행해 관찰한 결과와는 구분한다. 페이지 번호는 표지를 포함한 PDF 순서다.
+
+함께 읽을 파일: [src/main/java/org/example/thssr/controller/BookController.java](<../../thssr/src/main/java/org/example/thssr/controller/BookController.java>) · [src/main/java/org/example/thssr/ThssrApplication.java](<../../thssr/src/main/java/org/example/thssr/ThssrApplication.java>) · [src/main/resources/templates/index.html](<../../thssr/src/main/resources/templates/index.html>)
+
+**현재 실습과 연결:** BookController.createBook은 검증 오류가 있으면 form을 반환하고 성공하면 redirect:/books로 이동한다. updateBook은 Update 검증 그룹을 사용하며 오류 시 bookId를 다시 모델에 넣는다. 폼 재표시에 입력값뿐 아니라 화면 구성용 데이터도 필요하다는 교안 내용을 이 두 분기에서 비교할 수 있다.
+
+### 폼 처리와 PRG의 역할
+
+폼 입력은 전용 DTO로 받고 서비스 처리 후 성공하면 redirect, 검증 실패면 입력과 오류를 유지한 폼 렌더링으로 나눌 수 있다. PRG는 POST 뒤 GET으로 이동해 새로고침에 의한 POST 재전송을 줄인다. 동시에 두 번 보낸 요청이나 네트워크 재시도까지 막는 멱등성 장치는 아니다.
+
+**예시로 이해하기:** 등록 후 상세 화면으로 이동할 때 식별자를 경로에 넣고 일회성 안내는 Flash Attribute로 전달한다. 엔티티를 폼에 직접 바인딩하면 사용자가 바꾸면 안 되는 필드까지 입력될 수 있어 허용된 입력 필드만 DTO에 둔다.
+
+근거: 402-1 Spring MVC와 Thymeleaf — [14쪽](<../../260629_ex/새 폴더/8-5/402-1_Spring_MVC와_Thymeleaf.pdf#page=14>) · [17쪽](<../../260629_ex/새 폴더/8-5/402-1_Spring_MVC와_Thymeleaf.pdf#page=17>) · [18쪽](<../../260629_ex/새 폴더/8-5/402-1_Spring_MVC와_Thymeleaf.pdf#page=18>) · [34쪽](<../../260629_ex/새 폴더/8-5/402-1_Spring_MVC와_Thymeleaf.pdf#page=34>) · [36쪽](<../../260629_ex/새 폴더/8-5/402-1_Spring_MVC와_Thymeleaf.pdf#page=36>) · [39쪽](<../../260629_ex/새 폴더/8-5/402-1_Spring_MVC와_Thymeleaf.pdf#page=39>)
+
+### 형식 검증·업무 검증·DB 제약의 경계
+
+NotNull은 null 여부, NotEmpty는 비어 있음, NotBlank는 공백만 있는 문자열까지 검사한다. 형식 제약 중에는 null을 허용하는 것이 있어 필수 입력 규칙을 별도로 조합해야 한다. 폼 바인딩 오류를 읽는 BindingResult는 대상 매개변수 바로 뒤에 두고 실패 시 서비스 호출 전에 분기한다.
+
+**예시로 이해하기:** 가격에 문자가 들어온 것은 타입 변환 실패, 음수 가격은 값 제약 위반, 이미 판매된 물건의 재구매는 업무 규칙 위반이다. 이메일 중복을 먼저 조회해도 동시 가입을 완전히 막지 못하므로 DB의 UNIQUE 제약과 충돌 처리까지 연결해 이해한다.
+
+근거: 402-2 입력값 검증과 Bean Validation — [17쪽](<../../260629_ex/새 폴더/8-5/402-2_입력값_검증과_Bean_Validation.pdf#page=17>) · [19쪽](<../../260629_ex/새 폴더/8-5/402-2_입력값_검증과_Bean_Validation.pdf#page=19>) · [33쪽](<../../260629_ex/새 폴더/8-5/402-2_입력값_검증과_Bean_Validation.pdf#page=33>) · [34쪽](<../../260629_ex/새 폴더/8-5/402-2_입력값_검증과_Bean_Validation.pdf#page=34>) · [57쪽](<../../260629_ex/새 폴더/8-5/402-2_입력값_검증과_Bean_Validation.pdf#page=57>) · [69쪽](<../../260629_ex/새 폴더/8-5/402-2_입력값_검증과_Bean_Validation.pdf#page=69>)
+
+### 검증 실패와 예외 화면을 나누는 이유
+
+사용자가 입력을 고칠 수 있는 검증 실패는 입력값과 필드 오류를 보여 주는 폼으로 돌아가는 편이 자연스럽다. 존재하지 않는 자원이나 처리 실패는 예외 처리기로 모아 상태 코드와 화면을 정한다. 오류 페이지 파일만 있다고 응답 상태가 자동으로 의도한 값이 되는 것은 아니다.
+
+**예시로 이해하기:** 책이 없는 경우 404 상태와 오류 화면을 함께 반환하는지 확인한다. 공통 Advice가 처리할 수 있는 범위와 보안 필터에서 발생한 오류의 범위는 다르다. 화면에는 복구에 필요한 안내를, 서버 로그에는 원인과 요청 식별 정보를 남긴다.
+
+근거: 403 서버사이드 렌더링 예외 처리 — [7쪽](<../../260629_ex/새 폴더/8-6/403_서버사이드_렌더링_예외_처리.pdf#page=7>) · [18쪽](<../../260629_ex/새 폴더/8-6/403_서버사이드_렌더링_예외_처리.pdf#page=18>) · [19쪽](<../../260629_ex/새 폴더/8-6/403_서버사이드_렌더링_예외_처리.pdf#page=19>) · [35쪽](<../../260629_ex/새 폴더/8-6/403_서버사이드_렌더링_예외_처리.pdf#page=35>) · [38쪽](<../../260629_ex/새 폴더/8-6/403_서버사이드_렌더링_예외_처리.pdf#page=38>)
+
+<!-- pdf-til-supplement:end -->

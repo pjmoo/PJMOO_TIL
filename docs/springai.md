@@ -117,3 +117,28 @@ public record MovieRecommendationDTO(
    mvnw spring-boot:run
    ```
 4. 브라우저에서 `http://localhost:8080`에 접속하여 원하시는 키워드(예: "행복", "SF")를 입력하고 원하는 Provider를 선택한 뒤 영화 추천 테스트를 진행합니다.
+
+<!-- pdf-til-supplement:start -->
+## TIL 부연 설명 — PDF와 연결하기
+
+기존 실습 내용을 이해하기 위한 PDF 기반 부연 설명이다. 아래 예시는 개념을 설명하기 위한 것이며, 이 프로젝트에서 실행해 관찰한 결과와는 구분한다. 페이지 번호는 표지를 포함한 PDF 순서다.
+
+함께 읽을 파일: [src/main/java/org/example/springai/controller/MainController.java](<../../springai/src/main/java/org/example/springai/controller/MainController.java>) · [src/main/java/org/example/springai/SpringaiApplication.java](<../../springai/src/main/java/org/example/springai/SpringaiApplication.java>) · [src/main/java/org/example/springai/service/ChatService.java](<../../springai/src/main/java/org/example/springai/service/ChatService.java>)
+
+### AI 서비스의 입력·호출·출력 책임
+
+ChatModel은 모델 통신 계약을, ChatClient는 프롬프트 구성과 호출을 편하게 연결하는 계층을 제공한다. 컨트롤러가 제공자 세부 설정까지 다루기보다 서비스에 입력을 넘기고 앱에 맞는 결과를 받으면 제공자 변경 영향을 줄일 수 있다.
+
+**예시로 이해하기:** 영화 추천이라면 사용자 조건 → 추천 서비스 → 모델 응답 → 화면 DTO 순서로 읽는다. 제공자가 호환 API를 제공하더라도 지원 모델·옵션·구조화 출력까지 모두 같다고 가정하지 않는다. 교안 예제의 제공자 설정은 프로젝트에 선언된 의존성과 대조한다.
+
+근거: 331-1 Spring AI 기초 — [32쪽](<../../260629_ex/새 폴더/7-27/331-1_Spring_AI_기초.pdf#page=32>) · [33쪽](<../../260629_ex/새 폴더/7-27/331-1_Spring_AI_기초.pdf#page=33>) · [36쪽](<../../260629_ex/새 폴더/7-27/331-1_Spring_AI_기초.pdf#page=36>) · [37쪽](<../../260629_ex/새 폴더/7-27/331-1_Spring_AI_기초.pdf#page=37>) · [41쪽](<../../260629_ex/새 폴더/7-27/331-1_Spring_AI_기초.pdf#page=41>)
+
+### 구조화 출력과 대화 메모리는 별도 문제
+
+구조화 출력은 모델 응답을 앱에서 다루기 쉬운 타입으로 변환하는 과정이다. JSON으로 파싱되었다고 내용까지 맞는 것은 아니므로 필수 값과 범위를 검증해야 한다. 대화 메모리는 이전 메시지를 다시 실어 보내며 conversationId로 대화를 구분한다.
+
+**예시로 이해하기:** 일정 결과의 날짜·장소 필드가 존재해도 실제로 가능한 일정인지는 별도 검증 대상이다. 대화 ID를 받는 API는 그 ID가 현재 사용자의 것인지 확인해야 한다. 메모리 저장소에 기록했다는 사실과 모델 요청에 이력이 포함되었다는 사실도 구분한다.
+
+근거: 331-2 Spring AI 활용 — [11쪽](<../../260629_ex/새 폴더/7-28/331-2_Spring_AI_활용.pdf#page=11>) · [13쪽](<../../260629_ex/새 폴더/7-28/331-2_Spring_AI_활용.pdf#page=13>) · [27쪽](<../../260629_ex/새 폴더/7-28/331-2_Spring_AI_활용.pdf#page=27>) · [29쪽](<../../260629_ex/새 폴더/7-28/331-2_Spring_AI_활용.pdf#page=29>) · [33쪽](<../../260629_ex/새 폴더/7-28/331-2_Spring_AI_활용.pdf#page=33>)
+
+<!-- pdf-til-supplement:end -->
