@@ -14,6 +14,75 @@ if (!fs.existsSync(readmePath)) {
 
 let readmeContent = fs.readFileSync(readmePath, 'utf8');
 
+// Static mapping of known project creation/commit dates (matches GitHub repository timeline)
+const projectDatesMap = {
+  "temp_FatDogAI": "2026-05-20",
+  "FatDogAi2": "2026-05-20",
+  "Fatdogaiex": "2026-05-20",
+  "hw2_ex": "2026-05-21",
+  "aibe7-team2": "2026-05-22",
+  "plz2": "2026-05-22",
+  "plz": "2026-05-22",
+  "HWHWHW": "2026-05-22",
+  "portfolio": "2026-05-26",
+  "til-skin": "2026-05-26",
+  "tli-skin": "2026-05-26",
+  "tli": "2026-05-26",
+  "programmers-refactor-practice": "2026-05-26",
+  "fatdog2": "2026-05-27",
+  "board": "2026-05-27",
+  "QandA": "2026-05-27",
+  "news-scraper": "2026-05-28",
+  "HW-news": "2026-05-28",
+  "spring": "2026-05-29",
+  "archat": "2026-05-29",
+  "jsp": "2026-06-01",
+  "servlet": "2026-06-01",
+  "cookiesession": "2026-06-02",
+  "mybatis": "2026-06-02",
+  "mybatis2": "2026-06-02",
+  "mybatis3": "2026-06-02",
+  "justchat": "2026-06-04",
+  "saju": "2026-06-05",
+  "HELP": "2026-06-08",
+  "260618_pdf-study-review": "2026-06-18",
+  "260622HW": "2026-06-22",
+  "tomcat": "2026-06-30",
+  "todayfortune": "2026-07-03",
+  "webmvc": "2026-07-07",
+  "springsupamemo": "2026-07-07",
+  "boot-legacy": "2026-07-08",
+  "FatDogAI": "2026-07-08",
+  "nim-rest-client": "2026-07-09",
+  "plan": "2026-07-14",
+  "spring-jdbc": "2026-07-20",
+  "jpa": "2026-07-23",
+  "jpa2": "2026-07-24",
+  "querydsl": "2026-07-27",
+  "jpa3": "2026-07-27",
+  "springai": "2026-07-28",
+  "springai2": "2026-07-29",
+  "rag": "2026-07-30",
+  "thymeleaf": "2026-08-04",
+  "worrydoll": "2026-08-04",
+  "thssr": "2026-08-05",
+  "260807_fileupload": "2026-08-07",
+  "260810_aifile": "2026-08-10",
+  "260811_imagegen": "2026-08-11",
+  "260811_sec": "2026-08-11",
+  "260812_sec_crud": "2026-08-12",
+  "260813_secu_social": "2026-08-13",
+  "260814_rest": "2026-08-14",
+  "260818_rest_sec": "2026-08-18",
+  "260819_sec_jwt": "2026-08-19",
+  "260820_jwt_fetch": "2026-08-20",
+  "260903_barohae": "2026-08-20 ~ 2026-09-03",
+  "260907_infra": "2026-09-07",
+  "260908_docker-ghcr": "2026-09-08",
+  "260909_docker-compose-nginx": "2026-09-09",
+  "260910_complex-back": "2026-09-10"
+};
+
 // --- START AUTO-SCAN AND REGISTER NEW FILES ---
 const allFiles = fs.readdirSync(docsDir).filter(file => file.endsWith('.md'));
 const registeredFiles = new Set();
@@ -76,13 +145,27 @@ if (newFiles.length > 0) {
     const dateMatch = file.match(/^(2\d)(0[1-9]|1[0-2])(0[1-9]|[12]\d|3[01])/);
     if (dateMatch) {
       date = `20${dateMatch[1]}-${dateMatch[2]}-${dateMatch[3]}`;
+    } else if (projectDatesMap[projectID] || projectDatesMap[file.replace(/\.md$/, '')]) {
+      date = projectDatesMap[projectID] || projectDatesMap[file.replace(/\.md$/, '')];
     } else {
-      const stat = fs.statSync(filePath);
-      const d = stat.birthtime || stat.mtime;
-      const year = d.getFullYear();
-      const month = String(d.getMonth() + 1).padStart(2, '0');
-      const day = String(d.getDate()).padStart(2, '0');
-      date = `${year}-${month}-${day}`;
+      const localRepoPath = path.join('C:\\workspace', projectID);
+      let gitDate = '';
+      if (fs.existsSync(path.join(localRepoPath, '.git'))) {
+        try {
+          const execSync = require('child_process').execSync;
+          gitDate = execSync('git log --reverse --format="%cd" --date=short', { cwd: localRepoPath }).toString().trim().split('\n')[0].trim();
+        } catch (e) {}
+      }
+      if (gitDate && gitDate.startsWith('20')) {
+        date = gitDate;
+      } else {
+        const stat = fs.statSync(filePath);
+        const d = stat.birthtime || stat.mtime;
+        const year = d.getFullYear();
+        const month = String(d.getMonth() + 1).padStart(2, '0');
+        const day = String(d.getDate()).padStart(2, '0');
+        date = `${year}-${month}-${day}`;
+      }
     }
     
     newDailyRows.push(`| ${date} | ${title} | [상세 보기](docs/${file}) |`);
@@ -165,58 +248,12 @@ for (let line of lines) {
 
 console.log(`Parsed ${dailyLogs.length} daily logs and ${projectLogs.length} project logs from README.md.`);
 
-// Static mapping of known project creation/commit dates (matches GitHub repository timeline)
-const projectDatesMap = {
-  "260812_sec_crud": "2026-08-12",
-  "thssr": "2026-08-05",
-  "thymeleaf": "2026-08-04",
-
-  "worrydoll": "2026-08-04",
-  "rag": "2026-07-30",
-  "springai2": "2026-07-29",
-  "springai": "2026-07-28",
-  "querydsl": "2026-07-27",
-  "jpa3": "2026-07-27",
-  "jpa2": "2026-07-24",
-  "jpa": "2026-07-23",
-  "spring-jdbc": "2026-07-20",
-  "plan": "2026-07-14",
-  "nim-rest-client": "2026-07-09",
-  "boot-legacy": "2026-07-08",
-  "FatDogAI": "2026-07-08",
-  "springsupamemo": "2026-07-07",
-  "webmvc": "2026-07-07",
-  "todayfortune": "2026-07-03",
-  "tomcat": "2026-06-30",
-  "HELP": "2026-06-08",
-  "saju": "2026-06-05",
-  "justchat": "2026-06-04",
-  "mybatis3": "2026-06-02",
-  "mybatis2": "2026-06-02",
-  "mybatis": "2026-06-02",
-  "cookiesession": "2026-06-02",
-  "jsp": "2026-06-01",
-  "servlet": "2026-06-01",
-  "spring": "2026-05-29",
-  "archat": "2026-05-29",
-  "news-scraper": "2026-05-28",
-  "HW-news": "2026-05-28",
-  "fatdog2": "2026-05-27",
-  "board": "2026-05-27",
-  "QandA": "2026-05-27",
-  "til-skin": "2026-05-26",
-  "tli-skin": "2026-05-26",
-  "tli": "2026-05-26",
-  "programmers-refactor-practice": "2026-05-26",
-  "aibe7-team2": "2026-05-22",
-  "plz2": "2026-05-22",
-  "plz": "2026-05-22",
-  "HWHWHW": "2026-05-22",
-  "hw2_ex": "2026-05-21",
-  "temp_FatDogAI": "2026-05-20",
-  "FatDogAi2": "2026-05-20",
-  "Fatdogaiex": "2026-05-20"
-};
+// Build map of document file to daily log date from README.md
+const readmeDailyDateMap = {};
+for (const item of dailyLogs) {
+  const baseName = path.basename(item.link);
+  readmeDailyDateMap[baseName] = item.date;
+}
 
 function processLogs(logs, isProject = false) {
   return logs.map(log => {
@@ -330,35 +367,50 @@ function processLogs(logs, isProject = false) {
     // Extract Date for Projects
     let extractedDate = log.date || '';
     if (isProject) {
-      // 1. Check if the project folder name itself contains a date pattern (e.g. 260622HW -> 2026-06-22)
-      const idDateMatch = log.project.match(/^(2\d)(0[1-9]|1[0-2])(0[1-9]|[12]\d|3[01])/);
-      
-      // 2. Check description text for YYMMDD format (e.g. 260804)
-      const descDateMatch = log.description.match(/\b(2\d)(0[1-9]|1[0-2])(0[1-9]|[12]\d|3[01])\b/);
-      
-      if (idDateMatch) {
-        extractedDate = `20${idDateMatch[1]}-${idDateMatch[2]}-${idDateMatch[3]}`;
-      } else if (descDateMatch) {
-        extractedDate = `20${descDateMatch[1]}-${descDateMatch[2]}-${descDateMatch[3]}`;
-      } else {
-        // 3. Query git log dynamically from workspace folder
-        const localRepoPath = path.join('C:\\workspace', log.project);
-        if (fs.existsSync(path.join(localRepoPath, '.git'))) {
-          try {
-            const execSync = require('child_process').execSync;
-            const gitDate = execSync('git log -1 --format="%cd" --date=short', { cwd: localRepoPath }).toString().trim();
-            if (gitDate && gitDate.startsWith('20')) {
-              extractedDate = gitDate;
+      const fileName = path.basename(log.link);
+      const projectId = log.project;
+      const baseNameNoExt = fileName.replace(/\.md$/, '');
+
+      // 1. Check if README.md's daily logs table already specified the date for this document
+      if (readmeDailyDateMap[fileName]) {
+        extractedDate = readmeDailyDateMap[fileName];
+      }
+      // 2. Check static projectDatesMap
+      else if (projectDatesMap[projectId] || projectDatesMap[baseNameNoExt]) {
+        extractedDate = projectDatesMap[projectId] || projectDatesMap[baseNameNoExt];
+      }
+      // 3. Check if project ID or file name contains a date pattern (e.g. 260622HW -> 2026-06-22)
+      else {
+        const idDateMatch = projectId.match(/^(2\d)(0[1-9]|1[0-2])(0[1-9]|[12]\d|3[01])/);
+        const fileDateMatch = fileName.match(/^(2\d)(0[1-9]|1[0-2])(0[1-9]|[12]\d|3[01])/);
+        const descDateMatch = log.description ? log.description.match(/\b(2\d)(0[1-9]|1[0-2])(0[1-9]|[12]\d|3[01])\b/) : null;
+
+        if (idDateMatch) {
+          extractedDate = `20${idDateMatch[1]}-${idDateMatch[2]}-${idDateMatch[3]}`;
+        } else if (fileDateMatch) {
+          extractedDate = `20${fileDateMatch[1]}-${fileDateMatch[2]}-${fileDateMatch[3]}`;
+        } else if (descDateMatch) {
+          extractedDate = `20${descDateMatch[1]}-${descDateMatch[2]}-${descDateMatch[3]}`;
+        } else {
+          // 4. Query git FIRST (creation) commit date from workspace folder
+          const localRepoPath = path.join('C:\\workspace', projectId);
+          if (fs.existsSync(path.join(localRepoPath, '.git'))) {
+            try {
+              const execSync = require('child_process').execSync;
+              const gitDate = execSync('git log --reverse --format="%cd" --date=short', { cwd: localRepoPath }).toString().trim().split('\n')[0].trim();
+              if (gitDate && gitDate.startsWith('20')) {
+                extractedDate = gitDate;
+              }
+            } catch (e) {
+              // Ignore
             }
-          } catch (e) {
-            // Ignore
           }
         }
       }
-      
-      // 4. Fallback to mapped dates or default date if everything else fails
-      if (!extractedDate || extractedDate.startsWith('2026-08-05')) {
-        extractedDate = projectDatesMap[log.project] || '2026-08-05';
+
+      // 5. Fallback if still empty
+      if (!extractedDate) {
+        extractedDate = '2026-08-05';
       }
     }
 
