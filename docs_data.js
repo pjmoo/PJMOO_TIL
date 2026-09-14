@@ -960,6 +960,32 @@ const TIL_DATA = {
         "Database"
       ],
       "readingTime": 11
+    },
+    {
+      "id": "260914_aws-cli",
+      "date": "2026-09-14",
+      "topic": "AWS CLI로 ARM EC2에 Docker 애플리케이션 배포",
+      "link": "docs/260914_aws-cli.md",
+      "title": "AWS CLI로 ARM EC2에 Docker 애플리케이션 배포",
+      "content": "# AWS CLI로 ARM EC2에 Docker 애플리케이션 배포\n\n> 학습일: 2026-09-14  \n> 참고 자료: AWS 클라우드 기초·환경 설정, AWS EC2 배포·Docker 설치·Aiven DB 연동\n\n## 배운 내용\n\nAWS는 관리 범위에 따라 IaaS, PaaS, SaaS로 나눌 수 있다. EC2와 VPC는 OS와 네트워크까지 직접 관리하는 IaaS이고, Aiven은 DB를 제공하는 PaaS에 가깝다. AWS 리전 안에는 여러 가용 영역(AZ)이 있으며, 장애 대응에는 Multi-AZ 구성이 사용된다.\n\nEC2는 AMI, 인스턴스 타입, EBS, ENI로 구성된다. 보안 그룹은 상태 저장 방화벽이므로 필요한 포트만 연다. 실습에서는 SSH(22)는 현재 공인 IP에만 허용하고, HTTP(80)와 Spring Boot(8080)는 외부 요청을 허용했다.\n\n## SSO 인증\n\nIAM Identity Center(SSO)는 MFA 뒤에 임시 자격 증명을 발급한다.\n\n~~~\naws configure sso --profile studentXX\naws sso login --profile studentXX\nexport AWS_PROFILE=studentXX\nexport AWS_REGION=ap-northeast-2\nexport AWS_PAGER=\naws sts get-caller-identity\n~~~\n\nSSO 토큰이 만료되면 aws sso login을 다시 실행한다. 자격 증명 오류가 나오면 프로필과 로그인 상태를 먼저 확인한다.\n\n## EC2 생성 흐름\n\n1. 기본 VPC를 조회한다.\n2. 보안 그룹을 만들고 22, 80, 8080 포트를 설정한다.\n3. EC2 키 페어를 생성하고 PEM 파일 권한을 chmod 400으로 제한한다.\n4. Parameter Store에서 Ubuntu ARM64 AMI를 조회한다.\n5. t4g.nano를 생성하고 waiter로 running, 2/2 status ok 상태를 기다린다.\n6. 공인 IP로 SSH 접속해 uname -m이 aarch64인지 확인한다.\n\nSpring Boot와 Docker를 함께 실행할 때는 512MiB인 t4g.nano보다 1GiB인 t4g.micro가 안정적이다. 인스턴스를 중지한 뒤 타입을 변경하고 다시 시작할 수 있다.\n\n~~~\naws ec2 modify-instance-attribute \\\n  --instance-id \"$INSTANCE_ID\" --instance-type \"Value=t4g.micro\"\naws ec2 start-instances --instance-ids \"$INSTANCE_ID\"\naws ec2 wait instance-status-ok --instance-ids \"$INSTANCE_ID\"\n~~~\n\n## ARM Docker 이미지\n\nt4g 인스턴스는 ARM64(aarch64)이므로 x86 이미지 전용으로 빌드하면 exec format error가 발생한다. GitHub Actions에서 Docker Buildx로 두 플랫폼을 함께 빌드한다.\n\n~~~yaml\n- uses: docker/setup-buildx-action@v4\n- uses: docker/build-push-action@v7\n  with:\n    push: true\n    platforms: linux/amd64,linux/arm64\n    tags: ghcr.io/<owner>/simple-back:latest\n~~~\n\nEC2에는 Docker를 설치한 뒤 GHCR에서 이미지를 pull한다. Aiven 접속 정보는 aiven.env로 주입하고, --restart unless-stopped로 Docker 재시작 시 컨테이너를 자동 복구한다.\n\n~~~\nsudo docker run -d --name simple-back --restart unless-stopped \\\n  -p 8080:8080 --env-file aiven.env \\\n  ghcr.io/<owner>/simple-back:latest\n~~~\n\n/와 /users가 200을 반환하고 /users에서 Aiven MySQL 데이터를 읽으면 연결이 완료된 것이다. 문제 발생 시 보안 그룹 규칙, sudo ss -tulnp, sudo docker logs 순서로 확인한다.\n\n## 정리\n\n실습이 끝나면 비용이 발생하지 않도록 EC2를 중지한다. stop은 EBS를 보존하지만 공인 IPv4가 바뀔 수 있다. 고정 IP가 필요하면 Elastic IP를 사용한다. 비밀번호·DB URL은 Git 저장소와 셸 히스토리에 남기지 않아야 한다.\n\n",
+      "tags": [
+        "Spring",
+        "Database"
+      ],
+      "readingTime": 6
+    },
+    {
+      "id": "260911_complex-back2",
+      "date": "2026-09-11",
+      "topic": "complex-back2: Spring Boot 애플리케이션과 관측성 구성",
+      "link": "docs/260911_complex-back2.md",
+      "title": "complex-back2: Spring Boot 애플리케이션과 관측성 구성",
+      "content": "# complex-back2: Spring Boot 애플리케이션과 관측성 구성\n\n> 학습일: 2026-09-11  \n> 저장소: https://github.com/pjmoo/complex-back2\n\n## 프로젝트 개요\n\nPokemon 데이터를 등록하고 조회하는 Spring Boot REST 애플리케이션이다. Java 17과 Spring Boot 4.1.1을 사용하며, JPA와 PostgreSQL로 데이터를 저장한다. Docker Compose로 애플리케이션과 모니터링 스택을 함께 실행할 수 있도록 구성했다.\n\n## 코드 구조\n\n도메인과 인프라를 분리한 구조를 사용한다.\n\n- **domain**: 불변 도메인 모델인 `Pokemon` record와 `PokemonRepository` 포트\n- **app**: `PokemonService`가 유스케이스와 트랜잭션을 담당\n- **infra**: `PokemonJpaEntity`, Spring Data JPA Repository, 도메인 포트 구현\n- **ui**: `PokemonController`와 입력 DTO\n\n도메인 모델은 JPA에 직접 의존하지 않는다. `PokemonJpaEntity.from()`로 도메인을 엔티티로 변환해 저장하고, `to()`로 조회 결과를 다시 도메인 객체로 변환한다. 이 경계를 두면 영속성 기술이 도메인 코드로 퍼지는 것을 막을 수 있다.\n\n## API\n\n```\nPOST /pokemons\nGET  /pokemons\n```\n\nPOST는 이름과 레벨을 받아 201 Created를 반환하고, GET은 저장된 포켓몬 목록을 반환한다. 서비스는 클래스 전체에 `@Transactional(readOnly = true)`를 적용하고 저장 메서드에만 `@Transactional`을 지정해 읽기와 쓰기의 의도를 구분한다.\n\n## Docker Compose 구성\n\n`compose.yml`은 다음 서비스를 `mon-net` 네트워크로 연결한다.\n\n- `app`: Spring Boot 컨테이너, 8080 포트\n- `loki`: 로그 저장소, 3100 포트\n- `alloy`: 애플리케이션 로그를 수집해 Loki로 전송\n- `prometheus`: Actuator 지표 수집\n- `grafana`: 로그와 지표 시각화, 3000 포트\n- `alertmanager`: Prometheus 경보를 Slack·메일로 전달, 9093 포트\n\n애플리케이션 로그 디렉터리는 `log-data` named volume으로 Alloy에 공유한다. 설정 파일은 컨테이너에 읽기 전용으로 마운트해 실행 환경에서 임의로 변경되지 않게 한다. PostgreSQL 접속 정보는 `.env`에서 주입하고 저장소에는 비밀 값을 커밋하지 않는다.\n\n## 로그와 메트릭 흐름\n\nLogback이 파일에 기록한 로그를 Alloy가 수집해 Loki로 push한다. Grafana는 Loki를 데이터 소스로 사용해 로그를 검색한다.\n\nSpring Boot Actuator와 Micrometer Prometheus registry는 `/actuator/prometheus` 엔드포인트를 제공한다. Prometheus는 이 엔드포인트를 주기적으로 pull하고, Grafana에서 PromQL로 요청량·JVM 메모리·에러율 등을 조회한다.\n\n## Alertmanager 경보\n\n`config/alert_rules.yml`에는 다음 경보를 정의했다.\n\n- `InstanceDown`: `up{instance=\"app:8080\"} == 0` 상태가 30초 지속되면 critical\n- `HighJVMHeapUsage`: JVM heap 사용률이 30%를 30초 초과하면 warning\n\n경보 상태는 Inactive → Pending → Firing 순서로 바뀐다. `for` 시간을 두면 순간적인 네트워크 오류나 GC로 인한 오탐을 줄일 수 있다. Alertmanager는 group, deduplication, inhibition으로 알림 폭주를 줄이고 Slack Webhook 또는 SMTP로 전달한다. 문제가 해소되면 Resolved 알림을 보낸다.\n\n## Grafana Cloud 연동\n\nPrometheus의 `remote_write`를 사용해 외부에서 접근 가능한 outbound HTTPS로 Grafana Cloud에 메트릭을 전송한다. Remote Write URL, Instance ID, API Token은 `.env`에만 보관한다. 로컬 Prometheus와 Grafana Cloud 구성을 샘플 파일로 분리하면 환경별 자격 증명과 엔드포인트를 안전하게 관리할 수 있다.\n\n## 검증 순서\n\n1. `docker compose up -d` 후 `docker compose ps`로 컨테이너 상태를 확인한다.\n2. `/actuator/prometheus`가 응답하고 Prometheus Targets가 UP인지 확인한다.\n3. `docker compose stop app`으로 장애를 만들어 Alertmanager에서 Pending과 Firing을 확인한다.\n4. 앱을 다시 시작해 Resolved 알림과 Grafana Cloud의 `up` 값 복구를 확인한다.\n5. 실습 종료 후 `docker compose down`을 실행한다. DB와 Grafana 데이터를 지울 필요가 있을 때만 `down -v`를 사용한다.\n\n## 배운 점\n\n애플리케이션 기능만 구현하는 것보다 로그·메트릭·경보를 함께 설계해야 장애를 감지하고 원인을 추적할 수 있다. 특히 Compose의 서비스 이름을 네트워크 DNS처럼 사용하고, 환경 변수 치환과 컨테이너 내부 환경 변수 주입을 구분해야 설정 오류를 줄일 수 있다. 관측성 스택은 데이터를 수집하는 것에서 끝나지 않고, 실제 장애를 발생시켜 알림이 전달되고 복구되는지까지 검증해야 한다.\n\n",
+      "tags": [
+        "Spring",
+        "Java"
+      ],
+      "readingTime": 8
     }
   ],
   "projectLogs": [
@@ -1954,9 +1980,37 @@ const TIL_DATA = {
         "Database"
       ],
       "readingTime": 11
+    },
+    {
+      "id": "260914_aws-cli",
+      "project": "260914_aws-cli",
+      "description": "AWS CLI로 ARM EC2에 Docker 애플리케이션 배포",
+      "link": "docs/260914_aws-cli.md",
+      "date": "2026-09-14",
+      "title": "AWS CLI로 ARM EC2에 Docker 애플리케이션 배포",
+      "content": "# AWS CLI로 ARM EC2에 Docker 애플리케이션 배포\n\n> 학습일: 2026-09-14  \n> 참고 자료: AWS 클라우드 기초·환경 설정, AWS EC2 배포·Docker 설치·Aiven DB 연동\n\n## 배운 내용\n\nAWS는 관리 범위에 따라 IaaS, PaaS, SaaS로 나눌 수 있다. EC2와 VPC는 OS와 네트워크까지 직접 관리하는 IaaS이고, Aiven은 DB를 제공하는 PaaS에 가깝다. AWS 리전 안에는 여러 가용 영역(AZ)이 있으며, 장애 대응에는 Multi-AZ 구성이 사용된다.\n\nEC2는 AMI, 인스턴스 타입, EBS, ENI로 구성된다. 보안 그룹은 상태 저장 방화벽이므로 필요한 포트만 연다. 실습에서는 SSH(22)는 현재 공인 IP에만 허용하고, HTTP(80)와 Spring Boot(8080)는 외부 요청을 허용했다.\n\n## SSO 인증\n\nIAM Identity Center(SSO)는 MFA 뒤에 임시 자격 증명을 발급한다.\n\n~~~\naws configure sso --profile studentXX\naws sso login --profile studentXX\nexport AWS_PROFILE=studentXX\nexport AWS_REGION=ap-northeast-2\nexport AWS_PAGER=\naws sts get-caller-identity\n~~~\n\nSSO 토큰이 만료되면 aws sso login을 다시 실행한다. 자격 증명 오류가 나오면 프로필과 로그인 상태를 먼저 확인한다.\n\n## EC2 생성 흐름\n\n1. 기본 VPC를 조회한다.\n2. 보안 그룹을 만들고 22, 80, 8080 포트를 설정한다.\n3. EC2 키 페어를 생성하고 PEM 파일 권한을 chmod 400으로 제한한다.\n4. Parameter Store에서 Ubuntu ARM64 AMI를 조회한다.\n5. t4g.nano를 생성하고 waiter로 running, 2/2 status ok 상태를 기다린다.\n6. 공인 IP로 SSH 접속해 uname -m이 aarch64인지 확인한다.\n\nSpring Boot와 Docker를 함께 실행할 때는 512MiB인 t4g.nano보다 1GiB인 t4g.micro가 안정적이다. 인스턴스를 중지한 뒤 타입을 변경하고 다시 시작할 수 있다.\n\n~~~\naws ec2 modify-instance-attribute \\\n  --instance-id \"$INSTANCE_ID\" --instance-type \"Value=t4g.micro\"\naws ec2 start-instances --instance-ids \"$INSTANCE_ID\"\naws ec2 wait instance-status-ok --instance-ids \"$INSTANCE_ID\"\n~~~\n\n## ARM Docker 이미지\n\nt4g 인스턴스는 ARM64(aarch64)이므로 x86 이미지 전용으로 빌드하면 exec format error가 발생한다. GitHub Actions에서 Docker Buildx로 두 플랫폼을 함께 빌드한다.\n\n~~~yaml\n- uses: docker/setup-buildx-action@v4\n- uses: docker/build-push-action@v7\n  with:\n    push: true\n    platforms: linux/amd64,linux/arm64\n    tags: ghcr.io/<owner>/simple-back:latest\n~~~\n\nEC2에는 Docker를 설치한 뒤 GHCR에서 이미지를 pull한다. Aiven 접속 정보는 aiven.env로 주입하고, --restart unless-stopped로 Docker 재시작 시 컨테이너를 자동 복구한다.\n\n~~~\nsudo docker run -d --name simple-back --restart unless-stopped \\\n  -p 8080:8080 --env-file aiven.env \\\n  ghcr.io/<owner>/simple-back:latest\n~~~\n\n/와 /users가 200을 반환하고 /users에서 Aiven MySQL 데이터를 읽으면 연결이 완료된 것이다. 문제 발생 시 보안 그룹 규칙, sudo ss -tulnp, sudo docker logs 순서로 확인한다.\n\n## 정리\n\n실습이 끝나면 비용이 발생하지 않도록 EC2를 중지한다. stop은 EBS를 보존하지만 공인 IPv4가 바뀔 수 있다. 고정 IP가 필요하면 Elastic IP를 사용한다. 비밀번호·DB URL은 Git 저장소와 셸 히스토리에 남기지 않아야 한다.\n\n",
+      "tags": [
+        "Spring",
+        "Database"
+      ],
+      "readingTime": 6
+    },
+    {
+      "id": "260911_complex-back2",
+      "project": "260911_complex-back2",
+      "description": "complex-back2: Spring Boot 애플리케이션과 관측성 구성",
+      "link": "docs/260911_complex-back2.md",
+      "date": "2026-09-11",
+      "title": "complex-back2: Spring Boot 애플리케이션과 관측성 구성",
+      "content": "# complex-back2: Spring Boot 애플리케이션과 관측성 구성\n\n> 학습일: 2026-09-11  \n> 저장소: https://github.com/pjmoo/complex-back2\n\n## 프로젝트 개요\n\nPokemon 데이터를 등록하고 조회하는 Spring Boot REST 애플리케이션이다. Java 17과 Spring Boot 4.1.1을 사용하며, JPA와 PostgreSQL로 데이터를 저장한다. Docker Compose로 애플리케이션과 모니터링 스택을 함께 실행할 수 있도록 구성했다.\n\n## 코드 구조\n\n도메인과 인프라를 분리한 구조를 사용한다.\n\n- **domain**: 불변 도메인 모델인 `Pokemon` record와 `PokemonRepository` 포트\n- **app**: `PokemonService`가 유스케이스와 트랜잭션을 담당\n- **infra**: `PokemonJpaEntity`, Spring Data JPA Repository, 도메인 포트 구현\n- **ui**: `PokemonController`와 입력 DTO\n\n도메인 모델은 JPA에 직접 의존하지 않는다. `PokemonJpaEntity.from()`로 도메인을 엔티티로 변환해 저장하고, `to()`로 조회 결과를 다시 도메인 객체로 변환한다. 이 경계를 두면 영속성 기술이 도메인 코드로 퍼지는 것을 막을 수 있다.\n\n## API\n\n```\nPOST /pokemons\nGET  /pokemons\n```\n\nPOST는 이름과 레벨을 받아 201 Created를 반환하고, GET은 저장된 포켓몬 목록을 반환한다. 서비스는 클래스 전체에 `@Transactional(readOnly = true)`를 적용하고 저장 메서드에만 `@Transactional`을 지정해 읽기와 쓰기의 의도를 구분한다.\n\n## Docker Compose 구성\n\n`compose.yml`은 다음 서비스를 `mon-net` 네트워크로 연결한다.\n\n- `app`: Spring Boot 컨테이너, 8080 포트\n- `loki`: 로그 저장소, 3100 포트\n- `alloy`: 애플리케이션 로그를 수집해 Loki로 전송\n- `prometheus`: Actuator 지표 수집\n- `grafana`: 로그와 지표 시각화, 3000 포트\n- `alertmanager`: Prometheus 경보를 Slack·메일로 전달, 9093 포트\n\n애플리케이션 로그 디렉터리는 `log-data` named volume으로 Alloy에 공유한다. 설정 파일은 컨테이너에 읽기 전용으로 마운트해 실행 환경에서 임의로 변경되지 않게 한다. PostgreSQL 접속 정보는 `.env`에서 주입하고 저장소에는 비밀 값을 커밋하지 않는다.\n\n## 로그와 메트릭 흐름\n\nLogback이 파일에 기록한 로그를 Alloy가 수집해 Loki로 push한다. Grafana는 Loki를 데이터 소스로 사용해 로그를 검색한다.\n\nSpring Boot Actuator와 Micrometer Prometheus registry는 `/actuator/prometheus` 엔드포인트를 제공한다. Prometheus는 이 엔드포인트를 주기적으로 pull하고, Grafana에서 PromQL로 요청량·JVM 메모리·에러율 등을 조회한다.\n\n## Alertmanager 경보\n\n`config/alert_rules.yml`에는 다음 경보를 정의했다.\n\n- `InstanceDown`: `up{instance=\"app:8080\"} == 0` 상태가 30초 지속되면 critical\n- `HighJVMHeapUsage`: JVM heap 사용률이 30%를 30초 초과하면 warning\n\n경보 상태는 Inactive → Pending → Firing 순서로 바뀐다. `for` 시간을 두면 순간적인 네트워크 오류나 GC로 인한 오탐을 줄일 수 있다. Alertmanager는 group, deduplication, inhibition으로 알림 폭주를 줄이고 Slack Webhook 또는 SMTP로 전달한다. 문제가 해소되면 Resolved 알림을 보낸다.\n\n## Grafana Cloud 연동\n\nPrometheus의 `remote_write`를 사용해 외부에서 접근 가능한 outbound HTTPS로 Grafana Cloud에 메트릭을 전송한다. Remote Write URL, Instance ID, API Token은 `.env`에만 보관한다. 로컬 Prometheus와 Grafana Cloud 구성을 샘플 파일로 분리하면 환경별 자격 증명과 엔드포인트를 안전하게 관리할 수 있다.\n\n## 검증 순서\n\n1. `docker compose up -d` 후 `docker compose ps`로 컨테이너 상태를 확인한다.\n2. `/actuator/prometheus`가 응답하고 Prometheus Targets가 UP인지 확인한다.\n3. `docker compose stop app`으로 장애를 만들어 Alertmanager에서 Pending과 Firing을 확인한다.\n4. 앱을 다시 시작해 Resolved 알림과 Grafana Cloud의 `up` 값 복구를 확인한다.\n5. 실습 종료 후 `docker compose down`을 실행한다. DB와 Grafana 데이터를 지울 필요가 있을 때만 `down -v`를 사용한다.\n\n## 배운 점\n\n애플리케이션 기능만 구현하는 것보다 로그·메트릭·경보를 함께 설계해야 장애를 감지하고 원인을 추적할 수 있다. 특히 Compose의 서비스 이름을 네트워크 DNS처럼 사용하고, 환경 변수 치환과 컨테이너 내부 환경 변수 주입을 구분해야 설정 오류를 줄일 수 있다. 관측성 스택은 데이터를 수집하는 것에서 끝나지 않고, 실제 장애를 발생시켜 알림이 전달되고 복구되는지까지 검증해야 한다.\n\n",
+      "tags": [
+        "Spring",
+        "Java"
+      ],
+      "readingTime": 8
     }
   ],
-  "buildTime": "2026-09-14T02:15:32.802Z"
+  "buildTime": "2026-09-14T07:20:07.101Z"
 };
 
 if (typeof window !== 'undefined') {
