@@ -126,6 +126,7 @@
 | 2026-09-14 | AWS CLI로 ARM EC2에 Docker 애플리케이션 배포 | [상세 보기](docs/260914_aws-cli.md) |
 | 2026-09-11 | complex-back2: Spring Boot 애플리케이션과 관측성 구성 | [상세 보기](docs/260911_complex-back2.md) |
 | 2026-09-15 | AWS EC2 Docker Compose 배포와 Nginx 리버스 프록시 | [상세 보기](docs/260915_compose.md) |
+| 2026-09-15 | Claude Code 협업 설정과 Spring Boot OAuth2·AI 프로젝트 점검 | [상세 보기](docs/260915_cc.md) |
 
 
 ---
@@ -201,6 +202,7 @@
 | 260914_aws-cli | AWS CLI로 ARM EC2에 Docker 애플리케이션 배포 | [상세 보기](docs/260914_aws-cli.md) |
 | 260911_complex-back2 | complex-back2: Spring Boot 애플리케이션과 관측성 구성 | [상세 보기](docs/260911_complex-back2.md) |
 | 260915_compose | AWS EC2 Docker Compose 배포와 Nginx 리버스 프록시 | [상세 보기](docs/260915_compose.md) |
+| 260915_cc | Claude Code 협업 설정과 Spring Boot OAuth2·AI 프로젝트 점검 | [상세 보기](docs/260915_cc.md) |
 
 
 <!-- pdf-til-supplement:start -->
