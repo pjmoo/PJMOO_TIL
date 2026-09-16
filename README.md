@@ -127,7 +127,7 @@
 | 2026-09-11 | complex-back2: Spring Boot 애플리케이션과 관측성 구성 | [상세 보기](docs/260911_complex-back2.md) |
 | 2026-09-15 | AWS EC2 Docker Compose 배포와 Nginx 리버스 프록시 | [상세 보기](docs/260915_compose.md) |
 | 2026-09-15 | Claude Code 협업 설정과 Spring Boot OAuth2·AI 프로젝트 점검 | [상세 보기](docs/260915_cc.md) |
-| 2026-09-16 | [TIL] AWS 관리형 서비스(RDS, ElastiCache, S3, ALB) 연동 및 무상태(Stateless) 아키텍처 구축 | [상세 보기](docs/260916_aws.md) |
+| 2026-09-16 | AWS 관리형 서비스 연동과 무상태 구조 이해 | [상세 보기](docs/260916_aws.md) |
 
 
 ---
@@ -204,7 +204,7 @@
 | 260911_complex-back2 | complex-back2: Spring Boot 애플리케이션과 관측성 구성 | [상세 보기](docs/260911_complex-back2.md) |
 | 260915_compose | AWS EC2 Docker Compose 배포와 Nginx 리버스 프록시 | [상세 보기](docs/260915_compose.md) |
 | 260915_cc | Claude Code 협업 설정과 Spring Boot OAuth2·AI 프로젝트 점검 | [상세 보기](docs/260915_cc.md) |
-| 260916_aws | [TIL] AWS 관리형 서비스(RDS, ElastiCache, S3, ALB) 연동 및 무상태(Stateless) 아키텍처 구축 | [상세 보기](docs/260916_aws.md) |
+| 260916_aws | AWS 관리형 서비스 연동과 무상태 구조 이해 | [상세 보기](docs/260916_aws.md) |
 
 
 <!-- pdf-til-supplement:start -->
