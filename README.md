@@ -129,6 +129,7 @@
 | 2026-09-15 | Claude Code 협업 설정과 Spring Boot OAuth2·AI 프로젝트 점검 | [상세 보기](docs/260915_cc.md) |
 | 2026-09-16 | AWS 관리형 서비스 연동과 무상태 구조 이해 | [상세 보기](docs/260916_aws.md) |
 | 2026-09-17 | 📚 [TIL] GitHub Actions CI 파이프라인 구축과 자동화 테스트 | [상세 보기](docs/260917_spring-test-ci.md) |
+| 2026-09-18 | [TIL] Spring Boot 테스트부터 AWS EC2 Blue/Green 자동 배포까지 | [상세 보기](docs/260918_spring-test-ci.md) |
 
 
 ---
@@ -207,6 +208,7 @@
 | 260915_cc | Claude Code 협업 설정과 Spring Boot OAuth2·AI 프로젝트 점검 | [상세 보기](docs/260915_cc.md) |
 | 260916_aws | AWS 관리형 서비스 연동과 무상태 구조 이해 | [상세 보기](docs/260916_aws.md) |
 | 260917_spring-test-ci | 📚 [TIL] GitHub Actions CI 파이프라인 구축과 자동화 테스트 | [상세 보기](docs/260917_spring-test-ci.md) |
+| 260918_spring-test-ci | [TIL] Spring Boot 테스트부터 AWS EC2 Blue/Green 자동 배포까지 | [상세 보기](docs/260918_spring-test-ci.md) |
 
 
 <!-- pdf-til-supplement:start -->
